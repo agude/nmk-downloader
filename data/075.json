@@ -1,0 +1,303 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "750",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 750,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 92975,
+        "artifact.ingress.title": "Studier av skip [Tegning]",
+        "artifact.uniqueId": "011044097215",
+        "artifact.publishedDate": "2014-06-05T03:02:56.936Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06526-020VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "7DD60112-FBBE-4185-BD81-41941176ADDD",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:13.218Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1865",
+        "artifact.defaultMediaIdentifier": "042sA2xh1rtf",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92637,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Chiemsee [Tegning]",
+        "artifact.uniqueId": "011044074544",
+        "artifact.publishedDate": "2014-05-24T03:01:50.482Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:29.353Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "9D5CC86B-2EBF-41CB-BD3E-F60605E89CA2",
+        "identifier.id": "NG.K&H.B.06527-022VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1748",
+        "artifact.defaultMediaIdentifier": "032s9YsMAWZx",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 74076,
+        "artifact.ingress.title": "Erik Bodom [Tegning]",
+        "artifact.uniqueId": "011042469667",
+        "artifact.publishedDate": "2014-01-07T05:00:10.322Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06528",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F3085060-40F2-42FF-99B2-E680B5F5D62D",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:31.279Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1850,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2432x3000",
+        "artifact.defaultMediaIdentifier": "016n7VYb9",
+        "artifact.ingress.production.fromYear": 1850,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26761,
+        "artifact.ingress.title": "Da han var kommen midt ut p\u00e5 myra, var det s\u00e5 fullt med folk at han ordentlig m\u00e5tte alboge seg fram [Tegning]",
+        "artifact.uniqueId": "011042275476",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07938",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2C1827B1-A1FC-464A-AB43-96280F097C3C",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:05:57.425Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1878,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1567x2000",
+        "artifact.defaultMediaIdentifier": "036nASWnT",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26785,
+        "artifact.ingress.title": "En gammeldags juleaften [Tegning]",
+        "artifact.uniqueId": "011042275492",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07963",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "EB7EF28E-3469-4C90-98EB-354203D41AF7",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:06.437Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1944x2000",
+        "artifact.defaultMediaIdentifier": "046nATBSX",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26766,
+        "artifact.ingress.title": "Illustrasjon til \"En Tiurleg i Holleia\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879 [Tegning]",
+        "artifact.uniqueId": "011042277821",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07943",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "8C2677F6-BE01-486B-BD8F-78F00A565C40",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:05:58.954Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1613x2000",
+        "artifact.defaultMediaIdentifier": "046nASqjT",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26763,
+        "artifact.ingress.title": "Hu stod med skaut p\u00e5 hue og skinntr\u00f8ye og svart stakk... [Tegning]",
+        "artifact.uniqueId": "011042277806",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07940",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A588C333-3E86-413C-88E4-96A85ED7E438",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:05:58.882Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1878,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1385x2000",
+        "artifact.defaultMediaIdentifier": "016nASWw9",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26772,
+        "artifact.ingress.title": "Brurestas [Tegning]",
+        "artifact.uniqueId": "011042287181",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07949",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "3D7A3222-3702-4432-80CD-32C6DB5AD118",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:01.732Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1920x2000",
+        "artifact.defaultMediaIdentifier": "016nASr37",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26778,
+        "artifact.ingress.title": "Illustrasjon til \"En Aftenstund i et Propriet\u00e6rkj\u00f8kken\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879 [Tegning]",
+        "artifact.uniqueId": "011042277828",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07955",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "CAFEEE1E-D449-4F54-887E-741D597ACD95",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:03.396Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1724x2000",
+        "artifact.defaultMediaIdentifier": "046nASrLf",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26756,
+        "artifact.ingress.title": "Illustrasjon til \"En Signekj\u00e6rring\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879 [Tegning]",
+        "artifact.uniqueId": "011042277846",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07933",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2DF49AE5-6C8A-4CFF-939F-54C0182CB805",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:05:55.981Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1878,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1974x2000",
+        "artifact.defaultMediaIdentifier": "026nASWde",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      }
+    ]
+  }
+}

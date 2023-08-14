@@ -1,0 +1,291 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "500",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 500,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 79890,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Tvindefossen [Tegning]",
+        "artifact.uniqueId": "011042536349",
+        "artifact.publishedDate": "2014-02-21T03:01:36.056Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:49.646Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "65B661B1-4193-4DC5-B33C-2E73FF6D313F",
+        "identifier.id": "NG.K&H.B.06516-017",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1739",
+        "artifact.defaultMediaIdentifier": "03RVfvDWvn",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Foss"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 85790,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Langodden [Tegning]",
+        "artifact.uniqueId": "011043076356",
+        "artifact.publishedDate": "2014-03-25T03:06:02.448Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:55.393Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B53E6B72-DB99-4753-BD48-CA835AFAE158",
+        "identifier.id": "NG.K&H.B.06517-004",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1873,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1973",
+        "artifact.defaultMediaIdentifier": "02TzmChtV5",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86306,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Garnfiske, \u00dcberlingen [Tegning]",
+        "artifact.uniqueId": "011043094061",
+        "artifact.publishedDate": "2014-04-01T03:01:44.683Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:11.362Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0BB87512-5723-49AF-A37E-D175D40F7A97",
+        "identifier.id": "NG.K&H.B.06518-018",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1861",
+        "artifact.defaultMediaIdentifier": "04TzskF3aF",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 86051,
+        "artifact.ingress.title": "Vannm\u00f8lle [Tegning]",
+        "artifact.uniqueId": "011043094034",
+        "artifact.publishedDate": "2014-04-01T03:01:31.046Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06518-014",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "CE2C7732-1135-415E-B67C-6067C7F996D6",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:08.757Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1905x3000",
+        "artifact.defaultMediaIdentifier": "02TzskEidF",
+        "artifact.ingress.production.fromYear": 1864,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86042,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Unterwasser [Tegning]",
+        "artifact.uniqueId": "011043093941",
+        "artifact.publishedDate": "2014-04-01T03:01:06.850Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:04.538Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "771DE08F-2816-4CCE-ADB0-591270F2A30E",
+        "identifier.id": "NG.K&H.B.06518-005",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1864,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1861",
+        "artifact.defaultMediaIdentifier": "02TzskEPJ9",
+        "artifact.ingress.production.fromYear": 1864,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86393,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Hus utenfor \u00dcberlingen [Tegning]",
+        "artifact.uniqueId": "011043093950",
+        "artifact.publishedDate": "2014-04-01T03:01:09.024Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:05.288Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "6DFFBB5C-F8A1-4DAB-B678-BCEDFC3F8F1E",
+        "identifier.id": "NG.K&H.B.06518-005VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1846",
+        "artifact.defaultMediaIdentifier": "03TzskEi6M",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86046,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Foss Novyn ved Betws-y-Coed [Tegning]",
+        "artifact.uniqueId": "011043094007",
+        "artifact.publishedDate": "2014-04-01T03:01:22.191Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:07.285Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "BA396827-8C6D-446B-9882-4FD08CD9946B",
+        "identifier.id": "NG.K&H.B.06518-009",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1864,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1850",
+        "artifact.defaultMediaIdentifier": "02TzskEiUQ",
+        "artifact.ingress.production.fromYear": 1864,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 88109,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kystparti ved Glasgow; Dumbarton Rock [Tegning]",
+        "artifact.uniqueId": "011043105675",
+        "artifact.publishedDate": "2014-04-04T03:00:56.060Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:16.398Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4355BFB0-244C-4FA4-927D-EB98D06AE556",
+        "identifier.id": "NG.K&H.B.06519-001",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2151",
+        "artifact.defaultMediaIdentifier": "03U16dRUHj",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 86403,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kystlandskap, Bodensee [Tegning]",
+        "artifact.uniqueId": "011043094073",
+        "artifact.publishedDate": "2014-04-01T03:01:50.234Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:11.793Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "9A46B510-56BC-484F-8C85-ADE419E7129A",
+        "identifier.id": "NG.K&H.B.06518-019VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1838",
+        "artifact.defaultMediaIdentifier": "04TzskF3ei",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86404,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Skyer over Bodensee [Tegning]",
+        "artifact.uniqueId": "011043094081",
+        "artifact.publishedDate": "2014-04-01T03:01:54.009Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:12.810Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F6D425A3-3DFA-4E61-9EC9-8AFF53210FA2",
+        "identifier.id": "NG.K&H.B.06518-020VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1851",
+        "artifact.defaultMediaIdentifier": "02TzskF3jD",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

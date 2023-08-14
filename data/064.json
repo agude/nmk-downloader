@@ -1,0 +1,296 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "640",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 640,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 92552,
+        "artifact.ingress.title": "B\u00e5t med heiseanretning; landskap med skyer [Tegning]",
+        "artifact.uniqueId": "011044059184",
+        "artifact.publishedDate": "2014-05-20T03:02:02.137Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06523-017VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D9DF1952-18BB-4C04-9CE6-1F3F56F4BB67",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:27.772Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1742",
+        "artifact.defaultMediaIdentifier": "032s9YeD9tPr",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 93305,
+        "artifact.ingress.title": "Fiskeb\u00e5t fra Ahlbeck [Tegning]",
+        "artifact.uniqueId": "011044184564",
+        "artifact.publishedDate": "2014-06-27T03:01:29.491Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06524-007VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "28AE5F59-2E02-4196-91CF-538B6474052E",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:34.943Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1882,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1920x3000",
+        "artifact.defaultMediaIdentifier": "032sA35A8kXy",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93304,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kvinne med barn og ankere p\u00e5 stranden, G\u00f6hren [Tegning]",
+        "artifact.uniqueId": "011044184562",
+        "artifact.publishedDate": "2014-06-27T03:01:27.410Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:34.976Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "133DA3D4-9974-4F0E-B659-451597A11011",
+        "identifier.id": "NG.K&H.B.06524-007",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1881,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1942",
+        "artifact.defaultMediaIdentifier": "012sA35A8kXu",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 93315,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Seilb\u00e5t ved stranden, Ahlbeck [Tegning]",
+        "artifact.uniqueId": "011044184586",
+        "artifact.publishedDate": "2014-06-27T03:01:48.946Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:37.887Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5FEC810A-8AD5-4A56-BC5A-63F127240B08",
+        "identifier.id": "NG.K&H.B.06524-011VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1881,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1912x3000",
+        "artifact.defaultMediaIdentifier": "022sA35A8km7",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 93322,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fiskere og seilb\u00e5ter, G\u00f6hren [Tegning]",
+        "artifact.uniqueId": "011044184604",
+        "artifact.publishedDate": "2014-06-27T03:02:04.494Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:39.446Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "66477A2F-BFC4-462B-AE2F-6E8F42BA5F61",
+        "identifier.id": "NG.K&H.B.06524-015",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1882,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1931",
+        "artifact.defaultMediaIdentifier": "012sA35A95dh",
+        "artifact.ingress.production.fromYear": 1882,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 93317,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Seilb\u00e5ter p\u00e5 stranden, Ahlbeck [Tegning]",
+        "artifact.uniqueId": "011044184591",
+        "artifact.publishedDate": "2014-06-27T03:01:53.397Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:37.922Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4F6824D9-D4A2-4F4B-A6FF-40CAA407DE13",
+        "identifier.id": "NG.K&H.B.06524-012VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1881,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1915",
+        "artifact.defaultMediaIdentifier": "042sA35A8kmC",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 93332,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Seler, G\u00f6hren [Tegning]",
+        "artifact.uniqueId": "011044184627",
+        "artifact.publishedDate": "2014-06-27T03:02:23.963Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:42.510Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D202433F-7BD6-44DD-8F8C-935D7F29B2B7",
+        "identifier.id": "NG.K&H.B.06524-022VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1881,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1900",
+        "artifact.defaultMediaIdentifier": "032sA35A95nb",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92611,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Chiemsee [Tegning]",
+        "artifact.uniqueId": "011044074482",
+        "artifact.publishedDate": "2014-05-24T03:01:10.458Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:23.018Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "76D707E4-A943-4976-9500-8EB0E4C70E10",
+        "identifier.id": "NG.K&H.B.06527-007",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1751",
+        "artifact.defaultMediaIdentifier": "032s9YsM9rHt",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92623,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Ganszipfel, Chiemsee [Tegning]",
+        "artifact.uniqueId": "011044074506",
+        "artifact.publishedDate": "2014-05-24T03:01:28.781Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:25.752Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5AACC877-E46E-48C5-A6EE-4DDE4B1F67E7",
+        "identifier.id": "NG.K&H.B.06527-015",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1744",
+        "artifact.defaultMediaIdentifier": "032s9YsMABPk",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92631,
+        "artifact.ingress.title": "Skogsinteri\u00f8r med figurer; barn som lytter til predikant [Tegning]",
+        "artifact.uniqueId": "011044074528",
+        "artifact.publishedDate": "2014-05-24T03:01:41.236Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06527-019",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4BCD1CCA-5AFA-40EB-A4EA-67E719358691",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:27.689Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1766",
+        "artifact.defaultMediaIdentifier": "012s9YsMABd2",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skogsinteri\u00f8r"
+        ]
+      }
+    ]
+  }
+}

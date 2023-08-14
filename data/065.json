@@ -1,0 +1,294 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "650",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 650,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 92976,
+        "artifact.ingress.title": "Seilskip [Tegning]",
+        "artifact.uniqueId": "011044097216",
+        "artifact.publishedDate": "2014-06-05T03:02:58.795Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06526-021",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "ABC45BAF-1B04-4967-AFC2-8EFDD0CA62DD",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:13.472Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1857",
+        "artifact.defaultMediaIdentifier": "012sA2xh1rxw",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26784,
+        "artifact.ingress.title": "Forarbeid til illustrasjon til \"Matthias Skytters historier\" i P.Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr, Kj\u00f8benhavn 1879 [Tegning]",
+        "artifact.uniqueId": "011042287194",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07962",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "6A2ABC39-CB3F-40F1-9866-165AFC5BF662",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:05.309Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2000x1244",
+        "artifact.defaultMediaIdentifier": "016nATBN8",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 21049,
+        "artifact.ingress.title": "Fjelldal [Maleri]",
+        "artifact.uniqueId": "011041109307",
+        "artifact.publishedDate": "2012-05-09T18:12:15.402Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.M.04441",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "7E1D95D3-B325-4D4F-9F91-3385C726C674",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2017-03-07T15:19:14.301Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1848,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0171FVVsm",
+        "artifact.ingress.production.fromYear": 1848,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Elv"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 84223,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Hamar domkirke sett fra Sagatun (detalj) [Tegning]",
+        "artifact.uniqueId": "011042654883",
+        "artifact.publishedDate": "2014-03-14T03:01:11.991Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:21.964Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0182DAA6-E92A-4E41-997A-902E1FB71395",
+        "identifier.id": "NG.K&H.B.06514-005VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2069",
+        "artifact.defaultMediaIdentifier": "03RznLHGER",
+        "artifact.ingress.production.fromYear": 1880,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 83368,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Malm\u00f8ya [Tegning]",
+        "artifact.uniqueId": "011042654947",
+        "artifact.publishedDate": "2014-03-14T03:01:51.994Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:27.329Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F56301B4-450E-4AD8-BED6-970E1C40BDA5",
+        "identifier.id": "NG.K&H.B.06514-015",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2082",
+        "artifact.defaultMediaIdentifier": "04RznLHGqi",
+        "artifact.ingress.production.fromYear": 1880,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 75659,
+        "artifact.ingress.title": "Skystudie over fjellandskap [Tegning]",
+        "artifact.uniqueId": "011042525038",
+        "artifact.publishedDate": "2014-02-13T03:01:11.843Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06515-004VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "E6FC1018-8C2D-46DD-97C1-542761060C9F",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:29.240Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1768",
+        "artifact.defaultMediaIdentifier": "027TQABAg",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 75668,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Ved Bol\u00e6rne [Tegning]",
+        "artifact.uniqueId": "011042525046",
+        "artifact.publishedDate": "2014-02-13T03:01:25.570Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:32.088Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "BFF3B463-3DA5-4E43-AE1E-5F23BB95DCF6",
+        "identifier.id": "NG.K&H.B.06515-008VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1746",
+        "artifact.defaultMediaIdentifier": "027TQABAp",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 75686,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Krager\u00f8 [Tegning]",
+        "artifact.uniqueId": "011042525054",
+        "artifact.publishedDate": "2014-02-13T03:01:39.341Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:34.327Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "DDBEAA4C-EEC3-4277-BB95-52D385AB7AD7",
+        "identifier.id": "NG.K&H.B.06515-012VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1733",
+        "artifact.defaultMediaIdentifier": "027TQABFC",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 85935,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kols\u00e5s sett fra Ostsund; H\u00e5konsens b\u00e5t [Tegning]",
+        "artifact.uniqueId": "011043076351",
+        "artifact.publishedDate": "2014-03-25T03:05:52.830Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:54.091Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "8D4070EB-6303-4946-8A19-016710C490EC",
+        "identifier.id": "NG.K&H.B.06517-001VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1873,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1977",
+        "artifact.defaultMediaIdentifier": "01TzmChtUz",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 85791,
+        "artifact.ingress.title": "Kystlandskap [Tegning]",
+        "artifact.uniqueId": "011043076358",
+        "artifact.publishedDate": "2014-03-25T03:06:06.093Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06517-005",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "AE466955-3233-477B-A989-B09AE38B094E",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:56.391Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1873,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2002",
+        "artifact.defaultMediaIdentifier": "04TzmChtZM",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

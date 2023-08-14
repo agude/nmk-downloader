@@ -1,0 +1,299 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "270",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 270,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 93236,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Moldefjorden [Tegning]",
+        "artifact.uniqueId": "011044110582",
+        "artifact.publishedDate": "2014-06-13T03:02:59.463Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:58.383Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F79BBDB2-F306-4559-9FEA-029BB660C395",
+        "identifier.id": "NG.K&H.B.06521-011VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1873,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1987",
+        "artifact.defaultMediaIdentifier": "022sA2xk1rec",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93373,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Seilb\u00e5ten \"Caroline\" p\u00e5 fjorden [Tegning]",
+        "artifact.uniqueId": "011044184673",
+        "artifact.publishedDate": "2014-06-27T03:03:07.956Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:46.524Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "46D5D983-6A1C-4B7D-8E22-0F1C81783602",
+        "identifier.id": "NG.K&H.B.06525-007",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2257",
+        "artifact.defaultMediaIdentifier": "032sA35A96F9",
+        "artifact.ingress.production.fromYear": 1854,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92562,
+        "artifact.ingress.title": "Studier av fisker; seilb\u00e5t [Tegning]",
+        "artifact.uniqueId": "011044059236",
+        "artifact.publishedDate": "2014-05-20T03:02:17.324Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06523-022",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "DE191914-3857-46AA-A57B-5E0AB2BBFD6C",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:30.341Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1753",
+        "artifact.defaultMediaIdentifier": "012s9YeD9tcz",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92617,
+        "artifact.ingress.title": "Ryggvendt kvinne i drakt fra Bernau [Tegning]",
+        "artifact.uniqueId": "011044074491",
+        "artifact.publishedDate": "2014-05-24T03:01:19.546Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06527-010VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "FADF75AF-82AB-4063-97F1-EB7A818C5784",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:24.242Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1729",
+        "artifact.defaultMediaIdentifier": "032s9YsMABEu",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92962,
+        "artifact.ingress.title": "Skonnert; seilb\u00e5t [Tegning]",
+        "artifact.uniqueId": "011044097202",
+        "artifact.publishedDate": "2014-06-05T03:02:33.991Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06526-015",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "96C3AA0D-4ECB-4734-B798-3254C3D16433",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:09.703Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1912",
+        "artifact.defaultMediaIdentifier": "012sA2xh1Y22",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 32533,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Vikingskip i Sognefjorden [Tegning]",
+        "artifact.uniqueId": "011042257017",
+        "artifact.publishedDate": "2013-01-22T06:04:57.974Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:32.651Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "36EEFC35-CAF5-44D1-9483-D3CCFFA42189",
+        "identifier.id": "NG.K&H.B.06533",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1889,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2000x1145",
+        "artifact.defaultMediaIdentifier": "036n7VYjs",
+        "artifact.ingress.production.fromYear": 1889,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 52732,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Storm p\u00e5 R\u00fcgen [Maleri]",
+        "artifact.uniqueId": "011041107561",
+        "artifact.publishedDate": "2012-05-09T08:25:30.136Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:37:00.889Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4B5C0476-A186-43E5-AE5A-2548BC4A57F7",
+        "identifier.id": "NG.M.00636-015",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1882,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1960",
+        "artifact.defaultMediaIdentifier": "0371B2XWe",
+        "artifact.ingress.production.fromYear": 1882,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Kystlandskap",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26782,
+        "artifact.ingress.title": "Initial til \"Egebergkongen\" [Tegning]",
+        "artifact.uniqueId": "011042287206",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07959",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "70C06FA2-AB2C-4B42-8AD2-E348D3B84843",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:04.810Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1978x2000",
+        "artifact.defaultMediaIdentifier": "036nATBDK",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 140664,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Et fiskerhus, Lillesand [Maleri]",
+        "artifact.uniqueId": "011042335792",
+        "artifact.publishedDate": "2012-05-09T08:25:20.794Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-08-18T04:16:12.570Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5F42561A-A68D-4DF2-9E0E-F5290141FCCF",
+        "identifier.id": "NG.M.00636-009",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1858,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "4000x2336",
+        "artifact.defaultMediaIdentifier": "022ykyZvZExX",
+        "artifact.ingress.production.fromYear": 1858,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning",
+          "Kystlandskap"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 18342,
+        "artifact.ingress.title": "Sommeraften [Maleri]",
+        "artifact.uniqueId": "011041107563",
+        "artifact.publishedDate": "2012-05-09T08:25:30.661Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.M.00636-016",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D4524326-4A08-45E2-BE50-A8497B316FEE",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2017-03-07T14:37:01.903Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1902,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0371B2XWf",
+        "artifact.ingress.production.fromYear": 1902,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Kystlandskap",
+          "Maritimt"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "1010",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 1010,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 99206,
+        "artifact.ingress.title": "Skissebok nr. 20 [Skissebok]",
+        "artifact.uniqueId": "021045510717",
+        "artifact.publishedDate": "2014-11-07T03:06:40.672Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NMK.GRUPPE.2014.0009",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "40DDF815-3B4A-4205-ACE7-5DADFDF39295",
+        "artifact.pictureCount": 1,
+        "artifact.childCount": 34,
+        "artifact.updatedDate": "2017-03-07T16:27:43.852Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": true,
+        "artifact.defaultPictureDimension": "3000x2242",
+        "artifact.defaultMediaIdentifier": "012uN1bmw8hw",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26765,
+        "artifact.ingress.title": "Illustrasjon til \"En Tiurleg i Holleia\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg. Kj\u00f8benhavn 1879 [Tegning]",
+        "artifact.uniqueId": "011042277814",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07942",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "20077AB3-AD9B-44B7-9813-91E131F62251",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:05:58.901Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1803x2000",
+        "artifact.defaultMediaIdentifier": "026nASWwJ",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skoglandskap"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 74192,
+        "artifact.ingress.title": "Studie av kampestein [Tegning]",
+        "artifact.uniqueId": "011042469523",
+        "artifact.publishedDate": "2014-01-07T04:58:15.490Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.03122",
+        "artifact.type": "Fineart",
+        "artifact.hasChildren": false,
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "19C5C6B8-5A66-4871-B583-0C9BE874AD71",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:43:04.615Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1903,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.defaultPictureDimension": "3000x2587",
+        "artifact.defaultMediaIdentifier": "016mz2vB8",
+        "artifact.ingress.production.fromYear": 1840,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74323,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Supphellebreen i Fj\u00e6rland [Tegning]",
+        "artifact.uniqueId": "011043112738",
+        "artifact.publishedDate": "2014-04-05T03:00:50.589Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:10.151Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F06BB86A-67EA-4455-A50B-062BCE7D7517",
+        "identifier.id": "NG.K&H.B.03139",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2297",
+        "artifact.defaultMediaIdentifier": "02U16ooiSK",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 99226,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Solvorn [Tegning]",
+        "artifact.uniqueId": "021045510669",
+        "artifact.publishedDate": "2014-11-07T03:05:09.750Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:51.456Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "FAD6E4DE-91C5-4E96-AB66-FFA2583386CA",
+        "identifier.id": "NG.K&H.1999.0250",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2244",
+        "artifact.defaultMediaIdentifier": "012uN1bmvo5F",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74188,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Folgefonna sett fra Reiseter [Tegning]",
+        "artifact.uniqueId": "011042331546",
+        "artifact.publishedDate": "2012-02-17T06:14:51.239Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:14.933Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2C6A67ED-A87C-4DE5-B9C4-69B5121090C8",
+        "identifier.id": "NG.K&H.B.03156",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1524",
+        "artifact.defaultMediaIdentifier": "046mz3FW9",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 55303,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Landskap med foss [Maleri]",
+        "artifact.uniqueId": "011041107554",
+        "artifact.publishedDate": "2012-10-30T05:16:26.424Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:36:50.815Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "9C1C191C-C529-4B20-8EF2-6F9E332F323E",
+        "identifier.id": "NG.M.00636-006",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1850,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2781x3000",
+        "artifact.defaultMediaIdentifier": "0171B2XMn",
+        "artifact.ingress.production.fromYear": 1850,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Foss",
+          "Elv",
+          "Fjell",
+          "Skoglandskap"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 17688,
+        "artifact.ingress.title": "Hvile ved bekken [Maleri]",
+        "artifact.uniqueId": "011041107113",
+        "artifact.publishedDate": "2012-05-09T08:19:21.635Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.M.00191",
+        "artifact.type": "Fineart",
+        "artifact.hasChildren": false,
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2BEB5554-B4AA-43A5-8EDD-A1A27F5F4AE9",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2020-01-20T11:29:08.815Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1860,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.defaultMediaIdentifier": "02719Ysdi",
+        "artifact.ingress.production.fromYear": 1860,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Folklore",
+          "Skoglandskap"
+        ]
+      }
+    ]
+  }
+}

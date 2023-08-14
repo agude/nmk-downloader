@@ -1,0 +1,289 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "480",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 480,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 83365,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Ved Storhamar g\u00e5rd [Tegning]",
+        "artifact.uniqueId": "011042654923",
+        "artifact.publishedDate": "2014-03-14T03:01:36.622Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:25.020Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "584EC92D-5BA7-4AAB-A381-F50501125A6F",
+        "identifier.id": "NG.K&H.B.06514-012",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2095",
+        "artifact.defaultMediaIdentifier": "01RznLHGcS",
+        "artifact.ingress.production.fromYear": 1880,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 84240,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Malm\u00f8ya [Tegning]",
+        "artifact.uniqueId": "011042654946",
+        "artifact.publishedDate": "2014-03-14T03:01:49.584Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:26.483Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "61718E17-CBB0-49B0-9F4A-A1A6337D53BD",
+        "identifier.id": "NG.K&H.B.06514-014VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1034",
+        "artifact.defaultMediaIdentifier": "02RznLHGqd",
+        "artifact.ingress.production.fromYear": 1880,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 83367,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Christiania sett fra Hoved\u00f8ya [Tegning]",
+        "artifact.uniqueId": "011042654942",
+        "artifact.publishedDate": "2014-03-14T03:01:47.118Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:26.499Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B8F4A2FD-0041-4FF4-A08D-BFF9020C04CC",
+        "identifier.id": "NG.K&H.B.06514-014",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2096",
+        "artifact.defaultMediaIdentifier": "04RznLHGmK",
+        "artifact.ingress.production.fromYear": 1880,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 84230,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Jakt ved brygge, Levanger [Tegning]",
+        "artifact.uniqueId": "011042654905",
+        "artifact.publishedDate": "2014-03-14T03:01:26.441Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:23.683Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "7CA2F9E4-E923-4CBF-9EB9-3573DB43BD41",
+        "identifier.id": "NG.K&H.B.06514-009VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2079x3000",
+        "artifact.defaultMediaIdentifier": "02RznLHGTc",
+        "artifact.ingress.production.fromYear": 1880,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 84243,
+        "artifact.ingress.title": "Portrett av ung kvinne [Tegning]",
+        "artifact.uniqueId": "011042654951",
+        "artifact.publishedDate": "2014-03-14T03:01:55.462Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06514-016VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "1B7D77AE-ABEF-41C7-81D5-6F618D27DEDF",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:27.632Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2132",
+        "artifact.defaultMediaIdentifier": "03RznLHGqn",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 75653,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Moen ved Kongsberg [Tegning]",
+        "artifact.uniqueId": "011042525035",
+        "artifact.publishedDate": "2014-02-13T03:01:06.403Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:28.928Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "00C61E28-328E-4A34-971D-4BFC69049168",
+        "identifier.id": "NG.K&H.B.06515-003",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1719",
+        "artifact.defaultMediaIdentifier": "037TQAB6P",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 75655,
+        "artifact.ingress.title": "Mannsportrett [Tegning]",
+        "artifact.uniqueId": "011042525032",
+        "artifact.publishedDate": "2014-02-13T03:01:00.865Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06515-001",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "22CC8B66-259B-45BE-9E09-8A4FC26F3E9C",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:27.882Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1863,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1762x3000",
+        "artifact.defaultMediaIdentifier": "047TQAB6L",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.uuid": "3116EF41-661C-4695-AFDF-46FABF4C5DBE",
+        "identifier.id": "NG.K&H.B.06515-020VERSO",
+        "artifact.defaultPictureIndex": 77643,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.type": "Fineart",
+        "artifact.defaultMediaIdentifier": "047TQABPz",
+        "artifact.hasPictures": true,
+        "artifact.pictureCount": 1,
+        "artifact.uniqueId": "011042525070",
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.publishedDate": "2014-02-13T03:02:07.290Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.ingress.title": "Fra Follsj\u00e5 [Tegning]",
+        "artifact.hasChildren": false,
+        "identifier.owner": "NMK-B",
+        "artifact.updatedDate": "2019-01-27T05:59:38.702Z",
+        "artifact.defaultPictureDimension": "3000x1735",
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 84236,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Christiania sett fra Hoved\u00f8ya [Tegning]",
+        "artifact.uniqueId": "011042654939",
+        "artifact.publishedDate": "2014-03-14T03:01:44.701Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:26.314Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4EBCD811-2AC9-489D-BA6F-3D30A4EBF9C0",
+        "identifier.id": "NG.K&H.B.06514-013VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2076",
+        "artifact.defaultMediaIdentifier": "02RznLHGmD",
+        "artifact.ingress.production.fromYear": 1880,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 75660,
+        "artifact.ingress.title": "Landskap med kyr og gjeter [Tegning]",
+        "artifact.uniqueId": "011042525039",
+        "artifact.publishedDate": "2014-02-13T03:01:13.602Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06515-005",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "82030E97-9C1C-40B7-9A42-63A58DD59DD9",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:30.159Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1747",
+        "artifact.defaultMediaIdentifier": "037TQABAh",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

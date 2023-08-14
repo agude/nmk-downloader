@@ -1,0 +1,296 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "390",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 390,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 85741,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Langesund havn [Tegning]",
+        "artifact.uniqueId": "011043071466",
+        "artifact.publishedDate": "2014-03-22T03:01:41.994Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:15.228Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "27111214-84F3-4DC6-B211-8DEA73936134",
+        "identifier.id": "NG.K&H.B.06513-011VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2332",
+        "artifact.defaultMediaIdentifier": "02Tzm8Eujk",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 79911,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Gudvangen [Tegning]",
+        "artifact.uniqueId": "011042536359",
+        "artifact.publishedDate": "2014-02-21T03:01:55.151Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:52.336Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "EC092710-F9AD-4FDF-9C4F-6908D31974CB",
+        "identifier.id": "NG.K&H.B.06516-023VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1753x3000",
+        "artifact.defaultMediaIdentifier": "03RVfvDX1E",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86039,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "M\u00f8lle, Lierbacher Tal [Tegning]",
+        "artifact.uniqueId": "011043093916",
+        "artifact.publishedDate": "2014-04-01T03:00:56.134Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:03.095Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0D8E7DD2-16CC-4E07-BD8F-62AC69A5097E",
+        "identifier.id": "NG.K&H.B.06518-002",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1864,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1862",
+        "artifact.defaultMediaIdentifier": "04TzskENzT",
+        "artifact.ingress.production.fromYear": 1864,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 86036,
+        "artifact.ingress.title": "Skissebok nr. 11 [Skissebok]",
+        "artifact.uniqueId": "011043093901",
+        "artifact.publishedDate": "2014-04-01T03:00:50.241Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06518",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0AAE142F-DAB0-4E89-AC33-93DCE40B1DD8",
+        "artifact.pictureCount": 1,
+        "artifact.childCount": 27,
+        "artifact.updatedDate": "2018-03-01T05:07:25.697Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": true,
+        "artifact.defaultPictureDimension": "3000x1897",
+        "artifact.defaultMediaIdentifier": "01TzskENmH",
+        "artifact.ingress.production.fromYear": 1864,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86400,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fiskeb\u00e5t, \u00dcberlingen [Tegning]",
+        "artifact.uniqueId": "011043094049",
+        "artifact.publishedDate": "2014-04-01T03:01:39.660Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:10.144Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F3E6B221-7890-411D-867D-19679C4612B6",
+        "identifier.id": "NG.K&H.B.06518-016VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1855",
+        "artifact.defaultMediaIdentifier": "04TzskEihm",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86303,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Walisisk landskap [Tegning]",
+        "artifact.uniqueId": "011043094039",
+        "artifact.publishedDate": "2014-04-01T03:01:34.428Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:09.336Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A784BC63-137A-4273-ADC9-EBF1B4545388",
+        "identifier.id": "NG.K&H.B.06518-015",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1864,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1927",
+        "artifact.defaultMediaIdentifier": "01TzskEidK",
+        "artifact.ingress.production.fromYear": 1864,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 88258,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "C\u00ecr Mh\u00f2r og Caisteal Abhail mellom Lochranza og Glen Sannox [Tegning]",
+        "artifact.uniqueId": "011043105835",
+        "artifact.publishedDate": "2014-04-04T03:02:35.877Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:28.622Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2414C65A-B95D-4191-856A-ABF4C1232F4C",
+        "identifier.id": "NG.K&H.B.06519-025VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2140",
+        "artifact.defaultMediaIdentifier": "03U16dSUCb",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93458,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kols\u00e5s sett fra Tanum [Tegning]",
+        "artifact.uniqueId": "011044184695",
+        "artifact.publishedDate": "2014-06-27T03:03:27.237Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:48.590Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "115356E4-FA3A-4A35-8564-D055049626B3",
+        "identifier.id": "NG.K&H.B.06525-012VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1101",
+        "artifact.defaultMediaIdentifier": "032sA35Ba3jb",
+        "artifact.ingress.production.fromYear": 1854,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 92233,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Ermatingen [Tegning]",
+        "artifact.uniqueId": "011044053283",
+        "artifact.publishedDate": "2014-05-10T03:01:57.716Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:41.575Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "BF062DF2-623D-4D53-8596-4D4E0FCE84A4",
+        "identifier.id": "NG.K&H.B.06520-024VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1947",
+        "artifact.defaultMediaIdentifier": "032s9YXmYfk8",
+        "artifact.ingress.production.fromYear": 1879,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 92239,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Bodensee [Tegning]",
+        "artifact.uniqueId": "011044053299",
+        "artifact.publishedDate": "2014-05-10T03:02:10.451Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:46.499Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "337D665A-C64F-4131-B8BB-BFA0F3114022",
+        "identifier.id": "NG.K&H.B.06520-027VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1911",
+        "artifact.defaultMediaIdentifier": "022s9YXmYg3h",
+        "artifact.ingress.production.fromYear": 1879,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

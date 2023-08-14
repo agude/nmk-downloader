@@ -1,0 +1,296 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "440",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 440,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 79938,
+        "artifact.ingress.title": "Studie av skip; landskap med skip [Tegning]",
+        "artifact.uniqueId": "011042536307",
+        "artifact.publishedDate": "2014-02-21T03:00:42.997Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06516-001VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "7E2829A4-DB07-426B-A492-DC698EF2B4F6",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:41.277Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1917",
+        "artifact.defaultMediaIdentifier": "04RVfvDWYk",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 79882,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Steiner, Fresvik [Tegning]",
+        "artifact.uniqueId": "011042536339",
+        "artifact.publishedDate": "2014-02-21T03:01:18.167Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:46.589Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0829EE54-99A7-44C4-A84B-62C8E56C5F9B",
+        "identifier.id": "NG.K&H.B.06516-011",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1708",
+        "artifact.defaultMediaIdentifier": "03RVfvDWrL",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 88113,
+        "artifact.ingress.title": "Landskap med b\u00e5ter og mennesker [Tegning]",
+        "artifact.uniqueId": "011043105697",
+        "artifact.publishedDate": "2014-04-04T03:01:14.770Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06519-005",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A8427759-1EB9-442D-AB3B-0E283FDC4E9A",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:18.595Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2143",
+        "artifact.defaultMediaIdentifier": "03U16dRoK8",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 88529,
+        "artifact.ingress.title": "Strand med garnt\u00f8rke [Tegning]",
+        "artifact.uniqueId": "011043105695",
+        "artifact.publishedDate": "2014-04-04T03:01:12.341Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06519-004VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F621A0C5-C92A-4537-B319-4D687F38BFF5",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:18.617Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2147",
+        "artifact.defaultMediaIdentifier": "01U16dRoK5",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 93178,
+        "artifact.ingress.title": "Studier av b\u00e5t og skip [Tegning]",
+        "artifact.uniqueId": "011044110494",
+        "artifact.publishedDate": "2014-06-13T03:01:33.868Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06522-013",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A4FC12DD-FEB3-42E3-9216-DCDA8C0DE7AD",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:13.838Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1872,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1945",
+        "artifact.defaultMediaIdentifier": "042sA2xk1XAY",
+        "artifact.ingress.production.fromYear": 1872,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 93182,
+        "artifact.ingress.title": "Kystklippe [Tegning]",
+        "artifact.uniqueId": "011044110508",
+        "artifact.publishedDate": "2014-06-13T03:01:42.386Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06522-015",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "98990276-BCAD-4D17-A654-4C981A6956C3",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:15.190Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1872,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1937",
+        "artifact.defaultMediaIdentifier": "022sA2xk1XF3",
+        "artifact.ingress.production.fromYear": 1872,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92537,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kysten ved Larvik [Tegning]",
+        "artifact.uniqueId": "011044059124",
+        "artifact.publishedDate": "2014-05-20T03:01:44.140Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:23.072Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "31CE116C-092B-4F16-853E-B868656F4144",
+        "identifier.id": "NG.K&H.B.06523-009VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1719",
+        "artifact.defaultMediaIdentifier": "042s9YeD9tEs",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 93173,
+        "artifact.ingress.title": "Dampskipene \"Kong Carl\" og \"Nordland\" i Farsund [Tegning]",
+        "artifact.uniqueId": "011044110471",
+        "artifact.publishedDate": "2014-06-13T03:01:22.859Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06522-007VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F3C430BE-CEC2-4B37-9A3B-1914FEC185C1",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:12.330Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1872,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1900",
+        "artifact.defaultMediaIdentifier": "042sA2xk1WwL",
+        "artifact.ingress.production.fromYear": 1872,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92543,
+        "artifact.ingress.title": "Kystlandskap [Tegning]",
+        "artifact.uniqueId": "011044059147",
+        "artifact.publishedDate": "2014-05-20T03:01:50.662Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06523-012VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "9493A3A7-7650-4990-8F9F-9E3464B0EFAD",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:25.045Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1748",
+        "artifact.defaultMediaIdentifier": "042s9YeD9tKK",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 113600,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Innseilingen til Christiania [Maleri]",
+        "artifact.uniqueId": "011041107142",
+        "artifact.publishedDate": "2012-05-09T08:19:44.830Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-02-05T05:12:03.255Z",
+        "identifier.owner": "NMK-B",
+        "artifact.hasPictures": true,
+        "artifact.uuid": "ED6F8C9B-0017-451F-B97B-EF3017468711",
+        "identifier.id": "NG.M.00262",
+        "artifact.childCount": 1,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.production.toYear": 1874,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": true,
+        "artifact.defaultPictureDimension": "4000x2773",
+        "artifact.defaultMediaIdentifier": "032wXVwWVnNr",
+        "artifact.ingress.production.fromYear": 1874,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      }
+    ]
+  }
+}

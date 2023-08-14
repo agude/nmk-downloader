@@ -1,0 +1,293 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "200",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 200,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92616,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kvinne i interi\u00f8r, Schlechtenberg Alm ved Kampenwand  [Tegning]",
+        "artifact.uniqueId": "011044074489",
+        "artifact.publishedDate": "2014-05-24T03:01:18.056Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:24.075Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2B80AEAB-A5E5-4E78-A2D3-BBF77B60C576",
+        "identifier.id": "NG.K&H.B.06527-010",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1769",
+        "artifact.defaultMediaIdentifier": "022s9YsMABEq",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92622,
+        "artifact.ingress.title": "Badende gutter [Tegning]",
+        "artifact.uniqueId": "011044074503",
+        "artifact.publishedDate": "2014-05-24T03:01:27.277Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06527-014VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "FE332AA8-3CBA-4B31-8F1F-55BBBC26C17D",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:25.510Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1735",
+        "artifact.defaultMediaIdentifier": "022s9YsMABPg",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92533,
+        "artifact.ingress.title": "Steinet strand [Tegning]",
+        "artifact.uniqueId": "011044059260",
+        "artifact.publishedDate": "2014-05-20T03:02:24.390Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06523-007VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "3C4A3571-B6C2-412B-8FD7-3710FD767E64",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:01:22.291Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1755",
+        "artifact.defaultMediaIdentifier": "012s9YeD9thQ",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92627,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Prien-Stock, Chiemsee [Tegning]",
+        "artifact.uniqueId": "011044074518",
+        "artifact.publishedDate": "2014-05-24T03:01:34.980Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:26.882Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "20311179-3CB2-43BE-BED3-E806540BB7C4",
+        "identifier.id": "NG.K&H.B.06527-017",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1774",
+        "artifact.defaultMediaIdentifier": "032s9YsMABYW",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92553,
+        "artifact.ingress.title": "Seilb\u00e5t; rampe [Tegning]",
+        "artifact.uniqueId": "011044059191",
+        "artifact.publishedDate": "2014-05-20T03:02:03.818Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06523-018",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "510D7423-DF4A-4BC6-BF98-85FDE68CEBCD",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:28.627Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1776",
+        "artifact.defaultMediaIdentifier": "042s9YeD9tUA",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92636,
+        "artifact.ingress.title": "Fiskere som trekker garn [Tegning]",
+        "artifact.uniqueId": "011044074541",
+        "artifact.publishedDate": "2014-05-24T03:01:48.893Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06527-022",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0B8B3ADE-3DD2-4293-A3AC-52BE3D56020D",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:28.979Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1732",
+        "artifact.defaultMediaIdentifier": "022s9YsMABmq",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92603,
+        "artifact.ingress.title": "Mann og kvinne med tomannssag [Tegning]",
+        "artifact.uniqueId": "011044074453",
+        "artifact.publishedDate": "2014-05-24T03:00:56.989Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06527-003",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "630BEB5C-E0A2-4BF2-BAF1-453BD887B0C3",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:20.763Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1745",
+        "artifact.defaultMediaIdentifier": "042s9YsM9quq",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92545,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Landskap med hus; seilb\u00e5t; fra Sellegrod [Tegning]",
+        "artifact.uniqueId": "011044059158",
+        "artifact.publishedDate": "2014-05-20T03:01:53.909Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:25.751Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "ADAFBB03-7881-48FA-BCE0-DFA6EA836459",
+        "identifier.id": "NG.K&H.B.06523-013VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1748",
+        "artifact.defaultMediaIdentifier": "022s9YeD9tKR",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92544,
+        "artifact.ingress.title": "B\u00e5tstudier; riss av landskap med b\u00e5ter [Tegning]",
+        "artifact.uniqueId": "011044059153",
+        "artifact.publishedDate": "2014-05-20T03:01:52.251Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06523-013",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "788E3664-9FB5-4AD0-ACD4-D7FA1EC46717",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:25.689Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1740",
+        "artifact.defaultMediaIdentifier": "012s9YeD9tKN",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92519,
+        "artifact.ingress.title": "Skissebok nr. 1 [Skissebok]",
+        "artifact.uniqueId": "011044059062",
+        "artifact.publishedDate": "2014-05-20T03:01:17.389Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06523",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "E13E861D-16FE-4264-B68C-294FF9B53720",
+        "artifact.pictureCount": 2,
+        "artifact.childCount": 45,
+        "artifact.updatedDate": "2018-03-01T05:09:09.567Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": true,
+        "artifact.defaultPictureDimension": "3000x1749",
+        "artifact.defaultMediaIdentifier": "022s9YeD9ZDR",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

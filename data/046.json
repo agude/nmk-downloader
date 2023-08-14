@@ -1,0 +1,292 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "460",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 460,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 92635,
+        "artifact.ingress.title": "Fiskere som trekker garn [Tegning]",
+        "artifact.uniqueId": "011044074539",
+        "artifact.publishedDate": "2014-05-24T03:01:47.405Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06527-021VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "266F2C1E-7730-44D3-830E-1E48F5785B53",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:28.618Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1744",
+        "artifact.defaultMediaIdentifier": "012s9YsMABmn",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86044,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Unterwasser [Tegning]",
+        "artifact.uniqueId": "011043093972",
+        "artifact.publishedDate": "2014-04-01T03:01:14.902Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:05.906Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "881FB5B0-6F47-4408-8A8A-234D4DC4AE8B",
+        "identifier.id": "NG.K&H.B.06518-007",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1864,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1876",
+        "artifact.defaultMediaIdentifier": "01TzskEiFE",
+        "artifact.ingress.production.fromYear": 1864,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 85802,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Akershus festning sett fra Jernbaneg\u00e5rden [Tegning]",
+        "artifact.uniqueId": "011043076373",
+        "artifact.publishedDate": "2014-03-25T03:06:35.442Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:00.930Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5ED530C8-30B1-4AA3-BAFF-FEA4547B0754",
+        "identifier.id": "NG.K&H.B.06517-017",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1873,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1974",
+        "artifact.defaultMediaIdentifier": "04TzmCiDRy",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26764,
+        "artifact.ingress.title": "Da vi hadde n\u00e6rmet oss treet hvor den satt, h\u00f8rte vi en fugl komme flyvende [Tegning]",
+        "artifact.uniqueId": "011042287197",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07941",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0D277978-B65C-4415-B372-7E8D21767B36",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:05:58.958Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1878,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2000x1995",
+        "artifact.defaultMediaIdentifier": "046nASWwD",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 16595,
+        "artifact.ingress.title": "To mannshoder [Tegning]",
+        "artifact.uniqueId": "011042287260",
+        "artifact.publishedDate": "2013-01-22T06:05:26.763Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0265",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "099CF621-E5DC-49C1-8654-47599984056F",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T05:29:00.498Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "037187a8Q",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 74064,
+        "artifact.ingress.title": "Grantre [Tegning]",
+        "artifact.uniqueId": "011042469639",
+        "artifact.publishedDate": "2014-01-07T04:59:45.326Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.03113",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "8AED970E-9C17-4768-84A4-4462D860700D",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:43:01.680Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1903,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1926",
+        "artifact.defaultMediaIdentifier": "026mz2v2K",
+        "artifact.ingress.production.fromYear": 1840,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 32543,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Andelven, Eidsvoll [Tegning]",
+        "artifact.uniqueId": "011042268165",
+        "artifact.publishedDate": "2010-12-08T23:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:10.043Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "8EF87C74-8732-46A0-8DF4-E251F266119E",
+        "identifier.id": "NG.K&H.B.03137",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1853,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2000x1238",
+        "artifact.defaultMediaIdentifier": "016mz2vUn",
+        "artifact.ingress.production.fromYear": 1853,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 27164,
+        "artifact.ingress.title": "Forarbeid til illustrasjon til \"Matthias Skytters historier\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879 [Tegning]",
+        "artifact.uniqueId": "011042469665",
+        "artifact.publishedDate": "2014-01-07T05:00:11.739Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07960VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "26BEE8B4-FFFE-4D94-89B2-1084A20C6F0C",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:06:04.985Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1350x2000",
+        "artifact.defaultMediaIdentifier": "016nATBHj",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 75475,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Parklandskap, Korswandt [Tegning]",
+        "artifact.uniqueId": "011042523224",
+        "artifact.publishedDate": "2014-02-11T09:04:16.415Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:06.359Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "E7E13845-63BF-47B6-86AC-422A798AF971",
+        "identifier.id": "NG.K&H.B.06512-012",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1885,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2185",
+        "artifact.defaultMediaIdentifier": "047Lkh4R5",
+        "artifact.ingress.production.fromYear": 1885,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 75472,
+        "artifact.ingress.title": "Studie av arm [Tegning]",
+        "artifact.uniqueId": "011042523228",
+        "artifact.publishedDate": "2014-02-11T09:04:23.380Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06512-015",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0A070C01-299E-4DB0-ACF6-F20A700EE1C8",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:07.634Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1885,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2197x3000",
+        "artifact.defaultMediaIdentifier": "047Lkh4RC",
+        "artifact.ingress.production.fromYear": 1882,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

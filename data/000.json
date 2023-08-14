@@ -1,0 +1,297 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 229,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "0",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 0,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 79887,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Hus ved veien [Tegning]",
+        "artifact.uniqueId": "011042536344",
+        "artifact.publishedDate": "2014-02-21T03:01:26.762Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:48.221Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "8F24C0CF-5D35-4916-B979-ECFF8BA19E99",
+        "identifier.id": "NG.K&H.B.06516-014",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1765",
+        "artifact.defaultMediaIdentifier": "04RVfvDWrR",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 93287,
+        "artifact.ingress.title": "Skissebok nr. 6 [Skissebok]",
+        "artifact.uniqueId": "011044184496",
+        "artifact.publishedDate": "2014-06-27T03:00:54.752Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06524",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "83623A83-2B2E-4D1A-8103-61B5DB3C6ADC",
+        "artifact.pictureCount": 1,
+        "artifact.childCount": 37,
+        "artifact.updatedDate": "2018-03-01T05:09:28.561Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1882,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": true,
+        "artifact.defaultPictureDimension": "3000x2007",
+        "artifact.defaultMediaIdentifier": "022sA35A8RH9",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 32081,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Garnt\u00f8rk, Ermatingen [Tegning]",
+        "artifact.uniqueId": "011042268174",
+        "artifact.publishedDate": "2010-12-08T23:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:12.878Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "09E59983-D9CF-41E2-852A-2E973F569A45",
+        "identifier.id": "NG.K&H.B.03147",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2000x1713",
+        "artifact.defaultMediaIdentifier": "016mz3FMK",
+        "artifact.ingress.production.fromYear": 1879,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 85352,
+        "artifact.ingress.title": "Skissebok nr. 17 [Skissebok]",
+        "artifact.uniqueId": "011043071387",
+        "artifact.publishedDate": "2014-03-22T03:00:53.860Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06513",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "BF2E94D3-1FD3-44AD-8F10-CB5E8894F7E4",
+        "artifact.pictureCount": 1,
+        "artifact.childCount": 33,
+        "artifact.updatedDate": "2018-03-01T05:05:32.171Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": true,
+        "artifact.defaultPictureDimension": "3000x2310",
+        "artifact.defaultMediaIdentifier": "01Tzm8EaFn",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 85356,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Skogsparti, Jarlsberg [Tegning]",
+        "artifact.uniqueId": "011043071411",
+        "artifact.publishedDate": "2014-03-22T03:01:03.729Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:10.582Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D5D2BF0A-172D-4212-B9F4-54C33E836669",
+        "identifier.id": "NG.K&H.B.06513-003",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2313x3000",
+        "artifact.defaultMediaIdentifier": "01Tzm8EaUy",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 85733,
+        "artifact.ingress.title": "Skogslandskap (fragment) [Tegning]",
+        "artifact.uniqueId": "011043071474",
+        "artifact.publishedDate": "2014-03-22T03:01:55.229Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06513-014VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A61F8A06-3B3B-4ECF-8C70-3FE846F057CA",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:17.220Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2332",
+        "artifact.defaultMediaIdentifier": "04Tzm8EupA",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92941,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Veltet skip i Husvik, Dr\u00f8bak [Tegning]",
+        "artifact.uniqueId": "011044097164",
+        "artifact.publishedDate": "2014-06-05T03:01:58.906Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:05.468Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "663E49FB-87F4-493C-B866-E4E1FE8CA3C7",
+        "identifier.id": "NG.K&H.B.06526-007",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1884",
+        "artifact.defaultMediaIdentifier": "032sA2xh1XZa",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92938,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Menn som drar b\u00e5t p\u00e5 land, Dr\u00f8bak [Tegning]",
+        "artifact.uniqueId": "011044097152",
+        "artifact.publishedDate": "2014-06-05T03:01:52.994Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:04.297Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "58D1F2E7-2F9E-48B3-B60B-E6EBA93AC4A8",
+        "identifier.id": "NG.K&H.B.06526-005VERSO",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1871",
+        "artifact.defaultMediaIdentifier": "042sA2xh1XV5",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 86399,
+        "artifact.ingress.title": "Garnfiske, \u00dcberlingen [Tegning]",
+        "artifact.uniqueId": "011043094043",
+        "artifact.publishedDate": "2014-04-01T03:01:36.144Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06518-015VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "3CD59A7B-11F1-4257-A838-5FD19093A98D",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:09.949Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1861",
+        "artifact.defaultMediaIdentifier": "04TzskEihe",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 86402,
+        "artifact.ingress.title": "Studier av b\u00e5ter med garn og figurer [Tegning]",
+        "artifact.uniqueId": "011043094065",
+        "artifact.publishedDate": "2014-04-01T03:01:46.367Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06518-018VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "8E37982B-923B-46D1-8680-4499274AF508",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:11.625Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1855",
+        "artifact.defaultMediaIdentifier": "01TzskF3aL",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      }
+    ]
+  }
+}

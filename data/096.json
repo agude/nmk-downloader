@@ -1,0 +1,294 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "960",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 960,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 75684,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Krager\u00f8 [Tegning]",
+        "artifact.uniqueId": "011042525052",
+        "artifact.publishedDate": "2014-02-13T03:01:35.747Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:33.727Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "1C89729B-48EE-460A-A633-B8F7C59C41DA",
+        "identifier.id": "NG.K&H.B.06515-011VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1732",
+        "artifact.defaultMediaIdentifier": "047TQABFA",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93308,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Garnt\u00f8rking og b\u00e5ter p\u00e5 stranden, R\u00fcgen [Tegning]",
+        "artifact.uniqueId": "011044184570",
+        "artifact.publishedDate": "2014-06-27T03:01:34.957Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:36.334Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2FC5291A-31C7-463F-BB94-7A867EC04032",
+        "identifier.id": "NG.K&H.B.06524-008VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1881,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1912",
+        "artifact.defaultMediaIdentifier": "022sA35A8kcJ",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74220,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kystlandskap ved Oban, Skottland [Tegning]",
+        "artifact.uniqueId": "011042469623",
+        "artifact.publishedDate": "2014-01-07T04:59:15.501Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:09.370Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "32D77F55-0631-4D96-99EA-1323E9BC975D",
+        "identifier.id": "NG.K&H.B.03135",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2060",
+        "artifact.defaultMediaIdentifier": "036mz2vUg",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 32076,
+        "artifact.ingress.title": "Tidlig morgen ved kysten [Tegning]",
+        "artifact.uniqueId": "011043112757",
+        "artifact.publishedDate": "2014-04-05T03:00:57.799Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06530",
+        "artifact.type": "Fineart",
+        "artifact.hasChildren": false,
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "DF2FEFCB-9BA0-44F8-8992-E336A353F4EE",
+        "artifact.pictureCount": 3,
+        "artifact.updatedDate": "2019-01-27T06:02:32.623Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1891,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.defaultPictureDimension": "2000x1437",
+        "artifact.defaultMediaIdentifier": "03U16ooiWm",
+        "artifact.ingress.production.fromYear": 1891,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74795,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Rhinen ved Gottlieben [Tegning]",
+        "artifact.uniqueId": "011042513880",
+        "artifact.publishedDate": "2014-02-04T04:59:10.830Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:58:45.052Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2224A5BB-2203-4A46-8B2F-3AF0DEACC983",
+        "identifier.id": "NG.K&H.B.06510-004",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2147",
+        "artifact.defaultMediaIdentifier": "016n7Usmy",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 85804,
+        "artifact.ingress.title": "Riss av skyer [Tegning]",
+        "artifact.uniqueId": "011043076377",
+        "artifact.publishedDate": "2014-03-25T03:06:44.223Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06517-019",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2F74C601-D6EE-4C5B-BD00-22EEA50361F3",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:02.468Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1984",
+        "artifact.defaultMediaIdentifier": "02TzmCiDS5",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 88112,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Sannox Bay, Arran [Tegning]",
+        "artifact.uniqueId": "011043105693",
+        "artifact.publishedDate": "2014-04-04T03:01:10.449Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:18.547Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "3219D9D9-A9D3-4450-867F-00BCC0A70507",
+        "identifier.id": "NG.K&H.B.06519-004",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2172",
+        "artifact.defaultMediaIdentifier": "04U16dRoEj",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 18326,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kystparti [Maleri]",
+        "artifact.uniqueId": "011041107547",
+        "artifact.publishedDate": "2012-05-09T08:25:14.167Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:36:43.208Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "92C06759-71D6-4C29-9C9F-E3609F1335B7",
+        "identifier.id": "NG.M.00635-009",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1900,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "02719ba2B",
+        "artifact.ingress.production.fromYear": 1900,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 134456,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Foss i Hallingdal [Maleri]",
+        "artifact.uniqueId": "011041107552",
+        "artifact.publishedDate": "2012-05-09T08:25:19.241Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-23T05:01:57.031Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "1C659E6B-902C-45A6-A913-95713A0EF59B",
+        "identifier.id": "NG.M.00636-005",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1848,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "4000x2755",
+        "artifact.defaultMediaIdentifier": "022yjVbh24q2",
+        "artifact.ingress.production.fromYear": 1848,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Foss"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 18329,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Den gamle kirken p\u00e5 Kvams\u00f8y [Maleri]",
+        "artifact.uniqueId": "011041107551",
+        "artifact.publishedDate": "2012-05-09T08:25:16.427Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:36:46.494Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "EEE87F9C-3970-4BFF-89D1-B6547EE66388",
+        "identifier.id": "NG.M.00636-002",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0471B2XHL",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Kirke"
+        ]
+      }
+    ]
+  }
+}

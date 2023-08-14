@@ -1,0 +1,293 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "60",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 60,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 18331,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra V\u00e5g\u00e5 [Maleri]",
+        "artifact.uniqueId": "011041107553",
+        "artifact.publishedDate": "2012-05-09T08:25:18.597Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:36:48.634Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "776F080E-2666-48F2-A297-D1D4E0734569",
+        "identifier.id": "NG.M.00636-004",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1846,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0371B2XHS",
+        "artifact.ingress.production.fromYear": 1846,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Elv",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 18325,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "B\u00e5tstudie [Maleri]",
+        "artifact.uniqueId": "011041107546",
+        "artifact.publishedDate": "2012-05-09T08:25:13.611Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-09-07T04:04:33.012Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A7FFBD43-1FE8-4840-89D2-80E128255D48",
+        "identifier.id": "NG.M.00635-008",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1885,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "03719ba28",
+        "artifact.ingress.production.fromYear": 1885,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 19060,
+        "artifact.ingress.title": "Frisk bris [Maleri]",
+        "artifact.uniqueId": "011041108053",
+        "artifact.publishedDate": "2012-05-09T08:32:01.374Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.M.01487",
+        "artifact.type": "Fineart",
+        "artifact.hasChildren": true,
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "475662CE-437E-4097-B571-3EF4F898CBFC",
+        "artifact.pictureCount": 1,
+        "artifact.childCount": 1,
+        "artifact.updatedDate": "2019-02-05T05:14:41.880Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1876,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.defaultMediaIdentifier": "0471CWX6g",
+        "artifact.ingress.production.fromYear": 1876,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Kystlandskap",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93205,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kols\u00e5s sett fra Stor\u00f8ykilen [Tegning]",
+        "artifact.uniqueId": "011044110552",
+        "artifact.publishedDate": "2014-06-13T03:02:22.711Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:51.192Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4E0300AB-BC09-4765-A7B0-37B7968FBDCE",
+        "identifier.id": "NG.K&H.B.06521-003",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1873,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2020",
+        "artifact.defaultMediaIdentifier": "032sA2xk1rRJ",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 93298,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "St.-Katharinen-Kirche i Middelhagen, R\u00fcgen [Tegning]",
+        "artifact.uniqueId": "011044184547",
+        "artifact.publishedDate": "2014-06-27T03:01:18.271Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:33.467Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A446E6D6-029F-4552-83C9-3717E61C653C",
+        "identifier.id": "NG.K&H.B.06524-005",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1881,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1949",
+        "artifact.defaultMediaIdentifier": "022sA35A8kP8",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 93192,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Ildjernet [Tegning]",
+        "artifact.uniqueId": "011044110529",
+        "artifact.publishedDate": "2014-06-13T03:02:00.902Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:17.869Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B5BB79D8-EB6A-4E91-BD8E-4A5CCE1413E2",
+        "identifier.id": "NG.K&H.B.06522-019",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1872,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1917",
+        "artifact.defaultMediaIdentifier": "012sA2xk1XUG",
+        "artifact.ingress.production.fromYear": 1872,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92620,
+        "artifact.ingress.title": "Badende menn og gutter [Tegning]",
+        "artifact.uniqueId": "011044074498",
+        "artifact.publishedDate": "2014-05-24T03:01:24.377Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06527-012VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2B0D720C-D8D3-4172-A8E6-028B32BDE1B3",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:24.909Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1746",
+        "artifact.defaultMediaIdentifier": "022s9YsMABKK",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92961,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kvinne p\u00e5 steinet strand [Tegning]",
+        "artifact.uniqueId": "011044097201",
+        "artifact.publishedDate": "2014-06-05T03:02:31.792Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:09.624Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0E73EB21-A3A0-4A1B-9DE6-A0A4800D30C3",
+        "identifier.id": "NG.K&H.B.06526-014VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1856",
+        "artifact.defaultMediaIdentifier": "022sA2xh1Y1y",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92988,
+        "artifact.ingress.title": "Riss av hus ved kysten [Tegning]",
+        "artifact.uniqueId": "011044097226",
+        "artifact.publishedDate": "2014-06-05T03:03:19.375Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06526-026",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0C1ED367-C90B-4AFC-AAC2-8FFE618A32E4",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:16.303Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1879",
+        "artifact.defaultMediaIdentifier": "012sA2xh1s7n",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 75287,
+        "artifact.ingress.title": "Mannsfigurer; budeie og kyr [Tegning]",
+        "artifact.uniqueId": "011042523203",
+        "artifact.publishedDate": "2014-02-11T09:03:37.604Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06512-001VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5967183E-8B3B-40F5-A1B9-B11FC8144350",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:58:59.548Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1885,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2178",
+        "artifact.defaultMediaIdentifier": "037Lkh47W",
+        "artifact.ingress.production.fromYear": 1882,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

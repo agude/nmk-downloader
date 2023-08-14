@@ -1,0 +1,292 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "430",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 430,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 92995,
+        "artifact.ingress.title": "Studier av seilskip; kystlandskap [Tegning]",
+        "artifact.uniqueId": "011044097233",
+        "artifact.publishedDate": "2014-06-05T03:03:33.023Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06526-030VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "9329A05A-64A6-4C0C-A047-CEAC8017E260",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:18.089Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1875",
+        "artifact.defaultMediaIdentifier": "022sA2xh1sCE",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92997,
+        "artifact.ingress.title": "Studier av seilb\u00e5t [Tegning]",
+        "artifact.uniqueId": "011044097235",
+        "artifact.publishedDate": "2014-06-05T03:03:36.776Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06526-031VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "7103843B-5879-46CA-BFB6-5BC9FE18DE40",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:18.672Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1847",
+        "artifact.defaultMediaIdentifier": "042sA2xh1sCH",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92612,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Chiemsee (fragment) [Tegning]",
+        "artifact.uniqueId": "011044074483",
+        "artifact.publishedDate": "2014-05-24T03:01:11.996Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:23.306Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "1287B079-0C38-49D3-A629-3A9FD37571F3",
+        "identifier.id": "NG.K&H.B.06527-007VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1765",
+        "artifact.defaultMediaIdentifier": "042s9YsMAB62",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92999,
+        "artifact.ingress.title": "Studier av skonnert [Tegning]",
+        "artifact.uniqueId": "011044097237",
+        "artifact.publishedDate": "2014-06-05T03:03:40.586Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06526-032VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D3B51A0F-FF53-460D-BE03-D3CF98939BA0",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:19.361Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1910x3000",
+        "artifact.defaultMediaIdentifier": "022sA2xh1sGc",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92981,
+        "artifact.ingress.title": "Kystlandskap [Tegning]",
+        "artifact.uniqueId": "011044097219",
+        "artifact.publishedDate": "2014-06-05T03:03:05.830Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06526-022VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "E6259B19-9A1F-429A-B82B-D854A85AA783",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:13.853Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1877",
+        "artifact.defaultMediaIdentifier": "022sA2xh1ry4",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92619,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Ganszipfel, Chiemsee [Tegning]",
+        "artifact.uniqueId": "011044074495",
+        "artifact.publishedDate": "2014-05-24T03:01:22.865Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:24.786Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "57E19104-8257-415D-9FDE-6B13D6E1DF77",
+        "identifier.id": "NG.K&H.B.06527-011VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1747",
+        "artifact.defaultMediaIdentifier": "032s9YsMABKG",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 92644,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Chiemsee [Tegning]",
+        "artifact.uniqueId": "011044074557",
+        "artifact.publishedDate": "2014-05-24T03:01:59.314Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:30.876Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "3F60EC7F-8CF5-4C57-AF6E-66767DA6AA65",
+        "identifier.id": "NG.K&H.B.06527-025",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1764",
+        "artifact.defaultMediaIdentifier": "042s9YsMAWip",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 92642,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Chiemsee (detalj) [Tegning]",
+        "artifact.uniqueId": "011044074554",
+        "artifact.publishedDate": "2014-05-24T03:01:57.222Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:30.535Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "E407D421-EC80-41DF-8569-C72AC3F0B954",
+        "identifier.id": "NG.K&H.B.06527-024VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1732",
+        "artifact.defaultMediaIdentifier": "022s9YsMAWeU",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 83358,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Utsikt mot Vang kirke, Hamar [Tegning]",
+        "artifact.uniqueId": "011042654880",
+        "artifact.publishedDate": "2014-03-14T03:01:09.698Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:21.667Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "82233104-6FD2-4666-9669-E0889B32BC91",
+        "identifier.id": "NG.K&H.B.06514-005",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2086",
+        "artifact.defaultMediaIdentifier": "01RznLHGEP",
+        "artifact.ingress.production.fromYear": 1880,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 79874,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Innseilingen til N\u00e6r\u00f8yfjorden [Tegning]",
+        "artifact.uniqueId": "011042536310",
+        "artifact.publishedDate": "2014-02-21T03:00:49.447Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:42.429Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "9DE35C47-801C-44CD-AD81-AE14C7BD81F6",
+        "identifier.id": "NG.K&H.B.06516-003",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1728",
+        "artifact.defaultMediaIdentifier": "03RVfvDWYo",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

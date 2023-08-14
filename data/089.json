@@ -1,0 +1,302 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "890",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 890,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 34392,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Sivlefoss, Stalheim [Tegning]",
+        "artifact.uniqueId": "011042268168",
+        "artifact.publishedDate": "2010-12-08T23:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:12.154Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "18208211-F375-4632-91C0-9738D24846DC",
+        "identifier.id": "NG.K&H.B.03145",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2219x3000",
+        "artifact.defaultMediaIdentifier": "036mz3FMH",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Foss"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 113292,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Brudeferd i Hardanger [Maleri]",
+        "artifact.uniqueId": "011042436982",
+        "artifact.publishedDate": "2010-12-08T23:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-02-05T05:12:38.727Z",
+        "identifier.owner": "NMK-B",
+        "artifact.hasPictures": true,
+        "artifact.uuid": "3DF10C96-B33B-45C1-92BF-D9211CE574C8",
+        "identifier.id": "NG.M.00467",
+        "artifact.childCount": 1,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.production.toYear": 1848,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": true,
+        "artifact.defaultPictureDimension": "4000x2866",
+        "artifact.defaultMediaIdentifier": "022wXVwUz7gt",
+        "artifact.ingress.production.fromYear": 1848,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Folklore",
+          "Fjell",
+          "Fjord"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 61126,
+        "artifact.ingress.title": "H\u00f8yfjell [Maleri]",
+        "artifact.uniqueId": "011041108724",
+        "artifact.publishedDate": "2012-11-09T05:06:36.904Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.M.03063",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "AF2A14C8-82F8-4901-B491-683808FDDE3C",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2017-03-07T15:06:36.857Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1858,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2038",
+        "artifact.defaultMediaIdentifier": "0171E1WHt",
+        "artifact.ingress.production.fromYear": 1858,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 99232,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Vesle Horn Hemsedal [Tegning]",
+        "artifact.uniqueId": "021045510644",
+        "artifact.publishedDate": "2014-11-07T03:04:50.531Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:50.212Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B261088D-2E96-4EF6-A948-B035C07714A3",
+        "identifier.id": "NG.K&H.1999.0248",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2249",
+        "artifact.defaultMediaIdentifier": "012uN1bmvU8B",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99240,
+        "artifact.ingress.title": "To mannsfigurer i fjellet [Tegning]",
+        "artifact.uniqueId": "021045510616",
+        "artifact.publishedDate": "2014-11-07T03:04:27.917Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0245",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "918BF777-B7D9-4B50-882A-2ACA859F0596",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T05:28:47.263Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1837x3000",
+        "artifact.defaultMediaIdentifier": "012uN1bmvTfh",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Reiseskisse"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 99237,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Nes i Hallingdal; fra Hemsedal [Tegning]",
+        "artifact.uniqueId": "021045510625",
+        "artifact.publishedDate": "2014-11-07T03:04:35.086Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:48.517Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D3153863-A323-4685-9174-BF2A013F47A2",
+        "identifier.id": "NG.K&H.1999.0246",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2307",
+        "artifact.defaultMediaIdentifier": "012uN1bmvTpb",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 99235,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Elvestryk ved \u00c5l i Hallingdal [Tegning]",
+        "artifact.uniqueId": "021045510635",
+        "artifact.publishedDate": "2014-11-07T03:04:43.249Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:49.091Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4CA3696A-60C5-44E1-88F4-E2EF083F1DA4",
+        "identifier.id": "NG.K&H.1999.0247",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2251",
+        "artifact.defaultMediaIdentifier": "012uN1bmvTyQ",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Elv"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 99234,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Hemsedalsfjellene [Tegning]",
+        "artifact.uniqueId": "021045510653",
+        "artifact.publishedDate": "2014-11-07T03:04:55.743Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:50.924Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "55FCE17B-7C47-420A-A04A-24922B9DBFB7",
+        "identifier.id": "NG.K&H.1999.0248VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2213",
+        "artifact.defaultMediaIdentifier": "012uN1bmvUCY",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 99231,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Lustrafjorden; Jostedalsbreen sett fra Lustrafjorden [Tegning]",
+        "artifact.uniqueId": "021045510663",
+        "artifact.publishedDate": "2014-11-07T03:05:05.775Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:51.389Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "9AB341D8-7480-4183-AA98-0E9DB06D4984",
+        "identifier.id": "NG.K&H.1999.0249VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2234",
+        "artifact.defaultMediaIdentifier": "012uN1bmvo5A",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjord",
+          "Isbre"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 99220,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Fortunsdalen [Tegning]",
+        "artifact.uniqueId": "021045510683",
+        "artifact.publishedDate": "2014-11-07T03:05:29.920Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:53.877Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "7974F6B4-082E-48A0-AE8D-E923276B54D3",
+        "identifier.id": "NG.K&H.1999.0252",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2252",
+        "artifact.defaultMediaIdentifier": "012uN1bmvoJR",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

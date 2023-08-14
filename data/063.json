@@ -1,0 +1,294 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "630",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 630,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92521,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kysten ved Farsund [Tegning]",
+        "artifact.uniqueId": "011044059066",
+        "artifact.publishedDate": "2014-05-20T03:01:20.677Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:18.153Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "DC0CD099-A447-4536-AC11-9F1223BAD11D",
+        "identifier.id": "NG.K&H.B.06523-001VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1723",
+        "artifact.defaultMediaIdentifier": "022s9YeD9ZDY",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 93288,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fisker p\u00e5 stranden, R\u00fcgen [Tegning]",
+        "artifact.uniqueId": "011044184500",
+        "artifact.publishedDate": "2014-06-27T03:00:57.150Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:31.748Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C289E7C7-53A2-48C6-BCD3-B656BBBFC71B",
+        "identifier.id": "NG.K&H.B.06524-001",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1882,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1909",
+        "artifact.defaultMediaIdentifier": "032sA35A8RHF",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92548,
+        "artifact.ingress.title": "Kystlandskap med hus [Tegning]",
+        "artifact.uniqueId": "011044059175",
+        "artifact.publishedDate": "2014-05-20T03:01:58.877Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06523-015",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D3B1AAB6-BDE9-4A0F-8C91-85CCEEDB27E3",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:26.444Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1782",
+        "artifact.defaultMediaIdentifier": "012s9YeD9tPn",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92563,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Jel\u00f8y sett fra Son; kystparti, Farsund [Tegning]",
+        "artifact.uniqueId": "011044059241",
+        "artifact.publishedDate": "2014-05-20T03:02:18.975Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:30.567Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0E17FBD6-E460-43C9-A1A5-C646745AB0C2",
+        "identifier.id": "NG.K&H.B.06523-022VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1753",
+        "artifact.defaultMediaIdentifier": "022s9YeD9td2",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93294,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Lobbe ved G\u00f6hren, R\u00fcgen [Tegning]",
+        "artifact.uniqueId": "011044184530",
+        "artifact.publishedDate": "2014-06-27T03:01:10.027Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:33.401Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5AC6F5BD-595A-44C2-ADAD-BBA89B3F1ED8",
+        "identifier.id": "NG.K&H.B.06524-003VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1881,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1916",
+        "artifact.defaultMediaIdentifier": "022sA35A8kEG",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 93290,
+        "artifact.ingress.title": "Fiskere ved b\u00e5t, R\u00fcgen [Tegning]",
+        "artifact.uniqueId": "011044184511",
+        "artifact.publishedDate": "2014-06-27T03:01:01.684Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06524-002",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A75A1435-EB0C-4FAE-BB11-1C45092BB29D",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:31.837Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1882,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1921",
+        "artifact.defaultMediaIdentifier": "012sA35A8k5V",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 93291,
+        "artifact.ingress.title": "Liggende fisker; matros [Tegning]",
+        "artifact.uniqueId": "011044184517",
+        "artifact.publishedDate": "2014-06-27T03:01:04.124Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06524-002VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5F519F76-B30F-41E9-AE3A-1E85A4D14067",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:32.035Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1882,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1914",
+        "artifact.defaultMediaIdentifier": "032sA35A8k9q",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92550,
+        "artifact.ingress.title": "B\u00e5tstudie; svenske revfiskere i seilb\u00e5t [Tegning]",
+        "artifact.uniqueId": "011044059386",
+        "artifact.publishedDate": "2014-05-20T03:04:26.436Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06523-016VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C488461D-ADDA-422D-94C9-E84110E5ED22",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:01:27.445Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1727",
+        "artifact.defaultMediaIdentifier": "042s9YeEareU",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 93292,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Garnt\u00f8rk og spaserende par p\u00e5 stranden, R\u00fcgen [Tegning]",
+        "artifact.uniqueId": "011044184521",
+        "artifact.publishedDate": "2014-06-27T03:01:06.407Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:33.193Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "3679C538-F8FE-4DAD-9523-0BCD0ABAA166",
+        "identifier.id": "NG.K&H.B.06524-003",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1882,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1921",
+        "artifact.defaultMediaIdentifier": "012sA35A8k9u",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 93306,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Garnt\u00f8rk, G\u00f6hren [Tegning]",
+        "artifact.uniqueId": "011044184567",
+        "artifact.publishedDate": "2014-06-27T03:01:32.071Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:35.020Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "525EB6D0-A3E8-432F-A632-26DF5AEDE85C",
+        "identifier.id": "NG.K&H.B.06524-008",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1881,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1939",
+        "artifact.defaultMediaIdentifier": "012sA35A8kcG",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "220",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 220,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 92220,
+        "artifact.ingress.title": "Kvinnefigur med trekar [Tegning]",
+        "artifact.uniqueId": "011044053241",
+        "artifact.publishedDate": "2014-05-10T03:01:29.947Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06520-009VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C0B88713-2F04-4498-9040-543929C48C1B",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:36.349Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1892",
+        "artifact.defaultMediaIdentifier": "032s9YXmYLLf",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92213,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Schloss Altenklingen [Tegning]",
+        "artifact.uniqueId": "011044053210",
+        "artifact.publishedDate": "2014-05-10T03:01:16.987Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:32.868Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2488E848-4D7B-4704-B326-AD255BF18E28",
+        "identifier.id": "NG.K&H.B.06520-006",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1932",
+        "artifact.defaultMediaIdentifier": "042s9YXmY1Eo",
+        "artifact.ingress.production.fromYear": 1879,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 92223,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Hus i Ermatingen [Tegning]",
+        "artifact.uniqueId": "011044053254",
+        "artifact.publishedDate": "2014-05-10T03:01:36.850Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:36.598Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "53B2E731-E34E-4807-BC8B-ABC535275EED",
+        "identifier.id": "NG.K&H.B.06520-011",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1912x3000",
+        "artifact.defaultMediaIdentifier": "032s9YXmYLZo",
+        "artifact.ingress.production.fromYear": 1879,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 92225,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kysten av Frosta; g\u00e5rdstun, Frosta [Tegning]",
+        "artifact.uniqueId": "011044053261",
+        "artifact.publishedDate": "2014-05-10T03:01:41.382Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:38.944Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4186D40B-56F9-49C8-AF56-9AAD7CC53178",
+        "identifier.id": "NG.K&H.B.06520-012",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1880",
+        "artifact.defaultMediaIdentifier": "012s9YXmYLeJ",
+        "artifact.ingress.production.fromYear": 1880,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93455,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Blakstad [Tegning]",
+        "artifact.uniqueId": "011044184716",
+        "artifact.publishedDate": "2014-06-27T03:03:47.839Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:50.824Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0DDA8BE0-A785-495B-AFF0-5A249ED5AFAC",
+        "identifier.id": "NG.K&H.B.06525-018",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1107",
+        "artifact.defaultMediaIdentifier": "032sA35Ba43C",
+        "artifact.ingress.production.fromYear": 1854,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93452,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Gyssestad (detalj) [Tegning]",
+        "artifact.uniqueId": "011044184729",
+        "artifact.publishedDate": "2014-06-27T03:04:00.528Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:51.730Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "44EC53BD-5025-472D-BFC9-433FB66A632C",
+        "identifier.id": "NG.K&H.B.06525-020VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1102",
+        "artifact.defaultMediaIdentifier": "012sA35Ba4C2",
+        "artifact.ingress.production.fromYear": 1854,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 93369,
+        "artifact.ingress.title": "Studie av elghode [Tegning]",
+        "artifact.uniqueId": "011044184686",
+        "artifact.publishedDate": "2014-06-27T03:03:18.907Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06525-011",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "BCA74050-3990-4BF7-9D28-5372B01FD982",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:47.882Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2262",
+        "artifact.defaultMediaIdentifier": "012sA35Ba3f5",
+        "artifact.ingress.production.fromYear": 1854,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 93319,
+        "artifact.ingress.title": "Seilb\u00e5t; studier av hjort [Tegning]",
+        "artifact.uniqueId": "011044184596",
+        "artifact.publishedDate": "2014-06-27T03:01:57.907Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06524-013VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "3FD92B89-A4A8-472E-963D-8FDBE6BCD4BE",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:39.327Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1882,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1901",
+        "artifact.defaultMediaIdentifier": "022sA35A95ZK",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 93520,
+        "artifact.ingress.title": "Fra Grafenberg (fragment) [Tegning]",
+        "artifact.uniqueId": "011044184814",
+        "artifact.publishedDate": "2014-06-27T03:05:29.714Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06525-039VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C7625466-E510-417E-AD4D-0BF23DFA5CC8",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:59.981Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1856,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2219",
+        "artifact.defaultMediaIdentifier": "042sA35Baicz",
+        "artifact.ingress.production.fromYear": 1856,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93457,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Utsikt mot Roholtfjell [Tegning]",
+        "artifact.uniqueId": "011044184809",
+        "artifact.publishedDate": "2014-06-27T03:05:24.803Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:59.841Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A244C902-62F5-4F25-9E2B-1A0755AEFF3C",
+        "identifier.id": "NG.K&H.B.06525-038",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1097",
+        "artifact.defaultMediaIdentifier": "022sA35BaiYd",
+        "artifact.ingress.production.fromYear": 1854,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

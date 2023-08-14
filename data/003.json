@@ -1,0 +1,298 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "30",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 30,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 52736,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Oslofjorden [Maleri]",
+        "artifact.uniqueId": "011041107729",
+        "artifact.publishedDate": "2012-05-09T08:27:41.747Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-09-08T04:01:48.829Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "45A5E8AB-63D0-41AE-B6C5-CDFB487CF807",
+        "identifier.id": "NG.M.00898",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1812",
+        "artifact.defaultMediaIdentifier": "0371B3YBg",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Kystlandskap",
+          "Fjord",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 20800,
+        "artifact.ingress.title": "H\u00f8yfjell i soloppgang [Maleri]",
+        "artifact.uniqueId": "011041109145",
+        "artifact.publishedDate": "2012-05-09T18:10:40.490Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.M.04186",
+        "artifact.type": "Fineart",
+        "artifact.hasChildren": false,
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "ADC91A20-5AFE-47C4-A58F-ECE67B1D902D",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2017-03-07T15:15:26.755Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.defaultMediaIdentifier": "0171FUVRy",
+        "artifact.ingress.production.fromYear": 1854,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 63707,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "En likferd [Opplagstrykk]",
+        "artifact.uniqueId": "011041474621",
+        "artifact.publishedDate": "2013-01-11T06:15:16.494Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T15:32:32.575Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A36AA643-E806-45D6-86A4-B779033E2134",
+        "identifier.id": "NMK.2005.0374",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Ukjent litograf",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2221",
+        "artifact.defaultMediaIdentifier": "0171Gy9kd",
+        "artifact.ingress.production.fromYear": 1852,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 3,
+        "artifact.defaultPictureIndex": 18155,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Ridehuset ved Akershus festning [Maleri]",
+        "artifact.uniqueId": "011042335783",
+        "artifact.publishedDate": "2012-05-09T08:23:44.232Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:33:49.813Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "69311039-6E1B-418C-8290-086B31799928",
+        "identifier.id": "NG.M.00468",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1846,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "03719bDrQ",
+        "artifact.ingress.production.fromYear": 1846,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Dyr"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 41662,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Mondsee [Maleri]",
+        "artifact.uniqueId": "011041107543",
+        "artifact.publishedDate": "2012-05-09T08:25:11.677Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:36:38.975Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "1F15D9D0-A2D3-4C98-BB8E-ED421C928B51",
+        "identifier.id": "NG.M.00635-005",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1870,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2204",
+        "artifact.defaultMediaIdentifier": "01719ba25",
+        "artifact.ingress.production.fromYear": 1870,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 25859,
+        "artifact.ingress.title": "Skoginteri\u00f8r [Maleri]",
+        "artifact.uniqueId": "011041107549",
+        "artifact.publishedDate": "2012-05-09T08:25:15.650Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.M.00636-001",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4DE1F1DE-0ED5-44BB-8021-0FD0666AD9DC",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2017-03-07T14:36:45.545Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1842,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2000x1953",
+        "artifact.defaultMediaIdentifier": "0271B2XHK",
+        "artifact.ingress.production.fromYear": 1842,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skoglandskap",
+          "Flora"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 52727,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Kvams\u00f8y [Maleri]",
+        "artifact.uniqueId": "011041107550",
+        "artifact.publishedDate": "2012-05-09T08:25:17.886Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:36:47.609Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C6BDEBD6-8D6D-4A2E-B2D0-EDAFE210D0AE",
+        "identifier.id": "NG.M.00636-003",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2243",
+        "artifact.defaultMediaIdentifier": "0171B2XHR",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjord",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 17726,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Nordmarka [Maleri]",
+        "artifact.uniqueId": "011041107127",
+        "artifact.publishedDate": "2012-05-09T08:19:34.626Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:25:50.300Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "3B4B5CFF-AFB3-4B52-A710-F465F2D17E28",
+        "identifier.id": "NG.M.00229",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1849,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "04719Ysrx",
+        "artifact.ingress.production.fromYear": 1849,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skoglandskap"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92939,
+        "artifact.ingress.title": "Skip til ankers [Tegning]",
+        "artifact.uniqueId": "011044097157",
+        "artifact.publishedDate": "2014-06-05T03:01:54.953Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06526-006",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C1AEDB29-DFF0-4B24-A253-D63F754FD02C",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:04.370Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1897x3000",
+        "artifact.defaultMediaIdentifier": "012sA2xh1XZR",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92940,
+        "artifact.ingress.title": "B\u00e5ter p\u00e5 fjorden [Tegning]",
+        "artifact.uniqueId": "011044097161",
+        "artifact.publishedDate": "2014-06-05T03:01:56.868Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06526-006VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "3F983589-9F7F-411B-8863-29E0D35DD63F",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:04.638Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1879",
+        "artifact.defaultMediaIdentifier": "022sA2xh1XZW",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "110",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 110,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 74328,
+        "artifact.ingress.title": "Landskap med tre mannsfigurer [Tegning]",
+        "artifact.uniqueId": "011043112759",
+        "artifact.publishedDate": "2014-04-05T03:00:59.682Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.09712",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "76BE8F12-0393-476A-9E27-AE34A354E363",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:07:46.497Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1903,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1949",
+        "artifact.defaultMediaIdentifier": "02U16ooibG",
+        "artifact.ingress.production.fromYear": 1825,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92601,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "B\u00e5ter og figurer p\u00e5 stranden, Chiemsee [Tegning]",
+        "artifact.uniqueId": "011044074448",
+        "artifact.publishedDate": "2014-05-24T03:00:53.840Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:20.399Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5C3B5228-0992-46F2-8AFF-60EDD58ADA76",
+        "identifier.id": "NG.K&H.B.06527-002",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1745",
+        "artifact.defaultMediaIdentifier": "032s9YsM9qqS",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92207,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Burg Meersburg [Tegning]",
+        "artifact.uniqueId": "011044053182",
+        "artifact.publishedDate": "2014-05-10T03:01:06.624Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:30.791Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D399F4D2-A548-4B4D-A21F-6ED9C3E95F76",
+        "identifier.id": "NG.K&H.B.06520-003",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1895",
+        "artifact.defaultMediaIdentifier": "012s9YXmXzw8",
+        "artifact.ingress.production.fromYear": 1879,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92609,
+        "artifact.ingress.title": "Tre figurer ved stokk [Tegning]",
+        "artifact.uniqueId": "011044074478",
+        "artifact.publishedDate": "2014-05-24T03:01:07.270Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06527-006",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "30036567-4E29-4D7A-827D-B187AE028B99",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:22.335Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1739",
+        "artifact.defaultMediaIdentifier": "042s9YsM9rDV",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92634,
+        "artifact.ingress.title": "Interi\u00f8r med figurer; sittende ryggvendt kvinne [Tegning]",
+        "artifact.uniqueId": "011044074536",
+        "artifact.publishedDate": "2014-05-24T03:01:45.798Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06527-021",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "9163AE29-8AEC-4C0D-881F-8A7BA89D60DF",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:28.484Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1746",
+        "artifact.defaultMediaIdentifier": "022s9YsMABmh",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92626,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Pl\u00f8ying, Grabenst\u00e4tt [Tegning]",
+        "artifact.uniqueId": "011044074515",
+        "artifact.publishedDate": "2014-05-24T03:01:33.486Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:26.577Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "20CCA27C-C9B0-4E78-B7AC-5AB48C56995D",
+        "identifier.id": "NG.K&H.B.06527-016VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1765",
+        "artifact.defaultMediaIdentifier": "022s9YsMABYT",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92645,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Herreninsel [Tegning]",
+        "artifact.uniqueId": "011044074560",
+        "artifact.publishedDate": "2014-05-24T03:02:00.877Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:30.920Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "89A61BFD-EC18-4CD4-B5A2-F64CF3AB293D",
+        "identifier.id": "NG.K&H.B.06527-025VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1721",
+        "artifact.defaultMediaIdentifier": "042s9YsMAWoB",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92639,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Skystudie, Herreninsel [Tegning]",
+        "artifact.uniqueId": "011044074549",
+        "artifact.publishedDate": "2014-05-24T03:01:53.635Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:29.817Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "22461D7F-79DF-4486-9ED1-C50F163D9F4A",
+        "identifier.id": "NG.K&H.B.06527-023VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1748",
+        "artifact.defaultMediaIdentifier": "032s9YsMAWeK",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 83362,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Strand med ruin og popler, Reichenau [Tegning]",
+        "artifact.uniqueId": "011042654901",
+        "artifact.publishedDate": "2014-03-14T03:01:24.583Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:23.580Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0405923D-E759-4DF5-96F5-16DD7238451C",
+        "identifier.id": "NG.K&H.B.06514-009",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2079",
+        "artifact.defaultMediaIdentifier": "04RznLHGPJ",
+        "artifact.ingress.production.fromYear": 1879,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92613,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Schafwaschen, Chiemsee [Tegning]",
+        "artifact.uniqueId": "011044074484",
+        "artifact.publishedDate": "2014-05-24T03:01:13.659Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:23.429Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "522EA0D7-3BA5-4FE7-9F07-B56DF419FEFF",
+        "identifier.id": "NG.K&H.B.06527-008",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1749",
+        "artifact.defaultMediaIdentifier": "012s9YsMAB67",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

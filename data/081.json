@@ -1,0 +1,285 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "810",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 810,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 85738,
+        "artifact.ingress.title": "Steiner [Tegning]",
+        "artifact.uniqueId": "011043071480",
+        "artifact.publishedDate": "2014-03-22T03:02:04.337Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06513-017",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B669042A-2FA3-4CD0-9063-6093B6128E34",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:18.604Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2335",
+        "artifact.defaultMediaIdentifier": "02Tzm8EutW",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99252,
+        "artifact.ingress.title": "St\u00e5ende jente [Tegning]",
+        "artifact.uniqueId": "021045510721",
+        "artifact.publishedDate": "2014-11-07T03:06:50.425Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0268VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B4F413FF-0414-42EB-9DC9-B8C7D65703AC",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:29:01.887Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1857,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2051x3000",
+        "artifact.defaultMediaIdentifier": "012uN1bmw8nQ",
+        "artifact.ingress.production.fromYear": 1857,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 99273,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Feigom [Tegning]",
+        "artifact.uniqueId": "021045510553",
+        "artifact.publishedDate": "2014-11-07T03:03:36.996Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:41.422Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "BAEB167F-AED3-4B12-813B-65EAD6005F2F",
+        "identifier.id": "NG.K&H.1999.0235",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1839,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1936",
+        "artifact.defaultMediaIdentifier": "012uN1bmv87R",
+        "artifact.ingress.production.fromYear": 1839,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 99209,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Natt i Nordmarka [Tegning]",
+        "artifact.uniqueId": "021045510707",
+        "artifact.publishedDate": "2014-11-07T03:06:10.978Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:58.030Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "82547EA0-21A5-4A8B-A42F-92EEBC3CCB7F",
+        "identifier.id": "NG.K&H.1999.0258",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1846,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2228",
+        "artifact.defaultMediaIdentifier": "012uN1bmvoga",
+        "artifact.ingress.production.fromYear": 1846,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99257,
+        "artifact.ingress.title": "Skyer [Tegning]",
+        "artifact.uniqueId": "021045510727",
+        "artifact.publishedDate": "2014-11-07T03:07:02.549Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0272VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A1A72CA8-4D46-43CC-8A01-7ACE2E1299A1",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:29:03.075Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1857,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2008",
+        "artifact.defaultMediaIdentifier": "012uN1bmw8wA",
+        "artifact.ingress.production.fromYear": 1857,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99255,
+        "artifact.ingress.title": "Gate med tr\u00e6r og hagemur [Tegning]",
+        "artifact.uniqueId": "021045510726",
+        "artifact.publishedDate": "2014-11-07T03:06:59.594Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0271",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5E67DFC6-4A7F-430A-A4B2-C99F66AADDB9",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:29:02.862Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1857,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1986",
+        "artifact.defaultMediaIdentifier": "012uN1bmw8rs",
+        "artifact.ingress.production.fromYear": 1857,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 16592,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Balestrand [Tegning]",
+        "artifact.uniqueId": "011042287298",
+        "artifact.publishedDate": "2013-01-22T06:05:22.448Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:59.993Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "57FF5A64-484F-41AD-9942-FC0E24A79065",
+        "identifier.id": "NG.K&H.1999.0262",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "047187a46",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 16594,
+        "artifact.ingress.title": "Mannshode (fragment) [Tegning]",
+        "artifact.uniqueId": "011042287255",
+        "artifact.publishedDate": "2013-01-22T06:05:25.468Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0264",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "79D74C18-A8A3-4601-A922-8AADC6D76F2D",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T05:29:00.380Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "027187a8P",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 16609,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fannar\u00e5ki sett fra Eide [Tegning]",
+        "artifact.uniqueId": "011042352981",
+        "artifact.publishedDate": "2013-01-22T06:05:46.164Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:29:07.371Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5B19E112-662E-4F7B-AE86-77C78FD8C3C4",
+        "identifier.id": "NG.K&H.1999.0286",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "017187aCx",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 16598,
+        "artifact.ingress.title": "Grantre, Nes [Tegning]",
+        "artifact.uniqueId": "011042351101",
+        "artifact.publishedDate": "2013-01-22T06:05:31.121Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0275",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0773282B-AC72-4DCA-A89F-1F90299340DC",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T05:29:03.742Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "027187a8U",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

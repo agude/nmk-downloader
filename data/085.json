@@ -1,0 +1,295 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "850",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 850,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 75479,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Bad Sachsa [Tegning]",
+        "artifact.uniqueId": "011042523216",
+        "artifact.publishedDate": "2014-02-11T09:04:01.949Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:03.832Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F06E6AF0-DCCA-4BEA-AE66-9AC575C7A30D",
+        "identifier.id": "NG.K&H.B.06512-008",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1883,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2170",
+        "artifact.defaultMediaIdentifier": "047Lkh4GN",
+        "artifact.ingress.production.fromYear": 1883,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 75293,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Figurer og b\u00e5ter p\u00e5 stranden, Ahlbeck [Tegning]",
+        "artifact.uniqueId": "011042523217",
+        "artifact.publishedDate": "2014-02-11T09:04:03.851Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:04.026Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "972C4B7E-6D4C-4D75-A2E0-A78F7AC713F9",
+        "identifier.id": "NG.K&H.B.06512-008VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1885,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2206",
+        "artifact.defaultMediaIdentifier": "017Lkh4GP",
+        "artifact.ingress.production.fromYear": 1885,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 75478,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Sandefjord [Tegning]",
+        "artifact.uniqueId": "011042523218",
+        "artifact.publishedDate": "2014-02-11T09:04:05.645Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:04.881Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4C686096-2B49-4C11-A2E6-309AF0A166AE",
+        "identifier.id": "NG.K&H.B.06512-009",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1884,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2184",
+        "artifact.defaultMediaIdentifier": "027Lkh4Lf",
+        "artifact.ingress.production.fromYear": 1884,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 75474,
+        "artifact.ingress.title": "Tre kvinnefigurer [Tegning]",
+        "artifact.uniqueId": "011042523227",
+        "artifact.publishedDate": "2014-02-11T09:04:21.760Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06512-014",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "8CCED6C7-D496-4965-8E09-B2C75115FE9A",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:07.681Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1885,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2222",
+        "artifact.defaultMediaIdentifier": "037Lkh4RA",
+        "artifact.ingress.production.fromYear": 1885,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 75299,
+        "artifact.ingress.title": "Figurer og b\u00e5ter p\u00e5 stranden [Tegning]",
+        "artifact.uniqueId": "011042523225",
+        "artifact.publishedDate": "2014-02-11T09:04:18.163Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06512-012VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "34E450DB-F7F7-48A5-8237-F2C508532838",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:06.622Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1885,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2178",
+        "artifact.defaultMediaIdentifier": "017Lkh4R7",
+        "artifact.ingress.production.fromYear": 1885,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 85354,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Losb\u00e5t i Langesund [Tegning]",
+        "artifact.uniqueId": "011043071404",
+        "artifact.publishedDate": "2014-03-22T03:00:59.720Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:10.369Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "BF792F27-AA17-49DD-8CF9-4DCA39EEB5C8",
+        "identifier.id": "NG.K&H.B.06513-002",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2304",
+        "artifact.defaultMediaIdentifier": "01Tzm8EaQa",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 85364,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kystlandskap ved Langesund [Tegning]",
+        "artifact.uniqueId": "011043071465",
+        "artifact.publishedDate": "2014-03-22T03:01:40.059Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:15.093Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "49B20947-EF08-40D0-8702-2F142EAC0978",
+        "identifier.id": "NG.K&H.B.06513-011",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2317",
+        "artifact.defaultMediaIdentifier": "01Tzm8Eujj",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74680,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Trestudie ved Laacher See [Tegning]",
+        "artifact.uniqueId": "011042513727",
+        "artifact.publishedDate": "2014-02-04T04:58:15.312Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:58:49.225Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F1A12493-F068-471F-967F-FD3D9BD5E6CC",
+        "identifier.id": "NG.K&H.B.06511-001",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1857,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2090x3000",
+        "artifact.defaultMediaIdentifier": "036n7VD7A",
+        "artifact.ingress.production.fromYear": 1857,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74681,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Utsikt mot benediktinerklosteret Maria Laach [Tegning]",
+        "artifact.uniqueId": "011042513730",
+        "artifact.publishedDate": "2014-02-04T04:58:16.887Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:58:49.511Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4AC95970-4142-4F58-9E49-00E6423AD320",
+        "identifier.id": "NG.K&H.B.06511-002",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1857,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2053",
+        "artifact.defaultMediaIdentifier": "046n7VD7E",
+        "artifact.ingress.production.fromYear": 1857,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74683,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Nikolaskapellet, Maria Laach [Tegning]",
+        "artifact.uniqueId": "011042513747",
+        "artifact.publishedDate": "2014-02-04T04:58:20.126Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:58:50.104Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "3BD4DCAE-0BD6-48FE-842C-26F672DE0E9C",
+        "identifier.id": "NG.K&H.B.06511-004",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1857,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2071",
+        "artifact.defaultMediaIdentifier": "026n7VDBb",
+        "artifact.ingress.production.fromYear": 1857,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "550",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 550,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 18318,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Labrofossen [Maleri]",
+        "artifact.uniqueId": "011041107539",
+        "artifact.publishedDate": "2012-05-09T08:25:08.210Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:36:34.679Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "44026BD8-5796-4E51-811A-37D2B7BD439C",
+        "identifier.id": "NG.M.00635-001",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "01719bZwi",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Foss"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 18321,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Tordenskyer over Chiemsee [Maleri]",
+        "artifact.uniqueId": "011041107542",
+        "artifact.publishedDate": "2012-05-09T08:25:09.982Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-09-07T04:04:12.171Z",
+        "identifier.owner": "NMK-B",
+        "artifact.hasPictures": true,
+        "artifact.uuid": "29D3F4FF-E184-4E52-ACEA-78ACF77284F3",
+        "identifier.id": "NG.M.00635-004",
+        "artifact.childCount": 1,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": true,
+        "artifact.defaultMediaIdentifier": "04719bZwn",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Reiseskisse"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 74674,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Klinkenberg ved Elstad [Tegning]",
+        "artifact.uniqueId": "011042513759",
+        "artifact.publishedDate": "2014-02-04T04:58:27.567Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:58:52.201Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "55BE001F-6F70-4CB6-9A6D-C01703A56D66",
+        "identifier.id": "NG.K&H.B.06511-008",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1858,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1020",
+        "artifact.defaultMediaIdentifier": "046n7VY8X",
+        "artifact.ingress.production.fromYear": 1858,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74689,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "G\u00e5rd i Gudbrandsdalen [Tegning]",
+        "artifact.uniqueId": "011042513782",
+        "artifact.publishedDate": "2014-02-04T04:58:33.353Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:58:53.067Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "E5035B2D-B668-4C7D-94E9-3B870812F8A0",
+        "identifier.id": "NG.K&H.B.06511-011",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1858,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2031x3000",
+        "artifact.defaultMediaIdentifier": "016n7VYCz",
+        "artifact.ingress.production.fromYear": 1858,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Byggeskikk"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74691,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Ljabru [Tegning]",
+        "artifact.uniqueId": "011042513801",
+        "artifact.publishedDate": "2014-02-04T04:58:36.422Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:58:54.426Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D610963D-02B7-4A1E-B52C-F30BADA9F67D",
+        "identifier.id": "NG.K&H.B.06511-012",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1858,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2082",
+        "artifact.defaultMediaIdentifier": "036n7VYHR",
+        "artifact.ingress.production.fromYear": 1858,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 85765,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Skogsinteri\u00f8r, Bolkesj\u00f8 [Tegning]",
+        "artifact.uniqueId": "011043071418",
+        "artifact.publishedDate": "2014-03-22T03:01:07.132Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:10.767Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "858DA4FB-F4F5-41A7-BDA6-47A327ED9051",
+        "identifier.id": "NG.K&H.B.06513-003VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2311",
+        "artifact.defaultMediaIdentifier": "02Tzm8EaZN",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skogsinteri\u00f8r"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 85767,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Utsikt over Larvik (detalj) [Tegning]",
+        "artifact.uniqueId": "011043071437",
+        "artifact.publishedDate": "2014-03-22T03:01:16.042Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:12.220Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "411655BC-20F0-43CB-BE62-4BA4EFD88BF2",
+        "identifier.id": "NG.K&H.B.06513-005VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2303",
+        "artifact.defaultMediaIdentifier": "04Tzm8EaiC",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 75298,
+        "artifact.ingress.title": "B\u00e5t sj\u00f8settes [Tegning]",
+        "artifact.uniqueId": "011042523223",
+        "artifact.publishedDate": "2014-02-11T09:04:14.566Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06512-011VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "07E7CDC1-C697-4DB6-8AE3-7FC1E0EA7EC0",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:06.276Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1885,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2226",
+        "artifact.defaultMediaIdentifier": "037Lkh4Lo",
+        "artifact.ingress.production.fromYear": 1885,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 85362,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Utsikt mot Toner [Tegning]",
+        "artifact.uniqueId": "011043071461",
+        "artifact.publishedDate": "2014-03-22T03:01:34.481Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:14.521Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B0EC0AC9-553C-4180-BB06-352A2051F93D",
+        "identifier.id": "NG.K&H.B.06513-009",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2327",
+        "artifact.defaultMediaIdentifier": "02Tzm8Eujd",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 85746,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Skogslandskap, Labro [Tegning]",
+        "artifact.uniqueId": "011043071463",
+        "artifact.publishedDate": "2014-03-22T03:01:36.307Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:14.743Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "29E6EC16-79AE-43BC-BC36-65DC403536C9",
+        "identifier.id": "NG.K&H.B.06513-009VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2349",
+        "artifact.defaultMediaIdentifier": "03Tzm8Eujh",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "660",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 660,
+    "docs": [
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 85794,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Holme, Christianiafjorden (detalj); holme [Tegning]",
+        "artifact.uniqueId": "011043076362",
+        "artifact.publishedDate": "2014-03-25T03:06:14.110Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:57.840Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C8939D1C-56FC-485D-849E-3776C4A0ACAA",
+        "identifier.id": "NG.K&H.B.06517-007",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1873,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1969",
+        "artifact.defaultMediaIdentifier": "01TzmChtZS",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 85788,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "B\u00e5tstudie; Kols\u00e5stoppen [Tegning]",
+        "artifact.uniqueId": "011043076352",
+        "artifact.publishedDate": "2014-03-25T03:05:54.647Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:54.882Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B0F87D35-33A6-47FD-AFAB-968BCB457048",
+        "identifier.id": "NG.K&H.B.06517-002",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1873,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1959",
+        "artifact.defaultMediaIdentifier": "02TzmChtV1",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 85941,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Snar\u00f8ysundet [Tegning]",
+        "artifact.uniqueId": "011043076363",
+        "artifact.publishedDate": "2014-03-25T03:06:15.747Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:57.840Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "48E5CFDC-90F9-4189-A6B4-A8D670F9AD40",
+        "identifier.id": "NG.K&H.B.06517-007VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1873,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1949",
+        "artifact.defaultMediaIdentifier": "03TzmChtZU",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 85796,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Christianiafjorden [Tegning]",
+        "artifact.uniqueId": "011043076366",
+        "artifact.publishedDate": "2014-03-25T03:06:22.208Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:58.295Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "603EBA94-7018-4202-BC90-FCB043E9EAB9",
+        "identifier.id": "NG.K&H.B.06517-009",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1873,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1978",
+        "artifact.defaultMediaIdentifier": "03TzmChtdn",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 85795,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Bjerkholmen [Tegning]",
+        "artifact.uniqueId": "011043076364",
+        "artifact.publishedDate": "2014-03-25T03:06:17.479Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:57.863Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "73DD94DB-E919-4271-B6A4-D0915DADC771",
+        "identifier.id": "NG.K&H.B.06517-008",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1873,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1959",
+        "artifact.defaultMediaIdentifier": "04TzmChtZV",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 86310,
+        "artifact.ingress.title": "Vorarlberg og Rhindeltaet mellom Rorschach og Lindau (detalj) [Tegning]",
+        "artifact.uniqueId": "011043094093",
+        "artifact.publishedDate": "2014-04-01T03:02:00.053Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06518-022",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "49F167EF-D30D-437C-B399-FD7B4FD4D93D",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:00:13.356Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1829",
+        "artifact.defaultMediaIdentifier": "03TzskF3t3",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 88116,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Tarbert [Tegning]",
+        "artifact.uniqueId": "011043105724",
+        "artifact.publishedDate": "2014-04-04T03:01:29.914Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:20.591Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "31245CFF-32E6-4606-BB3E-7E8B9AD660F9",
+        "identifier.id": "NG.K&H.B.06519-008",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2160",
+        "artifact.defaultMediaIdentifier": "03U16dRoYT",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 88117,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fyrt\u00e5rnet ved Lady's Rock; utstikt mot Loch Linnhe [Tegning]",
+        "artifact.uniqueId": "011043105737",
+        "artifact.publishedDate": "2014-04-04T03:01:35.136Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:21.395Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A09617A9-4AF1-4CA6-9782-7DF7BD489EBC",
+        "identifier.id": "NG.K&H.B.06519-009",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2115",
+        "artifact.defaultMediaIdentifier": "01U16dRomf",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92206,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Meersburg [Tegning]",
+        "artifact.uniqueId": "011044053178",
+        "artifact.publishedDate": "2014-05-10T03:01:04.938Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:30.014Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4A53D609-F3BA-4D4F-90EE-ACC72A458FDE",
+        "identifier.id": "NG.K&H.B.06520-002VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1913",
+        "artifact.defaultMediaIdentifier": "042s9YXmXzw1",
+        "artifact.ingress.production.fromYear": 1879,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92219,
+        "artifact.ingress.title": "Mannsfigur og b\u00e5t p\u00e5 stranden [Tegning]",
+        "artifact.uniqueId": "011044053238",
+        "artifact.publishedDate": "2014-05-10T03:01:27.985Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06520-009",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C2052C4B-D879-4EDD-AF1D-ECC95183928E",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:36.355Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1899x3000",
+        "artifact.defaultMediaIdentifier": "032s9YXmYLLZ",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      }
+    ]
+  }
+}

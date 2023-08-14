@@ -1,0 +1,308 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "760",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 760,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 26760,
+        "artifact.ingress.title": "Illustrasjon til \"Matthias Skytters Historier\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879 [Tegning]",
+        "artifact.uniqueId": "011042287169",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07937",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "173E608D-DE3D-42F1-B3DF-89826042AF29",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:05:57.428Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2000x1764",
+        "artifact.defaultMediaIdentifier": "046nASWnN",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 74080,
+        "artifact.ingress.title": "Illustrasjon til \"Matthias Skytters historier\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879 [Tegning]",
+        "artifact.uniqueId": "011042287182",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07936",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B442BEB5-7C45-4421-9040-E08FC6A24EF1",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:05:57.313Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2153x3000",
+        "artifact.defaultMediaIdentifier": "036nASWnK",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26762,
+        "artifact.ingress.title": "En tiurleik i Holleia [Tegning]",
+        "artifact.uniqueId": "011042277802",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07939",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "FA48EA2A-896C-4B78-8911-8DDCBB34E48D",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:05:58.659Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1878,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2000x1428",
+        "artifact.defaultMediaIdentifier": "026nASWrp",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26767,
+        "artifact.ingress.title": "\"S\u00e5 tung og sv\u00e6r han er!\" sa Per. \"Je trur inte je juger stort n\u00e5r je sier han veger sine tredve merker\" [Tegning]",
+        "artifact.uniqueId": "011042277832",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07944",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "52DD911E-BF8A-4B12-8C68-95DFD00C995B",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:00.049Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1714x2000",
+        "artifact.defaultMediaIdentifier": "036nASqor",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26770,
+        "artifact.ingress.title": "\"Ta hit det garnn\u00f8stet du\", sa hun [Tegning]",
+        "artifact.uniqueId": "011042287185",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07947",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "E2DA8CF0-7992-4FE6-A07D-D1D5EC46EFE7",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:00.490Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1618x2000",
+        "artifact.defaultMediaIdentifier": "026nASqxd",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26771,
+        "artifact.ingress.title": "Han lurte seg bort\u00e5t en glugge og gl\u00f8tte inn [Tegning]",
+        "artifact.uniqueId": "011042287195",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07948",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "8FBA2985-D67C-4A09-A840-DDDD6D283469",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:00.479Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1597x2000",
+        "artifact.defaultMediaIdentifier": "026nASr31",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26779,
+        "artifact.ingress.title": "Foran gikk der ei sv\u00e6r jente, som hadde ei drivende kvit mj\u00f8lkekolle i handa [Tegning]",
+        "artifact.uniqueId": "011042275458",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07956",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "EC8E2969-BF7D-4BAF-9B14-5C5147A5972E",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:03.530Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1878,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1551x2000",
+        "artifact.defaultMediaIdentifier": "026nASrLm",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26783,
+        "artifact.ingress.title": "Da han var kommen midt ut p\u00e5 myra, var det s\u00e5 fullt med folk at han ordentlig m\u00e5tte alboge seg fram [Tegning]",
+        "artifact.uniqueId": "011042287229",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07961",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D430DCBB-EAB9-4105-8B95-6FD4BDE5BA4B",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:05.113Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1878,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1718x2000",
+        "artifact.defaultMediaIdentifier": "026nATBHo",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 27110,
+        "artifact.ingress.title": "Da je kom opp-att, s\u00e5 sto 'n i stalld\u00f8ra og skrasla og lo s\u00e5 den raue topplua nikka [Tegning]",
+        "artifact.uniqueId": "011042287171",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07960",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4A6D40FC-0E9D-401F-B337-51F1F65A88EA",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:04.997Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1397x2000",
+        "artifact.defaultMediaIdentifier": "026nATBDP",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99262,
+        "artifact.ingress.title": "Kystparti med bygninger [Tegning]",
+        "artifact.uniqueId": "021045510498",
+        "artifact.publishedDate": "2014-11-07T03:03:01.709Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0225",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "65E4A325-9F6C-4148-9DC8-68EA84ECE797",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:28:36.914Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1839,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1931",
+        "artifact.defaultMediaIdentifier": "012uN1bmunrk",
+        "artifact.ingress.production.fromYear": 1839,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Kystlandskap"
+        ]
+      }
+    ]
+  }
+}

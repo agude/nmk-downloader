@@ -1,0 +1,292 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "120",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 120,
+    "docs": [
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 83364,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Frosta [Tegning]",
+        "artifact.uniqueId": "011042654916",
+        "artifact.publishedDate": "2014-03-14T03:01:33.194Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:24.824Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C1C344DE-63CC-4308-8EFE-D37A27498AF7",
+        "identifier.id": "NG.K&H.B.06514-011",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2085",
+        "artifact.defaultMediaIdentifier": "04RznLHGY3",
+        "artifact.ingress.production.fromYear": 1880,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92633,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "H\u00f8yonn, Bernau [Tegning]",
+        "artifact.uniqueId": "011044074533",
+        "artifact.publishedDate": "2014-05-24T03:01:44.307Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:28.263Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "632A7A3A-D8E9-4004-9028-5250409C8E1B",
+        "identifier.id": "NG.K&H.B.06527-020VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1755",
+        "artifact.defaultMediaIdentifier": "012s9YsMABhP",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74184,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fjellet Bleia ved Sognefjorden [Tegning]",
+        "artifact.uniqueId": "011042469555",
+        "artifact.publishedDate": "2014-01-07T04:58:35.487Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:13.130Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "FDCC2C96-F8B4-4CED-8732-F89A3CDFDB3A",
+        "identifier.id": "NG.K&H.B.03150",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1889,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1998",
+        "artifact.defaultMediaIdentifier": "026mz3FMR",
+        "artifact.ingress.production.fromYear": 1889,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26781,
+        "artifact.ingress.title": "Illustrasjon til \"H\u00f8yfjellsbilleder\" i P. Chr. Asbj\u00f8rnsen og J. Moe, Samlede eventyr, Oslo 1982 [Tegning]",
+        "artifact.uniqueId": "011042277797",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07958",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "BB6C1347-1DEC-4D21-A97A-6B5200D8B06B",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:03.850Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1878,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1581x2000",
+        "artifact.defaultMediaIdentifier": "026nASrRC",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 88118,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Loch Awe; fra Loch Linnhe [Tegning]",
+        "artifact.uniqueId": "011043105746",
+        "artifact.publishedDate": "2014-04-04T03:01:40.429Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:21.744Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "6826E9D0-4506-4EF1-BC58-023D0A215A8A",
+        "identifier.id": "NG.K&H.B.06519-010",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2155",
+        "artifact.defaultMediaIdentifier": "03U16dS8id",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92084,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Lillesand  [Tegning]",
+        "artifact.uniqueId": "011044051922",
+        "artifact.publishedDate": "2014-05-06T03:01:12.412Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:05:58.767Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "ECB07753-48B7-4C54-861F-AC92B43F5989",
+        "identifier.id": "NG.K&H.1966.0102",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1858,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1953",
+        "artifact.defaultMediaIdentifier": "012s9YXh73ux",
+        "artifact.ingress.production.fromYear": 1858,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 88276,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Morvern sett fra Tobermory [Tegning]",
+        "artifact.uniqueId": "011043105764",
+        "artifact.publishedDate": "2014-04-04T03:01:49.925Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:23Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "AF5A3931-C528-4A11-9FB1-1C5199F1D119",
+        "identifier.id": "NG.K&H.B.06519-012",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2154",
+        "artifact.defaultMediaIdentifier": "04U16dS8sY",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 88257,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Gudstjeneste i Corrie, Arran [Tegning]",
+        "artifact.uniqueId": "011043105832",
+        "artifact.publishedDate": "2014-04-04T03:02:33.860Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:28.451Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C0F2E466-2C1A-4382-8BAE-5FB0F2681920",
+        "identifier.id": "NG.K&H.B.06519-025",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2141",
+        "artifact.defaultMediaIdentifier": "02U16dSUCZ",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 88263,
+        "artifact.ingress.title": "Riss av barn [Tegning]",
+        "artifact.uniqueId": "011043105824",
+        "artifact.publishedDate": "2014-04-04T03:02:28.076Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06519-023VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F12F4BF9-1738-4EBA-BEF2-DB8DA81690A8",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:27.379Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2161",
+        "artifact.defaultMediaIdentifier": "01U16dSU8B",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92088,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kaupanger hovedg\u00e5rd [Tegning]",
+        "artifact.uniqueId": "011044051940",
+        "artifact.publishedDate": "2014-05-06T03:01:20.055Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:06:00.106Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "21DD7FBD-178B-4C33-865F-EE3DF347E9F5",
+        "identifier.id": "NG.K&H.1966.0106",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1889,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1738",
+        "artifact.defaultMediaIdentifier": "042s9YXiY1Fc",
+        "artifact.ingress.production.fromYear": 1889,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

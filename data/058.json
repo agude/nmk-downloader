@@ -1,0 +1,295 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "580",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 580,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 85943,
+        "artifact.ingress.title": "Tre kvinnefigurer, Bad Kissingen [Tegning]",
+        "artifact.uniqueId": "011043076368",
+        "artifact.publishedDate": "2014-03-25T03:06:26.575Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06517-010VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "56545E52-FB39-429F-98C7-851C1C624CF2",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:59.290Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1874,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1946",
+        "artifact.defaultMediaIdentifier": "03TzmChtdr",
+        "artifact.ingress.production.fromYear": 1874,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 85947,
+        "artifact.ingress.title": "Fire seilb\u00e5ter [Tegning]",
+        "artifact.uniqueId": "011043076378",
+        "artifact.publishedDate": "2014-03-25T03:06:45.892Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06517-019VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "E517F69B-8D7B-48E7-8EA1-E3DD38DF3AF6",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:02.522Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1998",
+        "artifact.defaultMediaIdentifier": "03TzmCiDS6",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 85798,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Meiringen [Tegning]",
+        "artifact.uniqueId": "011043076367",
+        "artifact.publishedDate": "2014-03-25T03:06:24.940Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:59.333Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C186254E-D5BF-4706-B25B-499E6C413E94",
+        "identifier.id": "NG.K&H.B.06517-010",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1874,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1964",
+        "artifact.defaultMediaIdentifier": "01TzmChtdp",
+        "artifact.ingress.production.fromYear": 1874,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86043,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Hus, Unterwasser [Tegning]",
+        "artifact.uniqueId": "011043093956",
+        "artifact.publishedDate": "2014-04-01T03:01:10.996Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:05.389Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "7EB1C3E6-4577-46A8-A2C8-2FC9D1F7F3DB",
+        "identifier.id": "NG.K&H.B.06518-006",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1864,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1872",
+        "artifact.defaultMediaIdentifier": "04TzskEiAj",
+        "artifact.ingress.production.fromYear": 1864,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86037,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Llyn Ogwen [Tegning]",
+        "artifact.uniqueId": "011043093907",
+        "artifact.publishedDate": "2014-04-01T03:00:52.211Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:02.993Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C9EEEB69-4166-4988-81A6-41C4799EF042",
+        "identifier.id": "NG.K&H.B.06518-001",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1864,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1822",
+        "artifact.defaultMediaIdentifier": "03TzskENqh",
+        "artifact.ingress.production.fromYear": 1864,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86394,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Hus utenfor \u00dcberlingen [Tegning]",
+        "artifact.uniqueId": "011043093966",
+        "artifact.publishedDate": "2014-04-01T03:01:12.737Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:05.937Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "EED3DC54-BCCD-4A01-A55F-B3F60A0B99FE",
+        "identifier.id": "NG.K&H.B.06518-006VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1846",
+        "artifact.defaultMediaIdentifier": "04TzskEiAr",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86392,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Hus utenfor \u00dcberlingen [Tegning]",
+        "artifact.uniqueId": "011043093935",
+        "artifact.publishedDate": "2014-04-01T03:01:04.207Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:04.474Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "CE2B5EFD-4883-4053-AD08-A3989AC10001",
+        "identifier.id": "NG.K&H.B.06518-004VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1881",
+        "artifact.defaultMediaIdentifier": "01TzskEPDi",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 86396,
+        "artifact.ingress.title": "Garnfiske, \u00dcberlingen [Tegning]",
+        "artifact.uniqueId": "011043094000",
+        "artifact.publishedDate": "2014-04-01T03:01:20.368Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06518-008VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "FEC9C4D7-4C47-4FD8-B024-14C7407F804D",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:07.089Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1834",
+        "artifact.defaultMediaIdentifier": "01TzskEiQ4",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 88519,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Ved Conwy Falls [Tegning]",
+        "artifact.uniqueId": "011043094217",
+        "artifact.publishedDate": "2014-04-01T03:03:06.498Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:07.341Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "340134F4-4B05-4F7E-BB46-CB058F6BEE31",
+        "identifier.id": "NG.K&H.B.06518-010",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1864,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1914x3000",
+        "artifact.defaultMediaIdentifier": "03TzskFiY7",
+        "artifact.ingress.production.fromYear": 1864,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86398,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Mindre f\u00e6ringsb\u00e5t, \u00dcberlingen [Tegning]",
+        "artifact.uniqueId": "011043094037",
+        "artifact.publishedDate": "2014-04-01T03:01:32.744Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:08.875Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "48B3D96C-BA49-4A68-9E6F-671FE755BA47",
+        "identifier.id": "NG.K&H.B.06518-014VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1925",
+        "artifact.defaultMediaIdentifier": "01TzskEidH",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt",
+          "Skip / b\u00e5t"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 1,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "990",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 990,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 74177,
+        "artifact.ingress.title": "Fra Moldefjorden [Tegning]",
+        "artifact.uniqueId": "011042469506",
+        "artifact.publishedDate": "2014-01-07T04:57:58.753Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.03112",
+        "artifact.type": "Fineart",
+        "artifact.hasChildren": false,
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "DC8E07F2-25FF-48FB-B7D3-1B863CD627AA",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:43:01.342Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1890,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.defaultPictureDimension": "3000x2160",
+        "artifact.defaultMediaIdentifier": "016mz2v2E",
+        "artifact.ingress.production.fromYear": 1890,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 32534,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Landskap ved Tarbert Castle, Skottland [Tegning]",
+        "artifact.uniqueId": "011042266764",
+        "artifact.publishedDate": "2010-12-08T23:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:34.127Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "BC3F6CD3-1D80-4B2A-89B9-756763732F71",
+        "identifier.id": "NG.K&H.B.06536",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2000x1311",
+        "artifact.defaultMediaIdentifier": "046n7VYpF",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 74207,
+        "artifact.ingress.title": "L\u00f8vtr\u00e6r ved bekken [Tegning]",
+        "artifact.uniqueId": "011042469620",
+        "artifact.publishedDate": "2014-01-07T04:59:08.661Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.A.K.1326",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "92574333-00AF-48AD-A558-F1064CBD0385",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:34:15.720Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1894,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2284",
+        "artifact.defaultMediaIdentifier": "016fYS3PM",
+        "artifact.ingress.production.fromYear": 1838,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 16817,
+        "artifact.ingress.title": "T\u00f8mmerfl\u00f8tere [Grafikk]",
+        "artifact.uniqueId": "021046619685",
+        "artifact.publishedDate": "2016-10-24T06:01:28.651Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.00988",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5D63E229-8426-41FA-A886-60C3E2E96B08",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2017-03-07T12:05:36.353Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1858,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "032yhzALaoRN",
+        "artifact.ingress.production.fromYear": 1858,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Arbeidsliv"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 32544,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Folgefonna sett fra Reiseter [Tegning]",
+        "artifact.uniqueId": "011042266772",
+        "artifact.publishedDate": "2010-12-08T23:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:11.591Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "53BBEBB2-173B-4589-A2B2-DAD64E58F24A",
+        "identifier.id": "NG.K&H.B.03144",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2000x1065",
+        "artifact.defaultMediaIdentifier": "026mz2vZB",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 18319,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fjellandskap i Wales [Maleri]",
+        "artifact.uniqueId": "011041107540",
+        "artifact.publishedDate": "2012-05-09T08:25:08.682Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:36:35.747Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "59DA9B60-7430-4AA5-AF7E-638B2753BCE7",
+        "identifier.id": "NG.M.00635-002",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1864,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "02719bZwj",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell",
+          "Dyr",
+          "Byggeskikk"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92608,
+        "artifact.ingress.title": "Mann og kvinne med tomannssag; kvinne med kar [Tegning]",
+        "artifact.uniqueId": "011044074476",
+        "artifact.publishedDate": "2014-05-24T03:01:05.349Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06527-005VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D16060B4-83D8-4636-9369-C511563F77D9",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:22.186Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1737",
+        "artifact.defaultMediaIdentifier": "012s9YsM9rDM",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92528,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Farsund [Tegning]",
+        "artifact.uniqueId": "011044059092",
+        "artifact.publishedDate": "2014-05-20T03:01:32.770Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:20.756Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4C3774A6-FA41-44C2-BD9A-CC89ACC9C654",
+        "identifier.id": "NG.K&H.B.06523-005",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1739",
+        "artifact.defaultMediaIdentifier": "042s9YeD9ZNM",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 16611,
+        "artifact.ingress.title": "Mann i folkedrakt [Tegning]",
+        "artifact.uniqueId": "011042351340",
+        "artifact.publishedDate": "2013-01-22T06:05:48.883Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0288",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "E2A81AAD-7C34-453F-872F-6CC27AC0D511",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T05:29:07.722Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "037187aHE",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 99228,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Lustrafjorden sett fra Fortunsdalen; Hurrungene [Tegning]",
+        "artifact.uniqueId": "021045510674",
+        "artifact.publishedDate": "2014-11-07T03:05:15.644Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:52.281Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "05E8469E-E6F9-4CDA-86E7-9C444F431D39",
+        "identifier.id": "NG.K&H.1999.0250VERSO",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2249",
+        "artifact.defaultMediaIdentifier": "012uN1bmvo9b",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "230",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 230,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 93331,
+        "artifact.ingress.title": "Riss av figurer [Tegning]",
+        "artifact.uniqueId": "011044184625",
+        "artifact.publishedDate": "2014-06-27T03:02:21.842Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06524-022",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0B19BB1E-B65A-4E6E-BB21-7F8106A40319",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:42.456Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1882,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1908",
+        "artifact.defaultMediaIdentifier": "022sA35A95nZ",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 93551,
+        "artifact.ingress.title": "Landskap med elv og bro [Tegning]",
+        "artifact.uniqueId": "011044184822",
+        "artifact.publishedDate": "2014-06-27T03:05:37.197Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06525-042",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0554F6DB-6047-4F2F-A095-784B784D59E2",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:01.185Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2254",
+        "artifact.defaultMediaIdentifier": "042sA35BaihN",
+        "artifact.ingress.production.fromYear": 1854,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 93328,
+        "artifact.ingress.title": "Figurstudier, R\u00fcgen [Tegning]",
+        "artifact.uniqueId": "011044184617",
+        "artifact.publishedDate": "2014-06-27T03:02:15.726Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06524-019VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "43FF8FF0-A787-4EED-AB8F-71B947B8793A",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:41.018Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1882,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1910",
+        "artifact.defaultMediaIdentifier": "032sA35A95iB",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93428,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Jel\u00f8ya [Tegning]",
+        "artifact.uniqueId": "011044184651",
+        "artifact.publishedDate": "2014-06-27T03:02:47.466Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:44.141Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2BD2ADB3-3A8E-4D5C-AE2E-A8E9030F7D8E",
+        "identifier.id": "NG.K&H.B.06525-003VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1104",
+        "artifact.defaultMediaIdentifier": "032sA35A961u",
+        "artifact.ingress.production.fromYear": 1854,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93324,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fiskeb\u00e5t p\u00e5 stranden, G\u00f6hren [Tegning]",
+        "artifact.uniqueId": "011044184607",
+        "artifact.publishedDate": "2014-06-27T03:02:07.507Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:39.547Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0D8A80E9-7C96-4DF7-98F3-2511968732BA",
+        "identifier.id": "NG.K&H.B.06524-016",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1882,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1921",
+        "artifact.defaultMediaIdentifier": "022sA35A95dk",
+        "artifact.ingress.production.fromYear": 1882,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93419,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Utsikt mot Bandak fra Nuke [Tegning]",
+        "artifact.uniqueId": "011044184747",
+        "artifact.publishedDate": "2014-06-27T03:04:18.723Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:53.799Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0C9EC2AB-B3DA-4E34-95A2-3AED785A1D23",
+        "identifier.id": "NG.K&H.B.06525-025",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1096",
+        "artifact.defaultMediaIdentifier": "012sA35BaP4j",
+        "artifact.ingress.production.fromYear": 1854,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 93550,
+        "artifact.ingress.title": "Havn [Tegning]",
+        "artifact.uniqueId": "011044184819",
+        "artifact.publishedDate": "2014-06-27T03:05:34.975Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06525-041",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "559D3B38-DF7D-448E-9C45-C93C6200465E",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:00.455Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2273",
+        "artifact.defaultMediaIdentifier": "012sA35Baid5",
+        "artifact.ingress.production.fromYear": 1854,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93435,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Skien [Tegning]",
+        "artifact.uniqueId": "011044184741",
+        "artifact.publishedDate": "2014-06-27T03:04:12.211Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:53.160Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "9C0A0602-0815-4E0E-AAF8-0A0926667167",
+        "identifier.id": "NG.K&H.B.06525-024",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1096",
+        "artifact.defaultMediaIdentifier": "022sA35BaNzK",
+        "artifact.ingress.production.fromYear": 1854,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 93531,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra H\u00f8vik [Tegning]",
+        "artifact.uniqueId": "011044184735",
+        "artifact.publishedDate": "2014-06-27T03:04:06.427Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:52.527Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "620355FA-1F7A-4460-A54A-38C1FBF0BB2F",
+        "identifier.id": "NG.K&H.B.06525-022",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1854,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2235",
+        "artifact.defaultMediaIdentifier": "022sA35BaNzD",
+        "artifact.ingress.production.fromYear": 1854,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93296,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Lobbe ved G\u00f6hren, R\u00fcgen [Tegning]",
+        "artifact.uniqueId": "011044184537",
+        "artifact.publishedDate": "2014-06-27T03:01:13.176Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:33.484Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "7A325E29-5085-4538-9BD7-51828A53CFFF",
+        "identifier.id": "NG.K&H.B.06524-004",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1881,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1937",
+        "artifact.defaultMediaIdentifier": "032sA35A8kJe",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

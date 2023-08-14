@@ -1,0 +1,291 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "590",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 590,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86050,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Klippe, Dolwyddelan Valley [Tegning]",
+        "artifact.uniqueId": "011043094022",
+        "artifact.publishedDate": "2014-04-01T03:01:29.363Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:08.683Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "421941F8-9886-4A1A-9A21-6F4212FF3F3A",
+        "identifier.id": "NG.K&H.B.06518-013",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1864,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1852",
+        "artifact.defaultMediaIdentifier": "01TzskEiYx",
+        "artifact.ingress.production.fromYear": 1864,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 86304,
+        "artifact.ingress.title": "B\u00e5tstudier [Tegning]",
+        "artifact.uniqueId": "011043094046",
+        "artifact.publishedDate": "2014-04-01T03:01:37.867Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06518-016",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "845AC83E-1D69-445A-AE62-357AD0426995",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:10.082Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1957",
+        "artifact.defaultMediaIdentifier": "03TzskEihi",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 86407,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kysten mellom Lindau og Bregenz [Tegning]",
+        "artifact.uniqueId": "011043094103",
+        "artifact.publishedDate": "2014-04-01T03:02:05.347Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:14.622Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "6DD3FDB3-4D43-4643-860D-866D7AFECEEC",
+        "identifier.id": "NG.K&H.B.06518-023VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1863",
+        "artifact.defaultMediaIdentifier": "03TzskF42o",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 88110,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Glen Sannox, Arran [Tegning]",
+        "artifact.uniqueId": "011043105682",
+        "artifact.publishedDate": "2014-04-04T03:01:00.673Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:17.123Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "E8758C2C-6726-44F4-80CA-0981735C5DB5",
+        "identifier.id": "NG.K&H.B.06519-002",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2159",
+        "artifact.defaultMediaIdentifier": "02U16dRUN6",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 86312,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Bodensee [Tegning]",
+        "artifact.uniqueId": "011043094110",
+        "artifact.publishedDate": "2014-04-01T03:02:07.471Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:15.188Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "7621B3D3-5431-47C0-89A3-8E71A7354C6D",
+        "identifier.id": "NG.K&H.B.06518-024",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1882",
+        "artifact.defaultMediaIdentifier": "01TzskF47A",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 88540,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Arran sett fra dampskipet; Arran sett fra Kyles of Bute [Tegning]",
+        "artifact.uniqueId": "011043105700",
+        "artifact.publishedDate": "2014-04-04T03:01:17.439Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:18.866Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C01F45B7-5754-4091-B1B0-F8F4856C4899",
+        "identifier.id": "NG.K&H.B.06519-005VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2141",
+        "artifact.defaultMediaIdentifier": "04U16dRoKC",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 88265,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kullen [Tegning]",
+        "artifact.uniqueId": "011043105820",
+        "artifact.publishedDate": "2014-04-04T03:02:24.366Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:27.199Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A419FA2C-3DED-4CD7-ABBE-5EB6C8BC3B82",
+        "identifier.id": "NG.K&H.B.06519-020",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2142",
+        "artifact.defaultMediaIdentifier": "04U16dS9L4",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 88115,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fiskeb\u00e5t ved land, Tarbert [Tegning]",
+        "artifact.uniqueId": "011043105709",
+        "artifact.publishedDate": "2014-04-04T03:01:24.123Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:20.087Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "AB21817A-9929-4F48-BA77-C965867F4AE7",
+        "identifier.id": "NG.K&H.B.06519-007",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2166",
+        "artifact.defaultMediaIdentifier": "03U16dRoPd",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 88537,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Innis Chonnel Castle, Loch Awe [Tegning]",
+        "artifact.uniqueId": "011043105730",
+        "artifact.publishedDate": "2014-04-04T03:01:32.494Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:21.251Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "24E393A1-C42B-4E34-8B8C-0CB7C6163D72",
+        "identifier.id": "NG.K&H.B.06519-008VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2156",
+        "artifact.defaultMediaIdentifier": "01U16dRoct",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 88535,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Duart Castle [Tegning]",
+        "artifact.uniqueId": "011043105749",
+        "artifact.publishedDate": "2014-04-04T03:01:42.400Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:21.972Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "8923A0C9-052D-4EBF-B87C-8285C07935DA",
+        "identifier.id": "NG.K&H.B.06519-010VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2151",
+        "artifact.defaultMediaIdentifier": "03U16dS8ij",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 1,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "980",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 980,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 140811,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Foss i Hallingdal [Maleri]",
+        "artifact.uniqueId": "011041108352",
+        "artifact.publishedDate": "2012-05-09T08:35:50.928Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-08-18T04:16:15.630Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "61C3E254-0C01-46F2-8222-412B22858B01",
+        "identifier.id": "NG.M.02024",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1859,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3233x4000",
+        "artifact.defaultMediaIdentifier": "032ykz1yGHV7",
+        "artifact.ingress.production.fromYear": 1859,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Foss",
+          "Fjell",
+          "Arbeidsliv"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 33945,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "H\u00f8yfjell [Maleri]",
+        "artifact.uniqueId": "011041109139",
+        "artifact.publishedDate": "2012-05-09T18:10:36.799Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T15:15:19.838Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "6BE72DE9-D51B-4127-AAA3-3BCFB92D9AAD",
+        "identifier.id": "NG.M.04180",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1846,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2000x1055",
+        "artifact.defaultMediaIdentifier": "0371FUVMb",
+        "artifact.ingress.production.fromYear": 1846,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26775,
+        "artifact.ingress.title": "Illustrasjon til \"Skarvene fra Udr\u00f8st\", P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879 [Tegning]",
+        "artifact.uniqueId": "011042275483",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07952",
+        "artifact.type": "Fineart",
+        "artifact.hasChildren": false,
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "DA7BD308-E74E-4803-9B92-9E9E535C4628",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:02.107Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.defaultPictureDimension": "2000x1046",
+        "artifact.defaultMediaIdentifier": "036nASrBu",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92973,
+        "artifact.ingress.title": "Dampskipet \"Olaf Trygvason\" [Tegning]",
+        "artifact.uniqueId": "011044097213",
+        "artifact.publishedDate": "2014-06-05T03:02:53.054Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06526-019VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F09DAC70-23E2-4D55-8689-E9E03B7370E0",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:02:12.360Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1885",
+        "artifact.defaultMediaIdentifier": "022sA2xh1rtc",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74945,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Skip i Bj\u00f8rvika [Tegning]",
+        "artifact.uniqueId": "011042513879",
+        "artifact.publishedDate": "2014-02-04T04:59:08.421Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:58:43.851Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D92B5378-9A6A-47CE-8BBF-7DF9E5A8EBFA",
+        "identifier.id": "NG.K&H.B.06510-003VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1872,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2102",
+        "artifact.defaultMediaIdentifier": "046n7Ushh",
+        "artifact.ingress.production.fromYear": 1872,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74182,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Kj\u00f8pmannskj\u00e6r, Vrengen [Tegning]",
+        "artifact.uniqueId": "011042469530",
+        "artifact.publishedDate": "2014-01-07T04:58:22.378Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:06.837Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "DFBF3E67-5322-45A3-8D15-B67C48C404E5",
+        "identifier.id": "NG.K&H.B.03128",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2222",
+        "artifact.defaultMediaIdentifier": "036mz2vKv",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 88528,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Corrie, Arran [Tegning]",
+        "artifact.uniqueId": "011043105690",
+        "artifact.publishedDate": "2014-04-04T03:01:07.698Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:18.183Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F0F3784C-0915-47AE-9938-69B6F901B28F",
+        "identifier.id": "NG.K&H.B.06519-003VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2118",
+        "artifact.defaultMediaIdentifier": "02U16dRoAL",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 32077,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Brygge i Travem\u00fcnde [Tegning]",
+        "artifact.uniqueId": "011042330271",
+        "artifact.publishedDate": "2010-12-08T23:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:31.887Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C1EFED81-3557-402B-957F-876167EBE477",
+        "identifier.id": "NG.K&H.B.06529",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1887,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1529x2000",
+        "artifact.defaultMediaIdentifier": "036n7VYfR",
+        "artifact.ingress.production.fromYear": 1887,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 20213,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Oban Bay [Maleri]",
+        "artifact.uniqueId": "011041108775",
+        "artifact.publishedDate": "2012-05-09T18:07:07.473Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2018-12-12T05:04:44.031Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "FE2A36BC-3321-4B0D-9D3F-7C2A406C5DA9",
+        "identifier.id": "NG.M.03174",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1889,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0171E1WuE",
+        "artifact.ingress.production.fromYear": 1889,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 32545,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Hegau ved Zellersee [Tegning]",
+        "artifact.uniqueId": "01104803576",
+        "artifact.publishedDate": "2010-12-08T23:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:34:20.472Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "8E8E6EEC-7313-47C5-A752-485FB1DE9E63",
+        "identifier.id": "NG.K&H.B.00142",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1878,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2000x930",
+        "artifact.defaultMediaIdentifier": "026fbShod",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

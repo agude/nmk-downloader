@@ -1,0 +1,294 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "1000",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 1000,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 99250,
+        "artifact.ingress.title": "Guttebarn med leket\u00f8y [Tegning]",
+        "artifact.uniqueId": "021045510718",
+        "artifact.publishedDate": "2014-11-07T03:06:44.223Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0267",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "3C0C2DF5-8A2F-477D-8D33-40F69384EE76",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:29:01.454Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1857,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2045x3000",
+        "artifact.defaultMediaIdentifier": "012uN1bmw8i1",
+        "artifact.ingress.production.fromYear": 1857,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 86041,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Ottenh\u00f6fen [Tegning]",
+        "artifact.uniqueId": "011043093930",
+        "artifact.publishedDate": "2014-04-01T03:01:01.969Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:04.346Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "CBD1C3AF-5D93-43B1-8F8F-9CF861F211C8",
+        "identifier.id": "NG.K&H.B.06518-004",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1864,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1862",
+        "artifact.defaultMediaIdentifier": "03TzskEP9L",
+        "artifact.ingress.production.fromYear": 1864,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 18320,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "En sognejakt [Maleri]",
+        "artifact.uniqueId": "011041107541",
+        "artifact.publishedDate": "2012-05-09T08:25:09.319Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-09-07T04:04:31.620Z",
+        "identifier.owner": "NMK-B",
+        "artifact.hasPictures": true,
+        "artifact.uuid": "78F67CAD-A77B-4A18-BB2C-FC44141BC6D2",
+        "identifier.id": "NG.M.00635-003",
+        "artifact.childCount": 1,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": true,
+        "artifact.defaultMediaIdentifier": "03719bZwm",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjord",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99218,
+        "artifact.ingress.title": "Kl\u00f8vhest med barn p\u00e5 ryggen [Tegning]",
+        "artifact.uniqueId": "021045510689",
+        "artifact.publishedDate": "2014-11-07T03:05:38.115Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0253",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "DDA5467A-C7C1-471D-A2F7-85A09F7F4EB6",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:28:54.331Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2236",
+        "artifact.defaultMediaIdentifier": "012uN1bmvoNo",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99253,
+        "artifact.ingress.title": "To kvinnefigurer [Tegning]",
+        "artifact.uniqueId": "021045510723",
+        "artifact.publishedDate": "2014-11-07T03:06:53.658Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0269",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F8F4EEAE-C150-417C-A678-9D8A96BE5F40",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:29:01.969Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1857,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2070",
+        "artifact.defaultMediaIdentifier": "012uN1bmw8nU",
+        "artifact.ingress.production.fromYear": 1857,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99238,
+        "artifact.ingress.title": "Figurstudier, \u00c5l i Hallingdal [Tegning]",
+        "artifact.uniqueId": "021045510630",
+        "artifact.publishedDate": "2014-11-07T03:04:39.335Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0246VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C1BF4905-D45C-4E92-958E-DB773B672717",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:28:48.902Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2290",
+        "artifact.defaultMediaIdentifier": "012uN1bmvTtz",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 16608,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Landskap med klippe og tr\u00e6r, Sogndalsfj\u00f8ra [Tegning]",
+        "artifact.uniqueId": "011042352992",
+        "artifact.publishedDate": "2013-01-22T06:05:44.936Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:29:06.702Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A765DA1B-AD9C-4BAB-8F50-4FF57545441A",
+        "identifier.id": "NG.K&H.1999.0285",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "047187aCw",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Landskap"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 16596,
+        "artifact.ingress.title": "Bergrabb [Tegning]",
+        "artifact.uniqueId": "011042351105",
+        "artifact.publishedDate": "2013-01-22T06:05:28.304Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0273",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5A0F46E9-D11C-4C9F-A089-639AC78F10AF",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T05:29:03.381Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "047187a8R",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26758,
+        "artifact.ingress.title": "\"N\u00e5 g\u00e5r jeg p\u00e5 kjerkegarden og graver den ned. Tredje torsdagen fra i dag kommer jeg igjen -\" [Tegning]",
+        "artifact.uniqueId": "011042277868",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07935",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "E567822B-7FD6-4F4E-A328-447158E8C2C6",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:05:57.293Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1441x2000",
+        "artifact.defaultMediaIdentifier": "026nASWhz",
+        "artifact.ingress.production.fromYear": 1879,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 120001,
+        "artifact.ingress.title": "Jegere p\u00e5 hjemvei [Tegning]",
+        "artifact.uniqueId": "021046493469",
+        "artifact.publishedDate": "2016-06-30T04:02:20.657Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NMK.2015.0252",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "DF981763-8252-4936-8B54-BA54D9ADD293",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:16:51.029Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3151x4000",
+        "artifact.defaultMediaIdentifier": "032waVoGbstW",
+        "artifact.ingress.production.fromYear": 1879,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning",
+          "Folklore"
+        ]
+      }
+    ]
+  }
+}

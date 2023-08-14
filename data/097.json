@@ -1,0 +1,306 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "970",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 970,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 18343,
+        "artifact.ingress.title": "Skogsinteri\u00f8r [Maleri]",
+        "artifact.uniqueId": "011041107564",
+        "artifact.publishedDate": "2012-05-09T08:25:31.161Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.M.00636-017",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "83941288-8AE7-4B07-8A7A-30938D24F7E9",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2017-03-07T14:37:02.825Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1903,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0471B2Xax",
+        "artifact.ingress.production.fromYear": 1838,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Flora",
+          "Skoglandskap"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 18327,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fiskerbarn [Maleri]",
+        "artifact.uniqueId": "011041107548",
+        "artifact.publishedDate": "2012-05-09T08:25:14.699Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-09-07T04:04:10.821Z",
+        "identifier.owner": "NMK-B",
+        "artifact.hasPictures": true,
+        "artifact.uuid": "11F01935-4F36-43D6-AE8B-88EE5DBACEC8",
+        "identifier.id": "NG.M.00635-010",
+        "artifact.childCount": 1,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": true,
+        "artifact.defaultMediaIdentifier": "0171B2XHJ",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt",
+          "Arbeidsliv"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 52762,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Tysk bondeg\u00e5rd [Maleri]",
+        "artifact.uniqueId": "011041107559",
+        "artifact.publishedDate": "2012-05-09T08:25:26.898Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:36:57.813Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "DA6BDEAB-4042-4D5D-9A4D-22AD4F7C010A",
+        "identifier.id": "NG.M.00636-012",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1859,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1973",
+        "artifact.defaultMediaIdentifier": "0171B2XWZ",
+        "artifact.ingress.production.fromYear": 1859,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Byggeskikk",
+          "Arbeidsliv"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 20791,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Sommerlandskap [Maleri]",
+        "artifact.uniqueId": "011041109136",
+        "artifact.publishedDate": "2012-05-09T18:10:34.994Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T15:15:16.385Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C9096A6E-6584-43E1-8087-C8C106CA54D7",
+        "identifier.id": "NG.M.04177",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1848,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0271FUVHG",
+        "artifact.ingress.production.fromYear": 1848,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 52118,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kystlandskap fra R\u00fcgen [Maleri]",
+        "artifact.uniqueId": "011041108707",
+        "artifact.publishedDate": "2012-05-09T18:06:29.212Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T15:06:10.325Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "13B3648B-705F-478E-8015-49F892402DE9",
+        "identifier.id": "NG.M.02974",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1882,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1507",
+        "artifact.defaultMediaIdentifier": "0471E1BGS",
+        "artifact.ingress.production.fromYear": 1882,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 17779,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Bro i Nord-Wales [Maleri]",
+        "artifact.uniqueId": "011041107154",
+        "artifact.publishedDate": "2012-05-09T08:19:51.141Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-09-07T04:04:30.237Z",
+        "identifier.owner": "NMK-B",
+        "artifact.hasPictures": true,
+        "artifact.uuid": "2B98C405-E056-4054-A8F8-4E18E97FC2A9",
+        "identifier.id": "NG.M.00279",
+        "artifact.childCount": 1,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.production.toYear": 1863,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": true,
+        "artifact.defaultMediaIdentifier": "01719YtAf",
+        "artifact.ingress.production.fromYear": 1863,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bro",
+          "Elv"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 52709,
+        "artifact.ingress.title": "Regnstemning [Maleri]",
+        "artifact.uniqueId": "011041107151",
+        "artifact.publishedDate": "2012-05-09T08:19:49.203Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.M.00276",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F2D024F0-9D11-425A-B669-94FCF1B516BE",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2017-03-07T14:26:36.897Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1857,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2000",
+        "artifact.defaultMediaIdentifier": "02719Yt6L",
+        "artifact.ingress.production.fromYear": 1857,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Folklore",
+          "Byggeskikk"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 18393,
+        "artifact.ingress.title": "Kystlandskap [Maleri]",
+        "artifact.uniqueId": "011041107601",
+        "artifact.publishedDate": "2012-05-09T08:26:02.180Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.M.00699",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "CEF48381-C328-4099-8BD5-FD3376C902F5",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2017-03-07T14:37:54.482Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1872,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0271B2rmG",
+        "artifact.ingress.production.fromYear": 1872,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Kystlandskap",
+          "Fjord",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.pictureCount": 3,
+        "artifact.defaultPictureIndex": 153546,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "To losb\u00e5ter [Maleri]",
+        "artifact.uniqueId": "011041107560",
+        "artifact.publishedDate": "2012-05-09T08:25:27.395Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-02-05T05:12:59.909Z",
+        "identifier.owner": "NMK-B",
+        "artifact.hasPictures": true,
+        "artifact.uuid": "4C071E52-D978-4AA4-8C26-E4AC589F7615",
+        "identifier.id": "NG.M.00636-013",
+        "artifact.childCount": 1,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.production.toYear": 1875,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": true,
+        "artifact.defaultPictureDimension": "4000x2404",
+        "artifact.defaultMediaIdentifier": "0231wTu7qBuf",
+        "artifact.ingress.production.fromYear": 1875,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Kystlandskap",
+          "Maritimt",
+          "Arbeidsliv",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 52729,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Ljan [Maleri]",
+        "artifact.uniqueId": "011041107558",
+        "artifact.publishedDate": "2012-05-09T08:25:25.402Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:36:56.472Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "82B05337-3230-441A-A95F-CB94BD7C4CCE",
+        "identifier.id": "NG.M.00636-011",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1858,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1981",
+        "artifact.defaultMediaIdentifier": "0171B2XWX",
+        "artifact.ingress.production.fromYear": 1858,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skoglandskap"
+        ]
+      }
+    ]
+  }
+}

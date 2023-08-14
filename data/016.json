@@ -1,0 +1,291 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "160",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 160,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 92232,
+        "artifact.ingress.title": "To fugler [Tegning]",
+        "artifact.uniqueId": "011044053280",
+        "artifact.publishedDate": "2014-05-10T03:01:55.543Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06520-024",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "081C4955-22F4-4682-A133-1DA66E7754A7",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:41.508Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1880,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1899",
+        "artifact.defaultMediaIdentifier": "022s9YXmYffn",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fugl"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92604,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Utsikt mot Hochstaufen fra Frauenchiemsee [Tegning]",
+        "artifact.uniqueId": "011044074457",
+        "artifact.publishedDate": "2014-05-24T03:00:58.367Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:02:21.120Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "E2C25931-A526-4AC7-B7AA-53E15BE58984",
+        "identifier.id": "NG.K&H.B.06527-003VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1867,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1750",
+        "artifact.defaultMediaIdentifier": "022s9YsM9qzB",
+        "artifact.ingress.production.fromYear": 1867,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 88527,
+        "artifact.ingress.title": "Studier av sauer [Tegning]",
+        "artifact.uniqueId": "011043105686",
+        "artifact.publishedDate": "2014-04-04T03:01:02.882Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06519-002VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "8898C7C5-BC4C-4265-9CC1-94F58D5FB3AE",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:17.121Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2181",
+        "artifact.defaultMediaIdentifier": "01U16dRUN9",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 88269,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Calton Hill, Edinburgh [Tegning]",
+        "artifact.uniqueId": "011043105814",
+        "artifact.publishedDate": "2014-04-04T03:02:18.018Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:25.978Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "739FD1D6-F1A8-4630-8BC8-2974B2F2E5CA",
+        "identifier.id": "NG.K&H.B.06519-018VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2159",
+        "artifact.defaultMediaIdentifier": "01U16dS9Fe",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 88526,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Rothesay, Isle of Bute; Corrie, Isle of Arran [Tegning]",
+        "artifact.uniqueId": "011043105677",
+        "artifact.publishedDate": "2014-04-04T03:00:58.542Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:17.056Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "6C7490EC-2BDC-48E3-AD3A-7847B47504DD",
+        "identifier.id": "NG.K&H.B.06519-001VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2157",
+        "artifact.defaultMediaIdentifier": "04U16dRUN3",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 88533,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kysten av Mull; Staffa [Tegning]",
+        "artifact.uniqueId": "011043105768",
+        "artifact.publishedDate": "2014-04-04T03:01:52.629Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:23.089Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D625EC05-567C-4C25-A57D-A5B043D2886A",
+        "identifier.id": "NG.K&H.B.06519-012VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2151",
+        "artifact.defaultMediaIdentifier": "04U16dS8wt",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 74179,
+        "artifact.ingress.title": "Landskap [Tegning]",
+        "artifact.uniqueId": "011042469514",
+        "artifact.publishedDate": "2014-01-07T04:58:05.624Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.03115",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F7216BCC-91C9-40A8-898B-769F04EBE151",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:43:03.139Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1903,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2059",
+        "artifact.defaultMediaIdentifier": "046mz2v6f",
+        "artifact.ingress.production.fromYear": 1840,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 88534,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Tobermory; nordvestre kyst av Isle of Mull [Tegning]",
+        "artifact.uniqueId": "011043105759",
+        "artifact.publishedDate": "2014-04-04T03:01:47.268Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:00:22.831Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "76CF6A6D-9914-4E52-B387-7C3258BB9BF4",
+        "identifier.id": "NG.K&H.B.06519-011VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2153",
+        "artifact.defaultMediaIdentifier": "04U16dS8o8",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 88259,
+        "artifact.ingress.title": "Hustak [Tegning]",
+        "artifact.uniqueId": "011043105827",
+        "artifact.publishedDate": "2014-04-04T03:02:29.995Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06519-024",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F42D7D6A-25F5-4734-8C24-6160585E7AC2",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:00:28.188Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2144",
+        "artifact.defaultMediaIdentifier": "04U16dSU8E",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74732,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Landskap med elv [Tegning]",
+        "artifact.uniqueId": "011043112764",
+        "artifact.publishedDate": "2014-04-05T03:01:04.505Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:08:24.259Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A1AF5990-4AA6-417A-9613-3906DE76F195",
+        "identifier.id": "NG.K&H.1984.0079",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1863,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2317x3000",
+        "artifact.defaultMediaIdentifier": "03U16ooifd",
+        "artifact.ingress.production.fromYear": 1863,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

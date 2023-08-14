@@ -1,0 +1,292 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "700",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 700,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 93187,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "T\u00f8nsberg [Tegning]",
+        "artifact.uniqueId": "011044110520",
+        "artifact.publishedDate": "2014-06-13T03:01:51.909Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:16.624Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "1E416E6A-8145-4B39-99E9-222D4001A7E2",
+        "identifier.id": "NG.K&H.B.06522-017",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1872,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1939",
+        "artifact.defaultMediaIdentifier": "012sA2xk1XPn",
+        "artifact.ingress.production.fromYear": 1872,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 92538,
+        "artifact.ingress.title": "Landskap med grind [Tegning]",
+        "artifact.uniqueId": "011044059131",
+        "artifact.publishedDate": "2014-05-20T03:01:45.809Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06523-010",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "DC7F3740-C983-4E73-8D54-861CC8C3B203",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T06:01:23.695Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1774",
+        "artifact.defaultMediaIdentifier": "032s9YeD9tEw",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92535,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Knyggen sett fra Tollbodbryggen i Farsund [Tegning]",
+        "artifact.uniqueId": "011044059114",
+        "artifact.publishedDate": "2014-05-20T03:01:40.939Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:22.411Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "1D310A6B-A499-4C89-8E14-89184A223DB5",
+        "identifier.id": "NG.K&H.B.06523-008VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1742",
+        "artifact.defaultMediaIdentifier": "012s9YeD9tAa",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 93190,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Ildjernet; dampskip [Tegning]",
+        "artifact.uniqueId": "011044110528",
+        "artifact.publishedDate": "2014-06-13T03:01:58.924Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:17.021Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "61309831-4246-410D-AD1A-C1A41DDE5354",
+        "identifier.id": "NG.K&H.B.06522-018VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1872,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1900",
+        "artifact.defaultMediaIdentifier": "042sA2xk1XUD",
+        "artifact.ingress.production.fromYear": 1872,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92549,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra kysten utenfor Mandal [Tegning]",
+        "artifact.uniqueId": "011044059179",
+        "artifact.publishedDate": "2014-05-20T03:02:00.466Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:27.254Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "93C62969-4795-41FC-8581-7254A5DB73E9",
+        "identifier.id": "NG.K&H.B.06523-016",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1782",
+        "artifact.defaultMediaIdentifier": "022s9YeD9tPp",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92568,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Store- og lille Torungen fyr [Tegning]",
+        "artifact.uniqueId": "011044059388",
+        "artifact.publishedDate": "2014-05-20T03:04:29.938Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:27.138Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D386C74C-3003-4B88-A16F-B2F4A4CBD990",
+        "identifier.id": "NG.K&H.B.06523-015VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1739",
+        "artifact.defaultMediaIdentifier": "042s9YeEarin",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92559,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fiskelauss\u00e6tra p\u00e5 Toten [Tegning]",
+        "artifact.uniqueId": "011044059219",
+        "artifact.publishedDate": "2014-05-20T03:02:12.130Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:30.081Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "EFEB9746-458F-45C7-8BB8-6813A59BC5C6",
+        "identifier.id": "NG.K&H.B.06523-020VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1756",
+        "artifact.defaultMediaIdentifier": "022s9YeD9tYc",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92539,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Farsund [Tegning]",
+        "artifact.uniqueId": "011044059137",
+        "artifact.publishedDate": "2014-05-20T03:01:47.411Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:24.274Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B6855D61-0BCE-472B-BCDD-53D493C27830",
+        "identifier.id": "NG.K&H.B.06523-010VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1735",
+        "artifact.defaultMediaIdentifier": "022s9YeD9tEz",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 92561,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Toten [Tegning]",
+        "artifact.uniqueId": "011044059230",
+        "artifact.publishedDate": "2014-05-20T03:02:15.735Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:30.267Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "FEC03FA5-DFAB-4739-A17C-420EE1B6799E",
+        "identifier.id": "NG.K&H.B.06523-021VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1745",
+        "artifact.defaultMediaIdentifier": "042s9YeD9tcw",
+        "artifact.ingress.production.fromYear": 1869,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 93312,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fiskeb\u00e5t p\u00e5 stranden, G\u00f6hren [Tegning]",
+        "artifact.uniqueId": "011044184578",
+        "artifact.publishedDate": "2014-06-27T03:01:42.142Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T06:01:36.442Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "9CD6CA1E-30BA-4D8B-9492-2E83B5ED3121",
+        "identifier.id": "NG.K&H.B.06524-010",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1881,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1917",
+        "artifact.defaultMediaIdentifier": "032sA35A8kgj",
+        "artifact.ingress.production.fromYear": 1881,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t",
+          "Maritimt"
+        ]
+      }
+    ]
+  }
+}

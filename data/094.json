@@ -1,0 +1,298 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "940",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 940,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 19497,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Hallingdal [Maleri]",
+        "artifact.uniqueId": "011041108334",
+        "artifact.publishedDate": "2012-05-09T08:35:33.580Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:56:30.479Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0B411645-759F-47D7-96E9-5815B1FAF5AA",
+        "identifier.id": "NG.M.01980",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1846,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0371CYCf8",
+        "artifact.ingress.production.fromYear": 1846,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell",
+          "Elv"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 19496,
+        "artifact.ingress.title": "H\u00f8yfjell i uv\u00e6r [Maleri]",
+        "artifact.uniqueId": "011041108333",
+        "artifact.publishedDate": "2012-05-09T08:35:33.200Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.M.01979",
+        "artifact.type": "Fineart",
+        "artifact.hasChildren": false,
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2E25CFAC-CF86-4114-9E93-49D3F3B83784",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2017-03-07T14:56:29.333Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1847,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.defaultMediaIdentifier": "0271CYCf7",
+        "artifact.ingress.production.fromYear": 1847,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 52741,
+        "artifact.ingress.title": "Skystudie over hav [Maleri]",
+        "artifact.uniqueId": "011041108438",
+        "artifact.publishedDate": "2012-05-09T08:36:42.937Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.M.02234",
+        "artifact.type": "Fineart",
+        "artifact.hasChildren": true,
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "1480DF0F-4235-4293-B58A-C6F26D76FCC8",
+        "artifact.pictureCount": 1,
+        "artifact.childCount": 1,
+        "artifact.updatedDate": "2017-09-07T04:03:53.380Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1903,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.defaultPictureDimension": "3000x2629",
+        "artifact.defaultMediaIdentifier": "0271CYsU6",
+        "artifact.ingress.production.fromYear": 1838,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 20795,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Foss ved Voss [Maleri]",
+        "artifact.uniqueId": "011041109140",
+        "artifact.publishedDate": "2012-05-09T18:10:37.233Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T15:15:21.166Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "88C2F865-E928-425A-A15A-D5FF9EE47A35",
+        "identifier.id": "NG.M.04181",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1849,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0471FUVMc",
+        "artifact.ingress.production.fromYear": 1849,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Foss",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 19498,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Tjugum [Maleri]",
+        "artifact.uniqueId": "011041108335",
+        "artifact.publishedDate": "2012-05-09T08:35:34.323Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T14:56:31.665Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C9B150F7-49C7-485E-B447-56398316EFDF",
+        "identifier.id": "NG.M.01981",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1849,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0471CYCf9",
+        "artifact.ingress.production.fromYear": 1849,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell",
+          "Fjord"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 20792,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Ulvik i Hardanger [Maleri]",
+        "artifact.uniqueId": "011041109137",
+        "artifact.publishedDate": "2012-05-09T18:10:35.404Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T15:15:17.506Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "9B8694AF-618C-45A2-9F69-870376EC4099",
+        "identifier.id": "NG.M.04178",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0471FUVHJ",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjord",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 52745,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Landskap fra Siebengebirge [Maleri]",
+        "artifact.uniqueId": "011041108703",
+        "artifact.publishedDate": "2012-05-09T18:06:25.964Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T15:06:05.838Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B2BE328B-5C28-4848-BA60-FA2902D6F264",
+        "identifier.id": "NG.M.02970",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2086",
+        "artifact.defaultMediaIdentifier": "0371E1BGK",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 20796,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Nes i Hallingdal [Maleri]",
+        "artifact.uniqueId": "011041109141",
+        "artifact.publishedDate": "2012-05-09T18:10:37.642Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T15:15:22.320Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "502C4B3D-600D-4E94-B21D-1C17A754FFE7",
+        "identifier.id": "NG.M.04182",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0171FUVMd",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 52758,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Vestlandsfjord [Maleri]",
+        "artifact.uniqueId": "011041108885",
+        "artifact.publishedDate": "2012-05-09T18:08:04.535Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T15:10:04.474Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "73D0D2EA-4AC1-4B74-B7EC-F2B5100B7A31",
+        "identifier.id": "NG.M.03487",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2105",
+        "artifact.defaultMediaIdentifier": "0271E2Brw",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 20797,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Hemsedal [Maleri]",
+        "artifact.uniqueId": "011041109142",
+        "artifact.publishedDate": "2012-05-09T18:10:38.630Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2017-03-07T15:15:23.499Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5A4B6BBE-95C8-42ED-9C98-E51A218DF63D",
+        "identifier.id": "NG.M.04183",
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1849,
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "0371FUVMf",
+        "artifact.ingress.production.fromYear": 1849,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skoglandskap",
+          "Fjell"
+        ]
+      }
+    ]
+  }
+}

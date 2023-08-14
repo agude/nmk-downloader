@@ -1,0 +1,295 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "350",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 350,
+    "docs": [
+      {
+        "artifact.defaultPictureIndex": 75658,
+        "artifact.ingress.title": "Gr\u00e5tende kvinne p\u00e5 dekk [Tegning]",
+        "artifact.uniqueId": "011042525037",
+        "artifact.publishedDate": "2014-02-13T03:01:10.007Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06515-004",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "3D09A3A6-591F-48C6-BC6F-136B47AF5DAE",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:29.325Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1863,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1768",
+        "artifact.defaultMediaIdentifier": "017TQABAf",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 77645,
+        "artifact.ingress.title": "Frakt av hest og kjerre med fl\u00e5te [Tegning]",
+        "artifact.uniqueId": "011042525072",
+        "artifact.publishedDate": "2014-02-13T03:02:10.422Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06515-021VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "332E4B6B-936E-4CAA-8459-7072EEB17DDE",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:39.384Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1716",
+        "artifact.defaultMediaIdentifier": "027TQABQ2",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 77632,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Hus ved kysten, Krager\u00f8 [Tegning]",
+        "artifact.uniqueId": "011042525059",
+        "artifact.publishedDate": "2014-02-13T03:01:50.006Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:35.665Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "CD726C3A-CC7E-4DCC-8776-A6D3C98400F2",
+        "identifier.id": "NG.K&H.B.06515-015",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1776",
+        "artifact.defaultMediaIdentifier": "017TQABKZ",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 77646,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Vrengen [Tegning]",
+        "artifact.uniqueId": "011042525073",
+        "artifact.publishedDate": "2014-02-13T03:02:12.014Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:39.423Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "9058DC89-EE7A-4B96-8A1A-0D514146A781",
+        "identifier.id": "NG.K&H.B.06515-022",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1862,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1786",
+        "artifact.defaultMediaIdentifier": "037TQABQ3",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26757,
+        "artifact.ingress.title": "Hun tok ungen og la han p\u00e5 s\u00f8pledyngen og piska'n med et dugelig bj\u00f8rkeris [Tegning]",
+        "artifact.uniqueId": "011042277866",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07934",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "7D12106D-2113-491B-A928-133E90986BEA",
+        "artifact.pictureCount": 3,
+        "artifact.updatedDate": "2019-01-27T06:05:57.182Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1879,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1266x2000",
+        "artifact.defaultMediaIdentifier": "026nASWhw",
+        "artifact.ingress.production.fromYear": 1879,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 26773,
+        "artifact.ingress.title": "Illustrasjon til \"En Aftenstund i et Propriet\u00e6rkj\u00f8kken\" i P. Chr. Asbj\u00f8rnsen, Norske folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879 [Tegning]",
+        "artifact.uniqueId": "011042287184",
+        "artifact.publishedDate": "2011-09-20T22:00:00Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.07950",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C2929A07-2E6E-4702-AD9A-A0481EB33367",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T06:06:01.914Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1878,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2000x1889",
+        "artifact.defaultMediaIdentifier": "016nASr7R",
+        "artifact.ingress.production.fromYear": 1878,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Eventyr og sagn",
+          "Illustrasjon"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 74066,
+        "artifact.ingress.title": "Trebro [Tegning]",
+        "artifact.uniqueId": "011042469642",
+        "artifact.publishedDate": "2014-01-07T04:59:49.103Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.03117",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "55D28B1E-A87F-4F58-BA7F-EB8738D4B4D1",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:43:03.313Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1903,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2418",
+        "artifact.defaultMediaIdentifier": "026mz2v6h",
+        "artifact.ingress.production.fromYear": 1840,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 75300,
+        "artifact.ingress.title": "B\u00e5ter p\u00e5 stranden [Tegning]",
+        "artifact.uniqueId": "011042523229",
+        "artifact.publishedDate": "2014-02-11T09:04:25.130Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06512-016VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B9C0A411-891B-47A8-871A-3686D5E74B2A",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:07.777Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1885,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2199",
+        "artifact.defaultMediaIdentifier": "017Lkh4RD",
+        "artifact.ingress.production.fromYear": 1882,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 75292,
+        "artifact.ingress.title": "Ung l\u00f8nn, Bad Sachsa [Tegning]",
+        "artifact.uniqueId": "011042523215",
+        "artifact.publishedDate": "2014-02-11T09:04:00.066Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06512-007VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "6E693D0F-D712-422C-92D2-F46A32D07213",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:03.432Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1883,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2162x3000",
+        "artifact.defaultMediaIdentifier": "037Lkh4GL",
+        "artifact.ingress.production.fromYear": 1883,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 75286,
+        "artifact.ingress.title": "B\u00e5ter og figurer p\u00e5 stranden [Tegning]",
+        "artifact.uniqueId": "011042523205",
+        "artifact.publishedDate": "2014-02-11T09:03:41.287Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06512-002VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "45870A57-5D74-4175-8866-85326287FC58",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:58:59.822Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1885,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2151",
+        "artifact.defaultMediaIdentifier": "017Lkh47Z",
+        "artifact.ingress.production.fromYear": 1882,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Maritimt"
+        ]
+      }
+    ]
+  }
+}

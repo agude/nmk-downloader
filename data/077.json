@@ -1,0 +1,288 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "770",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 770,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 99225,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Klippe ved Hurrungene; fra Fortunsdalen [Tegning]",
+        "artifact.uniqueId": "021045510680",
+        "artifact.publishedDate": "2014-11-07T03:05:25.939Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:53.683Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "51292145-523B-4C9D-9D9D-EDEC2E915367",
+        "identifier.id": "NG.K&H.1999.0251VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2251x3000",
+        "artifact.defaultMediaIdentifier": "012uN1bmvoE7",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 99219,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fjellparti og mannsfigurer, Vossevangen [Tegning]",
+        "artifact.uniqueId": "021045510690",
+        "artifact.publishedDate": "2014-11-07T03:05:41.830Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:54.937Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F38EE01F-27B4-4C05-874E-073A89116955",
+        "identifier.id": "NG.K&H.1999.0253VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2242",
+        "artifact.defaultMediaIdentifier": "012uN1bmvoNs",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 16600,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Torstein Vikingssons grav, Vangsnes [Tegning]",
+        "artifact.uniqueId": "011042351288",
+        "artifact.publishedDate": "2013-01-22T06:05:33.777Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:29:04.572Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "7ACEE1C4-9274-42E9-A007-4110730B85A3",
+        "identifier.id": "NG.K&H.1999.0277",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "047187a8X",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 94964,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Hallingskarvet sett fra Heimst\u00f8len [Tegning]",
+        "artifact.uniqueId": "011042351103",
+        "artifact.publishedDate": "2013-01-22T06:05:29.644Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:29:03.588Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "1D5731D3-67A0-4C98-800A-18BD63C24A7E",
+        "identifier.id": "NG.K&H.1999.0274",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2181",
+        "artifact.defaultMediaIdentifier": "042sA3BgBFzJ",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 16607,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Sognefjorden [Tegning]",
+        "artifact.uniqueId": "011042308865",
+        "artifact.publishedDate": "2013-01-22T06:05:42.261Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:29:06.287Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "458ED794-5FC3-4EEB-BDA0-56901ED195D2",
+        "identifier.id": "NG.K&H.1999.0283",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "027187aCt",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99221,
+        "artifact.ingress.title": "Plantestudie ved Hurrungene [Tegning]",
+        "artifact.uniqueId": "021045510685",
+        "artifact.publishedDate": "2014-11-07T03:05:34.246Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0252VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B65DA930-1A7E-410A-9646-7F2615708B6B",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:28:53.830Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2251x3000",
+        "artifact.defaultMediaIdentifier": "012uN1bmvoJW",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99251,
+        "artifact.ingress.title": "To kvinnefigurer [Tegning]",
+        "artifact.uniqueId": "021045510720",
+        "artifact.publishedDate": "2014-11-07T03:06:47.454Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0268",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "ED283296-920D-4E80-8E38-4E0088972849",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:29:01.647Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1857,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2087",
+        "artifact.defaultMediaIdentifier": "012uN1bmw8nK",
+        "artifact.ingress.production.fromYear": 1857,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99210,
+        "artifact.ingress.title": "Skogkledd h\u00f8yde [Tegning]",
+        "artifact.uniqueId": "021045510705",
+        "artifact.publishedDate": "2014-11-07T03:06:07.425Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0257",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "8CDBF2DA-AECC-4876-9345-52D314CEBC05",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:28:57.479Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2202",
+        "artifact.defaultMediaIdentifier": "012uN1bmvogV",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skoglandskap"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74798,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Orm\u00f8ya; kvinnehode [Tegning]",
+        "artifact.uniqueId": "011042513853",
+        "artifact.publishedDate": "2014-02-04T04:58:58.848Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:58:42.394Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "4AA5D830-C127-4D37-8194-AB444D2A828B",
+        "identifier.id": "NG.K&H.B.06510-001",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1872,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2249x3000",
+        "artifact.defaultMediaIdentifier": "026n7UsUS",
+        "artifact.ingress.production.fromYear": 1872,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 75656,
+        "artifact.ingress.title": "Tistel [Tegning]",
+        "artifact.uniqueId": "011042525033",
+        "artifact.publishedDate": "2014-02-13T03:01:02.946Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06515-001VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D61128D9-645B-41FF-A9C4-AC0551232AD1",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:27.880Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1863,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1754",
+        "artifact.defaultMediaIdentifier": "017TQAB6M",
+        "artifact.ingress.production.fromYear": 1862,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

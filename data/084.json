@@ -1,0 +1,293 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "840",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 840,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 99274,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Kirke [Tegning]",
+        "artifact.uniqueId": "021045510558",
+        "artifact.publishedDate": "2014-11-07T03:03:40.340Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:42.300Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "DB0A20A9-3C73-4909-8DBC-1416E2973F0D",
+        "identifier.id": "NG.K&H.1999.0236",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1839,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1913",
+        "artifact.defaultMediaIdentifier": "012uN1bmv8Bo",
+        "artifact.ingress.production.fromYear": 1839,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Kirke"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 99265,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Rast mellom Granvin og Ulvik [Tegning]",
+        "artifact.uniqueId": "021045510511",
+        "artifact.publishedDate": "2014-11-07T03:03:11.552Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:38.728Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "29AC7E27-1B0E-423A-831C-030FD3F41A95",
+        "identifier.id": "NG.K&H.1999.0228",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1839,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1916",
+        "artifact.defaultMediaIdentifier": "012uN1bmuo1V",
+        "artifact.ingress.production.fromYear": 1839,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Reiseskisse"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99276,
+        "artifact.ingress.title": "Fjellbygd og kirke [Tegning]",
+        "artifact.uniqueId": "021045510569",
+        "artifact.publishedDate": "2014-11-07T03:03:45.984Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0238",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "8E0DC5B8-74FD-41C5-9F73-BE7E928B15A2",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:28:43.527Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1839,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1907",
+        "artifact.defaultMediaIdentifier": "012uN1bmv8GE",
+        "artifact.ingress.production.fromYear": 1839,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Kirke"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99281,
+        "artifact.ingress.title": "Laftet bygning [Tegning]",
+        "artifact.uniqueId": "021045510590",
+        "artifact.publishedDate": "2014-11-07T03:04:02.848Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0242",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "47993965-599F-42FD-BAB2-0C23BAFFBB0D",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:28:46.018Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1839,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1826",
+        "artifact.defaultMediaIdentifier": "012uN1bmv8Zo",
+        "artifact.ingress.production.fromYear": 1839,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99241,
+        "artifact.ingress.title": "Laftede bygninger [Tegning]",
+        "artifact.uniqueId": "021045510618",
+        "artifact.publishedDate": "2014-11-07T03:04:31.183Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0245VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "21A15FD9-9BE4-49EF-8F7E-8FC8A7F6996A",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:28:48.142Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "1853x3000",
+        "artifact.defaultMediaIdentifier": "012uN1bmvTkB",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Bygning"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 16591,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Flesje g\u00e5rd, Balestrand [Tegning]",
+        "artifact.uniqueId": "011042351140",
+        "artifact.publishedDate": "2013-01-22T06:05:21.170Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:59.034Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "0B6ACB0B-BD0E-4DEA-B0E8-C61A83174323",
+        "identifier.id": "NG.K&H.1999.0261",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "037187a45",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 99213,
+        "artifact.ingress.title": "Gev\u00e6rl\u00f8p [Tegning]",
+        "artifact.uniqueId": "021045510702",
+        "artifact.publishedDate": "2014-11-07T03:05:58.385Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.1999.0255VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "9A88A332-F186-4CE8-8BB6-5068EE75D316",
+        "artifact.pictureCount": 2,
+        "artifact.updatedDate": "2019-01-27T05:28:56.747Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2230x3000",
+        "artifact.defaultMediaIdentifier": "012uN1bmvoXj",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 99236,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Hemsedal [Tegning]",
+        "artifact.uniqueId": "021045510638",
+        "artifact.publishedDate": "2014-11-07T03:04:46.850Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:28:49.368Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A3557D72-4F5D-4CAB-A1DA-8592771C6FB6",
+        "identifier.id": "NG.K&H.1999.0247VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2244",
+        "artifact.defaultMediaIdentifier": "012uN1bmvU3n",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 74802,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Bregenz [Tegning]",
+        "artifact.uniqueId": "011042513893",
+        "artifact.publishedDate": "2014-02-04T04:59:22.375Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:58:47.126Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D8F04BE8-4C59-4F97-B914-5834B9912D91",
+        "identifier.id": "NG.K&H.B.06510-007",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2164x3000",
+        "artifact.defaultMediaIdentifier": "016n7VCj9",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 75301,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Sandefjord [Tegning]",
+        "artifact.uniqueId": "011042523231",
+        "artifact.publishedDate": "2014-02-11T09:04:28.699Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:08.823Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B27D8505-05FB-4BF8-A8BB-5284605F74EA",
+        "identifier.id": "NG.K&H.B.06512-017VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1884,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2189",
+        "artifact.defaultMediaIdentifier": "037Lkh4VW",
+        "artifact.ingress.production.fromYear": 1884,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

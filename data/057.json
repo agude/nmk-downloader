@@ -1,0 +1,290 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "570",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 570,
+    "docs": [
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 79878,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra L\u00e6rdalsfjorden [Tegning]",
+        "artifact.uniqueId": "011042536324",
+        "artifact.publishedDate": "2014-02-21T03:01:02.444Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:43.864Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "D136B89C-AA56-47EC-84A4-70CB9821A2F9",
+        "identifier.id": "NG.K&H.B.06516-007",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1731",
+        "artifact.defaultMediaIdentifier": "01RVfvDWhb",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 79889,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Sognefjorden [Tegning]",
+        "artifact.uniqueId": "011042536347",
+        "artifact.publishedDate": "2014-02-21T03:01:32.768Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:48.711Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "F33E3191-673E-4243-83F3-3DD3D387FC54",
+        "identifier.id": "NG.K&H.B.06516-016",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1736",
+        "artifact.defaultMediaIdentifier": "04RVfvDWvj",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.defaultPictureIndex": 79925,
+        "artifact.ingress.title": "Studier av b\u00e5tmaster [Tegning]",
+        "artifact.uniqueId": "011042536334",
+        "artifact.publishedDate": "2014-02-21T03:01:12.116Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "identifier.id": "NG.K&H.B.06516-009VERSO",
+        "artifact.type": "Fineart",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "A4D89A71-6215-4CCC-9518-F68AA898BE80",
+        "artifact.pictureCount": 1,
+        "artifact.updatedDate": "2019-01-27T05:59:45.581Z",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1738",
+        "artifact.defaultMediaIdentifier": "04RVfvDWn2",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 79880,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Sognefjorden [Tegning]",
+        "artifact.uniqueId": "011042536332",
+        "artifact.publishedDate": "2014-02-21T03:01:10.470Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:45.404Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "971538AD-03A9-46AF-BEA1-149DED608128",
+        "identifier.id": "NG.K&H.B.06516-009",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1732",
+        "artifact.defaultMediaIdentifier": "02RVfvDWmy",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 79876,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Hemsedal [Tegning]",
+        "artifact.uniqueId": "011042536316",
+        "artifact.publishedDate": "2014-02-21T03:00:55.869Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:42.876Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "99A80D8C-4AFE-4C52-9ADF-3F565DCFF138",
+        "identifier.id": "NG.K&H.B.06516-005",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1738",
+        "artifact.defaultMediaIdentifier": "04RVfvDWdB",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 79877,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra L\u00e6rdalsfjorden [Tegning]",
+        "artifact.uniqueId": "011042536322",
+        "artifact.publishedDate": "2014-02-21T03:01:00.559Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:43.921Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "638676CF-0EFD-48E8-81D4-CFD2B32DF450",
+        "identifier.id": "NG.K&H.B.06516-006",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1743",
+        "artifact.defaultMediaIdentifier": "03RVfvDWhY",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 79910,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Ur ved Gudvangen; fra Aurlandsfjorden (detalj) [Tegning]",
+        "artifact.uniqueId": "011042536361",
+        "artifact.publishedDate": "2014-02-21T03:01:58.444Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:53.453Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "C8B11379-0432-477F-A42B-E1FD7F6F7761",
+        "identifier.id": "NG.K&H.B.06516-024VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1731",
+        "artifact.defaultMediaIdentifier": "01RVfvDX1G",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 79895,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Aurlandsfjorden [Tegning]",
+        "artifact.uniqueId": "011042536362",
+        "artifact.publishedDate": "2014-02-21T03:02:00.048Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:53.493Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "FB990753-94C0-4879-9B28-C6F2CF30EFB3",
+        "identifier.id": "NG.K&H.B.06516-025",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1765",
+        "artifact.defaultMediaIdentifier": "02RVfvDX1H",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 85787,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Br\u00f8nn\u00f8ya [Tegning]",
+        "artifact.uniqueId": "011043076350",
+        "artifact.publishedDate": "2014-03-25T03:05:51.137Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:53.827Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "6EF9C595-4C25-49C4-BE14-D5F03C7D7950",
+        "identifier.id": "NG.K&H.B.06517-001",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1873,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1976",
+        "artifact.defaultMediaIdentifier": "04TzmChtUy",
+        "artifact.ingress.production.fromYear": 1873,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 79909,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Hemsedal [Tegning]",
+        "artifact.uniqueId": "011042536363",
+        "artifact.publishedDate": "2014-02-21T03:02:01.644Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:59:53.482Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "2E1F9F93-9E4D-40FB-B7B1-5687DF61164E",
+        "identifier.id": "NG.K&H.B.06516-025VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1866,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1723",
+        "artifact.defaultMediaIdentifier": "03RVfvDX1J",
+        "artifact.ingress.production.fromYear": 1866,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}

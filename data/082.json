@@ -1,0 +1,288 @@
+{
+  "responseHeader": {
+    "zkConnected": true,
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "q": "*",
+      "api.key": "demo",
+      "df": "_text_",
+      "qt": "standard",
+      "fl": "identifier.id,identifier.owner,artifact.uniqueId,artifact.uuid,artifact.type,artifact.subtype,artifact.coordinate,artifact.authority,artifact.pictureCount,artifact.hasPictures,artifact.childCount,artifact.hasChildren,artifact.defaultPictureIndex,artifact.defaultMediaIdentifier,artifact.defaultPictureDimension,artifact.publishedDate,artifact.updatedDate,artifact.ingress.title,artifact.ingress.producer,artifact.ingress.producerRole,artifact.ingress.additionalProducers,artifact.ingress.production.fromYear,artifact.ingress.production.toYear,artifact.ingress.production.place,artifact.ingress.classification,artifact.ingress.subjects,artifact.ingress.description,artifact.ingress.license",
+      "start": "820",
+      "q.op": "AND",
+      "fq": [
+        "{!join from=identifier to=identifier.owner fromIndex=owners}dimu_instances:(\"dimu-se prod\" OR \"dimu-no prod\" OR \"oslobilder prod\" OR \"dimu-kulturnav\")",
+        "identifier.owner:NMK*",
+        "artifact.producer:Hans Gude"
+      ],
+      "rows": "10",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 1018,
+    "start": 820,
+    "docs": [
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 16606,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Bergen sett fra sj\u00f8en [Tegning]",
+        "artifact.uniqueId": "011042311949",
+        "artifact.publishedDate": "2013-01-22T06:05:43.662Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:29:06.550Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "BAE5CEF1-843A-4D0A-BCB8-F3F48C696C99",
+        "identifier.id": "NG.K&H.1999.0284",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "037187aCu",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 16602,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Ramnaberg sett fra Leikanger [Tegning]",
+        "artifact.uniqueId": "011042308861",
+        "artifact.publishedDate": "2013-01-22T06:05:36.635Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:29:05.088Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "653A0189-A7D5-41A7-887B-68C0779E0EE4",
+        "identifier.id": "NG.K&H.1999.0279",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "027187aCo",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 16605,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fj\u00e6rlandsfjellene sett fra Sognefjorden [Tegning]",
+        "artifact.uniqueId": "011042287268",
+        "artifact.publishedDate": "2013-01-22T06:05:40.539Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:29:06.072Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "3A3F1FD1-392F-4835-9B4E-C399740234A7",
+        "identifier.id": "NG.K&H.1999.0282",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1845,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultMediaIdentifier": "017187aCs",
+        "artifact.ingress.production.fromYear": 1845,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 74801,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "\u00dcberlingen [Tegning]",
+        "artifact.uniqueId": "011042513887",
+        "artifact.publishedDate": "2014-02-04T04:59:14.604Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:58:45.409Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "75F46084-DE21-494F-9E51-4D45DA1D7E74",
+        "identifier.id": "NG.K&H.B.06510-005",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2154x3000",
+        "artifact.defaultMediaIdentifier": "046n7UsrT",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 2,
+        "artifact.defaultPictureIndex": 74939,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Bregenz [Tegning]",
+        "artifact.uniqueId": "011042513891",
+        "artifact.publishedDate": "2014-02-04T04:59:19.260Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:58:45.918Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "21DB67D1-1CDA-4B25-9508-60186BE894BE",
+        "identifier.id": "NG.K&H.B.06510-006VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1871,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "2181x3000",
+        "artifact.defaultMediaIdentifier": "036n7VCj3",
+        "artifact.ingress.production.fromYear": 1871,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74169,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Eidfjord [Tegning]",
+        "artifact.uniqueId": "011042469575",
+        "artifact.publishedDate": "2014-01-07T04:58:45.320Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:14.529Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "B4205FCD-EFD1-454A-B043-43015100A5C3",
+        "identifier.id": "NG.K&H.B.03155",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1843,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1772",
+        "artifact.defaultMediaIdentifier": "036mz3FW7",
+        "artifact.ingress.production.fromYear": 1843,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Skip / b\u00e5t"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74073,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Utsikt mot Gaisberg [Tegning]",
+        "artifact.uniqueId": "011042469655",
+        "artifact.publishedDate": "2014-01-07T05:00:04.617Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:07.988Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "80F4FD74-A242-441D-A85B-FE8F6EBCA133",
+        "identifier.id": "NG.K&H.B.03130VERSO",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1869,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2063",
+        "artifact.defaultMediaIdentifier": "046mz2vQK",
+        "artifact.ingress.production.fromYear": 1860,
+        "artifact.ingress.subjects": [
+          "Bildende kunst",
+          "Fjell"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74186,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra Glen Sannox, Arran, Skottland [Tegning]",
+        "artifact.uniqueId": "011042469564",
+        "artifact.publishedDate": "2014-01-07T04:58:40.334Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:14.296Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "40582423-276B-43C3-BFAB-28F384A92E28",
+        "identifier.id": "NG.K&H.B.03152",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1877,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x2031",
+        "artifact.defaultMediaIdentifier": "046mz3FRk",
+        "artifact.ingress.production.fromYear": 1877,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74219,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Sommerdag ved fjorden, Horten [Tegning]",
+        "artifact.uniqueId": "011042469631",
+        "artifact.publishedDate": "2014-01-07T04:59:26.157Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:11.518Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "325F4E8F-D9A6-4A40-8F16-A16E871E5CBD",
+        "identifier.id": "NG.K&H.B.03143",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1892,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1919",
+        "artifact.defaultMediaIdentifier": "016mz2vZ8",
+        "artifact.ingress.production.fromYear": 1892,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      },
+      {
+        "artifact.pictureCount": 1,
+        "artifact.defaultPictureIndex": 74075,
+        "artifact.type": "Fineart",
+        "artifact.ingress.title": "Fra \u00c5mot [Tegning]",
+        "artifact.uniqueId": "011042469662",
+        "artifact.publishedDate": "2014-01-07T05:00:08.130Z",
+        "artifact.ingress.producerRole": "Kunstner",
+        "artifact.updatedDate": "2019-01-27T05:43:14.482Z",
+        "identifier.owner": "NMK-B",
+        "artifact.uuid": "5CBDCB58-0912-46B1-AAAD-8522AAC83803",
+        "identifier.id": "NG.K&H.B.03154",
+        "artifact.hasPictures": true,
+        "artifact.ingress.production.toYear": 1888,
+        "artifact.ingress.classification": [
+          "532"
+        ],
+        "artifact.ingress.producer": "Gude, Hans",
+        "artifact.hasChildren": false,
+        "artifact.defaultPictureDimension": "3000x1823",
+        "artifact.defaultMediaIdentifier": "026mz3FRq",
+        "artifact.ingress.production.fromYear": 1888,
+        "artifact.ingress.subjects": [
+          "Bildende kunst"
+        ]
+      }
+    ]
+  }
+}
