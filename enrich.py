@@ -1,10 +1,7 @@
-import os
 import json
 
 input_file = "./data/combined_data/combined.json"
 output_file = "./data/enriched_data/enriched.json"
-
-base_json = None
 
 
 def digitaltmuseum_link(unique_id: str) -> str:
