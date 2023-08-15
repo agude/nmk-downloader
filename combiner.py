@@ -1,13 +1,13 @@
 import os
 import json
 
-data_dir = './data/raw_json'
-output_dir = './data/combined_data'
+data_dir = "./data/raw_json"
+output_dir = "./data/combined_data"
 
 base_json = None
 
 for filename in sorted(os.listdir(data_dir)):
-    if filename.endswith('.json'):
+    if filename.endswith(".json"):
         with open(os.path.join(data_dir, filename)) as f:
             data = json.load(f)
 
@@ -22,5 +22,5 @@ for filename in sorted(os.listdir(data_dir)):
 
 output_path = os.path.join(output_dir, "combined.json")
 
-with open(output_path, 'w') as out:
+with open(output_path, "w") as out:
     json.dump(base_json, out, indent=2, sort_keys=True)

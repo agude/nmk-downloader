@@ -6,6 +6,7 @@ output_file = "./data/enriched_data/enriched.json"
 
 base_json = None
 
+
 def digitaltmuseum_link(unique_id: str) -> str:
     return f"https://digitaltmuseum.org/{unique_id}"
 
@@ -31,5 +32,5 @@ for doc in data["response"]["docs"]:
     doc["uuid_link"] = uuid_link(uuid)
     doc["nasjonalmuseet_link"] = nasjolmuseet_link(identifier_id)
 
-with open(output_file, 'w') as out:
+with open(output_file, "w") as out:
     json.dump(data, out, indent=2, sort_keys=True)

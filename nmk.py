@@ -2,7 +2,8 @@ import requests
 import json
 from os.path import join
 
-def make_request(start:int):
+
+def make_request(start: int):
     base_url = "https://api.dimu.org/api/solr/select?"
 
     payload = {
@@ -19,6 +20,7 @@ def make_request(start:int):
     response = requests.post(url=base_url, params=payload)
 
     return response
+
 
 output_dir = "./data/raw_json/"
 TOTAL_N = 1018
