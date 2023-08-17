@@ -13,8 +13,8 @@ mapping = {
     ("nasjonalmuseet_link",): "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-014",
     ("uuid_json", "createdDate"): "20140221-020126-763833",
     ("uuid_json", "eventWrap", "acquisition"): "Testamentarisk gave fra Hans Gude",
-    ("uuid_json", "eventWrap", "events", 0, "timespan", "fromDate"): "18660801-143000-000",
-    ("uuid_json", "eventWrap", "events", 0, "timespan", "toDate"): "18660901-143000-000",
+    ("uuid_json", "eventWrap", "production", "timespan", "fromDate"): "18660801-143000-000",
+    ("uuid_json", "eventWrap", "production", "timespan", "toDate"): "18660901-143000-000",
 }
 
 def unpack(data, paths):
@@ -28,4 +28,3 @@ def unpack(data, paths):
 for doc in json_data["response"]["docs"]:
     for paths in mapping.keys():
         print(paths, unpack(doc, paths))
-    break
