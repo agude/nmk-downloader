@@ -1,5 +1,14 @@
 # Path -> Wikimedia Object
 import json
+from datetime import datetime
+
+def parse_dates(date_str: str) -> str:
+    truncated_str = date_str.split("-")[0]
+    parsed_time = datetime.strptime(truncated_str, "%Y%m%d")
+    # We don't have better than day level granularity
+    parsed_date = parsed_time.date()
+    return str(parsed_date.isoformat())
+
 
 with open("./data/uuid_enriched_data/uuid_enriched.json", "r") as f:
     json_data = json.load(f)
@@ -9,26 +18,12 @@ mapping = {
     ("artifact.uuid",): "8F24C0CF-5D35-4916-B979-ECFF8BA19E99",
     ("artifact.uniqueId",): "011042536344",
     ("digitaltmuseum_link",): "https://digitaltmuseum.org/011042536344",
-    (
-        "nasjonalmuseet_link",
-    ): "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-014",
+    ("nasjonalmuseet_link",): "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-014",
     ("uuid_json", "createdDate"): "20140221-020126-763833",
     ("uuid_json", "eventWrap", "acquisition"): "Testamentarisk gave fra Hans Gude",
     ("uuid_json", "eventWrap", "descriptiveDating"): "August eller september 1866",
-    (
-        "uuid_json",
-        "eventWrap",
-        "production",
-        "timespan",
-        "fromDate",
-    ): "18660801-143000-000",
-    (
-        "uuid_json",
-        "eventWrap",
-        "production",
-        "timespan",
-        "toDate",
-    ): "18660901-143000-000",
+    ("uuid_json", "eventWrap", "production", "timespan", "fromDate",): "18660801-143000-000",
+    ("uuid_json", "eventWrap", "production", "timespan", "toDate",): "18660901-143000-000",
     ("artifact.ingress.subjects",): "[ 'Bildende kunst', 'Bygning' ],",
     (
         "uuid_json",
@@ -110,10 +105,20 @@ def unpack(data, paths):
 
 
 for doc in json_data["response"]["docs"]:
+    start = None
+    end = None
     for paths in mapping.keys():
         try:
-            data = unpack(doc, paths)
-            print(paths, data)
-        except:
-            print(f"MISSING: {paths}")
+            if paths == ("uuid_json", "eventWrap", "production", "timespan", "fromDate"):
+                data = unpack(doc, paths)
+                start = parse_dates(data)
+            if paths == ("uuid_json", "eventWrap", "production", "timespan", "toDate"):
+                data = unpack(doc, paths)
+                end = parse_dates(data)
+        except KeyError:
             pass
+
+    if start is not None or end is not None:
+        if start != end:
+            print("Diff",)
+        print(start, end)
