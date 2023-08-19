@@ -27,6 +27,78 @@ def parse_int(integer: int) -> int:
     return integer
 
 
+def parse_subjects(subjects: list[str]) -> list[str]:
+    # "Fine Art"
+    subjects.remove("Bildende kunst")
+
+    return subjects
+
+
+def parse_measure(measure_list: list[dict[str, str]]) -> dict[str, str]:
+    # keys
+    main_object_key = "main_object"
+    frame_key = "frame"
+    paper_key = "paper"
+    etching_key = "etching_plate"
+    page_key = "page"
+    image_key = "image"
+
+    to_fill_dicts = {
+        main_object_key: {},
+        frame_key: {},
+        paper_key: {},
+        etching_key: {},
+        page_key: {},
+        image_key: {},
+    }
+
+    for measure in measure_list:
+        object_category = measure["category"]
+
+        # Main artwork
+        if object_category == "Hovedmål":
+            dict_to_fill = to_fill_dicts[main_object_key]
+        # Frame
+        elif object_category == "Rammemål":
+            dict_to_fill = to_fill_dicts[frame_key]
+        # Paper
+        elif object_category == "Papir":
+            dict_to_fill = to_fill_dicts[paper_key]
+        # Etching Plate
+        elif object_category == "Platemål":
+            dict_to_fill = to_fill_dicts[etching_key]
+        # Page in a book
+        elif object_category == "Arkets mål":
+            dict_to_fill = to_fill_dicts[page_key]
+        # Image
+        elif object_category == "Bildemål":
+            dict_to_fill = to_fill_dicts[image_key]
+        else:
+            print(f"UNKNOWN: {category=}")
+            continue
+
+        # Read values
+        dimension = measure["type"]
+        dimension_key = None
+
+        if dimension == "Høyde":
+            dimension_key = "height"
+        elif dimension == "Bredde":
+            dimension_key = "width"
+        elif dimension == "Dybde":
+            dimension_key = "depth"
+        else:
+            print(f"UNKNOWN: {dimension=}")
+            continue
+
+        dict_to_fill[dimension_key] = measure["measure"]
+        dict_to_fill[f"{dimension_key}_unit"] = measure["unit"]
+
+    output = { key: val for key, val in to_fill_dicts.items() if val }
+
+    return output
+
+
 def unpack(data, paths):
     """Extract data from a JSON blob by following the whole path.
 
@@ -55,11 +127,8 @@ mapping = {
     ("uuid_json", "eventWrap", "descriptiveDating"): output_manager("descriptive_date", parse_generic_string),
     ("uuid_json", "eventWrap", "production", "timespan", "fromDate",): output_manager("from_date", parse_art_date),
     ("uuid_json", "eventWrap", "production", "timespan", "toDate",): output_manager("to_date", parse_art_date),
-    ("artifact.ingress.subjects",): "[ 'Bildende kunst', 'Bygning' ],",
-    ( "uuid_json", "measures",): """[
-            { "category": "Hovedm\u00e5l", "measure": 195.0, "sort": 1, "type": "Bredde", "unit": "mm"
-            }, { "category": "Hovedm\u00e5l", "measure": 113.0, "sort": 2, "type": "H\u00f8yde", "unit": "mm" }
-          ]""",
+    ("artifact.ingress.subjects",): output_manager("subjects", parse_subjects),
+    ( "uuid_json", "measures",): output_manager("measurements", parse_measure),
     # URL of image = f"https://ms01.nasjonalmuseet.no/iip/?iiif=/tif/{index}.tif/full/{width},{height}/0/default.jpg"
     ("uuid_json", "media", "pictures", 0, "index"):  output_manager("media_index" , parse_int),
     ("uuid_json", "media", "pictures", 0, "width"):  output_manager("media_width_pixels" , parse_int),
@@ -122,4 +191,5 @@ for doc in json_data["response"]["docs"]:
             if data is None:
                 continue
             doc_data[output_tuple.field_name] = output_tuple.parser(data)
-    print(json.dumps(doc_data, sort_keys=True, indent=2))
+    if len(doc_data["measurements"]) > 1:
+        print(json.dumps(doc_data, sort_keys=True, indent=2))
