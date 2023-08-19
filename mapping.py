@@ -34,6 +34,47 @@ def parse_subjects(subjects: list[str]) -> list[str]:
     return subjects
 
 
+def parse_techniques(technique_list: list[dict[str, str]]) -> dict[str, str]:
+    # This should match Wikidata entries: https://commons.wikimedia.org/wiki/Template:Technique/translation_dashboard
+    translation = {
+        "akvarell": "watercolor",
+        "blyant": "pencil",
+        "fargelitografi": "lithography",
+        "fargestift": "crayon",
+        "gouache": "gouache paint",
+        "hvitt kritt": "chalk",
+        "kull": "charcoal",
+        "lavering": "ink wash",
+        "olje": "oil",
+        "papir": "paper",
+        "penn": "pen",
+        "pensel": "brush",
+        "streketsning": "etching",
+    }
+
+    techniques = [row["technique"].lower().strip() for row in technique_list]
+    output = [translation.get(key, key) for key in techniques]
+
+    return output
+
+
+def parse_materials(materials_list: list[dict[str, str]]) -> dict[str, str]:
+    # This should match Wikidata entries: https://commons.wikimedia.org/wiki/Template:Technique/translation_dashboard
+    translation = {
+        "kartong": "cardboard",  # "Akvarell, gouache og penn over blyant på kartong"
+        "lerret": "cavnas",
+        "papir": "paper",
+        "papplate": "cardboard",
+        "tre": "wood",  # Human readable comment for this is "Olje på treplate"
+        "trefiberplate": "fiberboard",
+    }
+
+    materials = [row["material"].lower().strip() for row in sorted(materials_list, key=lambda x: x["sort"])]
+    output = [translation.get(key, key) for key in materials]
+
+    return output
+
+
 def parse_measure(measure_list: list[dict[str, str]]) -> dict[str, str]:
     # keys
     main_object_key = "main_object"
@@ -130,8 +171,8 @@ mapping = {
     ("artifact.ingress.subjects",): output_manager("subjects", parse_subjects),
     ( "uuid_json", "measures",): output_manager("measurements", parse_measure),
     # URL of image = f"https://ms01.nasjonalmuseet.no/iip/?iiif=/tif/{index}.tif/full/{width},{height}/0/default.jpg"
-    ("uuid_json", "media", "pictures", 0, "index"):  output_manager("media_index" , parse_int),
-    ("uuid_json", "media", "pictures", 0, "width"):  output_manager("media_width_pixels" , parse_int),
+    ("uuid_json", "media", "pictures", 0, "index"): output_manager("media_index" , parse_int),
+    ("uuid_json", "media", "pictures", 0, "width"): output_manager("media_width_pixels" , parse_int),
     ("uuid_json", "media", "pictures", 0, "height"): output_manager("media_height_pixels" , parse_int),
     ( "uuid_json", "titles",): """ [
             {
@@ -145,12 +186,9 @@ mapping = {
               "title": "Norwegian Highlands in Sunrise"
             }
           ] """,
-    ( "uuid_json", "technique", "techniques",): """ [
-              {
-                "sort": 1,
-                "technique": "Blyant"
-              }
-            ] """,
+    ( "uuid_json", "technique", "techniques",): output_manager("techniques", parse_techniques),
+    ( "uuid_json", "material", "comment",): output_manager("material_comment", parse_generic_string),
+    ( "uuid_json", "material", "materials",): output_manager("materials", parse_materials),
     ( "uuid_json", "motif", "depictedPlaces",): """ [
               {
                 "coordinate": "61.03700499999999, 7.586614999999938",
@@ -191,5 +229,10 @@ for doc in json_data["response"]["docs"]:
             if data is None:
                 continue
             doc_data[output_tuple.field_name] = output_tuple.parser(data)
-    if len(doc_data["measurements"]) > 1:
-        print(json.dumps(doc_data, sort_keys=True, indent=2))
+
+    try:
+        mat = doc_date["materials"]
+    except:
+        mat = []
+
+    print(json.dumps(doc_data, sort_keys=True, indent=2))
