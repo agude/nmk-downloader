@@ -310,9 +310,4 @@ for doc in json_data["response"]["docs"]:
                 continue
             doc_data[output_tuple.field_name] = output_tuple.parser(data)
 
-    #try:
-    #    out = doc_data["subjects"]
-    #except:
-    #    out = []
-    #if "glacier" in out:
     print(json.dumps(doc_data, sort_keys=True, indent=2))
