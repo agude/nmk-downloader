@@ -191,11 +191,71 @@ def parse_titles(titles_list: list[str]) -> dict[str, str]:
         if language_code not in output:
             output[language_code] = {}
         if status in output[language_code]:
-            print(f"OVERWRITE! {titles_list=}")
+            continue
+            #print(f"OVERWRITE! {titles_list=}")
         output[language_code][status] = title
 
 
     return output
+
+
+def parse_location(locations):
+    place_type_map = {
+        "adresse": "adress",
+        "land": "country",
+        "fylke": "county",
+        "kommune": "municipality",
+        # Used for things like "Mountain range"
+        "område": "area",
+        "områdepres": "specific_area",
+    }
+
+    role_type_map = {
+        "avbildet sted": "depicted_location",
+        "produksjonssted": "produced_at",
+    }
+
+    output = {}
+    for location in locations:
+        location_output = {}
+
+        coordinates = location.get("coordinate")
+
+        role = location["role"]
+        role_type = role["name"].strip().lower()
+        role_type = role_type_map[role_type]
+        role_status = role.get("status")
+
+        if role_type not in output:
+            output[role_type] = []
+
+        if coordinates:
+            location_output["coordinates"] = coordinates
+        if role_status:
+            location_output["place_accuracy"] = role_status
+
+        fields = sorted(location["fields"], key=lambda x: x["sort"])
+        location_output["place_names"] = []
+        for field in fields:
+            name = field["name"].lower()
+            name = place_type_map.get(name, name)
+            number = field["number"]
+            value = field["value"]
+
+            location_output["place_names"].append({
+                "name": value,
+                "level": number,
+                "place_type": name,
+            })
+
+        # Also lets construct a "Human readable name"
+        human_name = ", ".join(f["name"] for f in reversed(location_output["place_names"]))
+        location_output["human_name"] = human_name
+
+        output[role_type].append(location_output)
+
+    return output
+
 
 def unpack(data, paths):
     """Extract data from a JSON blob by following the whole path.
@@ -236,34 +296,7 @@ mapping = {
     ( "uuid_json", "technique", "techniques",): output_manager("techniques", parse_techniques),
     ( "uuid_json", "material", "comment",): output_manager("material_comment", parse_generic_string),
     ( "uuid_json", "material", "materials",): output_manager("materials", parse_materials),
-    ( "uuid_json", "motif", "depictedPlaces",): """ [
-              {
-                "coordinate": "61.03700499999999, 7.586614999999938",
-                "fields": [
-                  {
-                    "name": "Land",
-                    "number": 1,
-                    "placeType": "country",
-                    "sort": 1,
-                    "value": "Norge"
-                  },
-                  {
-                    "code": "1422",
-                    "name": "Kommune",
-                    "number": 2,
-                    "placeType": "municipality",
-                    "sort": 3,
-                    "value": "L\u00e6rdal"
-                  }
-                ],
-                "role": {
-                  "code": "70",
-                  "name": "Avbildet sted ",
-                  "status": "sannsynlig"
-                },
-                "uuid": "67E28CD2-7D76-4257-92A5-31449FE3AD47"
-              }
-]""",
+    ( "uuid_json", "motif", "depictedPlaces",): output_manager("locations", parse_location),
 }
 
 
@@ -282,4 +315,4 @@ for doc in json_data["response"]["docs"]:
     #except:
     #    out = []
     #if "glacier" in out:
-    #print(json.dumps(doc_data, sort_keys=True, indent=2))
+    print(json.dumps(doc_data, sort_keys=True, indent=2))
