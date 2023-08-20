@@ -31,7 +31,39 @@ def parse_subjects(subjects: list[str]) -> list[str]:
     # "Fine Art"
     subjects.remove("Bildende kunst")
 
-    return subjects
+    translation = {
+        "arbeidsliv": "working life",
+        "bro": "bridge",
+        "byggeskikk": "vernacular architecture",
+        "bygning": "building",
+        "dyr": "animal",
+        "elv": "river",
+        "eventyr og sagn": "myths and fairy tales",
+        "fjell": "moutain",
+        "fjord": "fjord",
+        "flora": "flora",
+        "folklore": "folklore",
+        "foss": "waterfall",
+        "fritidsliv": "outdoor life",
+        "fugl": "bird",
+        "illustrasjon": "illustration",
+        "isbre": "glacier",
+        "kart": "map",
+        "kirke": "church",
+        "kystlandskap": "coastal landscape",
+        "landskap": "landscape",
+        "maritimt": "maritime",
+        "reiseskisse": "travel sketch",
+        "ski": "skiing",
+        "skip / båt": "ship / boat",
+        "skoglandskap": "woodlands",
+        "skogsinteriør": "forest interior",
+    }
+
+    subjects = [val.lower().strip() for val in subjects]
+    output = [translation.get(key, key) for key in subjects]
+
+    return output
 
 
 def parse_techniques(technique_list: list[dict[str, str]]) -> dict[str, str]:
@@ -230,9 +262,9 @@ for doc in json_data["response"]["docs"]:
                 continue
             doc_data[output_tuple.field_name] = output_tuple.parser(data)
 
-    try:
-        mat = doc_date["materials"]
-    except:
-        mat = []
-
+    #try:
+    #    out = doc_data["subjects"]
+    #except:
+    #    out = []
+    #if "glacier" in out:
     print(json.dumps(doc_data, sort_keys=True, indent=2))
