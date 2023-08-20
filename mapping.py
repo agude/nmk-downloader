@@ -108,7 +108,6 @@ def parse_materials(materials_list: list[dict[str, str]]) -> dict[str, str]:
 
 
 def parse_measure(measure_list: list[dict[str, str]]) -> dict[str, str]:
-    # keys
     main_object_key = "main_object"
     frame_key = "frame"
     paper_key = "paper"
@@ -172,6 +171,32 @@ def parse_measure(measure_list: list[dict[str, str]]) -> dict[str, str]:
     return output
 
 
+def parse_titles(titles_list: list[str]) -> dict[str, str]:
+    status_map = {
+        "anvendt": "current",
+        "current": "current",
+        "original": "original",
+    }
+
+    output = {}
+    for title_block in titles_list:
+        if not title_block:
+            continue
+
+        language_code = title_block["language"].lower()
+        status_key = title_block.get("status", "current").lower()
+        status = status_map[status_key]
+        title = title_block["title"].strip()
+
+        if language_code not in output:
+            output[language_code] = {}
+        if status in output[language_code]:
+            print(f"OVERWRITE! {titles_list=}")
+        output[language_code][status] = title
+
+
+    return output
+
 def unpack(data, paths):
     """Extract data from a JSON blob by following the whole path.
 
@@ -185,6 +210,7 @@ def unpack(data, paths):
             return None
 
     return current_data
+
 
 with open("./data/uuid_enriched_data/uuid_enriched.json", "r") as f:
     json_data = json.load(f)
@@ -206,18 +232,7 @@ mapping = {
     ("uuid_json", "media", "pictures", 0, "index"): output_manager("media_index" , parse_int),
     ("uuid_json", "media", "pictures", 0, "width"): output_manager("media_width_pixels" , parse_int),
     ("uuid_json", "media", "pictures", 0, "height"): output_manager("media_height_pixels" , parse_int),
-    ( "uuid_json", "titles",): """ [
-            {
-              "language": "NOR",
-              "status": "anvendt",
-              "title": "H\u00f8yfjell i soloppgang"
-            },
-            {
-              "language": "ENG",
-              "status": "anvendt",
-              "title": "Norwegian Highlands in Sunrise"
-            }
-          ] """,
+    ( "uuid_json", "titles",): output_manager("titles", parse_titles),
     ( "uuid_json", "technique", "techniques",): output_manager("techniques", parse_techniques),
     ( "uuid_json", "material", "comment",): output_manager("material_comment", parse_generic_string),
     ( "uuid_json", "material", "materials",): output_manager("materials", parse_materials),
@@ -267,4 +282,4 @@ for doc in json_data["response"]["docs"]:
     #except:
     #    out = []
     #if "glacier" in out:
-    print(json.dumps(doc_data, sort_keys=True, indent=2))
+    #print(json.dumps(doc_data, sort_keys=True, indent=2))
