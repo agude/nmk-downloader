@@ -7,7 +7,7 @@ def get_creation_date(from_date, to_date, descriptive_date):
     # Have to use the descriptive_date if it is all we have
     if from_date is None and to_date is None:
         output_date = descriptive_date.strip("()")
-        return output_date
+        return {"range_of_dates": False, "created_at_date": output_date}
 
     # Otherwise figure out date precision
     from_date_dt = datetime.strptime(from_date, "%Y-%m-%d")
