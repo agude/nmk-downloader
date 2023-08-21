@@ -190,11 +190,9 @@ def parse_titles(titles_list: list[str]) -> dict[str, str]:
 
         if language_code not in output:
             output[language_code] = {}
-        if status in output[language_code]:
-            continue
-            #print(f"OVERWRITE! {titles_list=}")
-        output[language_code][status] = title
-
+        if status not in output[language_code]:
+            output[language_code][status] = []
+        output[language_code][status].append(title)
 
     return output
 
@@ -315,11 +313,11 @@ mapping = {
     ("uuid_json", "media", "pictures", 0, "index"): output_manager("media_index" , parse_int),
     ("uuid_json", "media", "pictures", 0, "width"): output_manager("media_width_pixels" , parse_int),
     ("uuid_json", "media", "pictures", 0, "height"): output_manager("media_height_pixels" , parse_int),
-    ( "uuid_json", "titles",): output_manager("titles", parse_titles),
-    ( "uuid_json", "technique", "techniques",): output_manager("techniques", parse_techniques),
-    ( "uuid_json", "material", "comment",): output_manager("material_comment", parse_generic_string),
-    ( "uuid_json", "material", "materials",): output_manager("materials", parse_materials),
-    ( "uuid_json", "motif", "depictedPlaces",): output_manager("locations", parse_location),
+    ("uuid_json", "titles",): output_manager("titles", parse_titles),
+    ("uuid_json", "technique", "techniques",): output_manager("techniques", parse_techniques),
+    ("uuid_json", "material", "comment",): output_manager("material_comment", parse_generic_string),
+    ("uuid_json", "material", "materials",): output_manager("materials", parse_materials),
+    ("uuid_json", "motif", "depictedPlaces",): output_manager("locations", parse_location),
 }
 
 
