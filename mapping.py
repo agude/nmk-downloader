@@ -2,6 +2,7 @@
 import json
 from datetime import datetime
 from collections import namedtuple
+from os import path
 
 output_manager = namedtuple("OutputManager", ["field_name", "parser"])
 
@@ -320,15 +321,17 @@ mapping = {
     ("uuid_json", "motif", "depictedPlaces",): output_manager("locations", parse_location),
 }
 
-
+output_dir = "./data/our_parsed_data/raw/"
 
 for doc in json_data["response"]["docs"]:
     doc_data = {}
     for paths, output_tuple in mapping.items():
-        if isinstance(output_tuple, output_manager):
-            data = unpack(doc, paths)
-            if data is None:
-                continue
-            doc_data[output_tuple.field_name] = output_tuple.parser(data)
+        data = unpack(doc, paths)
+        if data is None:
+            continue
+        doc_data[output_tuple.field_name] = output_tuple.parser(data)
 
-    print(json.dumps(doc_data, sort_keys=True, indent=2))
+    output_file = path.join(output_dir, f"{doc_data['uuid']}.json")
+
+    with open(output_file, "w") as f:
+        f.write(json.dumps(doc_data, sort_keys=True, indent=2))
