@@ -215,6 +215,28 @@ def parse_location(locations):
         "produksjonssted": "produced_at",
     }
 
+    location_map = {
+        "Danmark": "Denmark",
+        "Frankrike": "France",
+        "Norge": "Norway",
+        "Skottland": "Scotland",
+        "Storbritannia": "Great Britain",
+        "Sveits": "Switzerland",
+        "Sverige": "Sweden",
+        "Tyskland": "Germany",
+        "Østerrike": "Austria",
+        # Sub-country level
+        "Lindesnes fyr": "Lindesnes Lighthouse",
+        "Oscarsborg festning": "Oscarsborg fortress",
+        "Rheinland-Pfalz": "Rhineland-Palatinate",
+        "Schloss Hohenaschau": "Hohenaschau Castle",
+        "Schloss Altenklingen": "Altenklingen Castle",
+        "St.-Katharinen-Kirche": "Saint Catherine of Alexandria Church",
+        # Typos, etc.
+        "6859 Sogndal": "Slinde",
+        "Aschau am Chiemgau": "Aschau im Chiemgau",
+    }
+
     output = {}
     for location in locations:
         location_output = {}
@@ -240,7 +262,8 @@ def parse_location(locations):
             name = field["name"].lower()
             name = place_type_map.get(name, name)
             number = field["number"]
-            value = field["value"]
+            value = field["value"].strip()
+            value = location_map.get(value, value)
 
             location_output["place_names"].append({
                 "name": value,
