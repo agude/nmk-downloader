@@ -1,0 +1,40 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "Mellom 1878 og 1880",
+  "digital_item_created_at": "2014-05-10T01:01:55.544985",
+  "digitalt_museum_id": "011044053280",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044053280",
+  "from_date": "1878-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 119.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1899,
+  "media_index": 92232,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06520-024",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06520-024",
+  "subjects": [
+    "bird"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "To fugler"
+      ]
+    }
+  },
+  "to_date": "1880-01-01",
+  "uuid": "081C4955-22F4-4682-A133-1DA66E7754A7"
+}

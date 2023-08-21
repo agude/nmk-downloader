@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude ved Claus Gude 1999",
+  "descriptive_date": "(1845)",
+  "digital_item_created_at": "2013-12-14T06:18:53.890798",
+  "digitalt_museum_id": "011042352992",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042352992",
+  "from_date": "1845-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.2298509, 7.100492700000018",
+        "human_name": "Sogndalsfj\u00f8ra, Sogndal SF, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Sogndal SF",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Sogndalsfj\u00f8ra",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 172.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 0,
+  "media_index": 16608,
+  "media_width_pixels": 0,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0285",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0285",
+  "subjects": [
+    "landscape"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Landskap med klippe og tr\u00e6r, Sogndalsfj\u00f8ra"
+      ]
+    }
+  },
+  "to_date": "1845-01-01",
+  "uuid": "A765DA1B-AD9C-4BAB-8F50-4FF57545441A"
+}

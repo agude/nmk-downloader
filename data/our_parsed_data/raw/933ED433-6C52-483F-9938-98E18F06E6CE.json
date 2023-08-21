@@ -1,0 +1,40 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "Antagelig 1872",
+  "digital_item_created_at": "2014-06-13T01:00:53.918820",
+  "digitalt_museum_id": "011044110394",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110394",
+  "from_date": "1872-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 120.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1962,
+  "media_index": 93159,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06522-001",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06522-001",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "B\u00e5tstudier, Kors\u00f8r"
+      ]
+    }
+  },
+  "to_date": "1872-01-01",
+  "uuid": "933ED433-6C52-483F-9938-98E18F06E6CE"
+}

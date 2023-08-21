@@ -1,0 +1,67 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "25. juli 1865",
+  "digital_item_created_at": "2014-04-01T01:01:27.456155",
+  "digitalt_museum_id": "011043094018",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043094018",
+  "from_date": "1865-07-25",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "48.63933900000001, 8.348623900000006",
+        "human_name": "Raum\u00fcnzach, Forbach, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Forbach",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Raum\u00fcnzach",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Akvarell og blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 145.0,
+      "height_unit": "mm",
+      "width": 235.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1841,
+  "media_index": 86397,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06518-012VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06518-012VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "watercolor"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Klipper i skr\u00e5ning, Raum\u00fcnzach"
+      ],
+      "original": [
+        "Rauhm\u00fcnzach"
+      ]
+    }
+  },
+  "to_date": "1865-07-25",
+  "uuid": "8EF896D8-993F-4E0D-9978-B428D853F6B7"
+}

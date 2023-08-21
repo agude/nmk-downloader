@@ -1,0 +1,69 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "16. august 1873",
+  "digital_item_created_at": "2014-03-25T02:06:02.449201",
+  "digitalt_museum_id": "011043076356",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043076356",
+  "from_date": "1873-08-16",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.88500000000001, 10.605000000000018",
+        "human_name": "Langodden, Snar\u00f8ya, B\u00e6rum, Norway",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "B\u00e6rum",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Snar\u00f8ya",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Langodden",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 139.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1973,
+  "media_index": 85790,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06517-004",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06517-004",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Langodden"
+      ]
+    }
+  },
+  "to_date": "1873-08-16",
+  "uuid": "B53E6B72-DB99-4753-BD48-CA835AFAE158"
+}

@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "descriptive_date": "10. august 1880",
+  "digital_item_created_at": "2014-04-05T01:00:52.803985",
+  "digitalt_museum_id": "011043112746",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043112746",
+  "from_date": "1880-08-10",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.79655728318286, 11.139450073242187",
+        "human_name": "Vidarshov, Hamar, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Hamar",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Vidarshov",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 211.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2115,
+  "media_index": 74324,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03141",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03141",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kuer som gresser, Vidarshov ved Hamar"
+      ]
+    }
+  },
+  "to_date": "1880-08-10",
+  "uuid": "68788E87-2FBC-49D3-AD8D-567D00C44296"
+}

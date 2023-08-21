@@ -1,0 +1,44 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "descriptive_date": "1879",
+  "digital_item_created_at": "2013-12-14T05:44:59.105943",
+  "digitalt_museum_id": "011042277868",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042277868",
+  "from_date": "1879-01-01",
+  "material_comment": "Blyant, penn og lavering p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 166.0,
+      "height_unit": "mm",
+      "width": 120.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2000,
+  "media_index": 26758,
+  "media_width_pixels": 1441,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07935",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07935",
+  "subjects": [
+    "myths and fairy tales",
+    "illustration"
+  ],
+  "techniques": [
+    "pen",
+    "ink wash",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "\"N\u00e5 g\u00e5r jeg p\u00e5 kjerkegarden og graver den ned. Tredje torsdagen fra i dag kommer jeg igjen -\"",
+        "Illustrasjon til \"En Signekj\u00e6rring\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879"
+      ]
+    }
+  },
+  "to_date": "1879-01-01",
+  "uuid": "E567822B-7FD6-4F4E-A328-447158E8C2C6"
+}

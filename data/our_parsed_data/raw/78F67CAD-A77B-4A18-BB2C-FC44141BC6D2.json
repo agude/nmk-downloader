@@ -1,0 +1,67 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra kunstneren, innkommet 1904",
+  "descriptive_date": "29. august 1866",
+  "digital_item_created_at": "2013-12-13T22:29:50.129890",
+  "digitalt_museum_id": "011041107541",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107541",
+  "from_date": "1866-08-29",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.072601, 6.934586800000034",
+        "human_name": "Fresvik, Vik, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Vik",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Fresvik",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret oppklebet p\u00e5 papplate",
+  "materials": [
+    "cavnas",
+    "cardboard"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 41.0,
+      "height_unit": "cm",
+      "width": 62.5,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 0,
+  "media_index": 18320,
+  "media_width_pixels": 0,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00635-003",
+  "national_museum_norway_artwork_id": "NG.M.00635-003",
+  "subjects": [
+    "fjord",
+    "moutain"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "En sognejakt"
+      ]
+    }
+  },
+  "to_date": "1866-08-29",
+  "uuid": "78F67CAD-A77B-4A18-BB2C-FC44141BC6D2"
+}

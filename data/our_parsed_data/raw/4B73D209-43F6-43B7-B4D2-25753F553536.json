@@ -1,0 +1,58 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "3. august 1880",
+  "digital_item_created_at": "2014-03-14T02:01:30.645090",
+  "digitalt_museum_id": "011042654912",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042654912",
+  "from_date": "1880-08-03",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "63.583683, 10.76081899999997",
+        "human_name": "Frosta, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Frosta",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 210.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2078,
+  "media_index": 84232,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06514-010VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06514-010VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Frosta"
+      ]
+    }
+  },
+  "to_date": "1880-08-03",
+  "uuid": "4B73D209-43F6-43B7-B4D2-25753F553536"
+}

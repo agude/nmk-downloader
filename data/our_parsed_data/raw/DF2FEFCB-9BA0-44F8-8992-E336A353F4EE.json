@@ -1,0 +1,47 @@
+{
+  "acquistion_notes": "Kj\u00f8pt fra kunstneren 1893",
+  "descriptive_date": "1891",
+  "digital_item_created_at": "2014-04-05T01:00:57.800480",
+  "digitalt_museum_id": "011043112757",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043112757",
+  "from_date": "1891-01-01",
+  "material_comment": "Akvarell, gouache og penn p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 257.0,
+      "height_unit": "mm",
+      "width": 364.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1437,
+  "media_index": 32076,
+  "media_width_pixels": 2000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06530",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06530",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "watercolor",
+    "gouache paint",
+    "pen"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Early Morning at the Coast"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Tidlig morgen ved kysten"
+      ]
+    }
+  },
+  "to_date": "1891-01-01",
+  "uuid": "DF2FEFCB-9BA0-44F8-8992-E336A353F4EE"
+}

@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "19. juli 1866",
+  "digital_item_created_at": "2014-01-07T04:59:10.924389",
+  "digitalt_museum_id": "011042469537",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469537",
+  "from_date": "1866-07-19",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.16666670000001, 10.41666669999995",
+        "human_name": "Vrengen, N\u00f8tter\u00f8y, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "N\u00f8tter\u00f8y",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Vrengen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant, penn og lavering p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 310.0,
+      "height_unit": "mm",
+      "width": 417.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2231,
+  "media_index": 74176,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03133",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03133",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil",
+    "pen",
+    "ink wash"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Julius' Fishing Boat, Vrengen; Sailboats; Sailing-Ships"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Julius' snekke, Vrengen; seilb\u00e5ter; seilskuter"
+      ]
+    }
+  },
+  "to_date": "1866-07-19",
+  "uuid": "8C5ADA40-F8F4-4EBB-85B9-9664CEE2B9E0"
+}

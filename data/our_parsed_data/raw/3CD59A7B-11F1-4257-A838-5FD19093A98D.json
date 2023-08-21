@@ -1,0 +1,41 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "30. august 1871",
+  "digital_item_created_at": "2014-04-01T01:01:36.145869",
+  "digitalt_museum_id": "011043094043",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043094043",
+  "from_date": "1871-08-30",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 145.0,
+      "height_unit": "mm",
+      "width": 235.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1861,
+  "media_index": 86399,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06518-015VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06518-015VERSO",
+  "subjects": [
+    "maritime",
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Garnfiske, \u00dcberlingen"
+      ]
+    }
+  },
+  "to_date": "1871-08-30",
+  "uuid": "3CD59A7B-11F1-4257-A838-5FD19093A98D"
+}

@@ -1,0 +1,73 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for A.C. Houens fond 1904",
+  "descriptive_date": "1875",
+  "digital_item_created_at": "2013-12-13T22:29:50.335432",
+  "digitalt_museum_id": "011041107560",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107560",
+  "from_date": "1875-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.684896, 10.623090",
+        "human_name": "Gylte, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Gylte",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "cavnas"
+  ],
+  "measurements": {
+    "frame": {
+      "depth": 6.7,
+      "depth_unit": "cm",
+      "height": 52.2,
+      "height_unit": "cm",
+      "width": 78.6,
+      "width_unit": "cm"
+    },
+    "main_object": {
+      "depth": 2.3,
+      "depth_unit": "cm",
+      "height": 39.8,
+      "height_unit": "cm",
+      "width": 65.4,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 2404,
+  "media_index": 153546,
+  "media_width_pixels": 4000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-013",
+  "national_museum_norway_artwork_id": "NG.M.00636-013",
+  "subjects": [
+    "coastal landscape",
+    "maritime",
+    "working life",
+    "moutain"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "To losb\u00e5ter"
+      ]
+    }
+  },
+  "to_date": "1875-01-01",
+  "uuid": "4C071E52-D978-4AA4-8C26-E4AC589F7615"
+}

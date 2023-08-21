@@ -1,0 +1,40 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "Mellom 1882 og 1885",
+  "digital_item_created_at": "2014-02-11T08:03:35.752995",
+  "digitalt_museum_id": "011042523202",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042523202",
+  "from_date": "1882-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 240.0,
+      "height_unit": "mm",
+      "width": 327.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2166,
+  "media_index": 75486,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06512-001",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06512-001",
+  "subjects": [
+    "maritime"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Figurer og b\u00e5ter ved brygge"
+      ]
+    }
+  },
+  "to_date": "1885-01-01",
+  "uuid": "55E86882-0B83-45D0-B834-2CCA360CB78E"
+}

@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "1. oktober 1883",
+  "digital_item_created_at": "2014-02-11T08:04:01.950767",
+  "digitalt_museum_id": "011042523216",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042523216",
+  "from_date": "1883-10-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "51.5966912, 10.556520500000033",
+        "human_name": "Bad Sachsa, Niedersachsen, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Niedersachsen",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Bad Sachsa",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 240.0,
+      "height_unit": "mm",
+      "width": 327.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2170,
+  "media_index": 75479,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06512-008",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06512-008",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Bad Sachsa"
+      ]
+    }
+  },
+  "to_date": "1883-10-01",
+  "uuid": "F06E6AF0-DCCA-4BEA-AE66-9AC575C7A30D"
+}

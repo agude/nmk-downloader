@@ -1,0 +1,38 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude AS ved Claus Gude 1999",
+  "descriptive_date": "Antagelig 1843",
+  "digital_item_created_at": "2014-11-07T02:06:25.605148",
+  "digitalt_museum_id": "021045510711",
+  "digitalt_museum_link": "https://digitaltmuseum.org/021045510711",
+  "from_date": "1843-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 123.0,
+      "height_unit": "mm",
+      "width": 163.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2220,
+  "media_index": 99203,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0266",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0266",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Smykker; mannshoder; steiner; maleri"
+      ]
+    }
+  },
+  "to_date": "1843-01-01",
+  "uuid": "24D6AF87-6666-4CDD-BDAA-396AE8361A24"
+}

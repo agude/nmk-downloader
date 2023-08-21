@@ -1,0 +1,58 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "22. september 1875",
+  "digital_item_created_at": "2014-06-05T01:03:01.233893",
+  "digitalt_museum_id": "011044097217",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044097217",
+  "from_date": "1875-09-22",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.4340914, 10.658383299999968",
+        "human_name": "Moss, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Moss",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 111.0,
+      "height_unit": "mm",
+      "width": 179.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1857,
+  "media_index": 92978,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06526-021VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06526-021VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kystlandskap ved Moss"
+      ]
+    }
+  },
+  "to_date": "1875-09-22",
+  "uuid": "827DFE7F-0AAB-46A9-9630-8FE997774C73"
+}

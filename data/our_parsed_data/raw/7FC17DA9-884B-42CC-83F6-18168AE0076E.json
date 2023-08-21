@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "5. september (1867)",
+  "digital_item_created_at": "2014-05-24T01:01:42.784503",
+  "digitalt_museum_id": "011044074531",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044074531",
+  "from_date": "1867-09-05",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.7657239, 12.322114599999963",
+        "human_name": "Hohenaschau Castle, Aschau im Chiemgau, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Aschau im Chiemgau",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Hohenaschau Castle",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1742,
+  "media_index": 92632,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06527-020",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06527-020",
+  "subjects": [
+    "building"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Schloss Hohenaschau"
+      ]
+    }
+  },
+  "to_date": "1867-09-05",
+  "uuid": "7FC17DA9-884B-42CC-83F6-18168AE0076E"
+}

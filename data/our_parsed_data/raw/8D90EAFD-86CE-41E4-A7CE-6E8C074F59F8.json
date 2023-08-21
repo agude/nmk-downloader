@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Kj\u00f8pt fra Per Kvibergs bo 1966",
+  "descriptive_date": "9. august (1889)",
+  "digital_item_created_at": "2014-05-06T01:01:14.797817",
+  "digitalt_museum_id": "011044051929",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044051929",
+  "from_date": "1889-08-09",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "62.7002683, 7.025480600000037",
+        "human_name": "Moldefjorden, Molde, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Molde",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Moldefjorden",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 105.0,
+      "height_unit": "mm",
+      "width": 145.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2178,
+  "media_index": 92085,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1966.0103",
+  "national_museum_norway_artwork_id": "NG.K&H.1966.0103",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Moldefjorden"
+      ]
+    }
+  },
+  "to_date": "1889-08-09",
+  "uuid": "8D90EAFD-86CE-41E4-A7CE-6E8C074F59F8"
+}

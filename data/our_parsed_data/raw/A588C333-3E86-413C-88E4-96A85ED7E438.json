@@ -1,0 +1,44 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "descriptive_date": "1878",
+  "digital_item_created_at": "2013-12-14T05:44:58.436600",
+  "digitalt_museum_id": "011042277806",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042277806",
+  "from_date": "1878-01-01",
+  "material_comment": "Penn og lavering over blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 179.0,
+      "height_unit": "mm",
+      "width": 125.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2000,
+  "media_index": 26763,
+  "media_width_pixels": 1385,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07940",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07940",
+  "subjects": [
+    "myths and fairy tales",
+    "illustration"
+  ],
+  "techniques": [
+    "pen",
+    "ink wash",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Hu stod med skaut p\u00e5 hue og skinntr\u00f8ye og svart stakk...",
+        "Illustrasjon til \"En Tiurleg i Holleia\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879"
+      ]
+    }
+  },
+  "to_date": "1878-01-01",
+  "uuid": "A588C333-3E86-413C-88E4-96A85ED7E438"
+}

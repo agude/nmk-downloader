@@ -1,0 +1,58 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "24. september 1873",
+  "digital_item_created_at": "2014-03-25T02:06:22.209056",
+  "digitalt_museum_id": "011043076366",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043076366",
+  "from_date": "1873-09-24",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.46927579999999, 10.534376399999928",
+        "human_name": "Oslofjorden, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Oslofjorden",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 139.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1978,
+  "media_index": 85796,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06517-009",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06517-009",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Christianiafjorden"
+      ]
+    }
+  },
+  "to_date": "1873-09-24",
+  "uuid": "603EBA94-7018-4202-BC90-FCB043E9EAB9"
+}

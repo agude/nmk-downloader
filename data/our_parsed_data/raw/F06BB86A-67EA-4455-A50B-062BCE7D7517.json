@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "29. juli 1845",
+  "digital_item_created_at": "2014-04-05T01:00:50.590472",
+  "digitalt_museum_id": "011043112738",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043112738",
+  "from_date": "1845-07-29",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.48084146035326, 6.787147521972656",
+        "human_name": "Supphellebreen, Fj\u00e6rland, Sogndal SF, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Sogndal SF",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Fj\u00e6rland",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Supphellebreen",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant, lavering og akvarell p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 174.0,
+      "height_unit": "mm",
+      "width": 229.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2297,
+  "media_index": 74323,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03139",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03139",
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "ink wash",
+    "watercolor"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Supphellebreen i Fj\u00e6rland"
+      ]
+    }
+  },
+  "to_date": "1845-07-29",
+  "uuid": "F06BB86A-67EA-4455-A50B-062BCE7D7517"
+}

@@ -1,0 +1,58 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "14. juli (1862)",
+  "digital_item_created_at": "2014-03-22T02:01:40.603730",
+  "digitalt_museum_id": "011043071465",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043071465",
+  "from_date": "1862-07-14",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.0004978, 9.7447181",
+        "human_name": "Langesund, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Langesund",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 232.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2317,
+  "media_index": 85364,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06513-011",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06513-011",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kystlandskap ved Langesund"
+      ]
+    }
+  },
+  "to_date": "1862-07-14",
+  "uuid": "49B20947-EF08-40D0-8702-2F142EAC0978"
+}

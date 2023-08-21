@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Gave fra Thomas N.E.Gamborg 1895",
+  "descriptive_date": "23. februar 1846",
+  "digital_item_created_at": "2013-12-14T06:10:19.911249",
+  "digitalt_museum_id": "011042335783",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042335783",
+  "from_date": "1846-02-23",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.907443, 10.741007",
+        "human_name": "Grev Wedels plass, Kvadraturen, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Kvadraturen",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Grev Wedels plass",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 17.5,
+      "height_unit": "cm",
+      "width": 25.5,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 0,
+  "media_index": 18155,
+  "media_width_pixels": 0,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00468",
+  "national_museum_norway_artwork_id": "NG.M.00468",
+  "subjects": [
+    "animal"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Ridehuset ved Akershus festning"
+      ]
+    }
+  },
+  "to_date": "1846-02-23",
+  "uuid": "69311039-6E1B-418C-8290-086B31799928"
+}

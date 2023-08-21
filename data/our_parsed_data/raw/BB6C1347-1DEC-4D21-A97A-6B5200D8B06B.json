@@ -1,0 +1,43 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "descriptive_date": "1878",
+  "digital_item_created_at": "2013-12-14T05:44:57.899221",
+  "digitalt_museum_id": "011042277797",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042277797",
+  "from_date": "1878-01-01",
+  "material_comment": "Blyant og penn p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 169.0,
+      "height_unit": "mm",
+      "width": 135.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2000,
+  "media_index": 26781,
+  "media_width_pixels": 1581,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07958",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07958",
+  "subjects": [
+    "myths and fairy tales",
+    "illustration"
+  ],
+  "techniques": [
+    "pencil",
+    "pen"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Illustrasjon til \"H\u00f8yfjellsbilleder\" i P. Chr. Asbj\u00f8rnsen og J. Moe, Samlede eventyr, Oslo 1982",
+        "Slik skj\u00f3t har fell \u00e6ilder nogo menneskje havt"
+      ]
+    }
+  },
+  "to_date": "1878-01-01",
+  "uuid": "BB6C1347-1DEC-4D21-A97A-6B5200D8B06B"
+}

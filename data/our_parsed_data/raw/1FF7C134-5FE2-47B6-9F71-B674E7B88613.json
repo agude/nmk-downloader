@@ -1,0 +1,58 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "7. august (1867)",
+  "digital_item_created_at": "2014-05-24T01:00:59.995394",
+  "digitalt_museum_id": "011044074463",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044074463",
+  "from_date": "1867-08-07",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.87628914069945, 12.450599670410156",
+        "human_name": "Chiemsee, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Chiemsee",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1747,
+  "media_index": 92605,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06527-004",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06527-004",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Ved Frauenchiemsee"
+      ]
+    }
+  },
+  "to_date": "1867-08-07",
+  "uuid": "1FF7C134-5FE2-47B6-9F71-B674E7B88613"
+}

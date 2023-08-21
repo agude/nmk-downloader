@@ -1,0 +1,44 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "descriptive_date": "1878 eller 1879",
+  "digital_item_created_at": "2013-12-14T05:44:52.324260",
+  "digitalt_museum_id": "011042277583",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042277583",
+  "from_date": "1878-01-01",
+  "material_comment": "Penn og lavering over blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 143.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1562,
+  "media_index": 26768,
+  "media_width_pixels": 2000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07945",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07945",
+  "subjects": [
+    "myths and fairy tales",
+    "illustration"
+  ],
+  "techniques": [
+    "pen",
+    "ink wash",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Berthe Tuppenhaug",
+        "Illustrasjon til \"Berthe Tuppenhaugs fort\u00e6llinger\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879"
+      ]
+    }
+  },
+  "to_date": "1879-01-01",
+  "uuid": "22EE1572-D37D-4DBE-80DF-C481D1FA5A57"
+}

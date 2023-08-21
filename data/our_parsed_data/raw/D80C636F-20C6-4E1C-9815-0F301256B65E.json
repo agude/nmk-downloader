@@ -1,0 +1,40 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(1873)",
+  "digital_item_created_at": "2014-06-13T01:03:52.152825",
+  "digitalt_museum_id": "011044110615",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110615",
+  "from_date": "1873-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 140.0,
+      "height_unit": "mm",
+      "width": 213.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1983,
+  "media_index": 93263,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06521-024",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06521-024",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Riss av mast; fjordlandskap"
+      ]
+    }
+  },
+  "to_date": "1873-01-01",
+  "uuid": "D80C636F-20C6-4E1C-9815-0F301256B65E"
+}

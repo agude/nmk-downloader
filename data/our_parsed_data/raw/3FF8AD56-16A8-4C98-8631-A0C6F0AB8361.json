@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "22. september (1875)",
+  "digital_item_created_at": "2014-06-05T01:03:13.698011",
+  "digitalt_museum_id": "011044097223",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044097223",
+  "from_date": "1875-09-22",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "58.9383459, 11.179187100000035",
+        "human_name": "Str\u00f8mstad, V\u00e4stra G\u00f6taland, Sweden",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Sweden",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "V\u00e4stra G\u00f6taland",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Str\u00f8mstad",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 111.0,
+      "height_unit": "mm",
+      "width": 179.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1876,
+  "media_index": 92985,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06526-024VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06526-024VERSO",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Seilb\u00e5ter, Str\u00f8mstad"
+      ]
+    }
+  },
+  "to_date": "1875-09-22",
+  "uuid": "3FF8AD56-16A8-4C98-8631-A0C6F0AB8361"
+}

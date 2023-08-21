@@ -1,0 +1,40 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "Mellom 1878 og 1880",
+  "digital_item_created_at": "2014-05-10T01:01:52.362394",
+  "digitalt_museum_id": "011044053274",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044053274",
+  "from_date": "1878-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 188.0,
+      "height_unit": "mm",
+      "width": 119.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 3000,
+  "media_index": 92230,
+  "media_width_pixels": 1921,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06520-015",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06520-015",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Dampskip i havn"
+      ]
+    }
+  },
+  "to_date": "1880-01-01",
+  "uuid": "E69EC44E-E555-41C2-924A-5F77BF6996FB"
+}

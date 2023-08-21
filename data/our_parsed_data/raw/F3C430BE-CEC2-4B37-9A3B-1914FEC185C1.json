@@ -1,0 +1,41 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "29. august (1872)",
+  "digital_item_created_at": "2014-06-13T01:01:22.860423",
+  "digitalt_museum_id": "011044110471",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110471",
+  "from_date": "1872-08-29",
+  "material_comment": "Blyant og penn p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 120.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1900,
+  "media_index": 93173,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06522-007VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06522-007VERSO",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil",
+    "pen"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Dampskipene \"Kong Carl\" og \"Nordland\" i Farsund"
+      ]
+    }
+  },
+  "to_date": "1872-08-29",
+  "uuid": "F3C430BE-CEC2-4B37-9A3B-1914FEC185C1"
+}

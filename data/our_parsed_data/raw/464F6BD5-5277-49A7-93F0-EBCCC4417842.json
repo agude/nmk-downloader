@@ -1,0 +1,60 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(1873)",
+  "digital_item_created_at": "2014-06-13T01:03:50.102467",
+  "digitalt_museum_id": "011044110614",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110614",
+  "from_date": "1873-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.7954302, 10.691630300000042",
+        "human_name": "Gj\u00f8vik, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Gj\u00f8vik",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 140.0,
+      "height_unit": "mm",
+      "width": 213.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1982,
+  "media_index": 93262,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06521-023VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06521-023VERSO",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Seilb\u00e5t; brygge i Gj\u00f8vik"
+      ]
+    }
+  },
+  "to_date": "1873-01-01",
+  "uuid": "464F6BD5-5277-49A7-93F0-EBCCC4417842"
+}

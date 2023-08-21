@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "1880",
+  "digital_item_created_at": "2014-03-14T02:01:34.832729",
+  "digitalt_museum_id": "011042654919",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042654919",
+  "from_date": "1880-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.79208651256772, 11.034822463989257",
+        "human_name": "Storhamar g\u00e5rd, Hamar, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Hamar",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Storhamar g\u00e5rd",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 210.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2079,
+  "media_index": 84234,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06514-011VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06514-011VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Ved Storhamar g\u00e5rd (detalj)"
+      ]
+    }
+  },
+  "to_date": "1880-01-01",
+  "uuid": "37FFAA62-9DFA-442A-8D29-0F420C525046"
+}

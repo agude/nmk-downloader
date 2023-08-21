@@ -1,0 +1,45 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Marie Moe, innkommet 1940",
+  "descriptive_date": "1847",
+  "digital_item_created_at": "2013-12-13T22:30:07.574700",
+  "digitalt_museum_id": "011041108333",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041108333",
+  "from_date": "1847-01-01",
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "cavnas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 26.0,
+      "height_unit": "cm",
+      "width": 39.0,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 0,
+  "media_index": 19496,
+  "media_width_pixels": 0,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.01979",
+  "national_museum_norway_artwork_id": "NG.M.01979",
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Storm in the Highlands"
+      ]
+    },
+    "nor": {
+      "current": [
+        "H\u00f8yfjell i uv\u00e6r"
+      ]
+    }
+  },
+  "to_date": "1847-01-01",
+  "uuid": "2E25CFAC-CF86-4114-9E93-49D3F3B83784"
+}

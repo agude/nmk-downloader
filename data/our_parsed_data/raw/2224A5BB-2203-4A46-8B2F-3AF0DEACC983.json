@@ -1,0 +1,66 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(1871)",
+  "digital_item_created_at": "2014-02-04T03:59:58.688828",
+  "digitalt_museum_id": "011042513880",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042513880",
+  "from_date": "1871-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.6637973, 9.133711800000014",
+        "human_name": "Gottlieben, Thurgau, Switzerland",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Switzerland",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Thurgau",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Gottlieben",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant, lavering og akvarell p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 322.0,
+      "height_unit": "mm",
+      "width": 234.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2147,
+  "media_index": 74795,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06510-004",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06510-004",
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "watercolor",
+    "ink wash"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Rhinen ved Gottlieben"
+      ]
+    }
+  },
+  "to_date": "1871-01-01",
+  "uuid": "2224A5BB-2203-4A46-8B2F-3AF0DEACC983"
+}

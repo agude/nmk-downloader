@@ -1,0 +1,66 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "31. august 1871",
+  "digital_item_created_at": "2014-04-01T01:01:32.745397",
+  "digitalt_museum_id": "011043094037",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043094037",
+  "from_date": "1871-08-31",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.7661746, 9.170277199999986",
+        "human_name": "\u00dcberlingen, Bodensee, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Bodensee",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "\u00dcberlingen",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 145.0,
+      "height_unit": "mm",
+      "width": 235.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1925,
+  "media_index": 86398,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06518-014VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06518-014VERSO",
+  "subjects": [
+    "maritime",
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Mindre f\u00e6ringsb\u00e5t, \u00dcberlingen"
+      ]
+    }
+  },
+  "to_date": "1871-08-31",
+  "uuid": "48B3D96C-BA49-4A68-9E6F-671FE755BA47"
+}

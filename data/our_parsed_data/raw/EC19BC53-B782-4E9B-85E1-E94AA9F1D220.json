@@ -1,0 +1,48 @@
+{
+  "acquistion_notes": "Gave fra Olaf Schou 1909",
+  "descriptive_date": "1891",
+  "digital_item_created_at": "2013-12-14T05:40:07.728759",
+  "digitalt_museum_id": "011042266766",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042266766",
+  "from_date": "1891-01-01",
+  "material_comment": "Penn, akvarell og gouache over blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 384.0,
+      "height_unit": "mm",
+      "width": 558.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1359,
+  "media_index": 32532,
+  "media_width_pixels": 2000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.00141",
+  "national_museum_norway_artwork_id": "NG.K&H.B.00141",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "watercolor",
+    "pen",
+    "gouache paint",
+    "pencil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "A Harbour on the Baltic Sea"
+      ]
+    },
+    "nor": {
+      "current": [
+        "En b\u00e5thavn ved \u00d8stersj\u00f8en"
+      ]
+    }
+  },
+  "to_date": "1891-01-01",
+  "uuid": "EC19BC53-B782-4E9B-85E1-E94AA9F1D220"
+}

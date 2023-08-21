@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "13. juli (1862)",
+  "digital_item_created_at": "2014-02-13T02:01:54.551520",
+  "digitalt_museum_id": "011042525062",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042525062",
+  "from_date": "1862-07-13",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "58.94822079999999, 9.643096600000035",
+        "human_name": "Toner, Bamble, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Bamble",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Toner",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 118.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1766,
+  "media_index": 77635,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06515-016VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06515-016VERSO",
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "original": [
+        "Tonerkollen"
+      ]
+    }
+  },
+  "to_date": "1862-07-13",
+  "uuid": "0494C204-706B-441C-84FE-836ACC011B08"
+}

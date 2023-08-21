@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "8. september 1879",
+  "digital_item_created_at": "2014-03-14T02:01:24.584169",
+  "digitalt_museum_id": "011042654901",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042654901",
+  "from_date": "1879-09-08",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.69127688626756, 9.058914184570312",
+        "human_name": "Reichenau, Bodensee, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Bodensee",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Reichenau",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 210.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2079,
+  "media_index": 83362,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06514-009",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06514-009",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Strand med ruin og popler, Reichenau"
+      ]
+    }
+  },
+  "to_date": "1879-09-08",
+  "uuid": "0405923D-E759-4DF5-96F5-16DD7238451C"
+}

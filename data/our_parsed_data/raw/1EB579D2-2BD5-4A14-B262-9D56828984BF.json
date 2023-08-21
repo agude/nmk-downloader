@@ -1,0 +1,38 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(1862)",
+  "digital_item_created_at": "2014-02-13T02:02:08.903154",
+  "digitalt_museum_id": "011042525071",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042525071",
+  "from_date": "1862-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 118.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1754,
+  "media_index": 77644,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06515-021",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06515-021",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Frakt av hest med fl\u00e5te i landskap"
+      ]
+    }
+  },
+  "to_date": "1862-01-01",
+  "uuid": "1EB579D2-2BD5-4A14-B262-9D56828984BF"
+}

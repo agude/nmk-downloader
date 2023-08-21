@@ -1,0 +1,42 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "descriptive_date": "1878 eller 1879",
+  "digital_item_created_at": "2013-12-14T05:44:58.201537",
+  "digitalt_museum_id": "011042277814",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042277814",
+  "from_date": "1878-01-01",
+  "material_comment": "Penn og lavering p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 134.0,
+      "height_unit": "mm",
+      "width": 120.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2000,
+  "media_index": 26765,
+  "media_width_pixels": 1803,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07942",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07942",
+  "subjects": [
+    "woodlands"
+  ],
+  "techniques": [
+    "pen",
+    "ink wash"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Illustrasjon til \"En Tiurleg i Holleia\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg. Kj\u00f8benhavn 1879",
+        "Vi kom snart til seteren. Gutten var g\u00e5tt i forveien med hundene og hadde gjort opp en dyktig ild p\u00e5 peisen"
+      ]
+    }
+  },
+  "to_date": "1879-01-01",
+  "uuid": "20077AB3-AD9B-44B7-9813-91E131F62251"
+}

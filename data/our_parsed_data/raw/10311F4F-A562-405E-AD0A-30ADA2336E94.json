@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Kj\u00f8pt 2005",
+  "descriptive_date": "Utgitt 1854",
+  "digital_item_created_at": "2013-12-14T00:35:16.120272",
+  "digitalt_museum_id": "011041474618",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041474618",
+  "from_date": "1853-01-01",
+  "material_comment": "Fargelitografi p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 275.0,
+      "height_unit": "mm",
+      "width": 403.0,
+      "width_unit": "mm"
+    },
+    "page": {
+      "height": 402.0,
+      "height_unit": "mm",
+      "width": 533.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2279,
+  "media_index": 63706,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NMK.2005.0373",
+  "national_museum_norway_artwork_id": "NMK.2005.0373",
+  "subjects": [],
+  "techniques": [
+    "lithography"
+  ],
+  "titles": {
+    "deu": {
+      "original": [
+        "Ein Hochzeitszug zu Wasser"
+      ]
+    },
+    "eng": {
+      "current": [
+        "A Bridal Party on the Fjord"
+      ],
+      "original": [
+        "A Bridal party on the Fjord"
+      ]
+    },
+    "fra": {
+      "original": [
+        "Une noce sur le fiord"
+      ]
+    },
+    "nor": {
+      "current": [
+        "En brudeferd til vanns"
+      ],
+      "original": [
+        "En Brudef\u00e6rd til Vands"
+      ]
+    }
+  },
+  "to_date": "1854-01-01",
+  "uuid": "10311F4F-A562-405E-AD0A-30ADA2336E94"
+}

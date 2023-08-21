@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "24. september (1873)",
+  "digital_item_created_at": "2014-03-25T02:06:17.480485",
+  "digitalt_museum_id": "011043076364",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043076364",
+  "from_date": "1873-09-24",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.88952639999999, 10.58985860000007",
+        "human_name": "Bjerkholmen, B\u00e6rum, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "B\u00e6rum",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Bjerkholmen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 139.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1959,
+  "media_index": 85795,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06517-008",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06517-008",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "original": [
+        "Bjerkholmen"
+      ]
+    }
+  },
+  "to_date": "1873-09-24",
+  "uuid": "73DD94DB-E919-4271-B6A4-D0915DADC771"
+}

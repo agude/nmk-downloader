@@ -1,0 +1,41 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "Antagelig 1872",
+  "digital_item_created_at": "2014-06-13T01:01:13.391237",
+  "digitalt_museum_id": "011044110444",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110444",
+  "from_date": "1872-01-01",
+  "material_comment": "Blyant og penn p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 120.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1942,
+  "media_index": 93168,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06522-005VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06522-005VERSO",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil",
+    "pen"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "B\u00e5tstudier"
+      ]
+    }
+  },
+  "to_date": "1872-01-01",
+  "uuid": "A56AEB19-BF27-475C-AFFA-17BA972FD610"
+}

@@ -1,0 +1,68 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "20. juli (1873)",
+  "digital_item_created_at": "2014-03-25T02:05:52.831053",
+  "digitalt_museum_id": "011043076351",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043076351",
+  "from_date": "1873-07-20",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.91363579999999, 10.511922200000071",
+        "human_name": "Kols\u00e5s, B\u00e6rum, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "B\u00e6rum",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Kols\u00e5s",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 139.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1977,
+  "media_index": 85935,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06517-001VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06517-001VERSO",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kols\u00e5s sett fra Ostsund; H\u00e5konsens b\u00e5t"
+      ],
+      "original": [
+        "Kols\u00e5s fra Ostsundet; H\u00e5konsens b\u00e5d"
+      ]
+    }
+  },
+  "to_date": "1873-07-20",
+  "uuid": "8D4070EB-6303-4946-8A19-016710C490EC"
+}

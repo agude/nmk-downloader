@@ -1,0 +1,44 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "descriptive_date": "1878",
+  "digital_item_created_at": "2013-12-14T05:49:03.320300",
+  "digitalt_museum_id": "011042287184",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042287184",
+  "from_date": "1878-01-01",
+  "material_comment": "Penn og lavering over blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 140.0,
+      "height_unit": "mm",
+      "width": 147.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1889,
+  "media_index": 26773,
+  "media_width_pixels": 2000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07950",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07950",
+  "subjects": [
+    "myths and fairy tales",
+    "illustration"
+  ],
+  "techniques": [
+    "pen",
+    "pencil",
+    "ink wash"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Illustrasjon til \"En Aftenstund i et Propriet\u00e6rkj\u00f8kken\" i P. Chr. Asbj\u00f8rnsen, Norske folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879",
+        "Pikene mumlet om at de underjordiske hadde hatt fatt p\u00e5 ham og sl\u00e5tt ham over ende"
+      ]
+    }
+  },
+  "to_date": "1878-01-01",
+  "uuid": "C2929A07-2E6E-4702-AD9A-A0481EB33367"
+}

@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude ved Claus Gude 1999",
+  "descriptive_date": "Juni 1845",
+  "digital_item_created_at": "2013-12-14T05:49:04.576615",
+  "digitalt_museum_id": "011042287235",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042287235",
+  "from_date": "1845-06-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.64284989999999, 9.032512199999928",
+        "human_name": "Garn\u00e5s, Nes B, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Nes B",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Garn\u00e5s",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 172.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 0,
+  "media_index": 16599,
+  "media_width_pixels": 0,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0276",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0276",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Garns\u00e5s"
+      ]
+    }
+  },
+  "to_date": "1845-06-01",
+  "uuid": "069B25E8-DED5-4223-91EC-AB0487BB4C3D"
+}

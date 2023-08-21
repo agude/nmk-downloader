@@ -1,0 +1,66 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for A.C. Houens fond 1904",
+  "descriptive_date": "1858",
+  "digital_item_created_at": "2013-12-13T22:29:50.328755",
+  "digitalt_museum_id": "011041107558",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107558",
+  "from_date": "1858-08-09",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.85301, 10.78467999999998",
+        "human_name": "Ljan, Oslo, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Oslo",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Ljan",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 papp oppklebet p\u00e5 papplate",
+  "materials": [
+    "paper",
+    "cardboard"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 29.5,
+      "height_unit": "cm",
+      "width": 44.0,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 1981,
+  "media_index": 52729,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-011",
+  "national_museum_norway_artwork_id": "NG.M.00636-011",
+  "subjects": [
+    "woodlands"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Ljan"
+      ]
+    }
+  },
+  "to_date": "1858-09-09",
+  "uuid": "82B05337-3230-441A-A95F-CB94BD7C4CCE"
+}

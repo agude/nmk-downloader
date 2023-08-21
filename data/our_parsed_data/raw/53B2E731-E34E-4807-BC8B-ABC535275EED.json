@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "10. september (1879)",
+  "digital_item_created_at": "2014-05-10T01:01:36.851548",
+  "digitalt_museum_id": "011044053254",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044053254",
+  "from_date": "1879-09-10",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.6691999, 9.080619999999953",
+        "human_name": "Ermatingen, Thurgau, Switzerland",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Switzerland",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Thurgau",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Ermatingen",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 119.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 3000,
+  "media_index": 92223,
+  "media_width_pixels": 1912,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06520-011",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06520-011",
+  "subjects": [
+    "building"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Hus i Ermatingen"
+      ]
+    }
+  },
+  "to_date": "1879-09-10",
+  "uuid": "53B2E731-E34E-4807-BC8B-ABC535275EED"
+}

@@ -1,0 +1,59 @@
+{
+  "acquistion_notes": "Kj\u00f8pt fra Per Kvibergs bo 1966",
+  "descriptive_date": "(August 1889)",
+  "digital_item_created_at": "2014-05-06T01:01:18.258721",
+  "digitalt_museum_id": "011044051937",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044051937",
+  "from_date": "1889-08-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "63.11033459999999, 7.72807899999998",
+        "human_name": "Kristiansund, Norway",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Kristiansund",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 105.0,
+      "height_unit": "mm",
+      "width": 183.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1741,
+  "media_index": 92087,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1966.0105",
+  "national_museum_norway_artwork_id": "NG.K&H.1966.0105",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Havnen i Kristiansund"
+      ]
+    }
+  },
+  "to_date": "1889-08-01",
+  "uuid": "7A7A04B4-022D-4579-B6E3-70580825E670"
+}

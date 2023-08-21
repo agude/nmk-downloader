@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "17. juli (1854)",
+  "digital_item_created_at": "2014-06-27T01:03:44.787882",
+  "digitalt_museum_id": "011044184713",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184713",
+  "from_date": "1854-07-17",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.8191171, 10.46451639999998",
+        "human_name": "Blakstad, Asker, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Asker",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Blakstad",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1107,
+  "media_index": 93454,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-017VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06525-017VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Blakstad (detalj)"
+      ]
+    }
+  },
+  "to_date": "1854-07-17",
+  "uuid": "5E4973EA-19E7-4BC6-A34C-22D307CE40D5"
+}

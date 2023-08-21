@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Gave fra Olaf Schou 1909",
+  "descriptive_date": "9. august 1878",
+  "digital_item_created_at": "2013-12-13T20:58:58.427287",
+  "digitalt_museum_id": "01104803576",
+  "digitalt_museum_link": "https://digitaltmuseum.org/01104803576",
+  "from_date": "1878-08-09",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.73932336136857, 8.940811157226562",
+        "human_name": "Zellersee, Hegau, Germany",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Hegau",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Zellersee",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Penn, akvarell og gouache over blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 286.0,
+      "height_unit": "mm",
+      "width": 616.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 930,
+  "media_index": 32545,
+  "media_width_pixels": 2000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.00142",
+  "national_museum_norway_artwork_id": "NG.K&H.B.00142",
+  "subjects": [],
+  "techniques": [
+    "pen",
+    "watercolor",
+    "gouache paint",
+    "pencil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "View of Hegau on Zellersee"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Fra Hegau ved Zellersee"
+      ]
+    }
+  },
+  "to_date": "1878-08-09",
+  "uuid": "8E8E6EEC-7313-47C5-A752-485FB1DE9E63"
+}

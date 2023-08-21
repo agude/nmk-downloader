@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "15. juli 1877",
+  "digital_item_created_at": "2014-01-07T05:00:57.699054",
+  "digitalt_museum_id": "011042469623",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469623",
+  "from_date": "1877-07-15",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "56.415157, -5.471046999999999",
+        "human_name": "Oban, Argyll and Bute, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Argyll and Bute",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Oban",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 386.0,
+      "height_unit": "mm",
+      "width": 563.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2060,
+  "media_index": 74220,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03135",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03135",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kystlandskap ved Oban, Skottland"
+      ]
+    }
+  },
+  "to_date": "1877-07-15",
+  "uuid": "32D77F55-0631-4D96-99EA-1323E9BC975D"
+}

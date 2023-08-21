@@ -1,0 +1,38 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "1869",
+  "digital_item_created_at": "2014-05-20T01:01:19.714790",
+  "digitalt_museum_id": "011044059065",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044059065",
+  "from_date": "1869-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 195.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1743,
+  "media_index": 92520,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06523-001",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06523-001",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Billerud, Toten"
+      ]
+    }
+  },
+  "to_date": "1869-01-01",
+  "uuid": "E71B12A7-342C-4F37-AA6D-E60B40A40BB1"
+}

@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "29. september (1864)",
+  "digital_item_created_at": "2014-04-01T01:01:14.903813",
+  "digitalt_museum_id": "011043093972",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043093972",
+  "from_date": "1864-09-29",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "48.5493473, 8.165260799999941",
+        "human_name": "Unterwasser, Ottenh\u00f6fen im Schwarzwald, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Ottenh\u00f6fen im Schwarzwald",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Unterwasser",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 145.0,
+      "height_unit": "mm",
+      "width": 235.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1876,
+  "media_index": 86044,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06518-007",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06518-007",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Unterwasser"
+      ]
+    }
+  },
+  "to_date": "1864-09-29",
+  "uuid": "881FB5B0-6F47-4408-8A8A-234D4DC4AE8B"
+}

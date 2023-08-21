@@ -1,0 +1,64 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "21. mai 1875",
+  "digital_item_created_at": "2014-03-25T02:06:30.287782",
+  "digitalt_museum_id": "011043076370",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043076370",
+  "from_date": "1875-05-21",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "49.7246214, 7.554912400000035",
+        "human_name": "Hundsbach, Rhineland-Palatinate, Germany",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Rhineland-Palatinate",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Hundsbach",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 139.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1968,
+  "media_index": 85800,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06517-013",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06517-013",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Hundsbach"
+      ]
+    }
+  },
+  "to_date": "1875-05-21",
+  "uuid": "428B038A-417C-4214-869A-D31B381AD98D"
+}

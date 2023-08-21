@@ -1,0 +1,75 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra kunstneren, innkommet 1904",
+  "descriptive_date": "1882",
+  "digital_item_created_at": "2013-12-13T22:29:50.141718",
+  "digitalt_museum_id": "011041107544",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107544",
+  "from_date": "1882-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "54.3519967, 13.363049100000012",
+        "human_name": "R\u00fcgen, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "R\u00fcgen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret oppklebet p\u00e5 papplate",
+  "materials": [
+    "cavnas",
+    "cardboard"
+  ],
+  "measurements": {
+    "frame": {
+      "depth": 6.0,
+      "depth_unit": "cm",
+      "height": 35.5,
+      "height_unit": "cm",
+      "width": 50.5,
+      "width_unit": "cm"
+    },
+    "main_object": {
+      "height": 26.0,
+      "height_unit": "cm",
+      "width": 40.5,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 0,
+  "media_index": 18324,
+  "media_width_pixels": 0,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00635-007",
+  "national_museum_norway_artwork_id": "NG.M.00635-007",
+  "subjects": [
+    "maritime",
+    "working life"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Fisherman from R\u00fcgen"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Fisker fra R\u00fcgen"
+      ]
+    }
+  },
+  "to_date": "1882-01-01",
+  "uuid": "F45F99E5-B09E-4F8D-9963-920A1D77DAA3"
+}

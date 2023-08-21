@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "8. august (1867)",
+  "digital_item_created_at": "2014-05-24T01:01:03.525075",
+  "digitalt_museum_id": "011044074472",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044074472",
+  "from_date": "1867-08-08",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.8868979, 12.417892700000038",
+        "human_name": "Gstadt am Chiemsee, Rosenheim, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Rosenheim",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Gstadt am Chiemsee",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1768,
+  "media_index": 92607,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06527-005",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06527-005",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Gstadt am Chiemsee"
+      ]
+    }
+  },
+  "to_date": "1867-08-08",
+  "uuid": "218D93F0-E02B-4969-8DB3-45A3C00054E0"
+}

@@ -1,0 +1,87 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "20. august 1843",
+  "digital_item_created_at": "2013-12-14T06:08:27.479332",
+  "digitalt_museum_id": "011042331546",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042331546",
+  "from_date": "1843-08-20",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.99999999999999, 6.333333300000049",
+        "human_name": "Folgefonna, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Folgefonna",
+            "place_type": "area"
+          }
+        ]
+      },
+      {
+        "coordinates": "60.2487141656927, 6.552057266235352",
+        "human_name": "Reiseter, Ullensvang, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Ullensvang",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Reiseter",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Akvarell, penn, gouache og blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 260.0,
+      "height_unit": "mm",
+      "width": 507.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1524,
+  "media_index": 74188,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03156",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03156",
+  "subjects": [],
+  "techniques": [
+    "watercolor",
+    "pen",
+    "gouache paint",
+    "pencil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "View of Folgefonna from Reiss\u00e6ter"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Folgefonna sett fra Reiseter"
+      ]
+    }
+  },
+  "to_date": "1843-08-20",
+  "uuid": "2C6A67ED-A87C-4DE5-B9C4-69B5121090C8"
+}

@@ -1,0 +1,66 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "7. september (1866)",
+  "digital_item_created_at": "2014-02-21T02:01:50.264651",
+  "digitalt_museum_id": "011042536356",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042536356",
+  "from_date": "1866-09-07",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.9900131, 9.224631600000066",
+        "human_name": "Neselvi, Nord-Aurdal, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Nord-Aurdal",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Neselvi",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 195.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1736,
+  "media_index": 79912,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-021VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06516-021VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Neselvi ved Fagernes"
+      ],
+      "original": [
+        "N\u00e6selven i Valdres"
+      ]
+    }
+  },
+  "to_date": "1866-09-07",
+  "uuid": "BDB2A6AD-2313-4D2A-A195-1845B45F3D7D"
+}

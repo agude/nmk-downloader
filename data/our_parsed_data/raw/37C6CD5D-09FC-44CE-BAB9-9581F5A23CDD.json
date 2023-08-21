@@ -1,0 +1,40 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(1862)",
+  "digital_item_created_at": "2014-03-22T02:02:06.122394",
+  "digitalt_museum_id": "011043071481",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043071481",
+  "from_date": "1862-06-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 301.0,
+      "height_unit": "mm",
+      "width": 232.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 3000,
+  "media_index": 85739,
+  "media_width_pixels": 2333,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06513-017VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06513-017VERSO",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "B\u00e5t under seil"
+      ]
+    }
+  },
+  "to_date": "1862-09-30",
+  "uuid": "37C6CD5D-09FC-44CE-BAB9-9581F5A23CDD"
+}

@@ -1,0 +1,60 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude ved Claus Gude 1999",
+  "descriptive_date": "20. august 1845",
+  "digital_item_created_at": "2013-12-14T06:18:53.671695",
+  "digitalt_museum_id": "011042352983",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042352983",
+  "from_date": "1845-08-20",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.5166491, 7.908328900000015",
+        "human_name": "Fannar\u00e5ki, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Fannar\u00e5ki",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 173.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 0,
+  "media_index": 16610,
+  "media_width_pixels": 0,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0287",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0287",
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fannar\u00e5ki sett fra Skagast\u00f8len"
+      ]
+    }
+  },
+  "to_date": "1845-08-20",
+  "uuid": "60FFEA4A-F110-4C1C-97FF-C51DB5AEAF38"
+}

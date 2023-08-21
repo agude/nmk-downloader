@@ -1,0 +1,66 @@
+{
+  "acquistion_notes": "Antagelig kj\u00f8pt for A.C. Houens fond 1907",
+  "descriptive_date": "13. januar 1887",
+  "digital_item_created_at": "2013-12-13T22:29:52.808458",
+  "digitalt_museum_id": "011041107642",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107642",
+  "from_date": "1887-01-13",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "54.3519967, 13.363049100000012",
+        "human_name": "R\u00fcgen, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "R\u00fcgen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 papplate",
+  "materials": [
+    "cardboard"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 38.0,
+      "height_unit": "cm",
+      "width": 55.0,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 1355,
+  "media_index": 36071,
+  "media_width_pixels": 2000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00775",
+  "national_museum_norway_artwork_id": "NG.M.00775",
+  "subjects": [
+    "folklore",
+    "outdoor life"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Studies of a Woman from R\u00fcgen"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Fiskerkone fra R\u00fcgen"
+      ]
+    }
+  },
+  "to_date": "1887-01-13",
+  "uuid": "A4952CB4-D32D-4ECE-809B-66E2DACDDD0B"
+}

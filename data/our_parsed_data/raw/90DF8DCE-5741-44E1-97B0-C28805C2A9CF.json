@@ -1,0 +1,58 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "25. august (1872)",
+  "digital_item_created_at": "2014-06-13T01:01:36.154879",
+  "digitalt_museum_id": "011044110500",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110500",
+  "from_date": "1872-08-25",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "58.09492689999999, 6.805019600000037",
+        "human_name": "Farsund, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Farsund",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 120.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1942,
+  "media_index": 93179,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06522-013VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06522-013VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "original": [
+        "Farsund"
+      ]
+    }
+  },
+  "to_date": "1872-08-25",
+  "uuid": "90DF8DCE-5741-44E1-97B0-C28805C2A9CF"
+}

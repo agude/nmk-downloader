@@ -1,0 +1,38 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "Antagelig 1862",
+  "digital_item_created_at": "2014-02-13T02:01:11.844497",
+  "digitalt_museum_id": "011042525038",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042525038",
+  "from_date": "1862-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 118.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1768,
+  "media_index": 75659,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06515-004VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06515-004VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Skystudie over fjellandskap"
+      ]
+    }
+  },
+  "to_date": "1862-01-01",
+  "uuid": "E6FC1018-8C2D-46DD-97C1-542761060C9F"
+}

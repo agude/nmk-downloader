@@ -1,0 +1,108 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(Juli 1873)",
+  "digital_item_created_at": "2014-03-25T02:05:56.344884",
+  "digitalt_museum_id": "011043076353",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043076353",
+  "from_date": "1873-07-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.9580221, 10.653212199999984",
+        "human_name": "Voksen\u00e5sen, Oslo, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Oslo",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Voksen\u00e5sen",
+            "place_type": "area"
+          }
+        ]
+      },
+      {
+        "coordinates": "59.90213099999999, 10.603603000000021",
+        "human_name": "Holtet, B\u00e6rum, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "B\u00e6rum",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Holtet",
+            "place_type": "area"
+          }
+        ]
+      },
+      {
+        "coordinates": "59.88952639999999, 10.58985860000007",
+        "human_name": "Bjerkholmen, B\u00e6rum, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "B\u00e6rum",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Bjerkholmen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant og lavering p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 139.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1968,
+  "media_index": 85936,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06517-002VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06517-002VERSO",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil",
+    "ink wash"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Voksen\u00e5sen, Holtet og Bjerkholmen; fiskeb\u00e5t, Snar\u00f8ya"
+      ]
+    }
+  },
+  "to_date": "1873-07-01",
+  "uuid": "2AC46D9C-6E7B-4345-956B-0573C3B90D1B"
+}

@@ -1,0 +1,39 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "Uten \u00e5r",
+  "digital_item_created_at": "2014-01-07T04:58:33.954401",
+  "digitalt_museum_id": "011042469516",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469516",
+  "from_date": "1840-01-01",
+  "material_comment": "Blyant og kull p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 396.0,
+      "height_unit": "mm",
+      "width": 568.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2075,
+  "media_index": 74180,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03119",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03119",
+  "subjects": [],
+  "techniques": [
+    "charcoal",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Tun med hus og figurer"
+      ]
+    }
+  },
+  "to_date": "1903-01-01",
+  "uuid": "1B586D6A-56E5-46E7-A784-18669765B997"
+}

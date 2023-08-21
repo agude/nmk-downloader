@@ -1,0 +1,59 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra kunstneren, innkommet 1904",
+  "descriptive_date": "1870",
+  "digital_item_created_at": "2013-12-13T22:29:50.136357",
+  "digitalt_museum_id": "011041107543",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107543",
+  "from_date": "1870-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.826410, 13.378117",
+        "human_name": "Mondsee, Austria",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Austria",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Mondsee",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret oppklebet p\u00e5 papplate",
+  "materials": [
+    "cavnas",
+    "cardboard"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 31.5,
+      "height_unit": "cm",
+      "width": 42.0,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 2204,
+  "media_index": 41662,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00635-005",
+  "national_museum_norway_artwork_id": "NG.M.00635-005",
+  "subjects": [],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Mondsee"
+      ]
+    }
+  },
+  "to_date": "1870-01-01",
+  "uuid": "1F15D9D0-A2D3-4C98-BB8E-ED421C928B51"
+}

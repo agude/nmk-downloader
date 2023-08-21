@@ -1,0 +1,58 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "9. august 1884",
+  "digital_item_created_at": "2014-02-11T08:04:07.441914",
+  "digitalt_museum_id": "011042523219",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042523219",
+  "from_date": "1884-08-09",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.1313095, 10.216594799999939",
+        "human_name": "Sandefjord, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Sandefjord",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant og lavering p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 240.0,
+      "height_unit": "mm",
+      "width": 327.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2180,
+  "media_index": 75294,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06512-009VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06512-009VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Sandefjord"
+      ]
+    }
+  },
+  "to_date": "1884-08-09",
+  "uuid": "658AAA2F-CC64-4C81-9978-2003829F9AFE"
+}

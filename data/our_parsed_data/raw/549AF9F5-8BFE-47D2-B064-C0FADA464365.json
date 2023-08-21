@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(1879)",
+  "digital_item_created_at": "2014-05-10T01:01:08.429688",
+  "digitalt_museum_id": "011044053186",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044053186",
+  "from_date": "1879-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.7990269, 8.821051699999998",
+        "human_name": "Hohenkr\u00e4hen, Hilzingen, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Hilzingen",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Hohenkr\u00e4hen",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 119.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1914,
+  "media_index": 92208,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06520-003VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06520-003VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Hohenkr\u00e4hen sett fra Hohentwiel"
+      ]
+    }
+  },
+  "to_date": "1879-01-01",
+  "uuid": "549AF9F5-8BFE-47D2-B064-C0FADA464365"
+}

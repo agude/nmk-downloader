@@ -1,0 +1,38 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude AS ved Claus Gude 1999",
+  "descriptive_date": "Antagelig 1857",
+  "digital_item_created_at": "2014-11-07T02:06:44.223941",
+  "digitalt_museum_id": "021045510718",
+  "digitalt_museum_link": "https://digitaltmuseum.org/021045510718",
+  "from_date": "1857-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 180.0,
+      "height_unit": "mm",
+      "width": 121.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 3000,
+  "media_index": 99250,
+  "media_width_pixels": 2045,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0267",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0267",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Guttebarn med leket\u00f8y"
+      ]
+    }
+  },
+  "to_date": "1857-01-01",
+  "uuid": "3C0C2DF5-8A2F-477D-8D33-40F69384EE76"
+}

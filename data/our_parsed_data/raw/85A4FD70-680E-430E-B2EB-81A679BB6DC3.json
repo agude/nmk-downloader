@@ -1,0 +1,55 @@
+{
+  "acquistion_notes": "Kj\u00f8pt 1857",
+  "descriptive_date": "1857",
+  "digital_item_created_at": "2013-12-14T06:38:57.659397",
+  "digitalt_museum_id": "011042394232",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042394232",
+  "from_date": "1857-01-01",
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "cavnas"
+  ],
+  "measurements": {
+    "frame": {
+      "depth": 12.0,
+      "depth_unit": "cm",
+      "height": 113.4,
+      "height_unit": "cm",
+      "width": 140.5,
+      "width_unit": "cm"
+    },
+    "main_object": {
+      "depth": 2.7,
+      "depth_unit": "cm",
+      "height": 79.5,
+      "height_unit": "cm",
+      "width": 106.1,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 3011,
+  "media_index": 149081,
+  "media_width_pixels": 4000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00212",
+  "national_museum_norway_artwork_id": "NG.M.00212",
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Norwegian Highlands"
+      ]
+    },
+    "nor": {
+      "current": [
+        "H\u00f8yfjell"
+      ]
+    }
+  },
+  "to_date": "1857-01-01",
+  "uuid": "85A4FD70-680E-430E-B2EB-81A679BB6DC3"
+}

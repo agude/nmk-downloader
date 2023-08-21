@@ -1,0 +1,40 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(1875)",
+  "digital_item_created_at": "2014-06-05T01:02:27.899961",
+  "digitalt_museum_id": "011044097197",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044097197",
+  "from_date": "1875-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 111.0,
+      "height_unit": "mm",
+      "width": 179.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1849,
+  "media_index": 92959,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06526-013VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06526-013VERSO",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kystlandskap; seilskip"
+      ]
+    }
+  },
+  "to_date": "1875-01-01",
+  "uuid": "D02DFB96-F125-41D3-9850-B96EBF8CEAEE"
+}

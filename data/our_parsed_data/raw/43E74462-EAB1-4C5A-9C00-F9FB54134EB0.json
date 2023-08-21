@@ -1,0 +1,83 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for A.C. Houens fond 1904",
+  "descriptive_date": "1898",
+  "digital_item_created_at": "2013-12-13T22:29:50.429716",
+  "digitalt_museum_id": "011041107565",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107565",
+  "from_date": "1898-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.9102878, 10.69240400000001",
+        "human_name": "Oscarshall, Oslo, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Oslo",
+            "place_type": "municipality"
+          },
+          {
+            "level": 5,
+            "name": "Oscarshall",
+            "place_type": "adress"
+          }
+        ]
+      },
+      {
+        "coordinates": "59.46927579999999, 10.534376399999928",
+        "human_name": "Oslofjorden, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Oslofjorden",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "cavnas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 50.0,
+      "height_unit": "cm",
+      "width": 100.0,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 0,
+  "media_index": 18345,
+  "media_width_pixels": 0,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00637",
+  "national_museum_norway_artwork_id": "NG.M.00637",
+  "subjects": [
+    "folklore",
+    "fjord",
+    "maritime"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Sankthansaften ved Kristiania-fjorden"
+      ]
+    }
+  },
+  "to_date": "1898-01-01",
+  "uuid": "43E74462-EAB1-4C5A-9C00-F9FB54134EB0"
+}

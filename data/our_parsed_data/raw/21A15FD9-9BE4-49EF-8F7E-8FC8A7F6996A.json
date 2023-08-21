@@ -1,0 +1,40 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude AS ved Claus Gude 1999",
+  "descriptive_date": "Antagelig juni 1843",
+  "digital_item_created_at": "2014-11-07T02:04:31.184057",
+  "digitalt_museum_id": "021045510618",
+  "digitalt_museum_link": "https://digitaltmuseum.org/021045510618",
+  "from_date": "1843-06-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 123.0,
+      "height_unit": "mm",
+      "width": 76.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 3000,
+  "media_index": 99241,
+  "media_width_pixels": 1853,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0245VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0245VERSO",
+  "subjects": [
+    "building"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Laftede bygninger"
+      ]
+    }
+  },
+  "to_date": "1843-06-01",
+  "uuid": "21A15FD9-9BE4-49EF-8F7E-8FC8A7F6996A"
+}

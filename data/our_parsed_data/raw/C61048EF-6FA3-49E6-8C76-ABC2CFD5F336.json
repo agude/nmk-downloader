@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "18. juli 1882",
+  "digital_item_created_at": "2014-06-27T01:02:11.882154",
+  "digitalt_museum_id": "011044184612",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184612",
+  "from_date": "1882-07-18",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "54.3419774, 13.738428999999996",
+        "human_name": "G\u00f6hren, R\u00fcgen, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "R\u00fcgen",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "G\u00f6hren",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 242.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1922,
+  "media_index": 93326,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06524-017",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06524-017",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "B\u00e5t p\u00e5 stranden, G\u00f6hren"
+      ]
+    }
+  },
+  "to_date": "1882-07-18",
+  "uuid": "C61048EF-6FA3-49E6-8C76-ABC2CFD5F336"
+}

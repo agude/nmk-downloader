@@ -1,0 +1,38 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "Antagelig 1854",
+  "digital_item_created_at": "2014-06-27T01:05:37.198916",
+  "digitalt_museum_id": "011044184822",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184822",
+  "from_date": "1854-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2254,
+  "media_index": 93551,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-042",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06525-042",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Landskap med elv og bro"
+      ]
+    }
+  },
+  "to_date": "1854-01-01",
+  "uuid": "0554F6DB-6047-4F2F-A095-784B784D59E2"
+}

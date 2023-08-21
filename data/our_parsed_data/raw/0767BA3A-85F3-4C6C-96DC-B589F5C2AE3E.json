@@ -1,0 +1,40 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude AS ved Claus Gude 1999",
+  "descriptive_date": "Antagelig 1839",
+  "digital_item_created_at": "2014-11-07T02:03:05.767884",
+  "digitalt_museum_id": "021045510506",
+  "digitalt_museum_link": "https://digitaltmuseum.org/021045510506",
+  "from_date": "1839-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 229.0,
+      "height_unit": "mm",
+      "width": 147.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 3000,
+  "media_index": 99263,
+  "media_width_pixels": 1924,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0226",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0226",
+  "subjects": [
+    "waterfall"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Foss"
+      ]
+    }
+  },
+  "to_date": "1839-01-01",
+  "uuid": "0767BA3A-85F3-4C6C-96DC-B589F5C2AE3E"
+}

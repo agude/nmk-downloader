@@ -1,0 +1,44 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "descriptive_date": "1878 og 1879",
+  "digital_item_created_at": "2013-12-14T05:49:03.613395",
+  "digitalt_museum_id": "011042287195",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042287195",
+  "from_date": "1878-01-01",
+  "material_comment": "Blyant, penn og lavering p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 185.0,
+      "height_unit": "mm",
+      "width": 147.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2000,
+  "media_index": 26771,
+  "media_width_pixels": 1597,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07948",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07948",
+  "subjects": [
+    "myths and fairy tales",
+    "illustration"
+  ],
+  "techniques": [
+    "pen",
+    "ink wash",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Han lurte seg bort\u00e5t en glugge og gl\u00f8tte inn",
+        "Illustrasjon til \"Berthe Tuppenhaugs fort\u00e6llinger\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879"
+      ]
+    }
+  },
+  "to_date": "1879-01-01",
+  "uuid": "8FBA2985-D67C-4A09-A840-DDDD6D283469"
+}

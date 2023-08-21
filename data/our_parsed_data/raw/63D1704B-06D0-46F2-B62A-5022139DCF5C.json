@@ -1,0 +1,38 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "1881 eller 1882",
+  "digital_item_created_at": "2014-06-27T01:02:00.451700",
+  "digitalt_museum_id": "011044184599",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184599",
+  "from_date": "1881-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 242.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1949,
+  "media_index": 93320,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06524-014",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06524-014",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Studier av hjort"
+      ]
+    }
+  },
+  "to_date": "1882-01-01",
+  "uuid": "63D1704B-06D0-46F2-B62A-5022139DCF5C"
+}

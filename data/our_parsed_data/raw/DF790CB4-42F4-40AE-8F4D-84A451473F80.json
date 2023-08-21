@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(16. juni 1863)",
+  "digital_item_created_at": "2014-02-04T03:59:07.200206",
+  "digitalt_museum_id": "011042513824",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042513824",
+  "from_date": "1863-06-16",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "53.06479830000001, -3.864974699999948",
+        "human_name": "Lledr Valley, Snowdonia, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Snowdonia",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Lledr Valley",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 295.0,
+      "height_unit": "mm",
+      "width": 434.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2284,
+  "media_index": 74693,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06511-014VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06511-014VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Landskapsriss, Lledr Valley"
+      ]
+    }
+  },
+  "to_date": "1863-06-16",
+  "uuid": "DF790CB4-42F4-40AE-8F4D-84A451473F80"
+}

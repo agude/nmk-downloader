@@ -1,0 +1,45 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Theodor Christian Egeberg 1915",
+  "descriptive_date": "1858",
+  "digital_item_created_at": "2013-12-13T22:30:13.570560",
+  "digitalt_museum_id": "011041108724",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041108724",
+  "from_date": "1858-01-01",
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "cavnas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 97.0,
+      "height_unit": "cm",
+      "width": 141.5,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 2038,
+  "media_index": 61126,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.03063",
+  "national_museum_norway_artwork_id": "NG.M.03063",
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Norwegian Highlands"
+      ]
+    },
+    "nor": {
+      "current": [
+        "H\u00f8yfjell"
+      ]
+    }
+  },
+  "to_date": "1858-01-01",
+  "uuid": "AF2A14C8-82F8-4901-B491-683808FDDE3C"
+}

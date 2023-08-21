@@ -1,0 +1,46 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for Houens fond fra kunstnerens bo 1904",
+  "descriptive_date": "Uten \u00e5r",
+  "digital_item_created_at": "2013-12-14T05:40:07.582730",
+  "digitalt_museum_id": "011042266762",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042266762",
+  "from_date": "1840-01-01",
+  "material_comment": "Blyant, penn, lavering og gouache p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 345.0,
+      "height_unit": "mm",
+      "width": 497.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1382,
+  "media_index": 32531,
+  "media_width_pixels": 2000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.08026",
+  "national_museum_norway_artwork_id": "NG.K&H.B.08026",
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "pen",
+    "ink wash",
+    "gouache paint"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Breakers"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Brenninger"
+      ]
+    }
+  },
+  "to_date": "1903-01-01",
+  "uuid": "4195B537-9454-411B-98A0-E6BF56E98F1A"
+}

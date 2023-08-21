@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "23. juni (1877)",
+  "digital_item_created_at": "2014-04-04T01:01:00.674829",
+  "digitalt_museum_id": "011043105682",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043105682",
+  "from_date": "1877-06-23",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "55.65, -5.183333299999958",
+        "human_name": "Glen Sannox, Scotland, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Scotland",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Glen Sannox",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 177.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2159,
+  "media_index": 88110,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519-002",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06519-002",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Glen Sannox, Arran"
+      ]
+    }
+  },
+  "to_date": "1877-06-23",
+  "uuid": "E8758C2C-6726-44F4-80CA-0981735C5DB5"
+}

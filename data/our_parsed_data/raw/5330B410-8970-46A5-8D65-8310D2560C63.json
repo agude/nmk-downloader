@@ -1,0 +1,58 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "11. juli (1862)",
+  "digital_item_created_at": "2014-02-13T02:01:44.248721",
+  "digitalt_museum_id": "011042525056",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042525056",
+  "from_date": "1862-07-11",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "58.86930289999999, 9.414938699999993",
+        "human_name": "Krager\u00f8, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Krager\u00f8",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 118.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1212,
+  "media_index": 75688,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06515-013VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06515-013VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Klippe ved kysten, Krager\u00f8"
+      ]
+    }
+  },
+  "to_date": "1862-07-11",
+  "uuid": "5330B410-8970-46A5-8D65-8310D2560C63"
+}

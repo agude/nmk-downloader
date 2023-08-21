@@ -1,0 +1,40 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "Antagelig 1867",
+  "digital_item_created_at": "2014-05-24T01:01:55.197657",
+  "digitalt_museum_id": "011044074551",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044074551",
+  "from_date": "1867-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1757,
+  "media_index": 92640,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06527-024",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06527-024",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "B\u00e5t og figurer; ryggvendt mannsfigur"
+      ]
+    }
+  },
+  "to_date": "1867-01-01",
+  "uuid": "5A61963D-4F54-41E5-B2F6-F833EB1C45B1"
+}

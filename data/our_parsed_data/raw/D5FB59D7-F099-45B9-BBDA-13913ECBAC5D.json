@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "21. august 1866",
+  "digital_item_created_at": "2014-02-21T02:00:54.913360",
+  "digitalt_museum_id": "011042536314",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042536314",
+  "from_date": "1866-08-21",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.82487880000001, 8.636301300000013",
+        "human_name": "Hemsila, Hemsedal, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Hemsedal",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Hemsila",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 195.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1724,
+  "media_index": 79875,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-004",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06516-004",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Ved Hemsila"
+      ]
+    }
+  },
+  "to_date": "1866-08-21",
+  "uuid": "D5FB59D7-F099-45B9-BBDA-13913ECBAC5D"
+}

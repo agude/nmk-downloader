@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "11. september (1881)",
+  "digital_item_created_at": "2014-06-27T01:01:53.398753",
+  "digitalt_museum_id": "011044184591",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184591",
+  "from_date": "1881-09-11",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "53.9411111, 14.188888899999938",
+        "human_name": "Ahlbeck, Ostseebad Heringsdorf, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Ostseebad Heringsdorf",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Ahlbeck",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 242.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1915,
+  "media_index": 93317,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06524-012VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06524-012VERSO",
+  "subjects": [
+    "maritime"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Seilb\u00e5ter p\u00e5 stranden, Ahlbeck"
+      ]
+    }
+  },
+  "to_date": "1881-09-11",
+  "uuid": "4F6824D9-D4A2-4F4B-A6FF-40CAA407DE13"
+}

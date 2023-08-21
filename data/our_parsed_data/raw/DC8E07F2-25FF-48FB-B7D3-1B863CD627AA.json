@@ -1,0 +1,45 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "Antagelig 1890",
+  "digital_item_created_at": "2014-01-07T04:58:21.845451",
+  "digitalt_museum_id": "011042469506",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469506",
+  "from_date": "1890-01-01",
+  "material_comment": "Akvarell og penn over blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 273.0,
+      "height_unit": "mm",
+      "width": 377.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2160,
+  "media_index": 74177,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03112",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03112",
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "watercolor",
+    "pen"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "View of The Molde Fjord"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Fra Moldefjorden"
+      ]
+    }
+  },
+  "to_date": "1890-01-01",
+  "uuid": "DC8E07F2-25FF-48FB-B7D3-1B863CD627AA"
+}

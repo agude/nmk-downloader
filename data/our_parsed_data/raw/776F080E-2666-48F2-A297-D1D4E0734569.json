@@ -1,0 +1,67 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for A.C. Houens fond 1904",
+  "descriptive_date": "(27. august 1846)",
+  "digital_item_created_at": "2013-12-13T22:29:50.239126",
+  "digitalt_museum_id": "011041107553",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107553",
+  "from_date": "1846-08-27",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.55386859999999, 8.859070599999995",
+        "human_name": "V\u00e5g\u00e5, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "V\u00e5g\u00e5",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 papir oppklebet p\u00e5 lerret",
+  "materials": [
+    "paper",
+    "cavnas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 25.0,
+      "height_unit": "cm",
+      "width": 44.0,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 0,
+  "media_index": 18331,
+  "media_width_pixels": 0,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-004",
+  "national_museum_norway_artwork_id": "NG.M.00636-004",
+  "subjects": [
+    "river",
+    "moutain"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "View of V\u00e5g\u00e5"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Fra V\u00e5g\u00e5"
+      ]
+    }
+  },
+  "to_date": "1846-08-27",
+  "uuid": "776F080E-2666-48F2-A297-D1D4E0734569"
+}

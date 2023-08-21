@@ -1,0 +1,61 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "August eller september 1866",
+  "digital_item_created_at": "2014-02-21T02:01:26.763833",
+  "digitalt_museum_id": "011042536344",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042536344",
+  "from_date": "1866-08-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.03700499999999, 7.586614999999938",
+        "human_name": "L\u00e6rdal, Norway",
+        "place_accuracy": "sannsynlig",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "L\u00e6rdal",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 195.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1765,
+  "media_index": 79887,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-014",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06516-014",
+  "subjects": [
+    "building"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Hus ved veien"
+      ]
+    }
+  },
+  "to_date": "1866-09-01",
+  "uuid": "8F24C0CF-5D35-4916-B979-ECFF8BA19E99"
+}

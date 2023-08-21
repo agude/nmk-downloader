@@ -1,0 +1,40 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(1875)",
+  "digital_item_created_at": "2014-06-05T01:01:31.321274",
+  "digitalt_museum_id": "011044097120",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044097120",
+  "from_date": "1875-01-01",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 121.0,
+      "height_unit": "mm",
+      "width": 180.0,
+      "width_unit": "mm"
+    },
+    "page": {
+      "height": 111.0,
+      "height_unit": "mm",
+      "width": 179.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1953,
+  "media_index": 93020,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06526",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06526",
+  "subjects": [],
+  "titles": {
+    "nor": {
+      "current": [
+        "Skissebok nr. 13"
+      ]
+    }
+  },
+  "to_date": "1875-01-01",
+  "uuid": "62535C61-59D5-424A-8132-BAB09300E124"
+}

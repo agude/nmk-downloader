@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "Juni eller juli 1877",
+  "digital_item_created_at": "2014-04-04T01:01:17.441014",
+  "digitalt_museum_id": "011043105700",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043105700",
+  "from_date": "1877-06-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "55.5806165, -5.210857300000043",
+        "human_name": "Isle of Arran, Scotland, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Scotland",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Isle of Arran",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 177.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2141,
+  "media_index": 88540,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519-005VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06519-005VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Arran sett fra dampskipet; Arran sett fra Kyles of Bute"
+      ]
+    }
+  },
+  "to_date": "1877-07-01",
+  "uuid": "C01F45B7-5754-4091-B1B0-F8F4856C4899"
+}

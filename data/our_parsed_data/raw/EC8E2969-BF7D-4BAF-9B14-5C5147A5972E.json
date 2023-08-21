@@ -1,0 +1,44 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "descriptive_date": "1878",
+  "digital_item_created_at": "2013-12-14T05:43:55.950314",
+  "digitalt_museum_id": "011042275458",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042275458",
+  "from_date": "1878-01-01",
+  "material_comment": "Penn og lavering over blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 190.0,
+      "height_unit": "mm",
+      "width": 148.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2000,
+  "media_index": 26779,
+  "media_width_pixels": 1551,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07956",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07956",
+  "subjects": [
+    "myths and fairy tales",
+    "illustration"
+  ],
+  "techniques": [
+    "pen",
+    "ink wash",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Foran gikk der ei sv\u00e6r jente, som hadde ei drivende kvit mj\u00f8lkekolle i handa",
+        "Illustrasjon til \"En Aftenstund i et Propriet\u00e6rkj\u00f8kken\", P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879"
+      ]
+    }
+  },
+  "to_date": "1878-01-01",
+  "uuid": "EC8E2969-BF7D-4BAF-9B14-5C5147A5972E"
+}

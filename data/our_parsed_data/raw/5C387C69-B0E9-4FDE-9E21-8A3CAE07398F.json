@@ -1,0 +1,67 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "22. august 1873",
+  "digital_item_created_at": "2014-06-13T01:02:52.892093",
+  "digitalt_museum_id": "011044110576",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110576",
+  "from_date": "1873-08-22",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "62.5531977, 7.664048399999956",
+        "human_name": "Veblungsnes, Rauma, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Rauma",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Veblungsnes",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 140.0,
+      "height_unit": "mm",
+      "width": 213.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2043,
+  "media_index": 93233,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06521-010",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06521-010",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Veblungsnes sett fra \u00c5ndalsnes"
+      ],
+      "original": [
+        "Veblungen fra N\u00e6s",
+        "Veblungsn\u00e6s fra N\u00e6s"
+      ]
+    }
+  },
+  "to_date": "1873-08-22",
+  "uuid": "5C387C69-B0E9-4FDE-9E21-8A3CAE07398F"
+}

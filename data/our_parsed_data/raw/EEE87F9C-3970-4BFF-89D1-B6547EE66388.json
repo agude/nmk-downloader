@@ -1,0 +1,61 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for A.C. Houens fond 1904",
+  "descriptive_date": "1845",
+  "digital_item_created_at": "2013-12-13T22:29:50.231220",
+  "digitalt_museum_id": "011041107551",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107551",
+  "from_date": "1845-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.128757, 6.484378",
+        "human_name": "Kvams\u00f8y, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 4,
+            "name": "Kvams\u00f8y",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 papir oppklebet p\u00e5 trefiberplate",
+  "materials": [
+    "paper",
+    "fiberboard"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 31.0,
+      "height_unit": "cm",
+      "width": 41.0,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 0,
+  "media_index": 18329,
+  "media_width_pixels": 0,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-002",
+  "national_museum_norway_artwork_id": "NG.M.00636-002",
+  "subjects": [
+    "church"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Den gamle kirken p\u00e5 Kvams\u00f8y"
+      ]
+    }
+  },
+  "to_date": "1845-01-01",
+  "uuid": "EEE87F9C-3970-4BFF-89D1-B6547EE66388"
+}

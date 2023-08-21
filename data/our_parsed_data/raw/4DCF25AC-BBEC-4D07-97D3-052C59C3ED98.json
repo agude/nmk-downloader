@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "8. august (1872)",
+  "digital_item_created_at": "2014-06-13T01:01:38.219546",
+  "digitalt_museum_id": "011044110503",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110503",
+  "from_date": "1872-08-08",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "58.070888, 6.812361699999997",
+        "human_name": "Eikv\u00e5g, Farsund, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Farsund",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Eikv\u00e5g",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 120.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1979,
+  "media_index": 93180,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06522-014",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06522-014",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Eikv\u00e5g"
+      ]
+    }
+  },
+  "to_date": "1872-08-08",
+  "uuid": "4DCF25AC-BBEC-4D07-97D3-052C59C3ED98"
+}

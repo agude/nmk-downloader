@@ -1,0 +1,68 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "16. juli (1854)",
+  "digital_item_created_at": "2014-06-27T01:03:27.238455",
+  "digitalt_museum_id": "011044184695",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184695",
+  "from_date": "1854-07-16",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.91363579999999, 10.511922200000071",
+        "human_name": "Kols\u00e5s, B\u00e6rum, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "B\u00e6rum",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Kols\u00e5s",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1101,
+  "media_index": 93458,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-012VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06525-012VERSO",
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kols\u00e5s sett fra Tanum"
+      ],
+      "original": [
+        "Kulsaas fra Tanum"
+      ]
+    }
+  },
+  "to_date": "1854-07-16",
+  "uuid": "115356E4-FA3A-4A35-8564-D055049626B3"
+}

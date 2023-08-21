@@ -1,0 +1,67 @@
+{
+  "acquistion_notes": "Kj\u00f8pt 1975",
+  "descriptive_date": "1845",
+  "digital_item_created_at": "2013-12-13T22:30:13.545750",
+  "digitalt_museum_id": "011041108703",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041108703",
+  "from_date": "1845-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "human_name": "Siebengebirge, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Siebengebirge",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "cavnas"
+  ],
+  "measurements": {
+    "frame": {
+      "depth": 5.5,
+      "depth_unit": "cm",
+      "height": 42.0,
+      "height_unit": "cm",
+      "width": 54.5,
+      "width_unit": "cm"
+    },
+    "main_object": {
+      "height": 29.0,
+      "height_unit": "cm",
+      "width": 41.5,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 2086,
+  "media_index": 52745,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.02970",
+  "national_museum_norway_artwork_id": "NG.M.02970",
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Landskap fra Siebengebirge"
+      ]
+    }
+  },
+  "to_date": "1845-01-01",
+  "uuid": "B2BE328B-5C28-4848-BA60-FA2902D6F264"
+}

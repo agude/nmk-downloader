@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "30. august (1873)",
+  "digital_item_created_at": "2014-06-13T01:02:44.720719",
+  "digitalt_museum_id": "011044110570",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110570",
+  "from_date": "1873-08-30",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "62.2305378, 8.350118899999984",
+        "human_name": "M\u00f8lmen, Lesja, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Lesja",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "M\u00f8lmen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 140.0,
+      "height_unit": "mm",
+      "width": 213.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1990,
+  "media_index": 93215,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06521-008VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06521-008VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra M\u00f8lmen p\u00e5 Lesja"
+      ]
+    }
+  },
+  "to_date": "1873-08-30",
+  "uuid": "01AAC8DC-F5C5-44CA-BFA6-6072252BA9AD"
+}

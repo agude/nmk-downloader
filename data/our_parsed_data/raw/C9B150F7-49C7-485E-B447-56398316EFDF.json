@@ -1,0 +1,67 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Marie Moe, innkommet 1940",
+  "descriptive_date": "Antagelig 1849",
+  "digital_item_created_at": "2013-12-13T22:30:07.557060",
+  "digitalt_museum_id": "011041108335",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041108335",
+  "from_date": "1849-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.226035, 6.491024",
+        "human_name": "Tjugum, Balestrand, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Balestrand",
+            "place_type": "municipality"
+          },
+          {
+            "level": 4,
+            "name": "Tjugum",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 papp oppklebet p\u00e5 papplate",
+  "materials": [
+    "paper",
+    "cardboard"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 30.0,
+      "height_unit": "cm",
+      "width": 42.0,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 0,
+  "media_index": 19498,
+  "media_width_pixels": 0,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.01981",
+  "national_museum_norway_artwork_id": "NG.M.01981",
+  "subjects": [
+    "moutain",
+    "fjord"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Tjugum"
+      ]
+    }
+  },
+  "to_date": "1849-01-01",
+  "uuid": "C9B150F7-49C7-485E-B447-56398316EFDF"
+}

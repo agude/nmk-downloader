@@ -1,0 +1,38 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "17. august (1880)",
+  "digital_item_created_at": "2014-03-14T02:00:59.216534",
+  "digitalt_museum_id": "011042654870",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042654870",
+  "from_date": "1880-08-17",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 210.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2097,
+  "media_index": 84220,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06514-002VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06514-002VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Tistler og spirea, Billerud p\u00e5 Toten"
+      ]
+    }
+  },
+  "to_date": "1880-08-17",
+  "uuid": "C3E6A51F-E03E-4B78-816F-86C0D0F2CDAD"
+}

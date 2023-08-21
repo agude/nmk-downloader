@@ -1,0 +1,40 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "Antagelig 1866",
+  "digital_item_created_at": "2014-02-21T02:00:40.584584",
+  "digitalt_museum_id": "011042536306",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042536306",
+  "from_date": "1866-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 195.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1888,
+  "media_index": 79872,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-001",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06516-001",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fire studier av skip"
+      ]
+    }
+  },
+  "to_date": "1866-01-01",
+  "uuid": "69458D71-5353-474A-99E7-6F9BC709AC7D"
+}

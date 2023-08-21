@@ -1,0 +1,66 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "28. august (1873)",
+  "digital_item_created_at": "2014-06-13T01:03:21.356425",
+  "digitalt_museum_id": "011044110597",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110597",
+  "from_date": "1873-08-28",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "62.48197709999999, 7.739183199999957",
+        "human_name": "Trolltindene, Rauma, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Rauma",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Trolltindene",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 140.0,
+      "height_unit": "mm",
+      "width": 213.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1961,
+  "media_index": 93247,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06521-016VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06521-016VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Trolltindene sett fra \u00c5ndalsnes"
+      ],
+      "original": [
+        "Troldtinderne fra N\u00e6s"
+      ]
+    }
+  },
+  "to_date": "1873-08-28",
+  "uuid": "A3CB9C4C-6F77-4B20-96C1-AAE779D515A2"
+}

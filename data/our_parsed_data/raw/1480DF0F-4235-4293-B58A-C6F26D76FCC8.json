@@ -1,0 +1,45 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Alfred Larsen, innkommet 1951",
+  "descriptive_date": "Uten \u00e5r",
+  "digital_item_created_at": "2013-12-13T22:30:08.770646",
+  "digitalt_museum_id": "011041108438",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041108438",
+  "from_date": "1838-01-01",
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "cavnas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 35.0,
+      "height_unit": "cm",
+      "width": 40.0,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 2629,
+  "media_index": 52741,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.02234",
+  "national_museum_norway_artwork_id": "NG.M.02234",
+  "subjects": [
+    "maritime"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Cloud Study over the Sea"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Skystudie over hav"
+      ]
+    }
+  },
+  "to_date": "1903-01-01",
+  "uuid": "1480DF0F-4235-4293-B58A-C6F26D76FCC8"
+}

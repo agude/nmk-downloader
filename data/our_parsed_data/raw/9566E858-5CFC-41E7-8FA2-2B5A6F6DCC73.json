@@ -1,0 +1,39 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "7. august 1858",
+  "digital_item_created_at": "2014-01-07T04:59:24.635263",
+  "digitalt_museum_id": "011042469548",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469548",
+  "from_date": "1858-08-07",
+  "material_comment": "Blyant og lavering p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 296.0,
+      "height_unit": "mm",
+      "width": 429.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2098,
+  "media_index": 74183,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03148",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03148",
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "ink wash"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Landskap med vannrenne, Ljabru"
+      ]
+    }
+  },
+  "to_date": "1858-08-07",
+  "uuid": "9566E858-5CFC-41E7-8FA2-2B5A6F6DCC73"
+}

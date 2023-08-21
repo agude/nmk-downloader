@@ -1,0 +1,38 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(1862)",
+  "digital_item_created_at": "2014-03-22T02:02:04.338670",
+  "digitalt_museum_id": "011043071480",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043071480",
+  "from_date": "1862-06-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 232.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2335,
+  "media_index": 85738,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06513-017",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06513-017",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Steiner"
+      ]
+    }
+  },
+  "to_date": "1862-09-30",
+  "uuid": "B669042A-2FA3-4CD0-9063-6093B6128E34"
+}

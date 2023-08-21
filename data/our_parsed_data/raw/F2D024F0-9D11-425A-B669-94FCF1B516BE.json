@@ -1,0 +1,49 @@
+{
+  "acquistion_notes": "Kj\u00f8pt 1877",
+  "descriptive_date": "1857",
+  "digital_item_created_at": "2013-12-13T22:29:41.724777",
+  "digitalt_museum_id": "011041107151",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107151",
+  "from_date": "1857-01-01",
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "cavnas"
+  ],
+  "measurements": {
+    "frame": {
+      "depth": 9.0,
+      "depth_unit": "cm",
+      "height": 57.0,
+      "height_unit": "cm",
+      "width": 72.0,
+      "width_unit": "cm"
+    },
+    "main_object": {
+      "height": 31.5,
+      "height_unit": "cm",
+      "width": 47.0,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 2000,
+  "media_index": 52709,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00276",
+  "national_museum_norway_artwork_id": "NG.M.00276",
+  "subjects": [
+    "folklore",
+    "vernacular architecture"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Regnstemning"
+      ]
+    }
+  },
+  "to_date": "1857-01-01",
+  "uuid": "F2D024F0-9D11-425A-B669-94FCF1B516BE"
+}

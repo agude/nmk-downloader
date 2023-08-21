@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "6. september (1866)",
+  "digital_item_created_at": "2014-02-21T02:01:51.866609",
+  "digitalt_museum_id": "011042536357",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042536357",
+  "from_date": "1866-09-06",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.0880226, 8.98140699999999",
+        "human_name": "Slidre, Vestre Slidre, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Vestre Slidre",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Slidre",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 195.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1741,
+  "media_index": 79892,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-022",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06516-022",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Slidre i Valdres"
+      ]
+    }
+  },
+  "to_date": "1866-09-06",
+  "uuid": "E2C0060F-0513-4FE3-80C3-E51D20210DC2"
+}

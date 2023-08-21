@@ -1,0 +1,43 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "descriptive_date": "1879",
+  "digital_item_created_at": "2013-12-14T05:44:59.104824",
+  "digitalt_museum_id": "011042277866",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042277866",
+  "from_date": "1879-01-01",
+  "material_comment": "Penn over blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 182.0,
+      "height_unit": "mm",
+      "width": 115.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2000,
+  "media_index": 26757,
+  "media_width_pixels": 1266,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07934",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07934",
+  "subjects": [
+    "myths and fairy tales",
+    "illustration"
+  ],
+  "techniques": [
+    "pen",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Hun tok ungen og la han p\u00e5 s\u00f8pledyngen og piska'n med et dugelig bj\u00f8rkeris",
+        "Illustrasjon til \"En Signekj\u00e6rring\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879"
+      ]
+    }
+  },
+  "to_date": "1879-01-01",
+  "uuid": "7D12106D-2113-491B-A928-133E90986BEA"
+}

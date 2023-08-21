@@ -1,0 +1,40 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "1881 eller 1882",
+  "digital_item_created_at": "2014-06-27T01:01:29.492646",
+  "digitalt_museum_id": "011044184564",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184564",
+  "from_date": "1881-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 242.0,
+      "height_unit": "mm",
+      "width": 155.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 3000,
+  "media_index": 93305,
+  "media_width_pixels": 1920,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06524-007VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06524-007VERSO",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fiskeb\u00e5t fra Ahlbeck"
+      ]
+    }
+  },
+  "to_date": "1882-01-01",
+  "uuid": "28AE5F59-2E02-4196-91CF-538B6474052E"
+}

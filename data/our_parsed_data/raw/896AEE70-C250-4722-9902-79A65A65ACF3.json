@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "descriptive_date": "24. juli 1866",
+  "digital_item_created_at": "2014-01-07T04:58:57.559726",
+  "digitalt_museum_id": "011042469529",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469529",
+  "from_date": "1866-07-24",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.17622730000001, 10.38958649999995",
+        "human_name": "Sevika, N\u00f8tter\u00f8y, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "N\u00f8tter\u00f8y",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Sevika",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 311.0,
+      "height_unit": "mm",
+      "width": 417.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2211,
+  "media_index": 74170,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03125",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03125",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "From Sevika, Vrengen"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Fra Sevika i Vrengen"
+      ]
+    }
+  },
+  "to_date": "1866-07-24",
+  "uuid": "896AEE70-C250-4722-9902-79A65A65ACF3"
+}

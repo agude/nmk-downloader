@@ -1,0 +1,81 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(1869); 2. juli 1869",
+  "digital_item_created_at": "2014-05-20T01:02:14.462910",
+  "digitalt_museum_id": "011044059225",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044059225",
+  "from_date": "1869-07-02",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "58.09492689999999, 6.805019600000037",
+        "human_name": "Farsund, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Farsund",
+            "place_type": "municipality"
+          }
+        ]
+      },
+      {
+        "coordinates": "60.596018133312796, 10.976994037628173",
+        "human_name": "Fiskelauss\u00e6tra, \u00d8stre Toten, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "\u00d8stre Toten",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Fiskelauss\u00e6tra",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 195.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1752,
+  "media_index": 92560,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06523-021",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06523-021",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Figur og geiter i b\u00e5t; kysten ved Farsund; fra Fiskelauss\u00e6tra p\u00e5 Toten"
+      ]
+    }
+  },
+  "to_date": "1869-08-30",
+  "uuid": "4104170D-3D69-4278-8628-D5C475021630"
+}

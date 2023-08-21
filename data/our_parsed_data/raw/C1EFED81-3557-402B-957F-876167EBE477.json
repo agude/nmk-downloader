@@ -1,0 +1,78 @@
+{
+  "acquistion_notes": "Kj\u00f8pt fra kunstneren 1893",
+  "descriptive_date": "9. juli 1887",
+  "digital_item_created_at": "2013-12-14T06:07:51.705271",
+  "digitalt_museum_id": "011042330271",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042330271",
+  "from_date": "1887-07-09",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "53.960376, 10.868610999999987",
+        "human_name": "Travem\u00fcnde, L\u00fcbeck, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "L\u00fcbeck",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Travem\u00fcnde",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Akvarell, gouache og penn over blyant p\u00e5 kartong",
+  "materials": [
+    "cardboard"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 299.0,
+      "height_unit": "mm",
+      "width": 231.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2000,
+  "media_index": 32077,
+  "media_width_pixels": 1529,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06529",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06529",
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "watercolor",
+    "gouache paint",
+    "pen",
+    "pencil"
+  ],
+  "titles": {
+    "deu": {
+      "current": [
+        "Bei Travem\u00fcnde"
+      ]
+    },
+    "eng": {
+      "current": [
+        "Jetty, Travem\u00fcnde"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Brygge i Travem\u00fcnde"
+      ]
+    }
+  },
+  "to_date": "1887-07-09",
+  "uuid": "C1EFED81-3557-402B-957F-876167EBE477"
+}

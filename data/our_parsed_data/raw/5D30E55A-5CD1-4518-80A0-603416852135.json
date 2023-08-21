@@ -1,0 +1,67 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(August 1866)",
+  "digital_item_created_at": "2014-02-21T02:01:06.150277",
+  "digitalt_museum_id": "011042536328",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042536328",
+  "from_date": "1866-08-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.95797510000001, 7.270946900000013",
+        "human_name": "Bl\u00e5skavlen, Aurland, Norway",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Aurland",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Bl\u00e5skavlen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 195.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1732,
+  "media_index": 79879,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-008",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06516-008",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Bl\u00e5skavlen"
+      ],
+      "original": [
+        "Blaaskavlen fra Kaupanger"
+      ]
+    }
+  },
+  "to_date": "1866-08-01",
+  "uuid": "5D30E55A-5CD1-4518-80A0-603416852135"
+}

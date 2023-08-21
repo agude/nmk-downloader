@@ -1,0 +1,38 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "30. august (1866)",
+  "digital_item_created_at": "2014-02-21T02:01:56.873100",
+  "digitalt_museum_id": "011042536360",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042536360",
+  "from_date": "1866-08-30",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 195.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1761,
+  "media_index": 79894,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-024",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06516-024",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Stor stein, Gudvangen"
+      ]
+    }
+  },
+  "to_date": "1866-08-30",
+  "uuid": "4074D602-D75F-46E4-ABE6-F915992D04B5"
+}

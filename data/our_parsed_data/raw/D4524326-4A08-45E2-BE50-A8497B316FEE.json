@@ -1,0 +1,41 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for A.C. Houens fond 1904",
+  "descriptive_date": "1902",
+  "digital_item_created_at": "2013-12-13T22:29:50.402853",
+  "digitalt_museum_id": "011041107563",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107563",
+  "from_date": "1902-01-01",
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "cavnas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 31.5,
+      "height_unit": "cm",
+      "width": 45.5,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 0,
+  "media_index": 18342,
+  "media_width_pixels": 0,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-016",
+  "national_museum_norway_artwork_id": "NG.M.00636-016",
+  "subjects": [
+    "coastal landscape",
+    "maritime"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Sommeraften"
+      ]
+    }
+  },
+  "to_date": "1902-01-01",
+  "uuid": "D4524326-4A08-45E2-BE50-A8497B316FEE"
+}

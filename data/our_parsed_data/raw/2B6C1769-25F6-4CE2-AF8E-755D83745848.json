@@ -1,0 +1,86 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "descriptive_date": "17. juli (1877)",
+  "digital_item_created_at": "2014-01-07T04:59:56.698142",
+  "digitalt_museum_id": "011042469573",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469573",
+  "from_date": "1877-07-17",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "56.22499999999999, -4.461972199999991",
+        "human_name": "Ben Venue, Stirling, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Stirling",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Ben Venue",
+            "place_type": "specific_area"
+          }
+        ]
+      },
+      {
+        "coordinates": "56.2526946, -4.514158599999973",
+        "human_name": "Loch Katrine, Stirling, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Stirling",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Loch Katrine",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 377.0,
+      "height_unit": "mm",
+      "width": 560.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2010,
+  "media_index": 74187,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03153",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03153",
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Loch Katrine mot fjellet Ben Venue"
+      ]
+    }
+  },
+  "to_date": "1877-07-17",
+  "uuid": "2B6C1769-25F6-4CE2-AF8E-755D83745848"
+}

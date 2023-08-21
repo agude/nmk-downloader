@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "28. september 1893",
+  "digital_item_created_at": "2014-01-07T05:01:42.221036",
+  "digitalt_museum_id": "011042469645",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469645",
+  "from_date": "1893-09-28",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.41057250000001, 10.658316099999979",
+        "human_name": "Feste, Moss, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Moss",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Feste",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Penn og akvarell over blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 193.0,
+      "height_unit": "mm",
+      "width": 300.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1964,
+  "media_index": 74067,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03123",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03123",
+  "subjects": [],
+  "techniques": [
+    "pen",
+    "watercolor",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Vaskeplass ved stranden, Feste"
+      ]
+    }
+  },
+  "to_date": "1893-09-28",
+  "uuid": "1A910AE2-4052-4EEE-A398-A4A5E3B15446"
+}

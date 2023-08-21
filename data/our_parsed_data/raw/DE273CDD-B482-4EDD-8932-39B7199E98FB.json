@@ -1,0 +1,105 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(1854)",
+  "digital_item_created_at": "2014-06-27T01:03:38.121302",
+  "digitalt_museum_id": "011044184706",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184706",
+  "from_date": "1854-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.8541052, 10.588280899999972",
+        "human_name": "G\u00e5s\u00f8ya, B\u00e6rum, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "B\u00e6rum",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "G\u00e5s\u00f8ya",
+            "place_type": "area"
+          }
+        ]
+      },
+      {
+        "coordinates": "59.85360946630745, 10.551595687866211",
+        "human_name": "Lang\u00e5ra, Asker, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Asker",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Lang\u00e5ra",
+            "place_type": "area"
+          }
+        ]
+      },
+      {
+        "coordinates": "59.8358882, 10.481171099999983",
+        "human_name": "Leangbukta, Asker, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Asker",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Leangbukta",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 2236,
+  "media_index": 93525,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-016",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06525-016",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Utsikt mot Lang\u00e5ra og G\u00e5s\u00f8ya fra Leangbukta"
+      ]
+    }
+  },
+  "to_date": "1854-01-01",
+  "uuid": "DE273CDD-B482-4EDD-8932-39B7199E98FB"
+}

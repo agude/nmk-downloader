@@ -1,0 +1,59 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(1866)",
+  "digital_item_created_at": "2014-02-21T02:01:39.365112",
+  "digitalt_museum_id": "011042536351",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042536351",
+  "from_date": "1866-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.9166667, 9.16666669999995",
+        "human_name": "Valdres, Norway",
+        "place_accuracy": "hypotetisk",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Valdres",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 195.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1768,
+  "media_index": 79916,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-018VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06516-018VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Landskap"
+      ]
+    }
+  },
+  "to_date": "1866-01-01",
+  "uuid": "BAFC757B-F505-451F-AA99-5D2DA30E214B"
+}

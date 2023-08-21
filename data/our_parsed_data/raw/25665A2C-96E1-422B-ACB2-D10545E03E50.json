@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "21. juli 1882",
+  "digital_item_created_at": "2014-06-27T01:02:02.157334",
+  "digitalt_museum_id": "011044184601",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184601",
+  "from_date": "1882-07-21",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "54.29082870000001, 13.680082699999957",
+        "human_name": "M\u00f6nchgut, R\u00fcgen, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "R\u00fcgen",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "M\u00f6nchgut",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 242.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1911,
+  "media_index": 93321,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06524-014VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06524-014VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra M\u00f6nchgut"
+      ]
+    }
+  },
+  "to_date": "1882-07-21",
+  "uuid": "25665A2C-96E1-422B-ACB2-D10545E03E50"
+}

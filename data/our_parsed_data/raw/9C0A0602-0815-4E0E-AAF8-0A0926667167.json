@@ -1,0 +1,59 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "28. juli 1854",
+  "digital_item_created_at": "2014-06-27T01:04:12.212853",
+  "digitalt_museum_id": "011044184741",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184741",
+  "from_date": "1854-07-28",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.2089131, 9.60575259999996",
+        "human_name": "Skien, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Skien",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant og lavering p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1096,
+  "media_index": 93435,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-024",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06525-024",
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "ink wash"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Skien"
+      ]
+    }
+  },
+  "to_date": "1854-07-28",
+  "uuid": "9C0A0602-0815-4E0E-AAF8-0A0926667167"
+}

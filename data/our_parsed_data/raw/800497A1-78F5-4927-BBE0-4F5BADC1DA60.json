@@ -1,0 +1,58 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "(1879)",
+  "digital_item_created_at": "2014-05-10T01:02:08.257187",
+  "digitalt_museum_id": "011044053297",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044053297",
+  "from_date": "1879-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.7077664, 8.64144239999996",
+        "human_name": "Schaffhausen, Switzerland",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Switzerland",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Schaffhausen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 119.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1899,
+  "media_index": 92238,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06520-027",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06520-027",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Schaffhausen (detalj)"
+      ]
+    }
+  },
+  "to_date": "1879-01-01",
+  "uuid": "800497A1-78F5-4927-BBE0-4F5BADC1DA60"
+}

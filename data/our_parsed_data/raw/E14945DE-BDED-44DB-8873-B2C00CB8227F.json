@@ -1,0 +1,66 @@
+{
+  "acquistion_notes": "Antagelig kj\u00f8pt for A.C. Houens fond 1907",
+  "descriptive_date": "1846",
+  "digital_item_created_at": "2013-12-13T22:30:21.274930",
+  "digitalt_museum_id": "011041109143",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041109143",
+  "from_date": "1846-09-09",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.55386859999999, 8.859070599999995",
+        "human_name": "V\u00e5g\u00e5, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "V\u00e5g\u00e5",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret oppklebet p\u00e5 trefiberplate",
+  "materials": [
+    "cavnas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 28.5,
+      "height_unit": "cm",
+      "width": 42.5,
+      "width_unit": "cm"
+    }
+  },
+  "media_height_pixels": 1338,
+  "media_index": 36075,
+  "media_width_pixels": 2000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.04184",
+  "national_museum_norway_artwork_id": "NG.M.04184",
+  "subjects": [
+    "flora",
+    "folklore"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Landscape Study from V\u00e5g\u00e5"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Fra V\u00e5g\u00e5"
+      ]
+    }
+  },
+  "to_date": "1846-09-09",
+  "uuid": "E14945DE-BDED-44DB-8873-B2C00CB8227F"
+}

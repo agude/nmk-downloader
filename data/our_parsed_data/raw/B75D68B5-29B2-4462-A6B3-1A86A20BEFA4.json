@@ -1,0 +1,84 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "15. juni 1854; 18. juli (1854)",
+  "digital_item_created_at": "2014-06-27T01:02:41.153816",
+  "digitalt_museum_id": "011044184645",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184645",
+  "from_date": "1854-06-15",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.2205556, 10.577222200000051",
+        "human_name": "Bol\u00e6rne, N\u00f8tter\u00f8y, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "N\u00f8tter\u00f8y",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Bol\u00e6rne",
+            "place_type": "area"
+          }
+        ]
+      },
+      {
+        "coordinates": "59.82246689999999, 10.432714499999974",
+        "human_name": "Bondivannet, Asker, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Asker",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Bondivannet",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1115,
+  "media_index": 93469,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-002VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06525-002VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Bol\u00e6rne (detalj); m\u00f8lle ved Bondivannet"
+      ]
+    }
+  },
+  "to_date": "1854-07-18",
+  "uuid": "B75D68B5-29B2-4462-A6B3-1A86A20BEFA4"
+}

@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "descriptive_date": "14. september (1867)",
+  "digital_item_created_at": "2014-05-24T01:01:33.488033",
+  "digitalt_museum_id": "011044074515",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044074515",
+  "from_date": "1867-09-14",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.8453662, 12.54342470000006",
+        "human_name": "Grabenst\u00e4tt, Traunstein, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Traunstein",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Grabenst\u00e4tt",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1765,
+  "media_index": 92626,
+  "media_width_pixels": 3000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06527-016VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06527-016VERSO",
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Pl\u00f8ying, Grabenst\u00e4tt"
+      ]
+    }
+  },
+  "to_date": "1867-09-14",
+  "uuid": "20CCA27C-C9B0-4E78-B7AC-5AB48C56995D"
+}

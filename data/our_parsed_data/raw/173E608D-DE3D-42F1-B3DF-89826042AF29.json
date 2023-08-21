@@ -1,0 +1,44 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "descriptive_date": "1878 eller 1879",
+  "digital_item_created_at": "2013-12-14T05:49:02.998060",
+  "digitalt_museum_id": "011042287169",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042287169",
+  "from_date": "1878-01-01",
+  "material_comment": "Penn og lavering over blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 137.0,
+      "height_unit": "mm",
+      "width": 153.0,
+      "width_unit": "mm"
+    }
+  },
+  "media_height_pixels": 1764,
+  "media_index": 26760,
+  "media_width_pixels": 2000,
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07937",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07937",
+  "subjects": [
+    "myths and fairy tales",
+    "illustration"
+  ],
+  "techniques": [
+    "pen",
+    "ink wash",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Illustrasjon til \"Matthias Skytters Historier\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879",
+        "Je rulla s\u00e5 freskt at je aldri har rulla freskere"
+      ]
+    }
+  },
+  "to_date": "1879-01-01",
+  "uuid": "173E608D-DE3D-42F1-B3DF-89826042AF29"
+}
