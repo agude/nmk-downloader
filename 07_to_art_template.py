@@ -61,6 +61,39 @@ def get_date(creation_date_json) -> str:
         return f"{{{{Other_date|between|{start_date}|{end_date}}}}}"
 
 
+def get_medium(techniques_json, materials_json) -> str:
+    # Uses the technique template
+    # https://commons.wikimedia.org/wiki/Template:Technique
+
+    final_list = ["{{Technique"]
+
+    technique_starts = [
+        " | ",
+        " | and=",
+        " | and2=",
+        " | and3=",
+        " | and4=",
+    ]
+
+    if techniques_json:
+        final_list += [s + t for s, t in zip(technique_starts, techniques_json)]
+    #if not techniques_json:
+    #    print("AHHHHHHHHHH")
+
+    materials_starts = [
+        " | on=",
+        " | mounted=",
+    ]
+
+    if materials_json:
+        final_list += [s + m for s, m in zip(materials_starts, materials_json)]
+
+    final_list += ["}}"]
+
+    return "".join(final_list)
+
+
+
 data_dir = "./data/our_parsed_data/enriched/"
 
 for filename in sorted(os.listdir(data_dir)):
@@ -79,3 +112,8 @@ for filename in sorted(os.listdir(data_dir)):
             date = get_date(date_json)
         print(date)
 
+        # Set medium
+        techniques_json = data.get("techniques")
+        materials_json = data.get("materials")
+        medium = get_medium(techniques_json, materials_json)
+        print(medium)
