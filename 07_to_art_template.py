@@ -20,7 +20,6 @@ import os
  |department         =
  |accession number   =
  |place of creation  =
- |place of discovery =
  |object history     =
  |exhibition history =
  |credit line        =
@@ -93,6 +92,17 @@ def get_medium(techniques_json, materials_json) -> str:
     return "".join(final_list)
 
 
+def get_dimensions(measurements) -> str:
+    height = measurements["main_object"]["height"]
+    width = measurements["main_object"]["width"]
+    height_unit = measurements["main_object"]["height_unit"]
+    width_unit = measurements["main_object"]["width_unit"]
+
+    if width_unit != height_unit:
+        raise ValueError("Units don't match")
+
+    return f"{{{{Size|unit={width_unit}|height={height}|width={width}}}}}"
+
 
 data_dir = "./data/our_parsed_data/enriched/"
 
@@ -117,3 +127,8 @@ for filename in sorted(os.listdir(data_dir)):
         materials_json = data.get("materials")
         medium = get_medium(techniques_json, materials_json)
         print(medium)
+
+        # Set size
+        measurements_json = data.get("measurements")
+        dimensions = get_dimensions(measurements_json)
+        print(dimensions)
