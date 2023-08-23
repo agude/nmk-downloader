@@ -93,15 +93,35 @@ def get_medium(techniques_json, materials_json) -> str:
 
 
 def get_dimensions(measurements) -> str:
-    height = measurements["main_object"]["height"]
-    width = measurements["main_object"]["width"]
-    height_unit = measurements["main_object"]["height_unit"]
-    width_unit = measurements["main_object"]["width_unit"]
+    # The main art
+    main_object = measurements["main_object"]
+    height = main_object["height"]
+    width = main_object["width"]
+    height_unit = main_object["height_unit"]
+    width_unit = main_object["width_unit"]
 
     if width_unit != height_unit:
         raise ValueError("Units don't match")
 
-    return f"{{{{Size|unit={width_unit}|height={height}|width={width}}}}}"
+    main_size_template = f"{{{{Size|unit={width_unit}|height={height}|width={width}}}}}"
+
+    # Frame, if exists
+    frame = measurements.get("frame")
+    if frame is not None:
+        frame_height = frame["height"]
+        frame_width = frame["width"]
+        frame_height_unit = frame["height_unit"]
+        frame_width_unit = frame["width_unit"]
+        frame_depth = frame["depth"]
+
+        if frame_height_unit != frame_width_unit:
+            raise ValueError("Frame size units don't match")
+
+        frame_size_template = f"{{{{Size|unit={frame_width_unit}|height={frame_height}|width={frame_width}|depth={frame_depth}}}}}"
+
+        return f"{main_size_template}<br>{{{{With frame}}}}: {frame_size_template}"
+
+    return main_size_template
 
 
 data_dir = "./data/our_parsed_data/enriched/"
