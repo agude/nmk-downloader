@@ -1,6 +1,6 @@
-from datetime import datetime
 import json
 import os
+import textwrap
 
 
 # Template: https://commons.wikimedia.org/wiki/Template:Artwork
@@ -26,7 +26,7 @@ TEMPLATE  = """
  |inscriptions       =
  |notes              =
  |references         =
- |source             =
+ |source             = {source}
  |permission         =
  |other_versions     =
  |wikidata           =
@@ -187,6 +187,21 @@ def get_title_and_description(titles):
 
     return " ".join(output_titles), output_description
 
+
+def get_sources(nasjonalmuseet_link: str, digitalt_museum_link: str, media_index: str) -> str:
+    direct_image_link = f"https://ms01.nasjonalmuseet.no/api/objects/download?filename={media_index}.tif&size=full"
+
+    output = textwrap.dedent(
+        f"""
+        [{direct_image_link} Direct Image Link from the National Museum of Art, Architecture and Design]<br>
+        [{nasjonalmuseet_link} Image on the National Museum of Art, Architecture and Design]<br>
+        [{digitalt_museum_link} Image on the Digitalt Museum]
+        """
+    ).replace("\n", "")
+
+    return output
+
+
 data_dir = "./data/our_parsed_data/enriched/"
 
 for filename in sorted(os.listdir(data_dir)):
@@ -233,6 +248,15 @@ for filename in sorted(os.listdir(data_dir)):
         if description:
             print(description)
 
+        # Get source
+        nasjonalmuseet_link = data["nasjonalmuseet_link"]
+        digitalt_museum_link = data["digitalt_museum_link"]
+        media_index = data["media_index"]
+
+        source = get_sources(nasjonalmuseet_link, digitalt_museum_link, media_index)
+        print(source)
+
+        # Template
         wiki_template = TEMPLATE.format(
                 depicted_place = depicted_place,
                 date = date,
@@ -240,6 +264,7 @@ for filename in sorted(os.listdir(data_dir)):
                 dimensions = dimensions,
                 title = title,
                 description = description,
+                source = source,
                 photographer = "PLACEHOLDER",
             )
         print(wiki_template)
