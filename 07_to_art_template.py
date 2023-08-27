@@ -4,19 +4,19 @@ import os
 
 
 # Template: https://commons.wikimedia.org/wiki/Template:Artwork
-"""
-== {{int:filedesc}} ==
+TEMPLATE  = """
+== {{{{int:filedesc}}}} ==
 
-{{Artwork
- |artist             = {{Creator:Hans Gude}}
- |title              =
+{{{{Artwork
+ |artist             = {{{{Creator:Hans Gude}}}}
+ |title              = {title}
  |description        =
  |depicted people    =
- |depicted place     =
- |date               =
- |medium             =
- |dimensions         =
- |institution        = {{Institution:Nasjonalmuseet for kunst, arkitektur og design}}
+ |depicted place     = {depicted_place}
+ |date               = {date}
+ |medium             = {medium}
+ |dimensions         = {dimensions}
+ |institution        = {{{{Institution:Nasjonalmuseet for kunst, arkitektur og design}}}}
  |department         =
  |accession number   =
  |place of creation  =
@@ -30,13 +30,14 @@ import os
  |permission         =
  |other_versions     =
  |wikidata           =
-}}
+}}}}
 
-=={{int:license-header}}==
+=={{{{int:license-header}}}}==
 
-{{Licensed-PD-Art|PD-old-auto-expired|cc-by-4.0|attribution=Nasjonalmuseet/|deathyear=1903}}
+{{{{Licensed-PD-Art|PD-old-auto-expired|cc-by-4.0|attribution=Nasjonalmuseet/{photographer}|deathyear=1903}}}}
 
 [[Category:Drawings by Hans Gude in the Nasjonalmuseet for kunst, arkitektur og design]]
+[[Category:Images from Digitalt Museum, Norway]]
 """
 
 
@@ -124,6 +125,43 @@ def get_dimensions(measurements) -> str:
     return main_size_template
 
 
+def get_depicted_place(depicted_locations):
+    # Sometimes we don't have locations
+    if depicted_locations is None:
+        return None
+
+    output = []
+    for location in depicted_locations:
+        coordinates = location.get("coordinates")
+        human_name = location.get("human_name")
+        if coordinates:
+            lat, long = coordinates.split(", ")
+            # 5 digits is meter accuracy, which is far higher than these coordinates are
+            lat = round(float(lat), 5)
+            long = round(float(long), 5)
+
+        if human_name and coordinates:
+            output.append(f"{{{{Depicted place | {human_name} | latitude={lat} |longitude={long} }}}}")
+        elif human_name and not coordinates:
+            output.append(f"{{{{Depicted place | {human_name} }}}}")
+
+    return "<br>".join(output)
+
+
+def get_title(titles):
+    three_to_two_iso_code = {
+        "deu": "de",
+        "eng": "en",
+        "fra": "fr",
+        "ger": "de",
+        "nob": "nb",
+        "nor": "no",
+    }
+    for language in titles:
+        code = three_to_two_iso_code[language]
+        print(code, titles[language])
+
+
 data_dir = "./data/our_parsed_data/enriched/"
 
 for filename in sorted(os.listdir(data_dir)):
@@ -132,23 +170,46 @@ for filename in sorted(os.listdir(data_dir)):
             data = json.load(f)
 
         uuid = data["uuid"]
-        print()
-        print(uuid)
+        #print()
+        #print(uuid)
 
         # Set creation_date
         date_json = data.get("creation_date")
         date = ""
         if date_json:
             date = get_date(date_json)
-        print(date)
+        #print(date)
 
         # Set medium
         techniques_json = data.get("techniques")
         materials_json = data.get("materials")
         medium = get_medium(techniques_json, materials_json)
-        print(medium)
+        #print(medium)
 
         # Set size
         measurements_json = data.get("measurements")
         dimensions = get_dimensions(measurements_json)
-        print(dimensions)
+        #print(dimensions)
+
+        # Set location
+        locations_json = data.get("locations")
+        if locations_json is not None:
+            locations_json = locations_json.get("depicted_location")
+            depicted_place = get_depicted_place(locations_json)
+            #print(depicted_place)
+        else:
+            depicted_place = ""
+
+        # Get title
+        titles_json = data.get("titles")
+        title = get_title(titles_json)
+
+        wiki_template = TEMPLATE.format(
+                depicted_place = depicted_place,
+                date = date,
+                medium = medium,
+                dimensions = dimensions,
+                title = title,
+                photographer = "PLACEHOLDER",
+            )
+        #print(wiki_template)
