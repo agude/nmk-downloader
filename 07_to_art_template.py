@@ -16,10 +16,10 @@ TEMPLATE = """
  |medium             = {medium}
  |dimensions         = {dimensions}
  |institution        = {{{{Institution:Nasjonalmuseet for kunst, arkitektur og design}}}}
- |department         =
  |accession number   = {accession_number}
  |credit line        = {credit_line}
  |source             = {source}
+ |other_fields       = {other_fields}
  |wikidata           =
 }}}}
 
@@ -223,6 +223,29 @@ def get_credit_line(acquistion_notes: str) -> str:
     return f"{{{{no|{acquistion_notes}}}}}"
 
 
+def get_other_fields(subjects: str) -> str:
+    if subjects is None:
+        return ""
+
+    subject_str = ""
+    for subject in subjects:
+        subject = subject.title()
+        subject_str += "* " + subject + "\n"
+    subject_str.strip("\n")
+
+
+    output = textwrap.dedent(
+        f"""
+        {{{{Information field
+            |Name=Subjects
+            |Value={{{{en|Subjects from the National Museum of Art, Architecture and Design:\n{subject_str}}}}}
+        }}}}
+        """
+    ).strip("\n")
+
+    return output
+
+
 data_dir = "./data/our_parsed_data/enriched/"
 
 for filename in sorted(os.listdir(data_dir)):
@@ -230,44 +253,32 @@ for filename in sorted(os.listdir(data_dir)):
         with open(os.path.join(data_dir, filename)) as f:
             data = json.load(f)
 
-        uuid = data["uuid"]
-        # print()
-        # print(uuid)
-        # print(data["nasjonalmuseet_link"])
-
         # Set creation_date
         date_json = data.get("creation_date")
         date = ""
         if date_json:
             date = get_date(date_json)
-        # print(date)
 
         # Set medium
         techniques_json = data.get("techniques")
         materials_json = data.get("materials")
         medium = get_medium(techniques_json, materials_json)
-        # print(medium)
 
         # Set size
         measurements_json = data.get("measurements")
         dimensions = get_dimensions(measurements_json)
-        # print(dimensions)
 
         # Set location
         locations_json = data.get("locations")
         if locations_json is not None:
             locations_json = locations_json.get("depicted_location")
             depicted_place = get_depicted_place(locations_json)
-            # print(depicted_place)
         else:
             depicted_place = ""
 
         # Get title
         titles_json = data.get("titles")
         title, description = get_title_and_description(titles_json)
-        # print(title)
-        # if description:
-        #    print(description)
 
         # Get source
         nasjonalmuseet_link = data["nasjonalmuseet_link"]
@@ -275,9 +286,9 @@ for filename in sorted(os.listdir(data_dir)):
         media_index = data["media_index"]
 
         source = get_sources(nasjonalmuseet_link, digitalt_museum_link, media_index)
-        # print(source)
 
         # Get accession number
+        uuid = data["uuid"]
         national_museum_norway_artwork_id = data["national_museum_norway_artwork_id"]
         digitalt_museum_id = data["digitalt_museum_id"]
         accession_number = get_accession_number(
@@ -292,7 +303,10 @@ for filename in sorted(os.listdir(data_dir)):
         # Credit line
         acquistion_notes = data.get("acquistion_notes")
         credit_line = get_credit_line(acquistion_notes)
-        # print(credit_line)
+
+        # Subjects
+        subjects = data.get("subjects")
+        other_fields = get_other_fields(subjects)
 
         # Template
         wiki_template = TEMPLATE.format(
@@ -305,6 +319,7 @@ for filename in sorted(os.listdir(data_dir)):
             source=source,
             accession_number=accession_number,
             credit_line=credit_line,
+            other_fields=other_fields,
             photographer="PLACEHOLDER",
         )
         print(wiki_template)
