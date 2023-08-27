@@ -202,10 +202,17 @@ def get_sources(nasjonalmuseet_link: str, digitalt_museum_link: str, media_index
     return output
 
 
-def get_accession_number(national_museum_norway_artwork_id, digitalt_museum_id, nasjonalmuseet_link: str, digitalt_museum_link: str) -> str:
+def get_accession_number(
+    national_museum_norway_artwork_id: str,
+    digitalt_museum_id: str,
+    nasjonalmuseet_link: str,
+    digitalt_museum_link: str,
+    uuid: str,
+) -> str:
     output = textwrap.dedent(f"""
         * [https://www.wikidata.org/wiki/Property:P9121 National Museum Norway artwork ID]: [{nasjonalmuseet_link} {national_museum_norway_artwork_id}]
         * [https://www.wikidata.org/wiki/Property:P7847 DigitaltMuseum ID]: [{digitalt_museum_link} {digitalt_museum_id}]
+        * DigitaltMuseum UUID: [https://api.dimu.org/artifact/uuid/{uuid} {uuid}]
         """
     ).strip("\n")
 
@@ -220,43 +227,43 @@ for filename in sorted(os.listdir(data_dir)):
             data = json.load(f)
 
         uuid = data["uuid"]
-        print()
-        print(uuid)
-        print(data["nasjonalmuseet_link"])
+        #print()
+        #print(uuid)
+        #print(data["nasjonalmuseet_link"])
 
         # Set creation_date
         date_json = data.get("creation_date")
         date = ""
         if date_json:
             date = get_date(date_json)
-        print(date)
+        #print(date)
 
         # Set medium
         techniques_json = data.get("techniques")
         materials_json = data.get("materials")
         medium = get_medium(techniques_json, materials_json)
-        print(medium)
+        #print(medium)
 
         # Set size
         measurements_json = data.get("measurements")
         dimensions = get_dimensions(measurements_json)
-        print(dimensions)
+        #print(dimensions)
 
         # Set location
         locations_json = data.get("locations")
         if locations_json is not None:
             locations_json = locations_json.get("depicted_location")
             depicted_place = get_depicted_place(locations_json)
-            print(depicted_place)
+            #print(depicted_place)
         else:
             depicted_place = ""
 
         # Get title
         titles_json = data.get("titles")
         title, description = get_title_and_description(titles_json)
-        print(title)
-        if description:
-            print(description)
+        #print(title)
+        #if description:
+        #    print(description)
 
         # Get source
         nasjonalmuseet_link = data["nasjonalmuseet_link"]
@@ -264,13 +271,19 @@ for filename in sorted(os.listdir(data_dir)):
         media_index = data["media_index"]
 
         source = get_sources(nasjonalmuseet_link, digitalt_museum_link, media_index)
-        print(source)
+        #print(source)
 
         # Get accession number
         national_museum_norway_artwork_id = data["national_museum_norway_artwork_id"]
         digitalt_museum_id = data["digitalt_museum_id"]
-        accession_number = get_accession_number(national_museum_norway_artwork_id, digitalt_museum_id, nasjonalmuseet_link,  digitalt_museum_link)
-        print(accession_number)
+        accession_number = get_accession_number(
+            national_museum_norway_artwork_id,
+            digitalt_museum_id,
+            nasjonalmuseet_link,
+            digitalt_museum_link,
+            uuid,
+        )
+        #print(accession_number)
 
         # Template
         wiki_template = TEMPLATE.format(
