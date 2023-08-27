@@ -10,7 +10,7 @@ TEMPLATE  = """
 {{{{Artwork
  |artist             = {{{{Creator:Hans Gude}}}}
  |title              = {title}
- |description        =
+ |description        = {description}
  |depicted people    =
  |depicted place     = {depicted_place}
  |date               = {date}
@@ -148,7 +148,7 @@ def get_depicted_place(depicted_locations):
     return "<br>".join(output)
 
 
-def get_title(titles):
+def get_title_and_description(titles):
     three_to_two_iso_code = {
         "deu": "de",
         "eng": "en",
@@ -157,10 +157,35 @@ def get_title(titles):
         "nob": "nb",
         "nor": "no",
     }
-    for language in titles:
-        code = three_to_two_iso_code[language]
-        print(code, titles[language])
 
+    output_titles = []
+    output_description = ""
+    primary_title = None
+    for language, language_titles in titles.items():
+        language_code = three_to_two_iso_code[language]
+        for type_of_title, specific_titles in language_titles.items():
+            for title in specific_titles:
+                # Illustrations for books have double titles, but one is a
+                # description that contains "illustration"
+                if "illustrasjon" in title.lower():
+                    output_description = f"{{{{{language_code}|{title}}}}}"
+                    continue
+
+                # Try to set the primary title
+                if not primary_title:
+                    if type_of_title == "current" and language_code == "no":
+                        primary_title = f"{{{{{language_code}|'''''{title}'''''}}}}"
+                        continue
+
+                output_titles.append(f"{{{{{language_code}|''{specific_titles[0]}''}}}}")
+
+    if primary_title:
+        output_titles = [primary_title] + output_titles
+
+    # Remove exact duplicates, preserving order
+    output_titles = list(dict.fromkeys(output_titles))
+
+    return " ".join(output_titles), output_description
 
 data_dir = "./data/our_parsed_data/enriched/"
 
@@ -170,39 +195,43 @@ for filename in sorted(os.listdir(data_dir)):
             data = json.load(f)
 
         uuid = data["uuid"]
-        #print()
-        #print(uuid)
+        print()
+        print(uuid)
+        print(data["nasjonalmuseet_link"])
 
         # Set creation_date
         date_json = data.get("creation_date")
         date = ""
         if date_json:
             date = get_date(date_json)
-        #print(date)
+        print(date)
 
         # Set medium
         techniques_json = data.get("techniques")
         materials_json = data.get("materials")
         medium = get_medium(techniques_json, materials_json)
-        #print(medium)
+        print(medium)
 
         # Set size
         measurements_json = data.get("measurements")
         dimensions = get_dimensions(measurements_json)
-        #print(dimensions)
+        print(dimensions)
 
         # Set location
         locations_json = data.get("locations")
         if locations_json is not None:
             locations_json = locations_json.get("depicted_location")
             depicted_place = get_depicted_place(locations_json)
-            #print(depicted_place)
+            print(depicted_place)
         else:
             depicted_place = ""
 
         # Get title
         titles_json = data.get("titles")
-        title = get_title(titles_json)
+        title, description = get_title_and_description(titles_json)
+        print(title)
+        if description:
+            print(description)
 
         wiki_template = TEMPLATE.format(
                 depicted_place = depicted_place,
@@ -210,6 +239,7 @@ for filename in sorted(os.listdir(data_dir)):
                 medium = medium,
                 dimensions = dimensions,
                 title = title,
+                description = description,
                 photographer = "PLACEHOLDER",
             )
-        #print(wiki_template)
+        print(wiki_template)
