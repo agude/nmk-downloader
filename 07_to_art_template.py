@@ -233,7 +233,6 @@ def get_other_fields(subjects: str) -> str:
         subject_str += "* " + subject + "\n"
     subject_str.strip("\n")
 
-
     output = textwrap.dedent(
         f"""
         {{{{Information field
