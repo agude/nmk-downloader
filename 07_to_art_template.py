@@ -11,7 +11,6 @@ TEMPLATE = """
  |artist             = {{{{Creator:Hans Gude}}}}
  |title              = {title}
  |description        = {description}
- |depicted people    =
  |depicted place     = {depicted_place}
  |date               = {date}
  |medium             = {medium}
@@ -19,16 +18,8 @@ TEMPLATE = """
  |institution        = {{{{Institution:Nasjonalmuseet for kunst, arkitektur og design}}}}
  |department         =
  |accession number   = {accession_number}
- |place of creation  =
- |object history     =
- |exhibition history =
- |credit line        =
- |inscriptions       =
- |notes              =
- |references         =
+ |credit line        = {credit_line}
  |source             = {source}
- |permission         =
- |other_versions     =
  |wikidata           =
 }}}}
 
@@ -226,6 +217,12 @@ def get_accession_number(
     return output
 
 
+def get_credit_line(acquistion_notes: str) -> str:
+    if acquistion_notes is None:
+        return ""
+    return f"{{{{no|{acquistion_notes}}}}}"
+
+
 data_dir = "./data/our_parsed_data/enriched/"
 
 for filename in sorted(os.listdir(data_dir)):
@@ -292,6 +289,11 @@ for filename in sorted(os.listdir(data_dir)):
         )
         # print(accession_number)
 
+        # Credit line
+        acquistion_notes = data.get("acquistion_notes")
+        credit_line = get_credit_line(acquistion_notes)
+        # print(credit_line)
+
         # Template
         wiki_template = TEMPLATE.format(
             depicted_place=depicted_place,
@@ -302,6 +304,7 @@ for filename in sorted(os.listdir(data_dir)):
             description=description,
             source=source,
             accession_number=accession_number,
+            credit_line=credit_line,
             photographer="PLACEHOLDER",
         )
         print(wiki_template)
