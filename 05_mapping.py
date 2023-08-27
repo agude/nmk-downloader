@@ -95,7 +95,7 @@ def parse_materials(materials_list: list[dict[str, str]]) -> dict[str, str]:
     # This should match Wikidata entries: https://commons.wikimedia.org/wiki/Template:Technique/translation_dashboard
     translation = {
         "kartong": "cardboard",  # "Akvarell, gouache og penn over blyant på kartong"
-        "lerret": "cavnas",
+        "lerret": "canvas",
         "papir": "paper",
         "papplate": "cardboard",
         "tre": "wood",  # Human readable comment for this is "Olje på treplate"

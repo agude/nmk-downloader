@@ -32,7 +32,7 @@
   },
   "material_comment": "Olje p\u00e5 lerret oppklebet p\u00e5 papplate",
   "materials": [
-    "cavnas",
+    "canvas",
     "cardboard"
   ],
   "measurements": {
