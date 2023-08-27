@@ -18,7 +18,7 @@ TEMPLATE  = """
  |dimensions         = {dimensions}
  |institution        = {{{{Institution:Nasjonalmuseet for kunst, arkitektur og design}}}}
  |department         =
- |accession number   =
+ |accession number   = {accession_number}
  |place of creation  =
  |object history     =
  |exhibition history =
@@ -193,11 +193,21 @@ def get_sources(nasjonalmuseet_link: str, digitalt_museum_link: str, media_index
 
     output = textwrap.dedent(
         f"""
-        [{direct_image_link} Direct Image Link from the National Museum of Art, Architecture and Design]<br>
-        [{nasjonalmuseet_link} Image on the National Museum of Art, Architecture and Design]<br>
-        [{digitalt_museum_link} Image on the Digitalt Museum]
+        * [{direct_image_link} Direct Image Link from the National Museum of Art, Architecture and Design]
+        * [{nasjonalmuseet_link} Image on the National Museum of Art, Architecture and Design]
+        * [{digitalt_museum_link} Image on the Digitalt Museum]
         """
-    ).replace("\n", "")
+    ).strip("\n")
+
+    return output
+
+
+def get_accession_number(national_museum_norway_artwork_id, digitalt_museum_id, nasjonalmuseet_link: str, digitalt_museum_link: str) -> str:
+    output = textwrap.dedent(f"""
+        * [https://www.wikidata.org/wiki/Property:P9121 National Museum Norway artwork ID]: [{nasjonalmuseet_link} {national_museum_norway_artwork_id}]
+        * [https://www.wikidata.org/wiki/Property:P7847 DigitaltMuseum ID]: [{digitalt_museum_link} {digitalt_museum_id}]
+        """
+    ).strip("\n")
 
     return output
 
@@ -256,6 +266,12 @@ for filename in sorted(os.listdir(data_dir)):
         source = get_sources(nasjonalmuseet_link, digitalt_museum_link, media_index)
         print(source)
 
+        # Get accession number
+        national_museum_norway_artwork_id = data["national_museum_norway_artwork_id"]
+        digitalt_museum_id = data["digitalt_museum_id"]
+        accession_number = get_accession_number(national_museum_norway_artwork_id, digitalt_museum_id, nasjonalmuseet_link,  digitalt_museum_link)
+        print(accession_number)
+
         # Template
         wiki_template = TEMPLATE.format(
                 depicted_place = depicted_place,
@@ -265,6 +281,7 @@ for filename in sorted(os.listdir(data_dir)):
                 title = title,
                 description = description,
                 source = source,
+                accession_number = accession_number,
                 photographer = "PLACEHOLDER",
             )
         print(wiki_template)
