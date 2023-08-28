@@ -318,7 +318,6 @@ mapping = {
     ("uuid_json", "material", "comment",): output_manager("material_comment", parse_generic_string),
     ("uuid_json", "material", "materials",): output_manager("materials", parse_materials),
     ("uuid_json", "motif", "depictedPlaces",): output_manager("locations", parse_location),
-    ("uuid_json", "motif", "depictedPlaces",): output_manager("locations", parse_location),
 }
 
 output_dir = "./data/our_parsed_data/raw/"
