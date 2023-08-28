@@ -248,22 +248,22 @@ for filename in sorted(os.listdir(data_dir)):
         with open(os.path.join(data_dir, filename)) as f:
             data = json.load(f)
 
-        # Set creation_date
+        # Creation_date
         date_json = data.get("creation_date")
         date = ""
         if date_json:
             date = get_date(date_json)
 
-        # Set medium
+        # Medium
         techniques_json = data.get("techniques")
         materials_json = data.get("materials")
         medium = get_medium(techniques_json, materials_json)
 
-        # Set size
+        # Size
         measurements_json = data.get("measurements")
         dimensions = get_dimensions(measurements_json)
 
-        # Set location
+        # Location
         locations_json = data.get("locations")
         if locations_json is not None:
             locations_json = locations_json.get("depicted_location")
@@ -271,18 +271,18 @@ for filename in sorted(os.listdir(data_dir)):
         else:
             depicted_place = ""
 
-        # Get title
+        # Title
         titles_json = data.get("titles")
         title, description = get_title_and_description(titles_json)
 
-        # Get source
+        # Source
         nasjonalmuseet_link = data["nasjonalmuseet_link"]
         digitalt_museum_link = data["digitalt_museum_link"]
         direct_image_link = data["picture"]["direct_image_link"]
 
         source = get_sources(nasjonalmuseet_link, digitalt_museum_link, direct_image_link)
 
-        # Get accession number
+        # Accession number
         uuid = data["uuid"]
         national_museum_norway_artwork_id = data["national_museum_norway_artwork_id"]
         digitalt_museum_id = data["digitalt_museum_id"]
@@ -301,6 +301,9 @@ for filename in sorted(os.listdir(data_dir)):
         # Subjects
         subjects = data.get("subjects")
         other_fields = get_other_fields(subjects)
+
+        # Photographer
+
 
         # Template
         wiki_template = TEMPLATE.format(
