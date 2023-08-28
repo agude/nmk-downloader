@@ -1,0 +1,46 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date_end": "1863",
+    "created_at_date_start": "1862",
+    "range_of_dates": true
+  },
+  "descriptive_date": "1862 eller 1863",
+  "digital_item_created_at": "2014-02-13T02:02:18.926512",
+  "digitalt_museum_id": "011042525077",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042525077",
+  "from_date": "1862-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 118.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06515-026",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06515-026",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=77650.tif&size=full",
+    "height": 1718,
+    "index": 77650,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Figurer i b\u00e5t"
+      ]
+    }
+  },
+  "to_date": "1863-01-01",
+  "uuid": "3DD35153-40C5-4BB1-881D-FCA59CB9B1D4"
+}

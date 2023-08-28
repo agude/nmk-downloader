@@ -1,0 +1,67 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hermine og Odd Blom Nielsen, innkommet 1982",
+  "creation_date": {
+    "created_at_date": "1862",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1862",
+  "digital_item_created_at": "2013-12-13T22:30:16.564952",
+  "digitalt_museum_id": "011041108885",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041108885",
+  "from_date": "1862-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "human_name": "Vestlandet, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Vestlandet",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 103.0,
+      "height_unit": "cm",
+      "width": 148.5,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.03487",
+  "national_museum_norway_artwork_id": "NG.M.03487",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=52758.tif&size=full",
+    "height": 2105,
+    "index": 52758,
+    "photographer": "Thorkildsen, Morten",
+    "width": 3000
+  },
+  "subjects": [
+    "maritime"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Vestlandsfjord"
+      ]
+    }
+  },
+  "to_date": "1862-01-01",
+  "uuid": "73D0D2EA-4AC1-4B74-B7EC-F2B5100B7A31"
+}

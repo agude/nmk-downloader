@@ -1,0 +1,88 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for A.C. Houens fond 1904",
+  "creation_date": {
+    "created_at_date": "1850",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1850",
+  "digital_item_created_at": "2013-12-13T22:29:50.320341",
+  "digitalt_museum_id": "011041107556",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107556",
+  "from_date": "1850-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "human_name": "N\u00e6s, Hallingdal, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Hallingdal",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "N\u00e6s",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 papp oppklebet p\u00e5 papplate",
+  "materials": [
+    "paper",
+    "cardboard"
+  ],
+  "measurements": {
+    "frame": {
+      "depth": 7.5,
+      "depth_unit": "cm",
+      "height": 47.6,
+      "height_unit": "cm",
+      "width": 60.2,
+      "width_unit": "cm"
+    },
+    "main_object": {
+      "depth": 0.2,
+      "depth_unit": "cm",
+      "height": 34.0,
+      "height_unit": "cm",
+      "width": 47.3,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-008",
+  "national_museum_norway_artwork_id": "NG.M.00636-008",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=18334.tif&size=full",
+    "height": 0,
+    "index": 18334,
+    "width": 0
+  },
+  "subjects": [
+    "waterfall",
+    "river"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "By the Mill Pond"
+      ]
+    },
+    "nor": {
+      "current": [
+        "En m\u00f8lledam"
+      ]
+    }
+  },
+  "to_date": "1850-01-01",
+  "uuid": "680EE967-71B6-4B4B-95EC-5E63B70CAC58"
+}

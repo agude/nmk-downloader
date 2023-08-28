@@ -1,0 +1,68 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1866-08-29",
+    "range_of_dates": false
+  },
+  "descriptive_date": "29. august 1866",
+  "digital_item_created_at": "2014-02-21T02:00:49.448130",
+  "digitalt_museum_id": "011042536310",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042536310",
+  "from_date": "1866-08-29",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.9633466, 6.967813699999965",
+        "human_name": "N\u00e6r\u00f8yfjorden, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "N\u00e6r\u00f8yfjorden",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 195.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-003",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06516-003",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=79874.tif&size=full",
+    "height": 1728,
+    "index": 79874,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Innseilingen til N\u00e6r\u00f8yfjorden"
+      ],
+      "original": [
+        "Indl\u00f8bet til N\u00e6r\u00f8fjorden"
+      ]
+    }
+  },
+  "to_date": "1866-08-29",
+  "uuid": "9DE35C47-801C-44CD-AD81-AE14C7BD81F6"
+}

@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1871-08-29",
+    "range_of_dates": false
+  },
+  "descriptive_date": "29. august 1871",
+  "digital_item_created_at": "2014-04-01T01:01:39.661065",
+  "digitalt_museum_id": "011043094049",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043094049",
+  "from_date": "1871-08-29",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.7661746, 9.170277199999986",
+        "human_name": "\u00dcberlingen, Bodensee, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Bodensee",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "\u00dcberlingen",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 145.0,
+      "height_unit": "mm",
+      "width": 235.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06518-016VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06518-016VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=86400.tif&size=full",
+    "height": 1855,
+    "index": 86400,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fiskeb\u00e5t, \u00dcberlingen"
+      ]
+    }
+  },
+  "to_date": "1871-08-29",
+  "uuid": "F3E6B221-7890-411D-867D-19679C4612B6"
+}

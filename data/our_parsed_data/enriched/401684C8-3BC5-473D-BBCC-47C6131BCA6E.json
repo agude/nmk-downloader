@@ -1,0 +1,81 @@
+{
+  "acquistion_notes": "Kj\u00f8pt 1909",
+  "creation_date": {
+    "created_at_date_end": "1903",
+    "created_at_date_start": "1840",
+    "range_of_dates": true
+  },
+  "descriptive_date": "Uten \u00e5r",
+  "digital_item_created_at": "2014-01-07T05:00:51.975356",
+  "digitalt_museum_id": "011042469621",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469621",
+  "from_date": "1840-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "62.31984490000001, 9.267698900000027",
+        "human_name": "Sn\u00f8hetta, Dovrefjell, Dovre, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Dovre",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Dovrefjell",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Sn\u00f8hetta",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Akvarell, penn, pensel og blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 273.0,
+      "height_unit": "mm",
+      "width": 415.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.00116",
+  "national_museum_norway_artwork_id": "NG.K&H.B.00116",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74203.tif&size=full",
+    "height": 1960,
+    "index": 74203,
+    "width": 3000
+  },
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "watercolor",
+    "pen",
+    "pencil",
+    "brush"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "H\u00f8yfjell"
+      ]
+    }
+  },
+  "to_date": "1903-01-01",
+  "uuid": "401684C8-3BC5-473D-BBCC-47C6131BCA6E"
+}

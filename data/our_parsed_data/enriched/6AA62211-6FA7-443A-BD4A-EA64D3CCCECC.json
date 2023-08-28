@@ -1,0 +1,73 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for Houens fond fra kunstnerens bo 1904",
+  "creation_date": {
+    "created_at_date": "1867-09-14",
+    "range_of_dates": false
+  },
+  "descriptive_date": "14. september 1867",
+  "digital_item_created_at": "2014-01-07T05:01:15.130492",
+  "digitalt_museum_id": "011042469630",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469630",
+  "from_date": "1867-09-14",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.8453662, 12.54342470000006",
+        "human_name": "Grabenst\u00e4tt, Traunstein, Germany",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Traunstein",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Grabenst\u00e4tt",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Lavering, gouache og blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 308.0,
+      "height_unit": "mm",
+      "width": 536.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.08027",
+  "national_museum_norway_artwork_id": "NG.K&H.B.08027",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74209.tif&size=full",
+    "height": 1716,
+    "index": 74209,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "ink wash",
+    "gouache paint",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Grabenst\u00e4tt ved Chiemsee"
+      ]
+    }
+  },
+  "to_date": "1867-09-14",
+  "uuid": "6AA62211-6FA7-443A-BD4A-EA64D3CCCECC"
+}

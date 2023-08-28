@@ -1,0 +1,73 @@
+{
+  "acquistion_notes": "Antagelig kj\u00f8pt for A.C. Houens fond 1907",
+  "creation_date": {
+    "created_at_date": "1849-07-04",
+    "range_of_dates": false
+  },
+  "descriptive_date": "4. juli 1849",
+  "digital_item_created_at": "2013-12-13T22:30:21.265794",
+  "digitalt_museum_id": "011041109142",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041109142",
+  "from_date": "1849-07-04",
+  "locations": {
+    "produced_at": [
+      {
+        "coordinates": "60.8630722, 8.552333099999941",
+        "human_name": "Hemsedal, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Hemsedal",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret oppklebet p\u00e5 trefiberplate",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 27.5,
+      "height_unit": "cm",
+      "width": 48.5,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.04183",
+  "national_museum_norway_artwork_id": "NG.M.04183",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=20797.tif&size=full",
+    "height": 0,
+    "index": 20797,
+    "width": 0
+  },
+  "subjects": [
+    "woodlands",
+    "moutain"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "From Hemsedal"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Fra Hemsedal"
+      ]
+    }
+  },
+  "to_date": "1849-07-04",
+  "uuid": "5A4B6BBE-95C8-42ED-9C98-E51A218DF63D"
+}

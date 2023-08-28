@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1854",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1854)",
+  "digital_item_created_at": "2014-06-27T01:03:12.653343",
+  "digitalt_museum_id": "011044184679",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184679",
+  "from_date": "1854-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.8882954, 10.52532969999993",
+        "human_name": "Kj\u00f8rbo, B\u00e6rum, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "B\u00e6rum",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Kj\u00f8rbo",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-008VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06525-008VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93506.tif&size=full",
+    "height": 2238,
+    "index": 93506,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kalkklipper ved Kj\u00f8rbo (fragment)"
+      ]
+    }
+  },
+  "to_date": "1854-01-01",
+  "uuid": "6F393CD7-4991-4222-81F2-92EC6D42E8AE"
+}

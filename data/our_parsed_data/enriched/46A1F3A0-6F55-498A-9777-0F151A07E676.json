@@ -1,0 +1,68 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1880-08-08",
+    "range_of_dates": false
+  },
+  "descriptive_date": "8. august 1880",
+  "digital_item_created_at": "2014-03-14T02:01:28.268254",
+  "digitalt_museum_id": "011042654908",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042654908",
+  "from_date": "1880-08-08",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.7934942, 11.123058300000025",
+        "human_name": "\u00c5kersvika, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "\u00c5kersvika",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 210.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06514-010",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06514-010",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=83363.tif&size=full",
+    "height": 2086,
+    "index": 83363,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "\u00c5kersvika ved Hamar"
+      ],
+      "original": [
+        "Akersvika ved Hamar"
+      ]
+    }
+  },
+  "to_date": "1880-08-08",
+  "uuid": "46A1F3A0-6F55-498A-9777-0F151A07E676"
+}

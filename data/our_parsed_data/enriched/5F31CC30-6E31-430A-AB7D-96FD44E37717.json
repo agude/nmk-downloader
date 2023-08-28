@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "creation_date": {
+    "created_at_date": "1843-07-11",
+    "range_of_dates": false
+  },
+  "descriptive_date": "11. juli 1843",
+  "digital_item_created_at": "2014-01-07T05:01:53.789156",
+  "digitalt_museum_id": "011042469652",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469652",
+  "from_date": "1843-07-11",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.6297551, 6.422238500000049",
+        "human_name": "Vossevangen, Voss, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Voss",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Vossevangen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 208.0,
+      "height_unit": "mm",
+      "width": 264.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03126",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03126",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74070.tif&size=full",
+    "height": 2342,
+    "index": 74070,
+    "width": 3000
+  },
+  "subjects": [
+    "building"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Vossevangen med Voss kirke"
+      ]
+    }
+  },
+  "to_date": "1843-07-11",
+  "uuid": "5F31CC30-6E31-430A-AB7D-96FD44E37717"
+}

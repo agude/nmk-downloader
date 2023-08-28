@@ -1,0 +1,94 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1875",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1875)",
+  "digital_item_created_at": "2014-06-05T01:02:43.314091",
+  "digitalt_museum_id": "011044097208",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044097208",
+  "from_date": "1875-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.84602890000001, 10.50676420000002",
+        "human_name": "Holmenfjorden, Asker, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Asker",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Holmenfjorden",
+            "place_type": "area"
+          }
+        ]
+      },
+      {
+        "coordinates": "59.8605154, 10.443818599999986",
+        "human_name": "Skaugum\u00e5sen, Asker, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Asker",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Skaugum\u00e5sen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 111.0,
+      "height_unit": "mm",
+      "width": 179.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06526-017",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06526-017",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92968.tif&size=full",
+    "height": 1866,
+    "index": 92968,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Holmenfjorden"
+      ],
+      "original": [
+        "Asker\u00e5sen"
+      ]
+    }
+  },
+  "to_date": "1875-01-01",
+  "uuid": "4F5F58B9-0BCE-4904-B038-E9773B24EE46"
+}

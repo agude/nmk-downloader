@@ -1,0 +1,83 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1845-07",
+    "range_of_dates": false
+  },
+  "descriptive_date": "3. juli (1845); 4. juli (1845)",
+  "digital_item_created_at": "2013-12-14T05:49:04.595559",
+  "digitalt_museum_id": "011042287240",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042287240",
+  "from_date": "1845-07-03",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.8630722, 8.552333099999941",
+        "human_name": "Hemsedal, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Hemsedal",
+            "place_type": "municipality"
+          }
+        ]
+      },
+      {
+        "coordinates": "61.03700499999999, 7.586614999999938",
+        "human_name": "L\u00e6rdal, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "L\u00e6rdal",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant og lavering p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 172.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0280",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0280",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=94960.tif&size=full",
+    "height": 2220,
+    "index": 94960,
+    "photographer": "Bj\u00f8rgli, Annar",
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "ink wash"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Hemsedal; fra L\u00e6rdal"
+      ]
+    }
+  },
+  "to_date": "1845-07-04",
+  "uuid": "423887CA-697E-4F4C-8A1F-551DD07C38EA"
+}

@@ -1,0 +1,73 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1881-08-24",
+    "range_of_dates": false
+  },
+  "descriptive_date": "24. august 1881",
+  "digital_item_created_at": "2014-06-27T01:01:21.174888",
+  "digitalt_museum_id": "011044184554",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184554",
+  "from_date": "1881-08-24",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "54.3419774, 13.738428999999996",
+        "human_name": "G\u00f6hren, R\u00fcgen, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "R\u00fcgen",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "G\u00f6hren",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 242.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06524-005VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06524-005VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93300.tif&size=full",
+    "height": 1896,
+    "index": 93300,
+    "width": 3000
+  },
+  "subjects": [
+    "maritime",
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Ankere og b\u00e5t p\u00e5 stranden, G\u00f6hren (detalj)"
+      ]
+    }
+  },
+  "to_date": "1881-08-24",
+  "uuid": "21FE8BF6-56CD-4364-AB9F-2EA09262E911"
+}

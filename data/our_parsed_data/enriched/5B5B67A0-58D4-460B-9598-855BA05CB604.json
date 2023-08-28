@@ -1,0 +1,74 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date_end": "1863",
+    "created_at_date_start": "1862",
+    "range_of_dates": true
+  },
+  "descriptive_date": "1862 eller 1863",
+  "digital_item_created_at": "2014-02-13T02:02:15.580745",
+  "digitalt_museum_id": "011042525075",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042525075",
+  "from_date": "1862-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "53.24744686462361, -3.8184356689453125",
+        "human_name": "River Conwy, Wales, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Wales",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "River Conwy",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 118.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06515-024",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06515-024",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=77648.tif&size=full",
+    "height": 1756,
+    "index": 77648,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "\"Stepping stones\" over River Conwy"
+      ],
+      "original": [
+        "On the Conwey"
+      ]
+    }
+  },
+  "to_date": "1863-01-01",
+  "uuid": "5B5B67A0-58D4-460B-9598-855BA05CB604"
+}

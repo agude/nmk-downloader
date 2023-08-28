@@ -1,0 +1,46 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date_end": "1875",
+    "created_at_date_start": "1873",
+    "range_of_dates": true
+  },
+  "descriptive_date": "Mellom 1873 og 1875",
+  "digital_item_created_at": "2014-03-25T02:06:44.224332",
+  "digitalt_museum_id": "011043076377",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043076377",
+  "from_date": "1873-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 139.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06517-019",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06517-019",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=85804.tif&size=full",
+    "height": 1984,
+    "index": 85804,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Riss av skyer"
+      ]
+    }
+  },
+  "to_date": "1875-01-01",
+  "uuid": "2F74C601-D6EE-4C5B-BD00-22EEA50361F3"
+}

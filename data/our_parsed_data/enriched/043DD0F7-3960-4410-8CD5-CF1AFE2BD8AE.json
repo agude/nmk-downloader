@@ -1,0 +1,86 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1854-07-29",
+    "range_of_dates": false
+  },
+  "descriptive_date": "29. juli (1854)",
+  "digital_item_created_at": "2014-06-27T01:04:15.441142",
+  "digitalt_museum_id": "011044184744",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184744",
+  "from_date": "1854-07-29",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.39730360000001, 8.301129500000001",
+        "human_name": "Bandak, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Bandak",
+            "place_type": "area"
+          }
+        ]
+      },
+      {
+        "coordinates": "59.26666669999999, 9.183333299999958",
+        "human_name": "Nuke, Nome, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Nome",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Nuke",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-024VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06525-024VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93512.tif&size=full",
+    "height": 2231,
+    "index": 93512,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Utsikt mot Bandak fra Nuke (detalj)"
+      ]
+    }
+  },
+  "to_date": "1854-07-29",
+  "uuid": "043DD0F7-3960-4410-8CD5-CF1AFE2BD8AE"
+}

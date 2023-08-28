@@ -1,0 +1,91 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1877-07",
+    "range_of_dates": false
+  },
+  "descriptive_date": "12. juli 1877; (juli 1877)",
+  "digital_item_created_at": "2014-04-04T01:01:40.430721",
+  "digitalt_museum_id": "011043105746",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043105746",
+  "from_date": "1877-07-12",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "56.297453, -5.227614899999935",
+        "human_name": "Loch Awe, Scotland, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Scotland",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Loch Awe",
+            "place_type": "specific_area"
+          }
+        ]
+      },
+      {
+        "coordinates": "56.6115231, -5.433466500000009",
+        "human_name": "Loch Linnhe, Scotland, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Scotland",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Loch Linnhe",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 177.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519-010",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06519-010",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=88118.tif&size=full",
+    "height": 2155,
+    "index": 88118,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Loch Awe; fra Loch Linnhe"
+      ]
+    }
+  },
+  "to_date": "1877-07-01",
+  "uuid": "6826E9D0-4506-4EF1-BC58-023D0A215A8A"
+}

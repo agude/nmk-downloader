@@ -1,0 +1,73 @@
+{
+  "acquistion_notes": "Antagelig kj\u00f8pt for A.C. Houens fond 1907",
+  "creation_date": {
+    "created_at_date": "1843-08-14",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1843",
+  "digital_item_created_at": "2013-12-13T22:30:21.165639",
+  "digitalt_museum_id": "011041109137",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041109137",
+  "from_date": "1843-08-14",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.58696734225869, 7.079315185546875",
+        "human_name": "Ulvik, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Ulvik",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 papir oppklebet p\u00e5 trefiberplate",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 24.5,
+      "height_unit": "cm",
+      "width": 42.5,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.04178",
+  "national_museum_norway_artwork_id": "NG.M.04178",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=20792.tif&size=full",
+    "height": 0,
+    "index": 20792,
+    "width": 0
+  },
+  "subjects": [
+    "fjord",
+    "moutain"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "View of Ulvik in Hardanger"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Fra Ulvik i Hardanger"
+      ]
+    }
+  },
+  "to_date": "1843-08-14",
+  "uuid": "9B8694AF-618C-45A2-9F69-870376EC4099"
+}

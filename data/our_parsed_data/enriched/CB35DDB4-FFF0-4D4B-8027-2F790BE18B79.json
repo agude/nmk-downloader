@@ -1,0 +1,73 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1872-07-30",
+    "range_of_dates": false
+  },
+  "descriptive_date": "Antagelig 30. juli 1872",
+  "digital_item_created_at": "2014-06-13T01:01:04.448100",
+  "digitalt_museum_id": "011044110418",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110418",
+  "from_date": "1872-07-30",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.26152200000001, 10.495541499999944",
+        "human_name": "Vall\u00f8y, T\u00f8nsberg, Norway",
+        "place_accuracy": "antatt",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "T\u00f8nsberg",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Vall\u00f8y",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 120.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06522-003VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06522-003VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93164.tif&size=full",
+    "height": 1965,
+    "index": 93164,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Skip utenfor Vall\u00f8y"
+      ]
+    }
+  },
+  "to_date": "1872-07-30",
+  "uuid": "CB35DDB4-FFF0-4D4B-8027-2F790BE18B79"
+}

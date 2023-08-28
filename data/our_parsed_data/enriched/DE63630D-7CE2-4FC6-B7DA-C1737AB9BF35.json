@@ -1,0 +1,78 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1877-07-10",
+    "range_of_dates": false
+  },
+  "descriptive_date": "10. juli 1877",
+  "digital_item_created_at": "2014-04-05T01:00:48.545242",
+  "digitalt_museum_id": "011043112735",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043112735",
+  "from_date": "1877-07-10",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "55.97, -5.82837399999994",
+        "human_name": "Tarbert, Scotland, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Scotland",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Tarbert",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 394.0,
+      "height_unit": "mm",
+      "width": 281.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03132",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03132",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74322.tif&size=full",
+    "height": 3000,
+    "index": 74322,
+    "photographer": "Bj\u00f8rgli, Annar",
+    "width": 2143
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Sailing-Ship on the Shore, Tarbert, Loch Fyne"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Seilskute p\u00e5 stranden i Tarbert, Loch Fyne"
+      ]
+    }
+  },
+  "to_date": "1877-07-10",
+  "uuid": "DE63630D-7CE2-4FC6-B7DA-C1737AB9BF35"
+}

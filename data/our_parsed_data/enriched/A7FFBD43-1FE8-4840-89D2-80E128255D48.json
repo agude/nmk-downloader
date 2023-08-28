@@ -1,0 +1,67 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra kunstneren, innkommet 1904",
+  "creation_date": {
+    "created_at_date": "1885",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1885",
+  "digital_item_created_at": "2013-12-13T22:29:50.145147",
+  "digitalt_museum_id": "011041107546",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107546",
+  "from_date": "1885-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "54.3519967, 13.363049100000012",
+        "human_name": "R\u00fcgen, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "R\u00fcgen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 papplate",
+  "materials": [
+    "cardboard"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 33.0,
+      "height_unit": "cm",
+      "width": 50.0,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00635-008",
+  "national_museum_norway_artwork_id": "NG.M.00635-008",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=18325.tif&size=full",
+    "height": 0,
+    "index": 18325,
+    "width": 0
+  },
+  "subjects": [
+    "maritime"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "B\u00e5tstudie"
+      ]
+    }
+  },
+  "to_date": "1885-01-01",
+  "uuid": "A7FFBD43-1FE8-4840-89D2-80E128255D48"
+}

@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Kj\u00f8pt 2003",
+  "creation_date": {
+    "created_at_date": "1898",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1898)",
+  "digital_item_created_at": "2013-12-13T22:30:25.760037",
+  "digitalt_museum_id": "011041109337",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041109337",
+  "from_date": "1898-01-01",
+  "material_comment": "Olje p\u00e5 treplate",
+  "materials": [
+    "wood"
+  ],
+  "measurements": {
+    "etching_plate": {
+      "depth": 0.5,
+      "depth_unit": "cm",
+      "height": 86.9,
+      "height_unit": "cm",
+      "width": 48.5,
+      "width_unit": "cm"
+    },
+    "frame": {
+      "depth": 3.7,
+      "depth_unit": "cm",
+      "height": 57.0,
+      "height_unit": "cm",
+      "width": 95.5,
+      "width_unit": "cm"
+    },
+    "main_object": {
+      "depth": 3.0,
+      "depth_unit": "cm",
+      "height": 45.2,
+      "height_unit": "cm",
+      "width": 83.8,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.04483",
+  "national_museum_norway_artwork_id": "NG.M.04483",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=117058.tif&size=full",
+    "height": 2210,
+    "index": 117058,
+    "width": 4000
+  },
+  "subjects": [],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kunstnerviften"
+      ]
+    }
+  },
+  "to_date": "1898-01-01",
+  "uuid": "AA3E7F5A-FCFE-4B0C-AA14-53D391F2C5E6"
+}

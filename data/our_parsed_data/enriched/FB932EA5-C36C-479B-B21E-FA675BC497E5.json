@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1877-09-04",
+    "range_of_dates": false
+  },
+  "descriptive_date": "4. september (1877)",
+  "digital_item_created_at": "2014-04-04T01:02:15.419169",
+  "digitalt_museum_id": "011043105812",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043105812",
+  "from_date": "1877-09-04",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.5177773, 10.141028000000005",
+        "human_name": "Stor\u00f8ya, Ringerike, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Ringerike",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Stor\u00f8ya",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 177.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519-018",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06519-018",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=88268.tif&size=full",
+    "height": 2175,
+    "index": 88268,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Stor\u00f8ya, Ringerike"
+      ]
+    }
+  },
+  "to_date": "1877-09-04",
+  "uuid": "FB932EA5-C36C-479B-B21E-FA675BC497E5"
+}

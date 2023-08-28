@@ -1,0 +1,74 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for Houens fond fra kunstnerens bo 1904",
+  "creation_date": {
+    "created_at_date": "1877-06-26",
+    "range_of_dates": false
+  },
+  "descriptive_date": "26. juni 1877",
+  "digital_item_created_at": "2014-01-07T05:00:48.662945",
+  "digitalt_museum_id": "011042469619",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469619",
+  "from_date": "1877-06-26",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "55.64367, -5.141426000000024",
+        "human_name": "Corrie, Arran, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Arran",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Corrie",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant, pensel, lavering, akvarell og gouache p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 305.0,
+      "height_unit": "mm",
+      "width": 463.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.00060",
+  "national_museum_norway_artwork_id": "NG.K&H.B.00060",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74208.tif&size=full",
+    "height": 1964,
+    "index": 74208,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "brush",
+    "ink wash",
+    "watercolor",
+    "gouache paint"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra kysten ved Corrie, Arran, Skottland"
+      ]
+    }
+  },
+  "to_date": "1877-06-26",
+  "uuid": "1F08724C-8037-4190-B270-F88E12669330"
+}

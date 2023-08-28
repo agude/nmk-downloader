@@ -1,0 +1,74 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for A.C. Houens fond 1904",
+  "creation_date": {
+    "created_at_date": "1846",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1846",
+  "digital_item_created_at": "2013-12-13T22:29:50.429933",
+  "digitalt_museum_id": "011041107566",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107566",
+  "from_date": "1846-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.203408, 11.150492",
+        "human_name": "Elstad, Gardermoen, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Gardermoen",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Elstad",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 papp oppklebet p\u00e5 papplate",
+  "materials": [
+    "paper",
+    "cardboard"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 27.0,
+      "height_unit": "cm",
+      "width": 33.5,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-018",
+  "national_museum_norway_artwork_id": "NG.M.00636-018",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=52733.tif&size=full",
+    "height": 2408,
+    "index": 52733,
+    "photographer": "Thorkildsen, Morten",
+    "width": 3000
+  },
+  "subjects": [
+    "flora"
+  ],
+  "techniques": [
+    "paper"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Studie av bregner"
+      ]
+    }
+  },
+  "to_date": "1846-01-01",
+  "uuid": "A103B042-8AF7-4247-B4BB-3D38CC654438"
+}

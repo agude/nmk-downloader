@@ -1,0 +1,62 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": null,
+  "descriptive_date": "(1880)",
+  "digital_item_created_at": "2014-05-10T01:01:41.383859",
+  "digitalt_museum_id": "011044053261",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044053261",
+  "from_date": "1880-07-27",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "63.583683, 10.76081899999997",
+        "human_name": "Frosta, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Frosta",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 119.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06520-012",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06520-012",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92225.tif&size=full",
+    "height": 1880,
+    "index": 92225,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kysten av Frosta; g\u00e5rdstun, Frosta"
+      ]
+    }
+  },
+  "to_date": "1880-08-02",
+  "uuid": "4186D40B-56F9-49C8-AF56-9AAD7CC53178"
+}

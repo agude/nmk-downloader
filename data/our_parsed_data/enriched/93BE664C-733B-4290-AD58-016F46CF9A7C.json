@@ -1,0 +1,79 @@
+{
+  "acquistion_notes": "Kj\u00f8pt fra kunstneren 1893",
+  "creation_date": {
+    "created_at_date": "1884-07",
+    "range_of_dates": false
+  },
+  "descriptive_date": "Juli 1884",
+  "digital_item_created_at": "2013-12-14T05:40:07.715161",
+  "digitalt_museum_id": "011042266763",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042266763",
+  "from_date": "1884-07-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.84412498833471, 10.727119445800781",
+        "human_name": "Bunnefjorden, Oslo, Norway",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Oslo",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Bunnefjorden",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Akvarell, gouache og penn p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 410.0,
+      "height_unit": "mm",
+      "width": 609.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06532",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06532",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=32078.tif&size=full",
+    "height": 1310,
+    "index": 32078,
+    "photographer": "Anne Hansteen Jarre",
+    "width": 2000
+  },
+  "subjects": [],
+  "techniques": [
+    "watercolor",
+    "pen",
+    "gouache paint"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "View of The Bunne Fjord from Malm\u00f6ya"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Bunnefjorden fra Malm\u00f8ya"
+      ]
+    }
+  },
+  "to_date": "1884-07-01",
+  "uuid": "93BE664C-733B-4290-AD58-016F46CF9A7C"
+}

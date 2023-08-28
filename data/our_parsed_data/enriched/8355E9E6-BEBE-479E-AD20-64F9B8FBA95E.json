@@ -1,0 +1,98 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1875-06-21",
+    "range_of_dates": false
+  },
+  "descriptive_date": "21. juni (1875)",
+  "digital_item_created_at": "2014-06-05T01:01:46.895458",
+  "digitalt_museum_id": "011044097145",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044097145",
+  "from_date": "1875-06-21",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.67315170000001, 10.61609210000006",
+        "human_name": "Dr\u00f8baksundet, Dr\u00f8bak, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Dr\u00f8bak",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Dr\u00f8baksundet",
+            "place_type": "area"
+          }
+        ]
+      },
+      {
+        "coordinates": "59.673136683287886, 10.607385635375976",
+        "human_name": "Oscarsborg fortress, S\u00f8ndre Kaholmen, Dr\u00f8bak, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Dr\u00f8bak",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "S\u00f8ndre Kaholmen",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Oscarsborg fortress",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 111.0,
+      "height_unit": "mm",
+      "width": 179.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06526-004",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06526-004",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92935.tif&size=full",
+    "height": 1884,
+    "index": 92935,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Skip i Dr\u00f8baksundet"
+      ]
+    }
+  },
+  "to_date": "1875-06-21",
+  "uuid": "8355E9E6-BEBE-479E-AD20-64F9B8FBA95E"
+}

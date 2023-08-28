@@ -1,0 +1,53 @@
+{
+  "acquistion_notes": "Innkommet 1860",
+  "creation_date": {
+    "created_at_date": "1860",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1860",
+  "digital_item_created_at": "2013-12-13T22:29:40.877193",
+  "digitalt_museum_id": "011041107113",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107113",
+  "from_date": "1860-01-01",
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 127.5,
+      "height_unit": "cm",
+      "width": 189.0,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00191",
+  "national_museum_norway_artwork_id": "NG.M.00191",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=17688.tif&size=full",
+    "height": 0,
+    "index": 17688,
+    "width": 0
+  },
+  "subjects": [
+    "folklore",
+    "woodlands"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Rest at the Brook"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Hvile ved bekken"
+      ]
+    }
+  },
+  "to_date": "1860-01-01",
+  "uuid": "2BEB5554-B4AA-43A5-8EDD-A1A27F5F4AE9"
+}

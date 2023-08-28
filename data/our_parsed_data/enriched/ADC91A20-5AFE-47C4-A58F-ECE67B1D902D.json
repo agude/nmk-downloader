@@ -1,0 +1,52 @@
+{
+  "acquistion_notes": "Gave fra rittmester Thv. Meyers d\u00f8tre 1909",
+  "creation_date": {
+    "created_at_date": "1854",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1854",
+  "digital_item_created_at": "2013-12-13T22:30:21.284784",
+  "digitalt_museum_id": "011041109145",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041109145",
+  "from_date": "1854-01-01",
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 100.0,
+      "height_unit": "cm",
+      "width": 163.0,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.04186",
+  "national_museum_norway_artwork_id": "NG.M.04186",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=20800.tif&size=full",
+    "height": 0,
+    "index": 20800,
+    "width": 0
+  },
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Norwegian Highlands in Sunrise"
+      ]
+    },
+    "nor": {
+      "current": [
+        "H\u00f8yfjell i soloppgang"
+      ]
+    }
+  },
+  "to_date": "1854-01-01",
+  "uuid": "ADC91A20-5AFE-47C4-A58F-ECE67B1D902D"
+}

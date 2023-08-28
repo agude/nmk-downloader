@@ -1,0 +1,48 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1875-09-05",
+    "range_of_dates": false
+  },
+  "descriptive_date": "5. september 1875",
+  "digital_item_created_at": "2014-06-05T01:02:53.554610",
+  "digitalt_museum_id": "011044097213",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044097213",
+  "from_date": "1875-09-05",
+  "material_comment": "Blyant og akvarell p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 111.0,
+      "height_unit": "mm",
+      "width": 179.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06526-019VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06526-019VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92973.tif&size=full",
+    "height": 1885,
+    "index": 92973,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil",
+    "watercolor"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Dampskipet \"Olaf Trygvason\""
+      ]
+    }
+  },
+  "to_date": "1875-09-05",
+  "uuid": "F09DAC70-23E2-4D55-8689-E9E03B7370E0"
+}

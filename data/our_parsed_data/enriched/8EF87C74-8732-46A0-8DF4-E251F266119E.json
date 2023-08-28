@@ -1,0 +1,77 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1853-08-17",
+    "range_of_dates": false
+  },
+  "descriptive_date": "17. august 1853",
+  "digital_item_created_at": "2013-12-14T05:40:46.800047",
+  "digitalt_museum_id": "011042268165",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042268165",
+  "from_date": "1853-08-17",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.28307230000001, 11.128499599999941",
+        "human_name": "Andelven, Eidsvoll, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Eidsvoll",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Andelven",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Akvarell og blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 291.0,
+      "height_unit": "mm",
+      "width": 468.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03137",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03137",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=32543.tif&size=full",
+    "height": 1238,
+    "index": 32543,
+    "photographer": "Anne Hansteen Jarre",
+    "width": 2000
+  },
+  "subjects": [],
+  "techniques": [
+    "watercolor",
+    "pencil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "From Eidsvoll"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Fra Andelven, Eidsvoll"
+      ]
+    }
+  },
+  "to_date": "1853-08-17",
+  "uuid": "8EF87C74-8732-46A0-8DF4-E251F266119E"
+}

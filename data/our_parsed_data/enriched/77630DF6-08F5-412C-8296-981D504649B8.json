@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1875-06-20",
+    "range_of_dates": false
+  },
+  "descriptive_date": "20. juni (1875)",
+  "digital_item_created_at": "2014-06-05T01:01:42.784455",
+  "digitalt_museum_id": "011044097140",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044097140",
+  "from_date": "1875-06-20",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "57.886658, 11.57822299999998",
+        "human_name": "Carlstens f\u00e4stning, Marstrand, Sweden",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Sweden",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Marstrand",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Carlstens f\u00e4stning",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 111.0,
+      "height_unit": "mm",
+      "width": 179.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06526-003",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06526-003",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92933.tif&size=full",
+    "height": 1867,
+    "index": 92933,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Carlstens festning, Marstrand; b\u00e5tstudie; bygningsriss"
+      ]
+    }
+  },
+  "to_date": "1875-06-20",
+  "uuid": "77630DF6-08F5-412C-8296-981D504649B8"
+}

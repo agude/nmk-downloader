@@ -1,0 +1,45 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1885",
+    "range_of_dates": false
+  },
+  "descriptive_date": "Antagelig 1885",
+  "digital_item_created_at": "2014-02-11T08:04:19.916751",
+  "digitalt_museum_id": "011042523226",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042523226",
+  "from_date": "1885-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 327.0,
+      "height_unit": "mm",
+      "width": 240.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06512-013",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06512-013",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=75473.tif&size=full",
+    "height": 3000,
+    "index": 75473,
+    "width": 2196
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Ryggvendt kvinnefigur"
+      ]
+    }
+  },
+  "to_date": "1885-01-01",
+  "uuid": "1FAF3BB3-0637-4094-B21B-94205430105C"
+}

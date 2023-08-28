@@ -1,0 +1,46 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1843",
+    "range_of_dates": false
+  },
+  "descriptive_date": "Antagelig 1843",
+  "digital_item_created_at": "2013-12-14T05:49:04.985442",
+  "digitalt_museum_id": "011042287255",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042287255",
+  "from_date": "1843-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 133.0,
+      "height_unit": "mm",
+      "width": 97.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0264",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0264",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=94969.tif&size=full",
+    "height": 3000,
+    "index": 94969,
+    "photographer": "Bj\u00f8rgli, Annar",
+    "width": 2211
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Mannshode (fragment)"
+      ]
+    }
+  },
+  "to_date": "1843-01-01",
+  "uuid": "79D74C18-A8A3-4601-A922-8AADC6D76F2D"
+}

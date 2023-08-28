@@ -1,0 +1,68 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for A.C. Houens fond 1904",
+  "creation_date": {
+    "created_at_date": "1848-08-16",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1848",
+  "digital_item_created_at": "2013-12-13T22:29:50.239116",
+  "digitalt_museum_id": "011041107552",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107552",
+  "from_date": "1848-08-16",
+  "locations": {
+    "depicted_location": [
+      {
+        "human_name": "Hallingdal, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Hallingdal",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 papir oppklebet p\u00e5 lerret",
+  "materials": [
+    "paper",
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 35.5,
+      "height_unit": "cm",
+      "width": 50.5,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-005",
+  "national_museum_norway_artwork_id": "NG.M.00636-005",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=134456.tif&size=full",
+    "height": 2755,
+    "index": 134456,
+    "photographer": "Lathion, Jacques",
+    "width": 4000
+  },
+  "subjects": [
+    "waterfall"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Foss i Hallingdal"
+      ]
+    }
+  },
+  "to_date": "1848-08-16",
+  "uuid": "1C659E6B-902C-45A6-A913-95713A0EF59B"
+}

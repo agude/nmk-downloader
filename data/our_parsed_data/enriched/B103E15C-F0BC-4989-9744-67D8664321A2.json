@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1863-06-16",
+    "range_of_dates": false
+  },
+  "descriptive_date": "16. juni (1863)",
+  "digital_item_created_at": "2014-02-04T03:59:06.419256",
+  "digitalt_museum_id": "011042513822",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042513822",
+  "from_date": "1863-06-16",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "53.06479830000001, -3.864974699999948",
+        "human_name": "Lledr Valley, Snowdonia, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Snowdonia",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Lledr Valley",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 295.0,
+      "height_unit": "mm",
+      "width": 434.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06511-014",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06511-014",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74692.tif&size=full",
+    "height": 2143,
+    "index": 74692,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Lledr Valley"
+      ]
+    }
+  },
+  "to_date": "1863-06-16",
+  "uuid": "B103E15C-F0BC-4989-9744-67D8664321A2"
+}

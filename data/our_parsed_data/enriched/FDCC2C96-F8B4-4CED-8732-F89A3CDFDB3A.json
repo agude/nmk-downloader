@@ -1,0 +1,80 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1889-08-28",
+    "range_of_dates": false
+  },
+  "descriptive_date": "28. august 1889",
+  "digital_item_created_at": "2014-01-07T04:59:29.339075",
+  "digitalt_museum_id": "011042469555",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469555",
+  "from_date": "1889-08-28",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.11389999999999, 7.233058000000028",
+        "human_name": "Bleia, L\u00e6rdal, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "L\u00e6rdal",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Bleia",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Akvarell, gouache, penn og blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 381.0,
+      "height_unit": "mm",
+      "width": 567.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03150",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03150",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74184.tif&size=full",
+    "height": 1998,
+    "index": 74184,
+    "width": 3000
+  },
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "watercolor",
+    "pen",
+    "pencil",
+    "gouache paint"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "The Mountain Bleia by Sognefjorden"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Fjellet Bleia ved Sognefjorden"
+      ]
+    }
+  },
+  "to_date": "1889-08-28",
+  "uuid": "FDCC2C96-F8B4-4CED-8732-F89A3CDFDB3A"
+}

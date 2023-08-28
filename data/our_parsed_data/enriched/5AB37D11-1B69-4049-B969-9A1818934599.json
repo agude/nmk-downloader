@@ -1,0 +1,47 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1879",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1879)",
+  "digital_item_created_at": "2014-05-10T01:01:15.293912",
+  "digitalt_museum_id": "011044053205",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044053205",
+  "from_date": "1879-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 119.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06520-005VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06520-005VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92212.tif&size=full",
+    "height": 1910,
+    "index": 92212,
+    "width": 3000
+  },
+  "subjects": [
+    "building"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Slott ved Gottlieben"
+      ]
+    }
+  },
+  "to_date": "1879-01-01",
+  "uuid": "5AB37D11-1B69-4049-B969-9A1818934599"
+}

@@ -1,0 +1,76 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude AS ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1839",
+    "range_of_dates": false
+  },
+  "descriptive_date": "Antagelig 1839",
+  "digital_item_created_at": "2014-11-07T02:03:43.403193",
+  "digitalt_museum_id": "021045510566",
+  "digitalt_museum_link": "https://digitaltmuseum.org/021045510566",
+  "from_date": "1839-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.0903594, 8.979901499999982",
+        "human_name": "Slidredomen, Vestre Slidre, Norway",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Vestre Slidre",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Slidredomen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 147.0,
+      "height_unit": "mm",
+      "width": 228.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0237",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0237",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99275.tif&size=full",
+    "height": 1926,
+    "index": 99275,
+    "width": 3000
+  },
+  "subjects": [
+    "church"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Slidredomen i Valdres"
+      ],
+      "original": [
+        "Valders"
+      ]
+    }
+  },
+  "to_date": "1839-01-01",
+  "uuid": "520E7011-95DB-4E87-875B-AA8B17E325A4"
+}

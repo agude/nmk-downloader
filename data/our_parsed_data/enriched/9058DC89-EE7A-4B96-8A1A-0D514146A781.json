@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1862-08-26",
+    "range_of_dates": false
+  },
+  "descriptive_date": "26. august (1862)",
+  "digital_item_created_at": "2014-02-13T02:02:12.152010",
+  "digitalt_museum_id": "011042525073",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042525073",
+  "from_date": "1862-08-26",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.16666670000001, 10.41666669999995",
+        "human_name": "Vrengen, N\u00f8tter\u00f8y, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "N\u00f8tter\u00f8y",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Vrengen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 118.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06515-022",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06515-022",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=77646.tif&size=full",
+    "height": 1786,
+    "index": 77646,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Vrengen"
+      ]
+    }
+  },
+  "to_date": "1862-08-26",
+  "uuid": "9058DC89-EE7A-4B96-8A1A-0D514146A781"
+}

@@ -1,0 +1,67 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Marie Moe, innkommet 1940",
+  "creation_date": {
+    "created_at_date": "1846",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1846",
+  "digital_item_created_at": "2013-12-13T22:30:07.155160",
+  "digitalt_museum_id": "011041108334",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041108334",
+  "from_date": "1846-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "human_name": "Hallingdal, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Hallingdal",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 24.5,
+      "height_unit": "cm",
+      "width": 35.0,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.01980",
+  "national_museum_norway_artwork_id": "NG.M.01980",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=19497.tif&size=full",
+    "height": 0,
+    "index": 19497,
+    "width": 0
+  },
+  "subjects": [
+    "moutain",
+    "river"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Hallingdal"
+      ]
+    }
+  },
+  "to_date": "1846-01-01",
+  "uuid": "0B411645-759F-47D7-96E9-5815B1FAF5AA"
+}

@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1877-07-14",
+    "range_of_dates": false
+  },
+  "descriptive_date": "14. juli (1877)",
+  "digital_item_created_at": "2014-04-04T01:02:05.566099",
+  "digitalt_museum_id": "011043105795",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043105795",
+  "from_date": "1877-07-14",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "56.415157, -5.471046999999999",
+        "human_name": "Oban, Argyll and Bute, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Argyll and Bute",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Oban",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 177.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519-016",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06519-016",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=88272.tif&size=full",
+    "height": 2174,
+    "index": 88272,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Oban"
+      ]
+    }
+  },
+  "to_date": "1877-07-14",
+  "uuid": "04C1EAA7-E575-41C4-A70A-B03CDE9BDEEC"
+}

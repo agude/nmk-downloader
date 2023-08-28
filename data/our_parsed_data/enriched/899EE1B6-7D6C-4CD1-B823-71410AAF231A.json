@@ -1,0 +1,50 @@
+{
+  "acquistion_notes": "Kj\u00f8pt 1992",
+  "creation_date": {
+    "created_at_date": "1873",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1873",
+  "digital_item_created_at": "2015-08-14T04:21:55.891277",
+  "digitalt_museum_id": "021045911394",
+  "digitalt_museum_link": "https://digitaltmuseum.org/021045911394",
+  "from_date": "1873-01-01",
+  "material_comment": "Olje p\u00e5 lerret oppklebet p\u00e5 papplate",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 35.5,
+      "height_unit": "cm",
+      "width": 23.0,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.04248",
+  "national_museum_norway_artwork_id": "NG.M.04248",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=108695.tif&size=full",
+    "height": 3091,
+    "index": 108695,
+    "width": 2038
+  },
+  "subjects": [],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Air Study"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Luftstudie"
+      ]
+    }
+  },
+  "to_date": "1873-01-01",
+  "uuid": "899EE1B6-7D6C-4CD1-B823-71410AAF231A"
+}

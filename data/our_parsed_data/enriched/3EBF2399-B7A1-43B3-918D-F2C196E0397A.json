@@ -1,0 +1,45 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1871-12-06",
+    "range_of_dates": false
+  },
+  "descriptive_date": "6. desember 1871",
+  "digital_item_created_at": "2014-01-07T04:58:24.524375",
+  "digitalt_museum_id": "011042469508",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469508",
+  "from_date": "1871-12-06",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 457.0,
+      "height_unit": "mm",
+      "width": 307.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03114",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03114",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74175.tif&size=full",
+    "height": 3000,
+    "index": 74175,
+    "width": 2033
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Gammel eik"
+      ]
+    }
+  },
+  "to_date": "1871-12-06",
+  "uuid": "3EBF2399-B7A1-43B3-918D-F2C196E0397A"
+}

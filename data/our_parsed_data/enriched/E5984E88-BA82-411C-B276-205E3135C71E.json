@@ -1,0 +1,78 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1875-06-22",
+    "range_of_dates": false
+  },
+  "descriptive_date": "22. juni 1875",
+  "digital_item_created_at": "2014-06-05T01:01:48.925862",
+  "digitalt_museum_id": "011044097148",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044097148",
+  "from_date": "1875-06-22",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.673136683287886, 10.607385635375976",
+        "human_name": "Oscarsborg fortress, S\u00f8ndre Kaholmen, Dr\u00f8bak, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Dr\u00f8bak",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "S\u00f8ndre Kaholmen",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Oscarsborg fortress",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Penn over blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 111.0,
+      "height_unit": "mm",
+      "width": 179.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06526-004VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06526-004VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92936.tif&size=full",
+    "height": 1879,
+    "index": 92936,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil",
+    "pen"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "B\u00e5tbyggere, Dr\u00f8bak"
+      ]
+    }
+  },
+  "to_date": "1875-06-22",
+  "uuid": "E5984E88-BA82-411C-B276-205E3135C71E"
+}

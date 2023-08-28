@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude AS ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1843-07-09",
+    "range_of_dates": false
+  },
+  "descriptive_date": "9. juli 1843",
+  "digital_item_created_at": "2014-11-07T02:05:41.830955",
+  "digitalt_museum_id": "021045510690",
+  "digitalt_museum_link": "https://digitaltmuseum.org/021045510690",
+  "from_date": "1843-07-09",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.6297551, 6.422238500000049",
+        "human_name": "Vossevangen, Voss, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Voss",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Vossevangen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 123.0,
+      "height_unit": "mm",
+      "width": 165.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0253VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0253VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99219.tif&size=full",
+    "height": 2242,
+    "index": 99219,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fjellparti og mannsfigurer, Vossevangen"
+      ]
+    }
+  },
+  "to_date": "1843-07-09",
+  "uuid": "F38EE01F-27B4-4C05-874E-073A89116955"
+}

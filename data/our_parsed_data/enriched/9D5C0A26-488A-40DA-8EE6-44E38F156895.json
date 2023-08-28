@@ -1,0 +1,85 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude AS ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1843",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(Juni 1843)",
+  "digital_item_created_at": "2014-11-07T02:06:16.839674",
+  "digitalt_museum_id": "021045510709",
+  "digitalt_museum_link": "https://digitaltmuseum.org/021045510709",
+  "from_date": "1843-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.3313629, 7.372444999999971",
+        "human_name": "Lustrafjorden, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Lustrafjorden",
+            "place_type": "area"
+          }
+        ]
+      },
+      {
+        "coordinates": "60.9166667, 8.41666669999995",
+        "human_name": "Hemsedalsfjellene, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Hemsedalsfjellene",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant og akvarell p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 165.0,
+      "height_unit": "mm",
+      "width": 123.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0260",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0260",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99207.tif&size=full",
+    "height": 2220,
+    "index": 99207,
+    "width": 3000
+  },
+  "subjects": [
+    "moutain",
+    "building"
+  ],
+  "techniques": [
+    "pencil",
+    "watercolor"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Utsikt mot Hemsedalsfjellene; steinhytte; fra Lustrafjorden"
+      ]
+    }
+  },
+  "to_date": "1843-01-01",
+  "uuid": "9D5C0A26-488A-40DA-8EE6-44E38F156895"
+}

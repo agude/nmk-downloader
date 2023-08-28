@@ -1,0 +1,42 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": null,
+  "descriptive_date": "(1862)",
+  "digital_item_created_at": "2014-03-22T02:01:55.230899",
+  "digitalt_museum_id": "011043071474",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043071474",
+  "from_date": "1862-06-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 232.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06513-014VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06513-014VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=85733.tif&size=full",
+    "height": 2332,
+    "index": 85733,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Skogslandskap (fragment)"
+      ]
+    }
+  },
+  "to_date": "1862-09-30",
+  "uuid": "A61F8A06-3B3B-4ECF-8C70-3FE846F057CA"
+}

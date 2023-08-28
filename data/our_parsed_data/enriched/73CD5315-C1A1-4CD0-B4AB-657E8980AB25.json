@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "creation_date": {
+    "created_at_date": "1868-06-14",
+    "range_of_dates": false
+  },
+  "descriptive_date": "14. juni 1868",
+  "digital_item_created_at": "2014-01-07T05:02:01.484862",
+  "digitalt_museum_id": "011042469656",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469656",
+  "from_date": "1868-06-14",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "48.4333333, 7.399999999999977",
+        "human_name": "Mont Sainte-Odile, Alsace, France",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "France",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Alsace",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Mont Sainte-Odile",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 241.0,
+      "height_unit": "mm",
+      "width": 342.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03130",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03130",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74072.tif&size=full",
+    "height": 2116,
+    "index": 74072,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Mont Sainte-Odile"
+      ]
+    }
+  },
+  "to_date": "1868-06-14",
+  "uuid": "73CD5315-C1A1-4CD0-B4AB-657E8980AB25"
+}

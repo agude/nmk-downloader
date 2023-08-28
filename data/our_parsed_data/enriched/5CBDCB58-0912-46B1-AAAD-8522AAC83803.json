@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1888-08-11",
+    "range_of_dates": false
+  },
+  "descriptive_date": "11. august 1888",
+  "digital_item_created_at": "2014-01-07T05:02:09.426676",
+  "digitalt_museum_id": "011042469662",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469662",
+  "from_date": "1888-08-11",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.8919536, 9.925601099999994",
+        "human_name": "\u00c5mot, Modum, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Modum",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "\u00c5mot",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 212.0,
+      "height_unit": "mm",
+      "width": 348.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03154",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03154",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74075.tif&size=full",
+    "height": 1823,
+    "index": 74075,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra \u00c5mot"
+      ]
+    }
+  },
+  "to_date": "1888-08-11",
+  "uuid": "5CBDCB58-0912-46B1-AAAD-8522AAC83803"
+}

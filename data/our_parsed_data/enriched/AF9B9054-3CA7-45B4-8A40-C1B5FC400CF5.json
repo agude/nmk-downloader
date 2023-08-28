@@ -1,0 +1,47 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1873",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1873)",
+  "digital_item_created_at": "2014-06-13T01:02:15.874055",
+  "digitalt_museum_id": "011044110546",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110546",
+  "from_date": "1873-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 140.0,
+      "height_unit": "mm",
+      "width": 213.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06521-002",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06521-002",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93200.tif&size=full",
+    "height": 2051,
+    "index": 93200,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Studier av fiskeb\u00e5t med figurer; riss av seilb\u00e5t"
+      ]
+    }
+  },
+  "to_date": "1873-01-01",
+  "uuid": "AF9B9054-3CA7-45B4-8A40-C1B5FC400CF5"
+}

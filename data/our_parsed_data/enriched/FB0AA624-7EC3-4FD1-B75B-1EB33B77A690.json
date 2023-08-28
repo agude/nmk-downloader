@@ -1,0 +1,46 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date_end": "1863",
+    "created_at_date_start": "1857",
+    "range_of_dates": true
+  },
+  "descriptive_date": "Mellom 1857 og 1863",
+  "digital_item_created_at": "2014-02-04T03:59:18.136767",
+  "digitalt_museum_id": "011042513842",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042513842",
+  "from_date": "1857-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 295.0,
+      "height_unit": "mm",
+      "width": 434.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06511-016VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06511-016VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74697.tif&size=full",
+    "height": 2054,
+    "index": 74697,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "M\u00f8llehus"
+      ]
+    }
+  },
+  "to_date": "1863-01-01",
+  "uuid": "FB0AA624-7EC3-4FD1-B75B-1EB33B77A690"
+}

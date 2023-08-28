@@ -1,0 +1,45 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1875",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1875)",
+  "digital_item_created_at": "2014-06-05T01:03:29.287606",
+  "digitalt_museum_id": "011044097231",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044097231",
+  "from_date": "1875-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 111.0,
+      "height_unit": "mm",
+      "width": 179.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06526-029VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06526-029VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92993.tif&size=full",
+    "height": 1924,
+    "index": 92993,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Landskap med strand og brygge"
+      ]
+    }
+  },
+  "to_date": "1875-01-01",
+  "uuid": "5D4E5B01-62BB-4173-8748-0098460F85E0"
+}

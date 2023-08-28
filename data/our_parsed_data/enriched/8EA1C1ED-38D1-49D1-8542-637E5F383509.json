@@ -1,0 +1,74 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for A.C. Houens fond 1904",
+  "creation_date": {
+    "created_at_date": "1876-06-20",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1876",
+  "digital_item_created_at": "2013-12-13T22:29:50.339643",
+  "digitalt_museum_id": "011041107562",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107562",
+  "from_date": "1876-06-20",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "48.780440, 8.270192",
+        "human_name": "Ebersteinsburg, Baden-Baden, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Baden-Baden",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Ebersteinsburg",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 papplate",
+  "materials": [
+    "cardboard"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 38.0,
+      "height_unit": "cm",
+      "width": 53.5,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-014",
+  "national_museum_norway_artwork_id": "NG.M.00636-014",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=52731.tif&size=full",
+    "height": 2123,
+    "index": 52731,
+    "photographer": "Thorkildsen, Morten",
+    "width": 3000
+  },
+  "subjects": [
+    "vernacular architecture",
+    "church"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Landskap fra Ebersteinburg i Baden"
+      ]
+    }
+  },
+  "to_date": "1876-06-20",
+  "uuid": "8EA1C1ED-38D1-49D1-8542-637E5F383509"
+}

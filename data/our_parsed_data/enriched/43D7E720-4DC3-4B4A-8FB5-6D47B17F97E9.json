@@ -1,0 +1,68 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1872",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1872)",
+  "digital_item_created_at": "2014-06-13T01:01:31.799856",
+  "digitalt_museum_id": "011044110490",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110490",
+  "from_date": "1872-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "55.9445436, 9.229743900000016",
+        "human_name": "Jylland, Denmark",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Denmark",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Jylland",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 120.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06522-012VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06522-012VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93177.tif&size=full",
+    "height": 1951,
+    "index": 93177,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kysten av Jylland"
+      ],
+      "original": [
+        "J\u00fflland"
+      ]
+    }
+  },
+  "to_date": "1872-01-01",
+  "uuid": "43D7E720-4DC3-4B4A-8FB5-6D47B17F97E9"
+}

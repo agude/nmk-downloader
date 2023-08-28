@@ -1,0 +1,102 @@
+{
+  "acquistion_notes": "Kj\u00f8pt fra kunstneren 1875 etter bestilling fra 1873",
+  "creation_date": {
+    "created_at_date": "1874",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1874",
+  "digital_item_created_at": "2013-12-13T22:29:41.579638",
+  "digitalt_museum_id": "011041107142",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107142",
+  "from_date": "1874-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.46927579999999, 10.534376399999928",
+        "human_name": "Oslofjorden, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Oslofjorden",
+            "place_type": "area"
+          }
+        ]
+      },
+      {
+        "human_name": "Oslo, Oslo, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Oslo",
+            "place_type": "county"
+          },
+          {
+            "level": 2,
+            "name": "Oslo",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "frame": {
+      "depth": 17.3,
+      "depth_unit": "cm",
+      "height": 137.8,
+      "height_unit": "cm",
+      "width": 180.0,
+      "width_unit": "cm"
+    },
+    "main_object": {
+      "depth": 4.0,
+      "depth_unit": "cm",
+      "height": 98.3,
+      "height_unit": "cm",
+      "width": 140.0,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00262",
+  "national_museum_norway_artwork_id": "NG.M.00262",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=117042.tif&size=full",
+    "height": 2795,
+    "index": 117042,
+    "width": 4000
+  },
+  "subjects": [
+    "maritime"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "From the Inlet of Oslo"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Innseilingen til Christiania"
+      ]
+    }
+  },
+  "to_date": "1874-01-01",
+  "uuid": "ED6F8C9B-0017-451F-B97B-EF3017468711"
+}

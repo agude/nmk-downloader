@@ -1,0 +1,47 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1873-09-14",
+    "range_of_dates": false
+  },
+  "descriptive_date": "14. september 1873",
+  "digital_item_created_at": "2014-03-25T02:06:07.736825",
+  "digitalt_museum_id": "011043076359",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043076359",
+  "from_date": "1873-09-14",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 139.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06517-005VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06517-005VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=85939.tif&size=full",
+    "height": 1957,
+    "index": 85939,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Skipet \"Agra\" til ankers"
+      ]
+    }
+  },
+  "to_date": "1873-09-14",
+  "uuid": "20C5B5B9-FB6D-462F-AE6E-808E12E3520A"
+}

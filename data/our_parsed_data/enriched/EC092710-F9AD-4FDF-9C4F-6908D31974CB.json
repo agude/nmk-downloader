@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1866-08-31",
+    "range_of_dates": false
+  },
+  "descriptive_date": "31. august (1866)",
+  "digital_item_created_at": "2014-02-21T02:01:55.152804",
+  "digitalt_museum_id": "011042536359",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042536359",
+  "from_date": "1866-08-31",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.87861110000001, 6.83861109999998",
+        "human_name": "Gudvangen, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Gudvangen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 195.0,
+      "height_unit": "mm",
+      "width": 113.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-023VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06516-023VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=79911.tif&size=full",
+    "height": 3000,
+    "index": 79911,
+    "width": 1753
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Gudvangen"
+      ]
+    }
+  },
+  "to_date": "1866-08-31",
+  "uuid": "EC092710-F9AD-4FDF-9C4F-6908D31974CB"
+}

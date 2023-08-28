@@ -1,0 +1,69 @@
+{
+  "acquistion_notes": "Kj\u00f8pt 1909",
+  "creation_date": {
+    "created_at_date": "1858-08-21",
+    "range_of_dates": false
+  },
+  "descriptive_date": "21. august 1858",
+  "digital_item_created_at": "2013-12-13T22:29:53.348523",
+  "digitalt_museum_id": "011041107671",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107671",
+  "from_date": "1858-08-21",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.809428, 10.786980",
+        "human_name": "Oppeg\u00e5rd, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Oppeg\u00e5rd",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 papp oppklebet p\u00e5 papplate",
+  "materials": [
+    "paper",
+    "cardboard"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 27.5,
+      "height_unit": "cm",
+      "width": 44.5,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00823",
+  "national_museum_norway_artwork_id": "NG.M.00823",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=52735.tif&size=full",
+    "height": 1821,
+    "index": 52735,
+    "photographer": "Thorkildsen, Morten",
+    "width": 3000
+  },
+  "subjects": [
+    "flora"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Skogbunn"
+      ]
+    }
+  },
+  "to_date": "1858-08-21",
+  "uuid": "45B16C7D-5A41-4010-A7E9-DD0BA1E39382"
+}

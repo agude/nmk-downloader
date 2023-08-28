@@ -1,0 +1,91 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1877-07",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(Juli 1877)",
+  "digital_item_created_at": "2014-04-04T01:02:01.561163",
+  "digitalt_museum_id": "011043105786",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043105786",
+  "from_date": "1877-07-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "56.4355675, -6.341756000000032",
+        "human_name": "Staffa, Scotland, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Scotland",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Staffa",
+            "place_type": "specific_area"
+          }
+        ]
+      },
+      {
+        "coordinates": "56.431322777551585, -6.340827941894531",
+        "human_name": "Fingal's Cave, Staffa, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Staffa",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Fingal's Cave",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 177.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519-014VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06519-014VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=88531.tif&size=full",
+    "height": 2158,
+    "index": 88531,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fingal's Cave; Staffa sett fra s\u00f8r"
+      ]
+    }
+  },
+  "to_date": "1877-07-01",
+  "uuid": "7CDCA417-1BED-48E4-85DE-581C86A0EF47"
+}

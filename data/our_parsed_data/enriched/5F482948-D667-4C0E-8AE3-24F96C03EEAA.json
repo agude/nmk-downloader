@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date_end": "1880",
+    "created_at_date_start": "1878",
+    "range_of_dates": true
+  },
+  "descriptive_date": "Mellom 1878 og 1880",
+  "digital_item_created_at": "2014-03-14T02:01:03.259600",
+  "digitalt_museum_id": "011042654874",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042654874",
+  "from_date": "1878-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.6363377, 9.389244500000018",
+        "human_name": "Bodensee, Thurgau, Germany",
+        "place_accuracy": "sannsynlig",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Thurgau",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Bodensee",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 210.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06514-003VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06514-003VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=84221.tif&size=full",
+    "height": 2095,
+    "index": 84221,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Landskap"
+      ]
+    }
+  },
+  "to_date": "1880-01-01",
+  "uuid": "5F482948-D667-4C0E-8AE3-24F96C03EEAA"
+}

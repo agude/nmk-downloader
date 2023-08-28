@@ -1,0 +1,71 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1867-09-05",
+    "range_of_dates": false
+  },
+  "descriptive_date": "5. september (1867)",
+  "digital_item_created_at": "2014-05-24T01:01:18.575270",
+  "digitalt_museum_id": "011044074489",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044074489",
+  "from_date": "1867-09-05",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.758800737837944, 12.355413436889648",
+        "human_name": "Schlechtenbergeralm Kampenwand, Aschau im Chiemgau, Germany",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Aschau im Chiemgau",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Schlechtenbergeralm Kampenwand",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06527-010",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06527-010",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92616.tif&size=full",
+    "height": 1769,
+    "index": 92616,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kvinne i interi\u00f8r, Schlechtenberg Alm ved Kampenwand"
+      ]
+    }
+  },
+  "to_date": "1867-09-05",
+  "uuid": "2B80AEAB-A5E5-4E78-A2D3-BBF77B60C576"
+}

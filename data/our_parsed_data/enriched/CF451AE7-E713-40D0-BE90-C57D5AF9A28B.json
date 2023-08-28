@@ -1,0 +1,46 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude AS ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1843",
+    "range_of_dates": false
+  },
+  "descriptive_date": "Antagelig 1843",
+  "digital_item_created_at": "2013-12-14T06:18:07.359300",
+  "digitalt_museum_id": "011042351107",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042351107",
+  "from_date": "1843-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 173.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0259",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0259",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=94975.tif&size=full",
+    "height": 2201,
+    "index": 94975,
+    "photographer": "Bj\u00f8rgli, Annar",
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Hestehode; kvinnefigur"
+      ]
+    }
+  },
+  "to_date": "1843-01-01",
+  "uuid": "CF451AE7-E713-40D0-BE90-C57D5AF9A28B"
+}

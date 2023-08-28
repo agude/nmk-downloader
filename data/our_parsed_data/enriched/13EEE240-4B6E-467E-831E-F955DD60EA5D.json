@@ -1,0 +1,48 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1843",
+    "range_of_dates": false
+  },
+  "descriptive_date": "12. juni 1843",
+  "digital_item_created_at": "2013-12-14T05:49:05.303477",
+  "digitalt_museum_id": "011042287271",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042287271",
+  "from_date": "1843-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 47.0,
+      "height_unit": "mm",
+      "width": 115.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0263",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0263",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=94968.tif&size=full",
+    "height": 1256,
+    "index": 94968,
+    "photographer": "Bj\u00f8rgli, Annar",
+    "width": 3000
+  },
+  "subjects": [
+    "building"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Steinhytte"
+      ]
+    }
+  },
+  "to_date": "1843-01-01",
+  "uuid": "13EEE240-4B6E-467E-831E-F955DD60EA5D"
+}

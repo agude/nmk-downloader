@@ -1,0 +1,45 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude AS ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1843",
+    "range_of_dates": false
+  },
+  "descriptive_date": "Antagelig 1843",
+  "digital_item_created_at": "2014-11-07T02:05:58.386080",
+  "digitalt_museum_id": "021045510702",
+  "digitalt_museum_link": "https://digitaltmuseum.org/021045510702",
+  "from_date": "1843-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 165.0,
+      "height_unit": "mm",
+      "width": 123.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0255VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0255VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99213.tif&size=full",
+    "height": 3000,
+    "index": 99213,
+    "width": 2230
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Gev\u00e6rl\u00f8p"
+      ]
+    }
+  },
+  "to_date": "1843-01-01",
+  "uuid": "9A88A332-F186-4CE8-8BB6-5068EE75D316"
+}

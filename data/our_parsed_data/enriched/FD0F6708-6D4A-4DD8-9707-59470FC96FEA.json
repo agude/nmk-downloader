@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1854-08-14",
+    "range_of_dates": false
+  },
+  "descriptive_date": "14. august (1854)",
+  "digital_item_created_at": "2014-06-27T01:05:15.262610",
+  "digitalt_museum_id": "011044184799",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184799",
+  "from_date": "1854-08-14",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.1407506, 8.489347100000031",
+        "human_name": "Nisser, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Nisser",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-036VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06525-036VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93518.tif&size=full",
+    "height": 2244,
+    "index": 93518,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Roholtfjell sett fra Nisser (detalj)"
+      ]
+    }
+  },
+  "to_date": "1854-08-14",
+  "uuid": "FD0F6708-6D4A-4DD8-9707-59470FC96FEA"
+}

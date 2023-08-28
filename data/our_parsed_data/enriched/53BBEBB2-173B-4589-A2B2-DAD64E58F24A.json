@@ -1,0 +1,68 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "creation_date": {
+    "created_at_date": "1843-08-16",
+    "range_of_dates": false
+  },
+  "descriptive_date": "16. august 1843",
+  "digital_item_created_at": "2013-12-14T05:40:07.868162",
+  "digitalt_museum_id": "011042266772",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042266772",
+  "from_date": "1843-08-16",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.99999999999999, 6.333333300000049",
+        "human_name": "Folgefonna, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Folgefonna",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Penn og akvarell over blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 274.0,
+      "height_unit": "mm",
+      "width": 514.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03144",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03144",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=32544.tif&size=full",
+    "height": 1065,
+    "index": 32544,
+    "photographer": "Anne Hansteen Jarre",
+    "width": 2000
+  },
+  "subjects": [],
+  "techniques": [
+    "watercolor",
+    "pen",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Folgefonna sett fra Reiseter"
+      ]
+    }
+  },
+  "to_date": "1843-08-16",
+  "uuid": "53BBEBB2-173B-4589-A2B2-DAD64E58F24A"
+}

@@ -1,0 +1,53 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1867",
+    "range_of_dates": false
+  },
+  "descriptive_date": "Antagelig 1867",
+  "digital_item_created_at": "2014-01-07T05:00:58.832718",
+  "digitalt_museum_id": "011042469624",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469624",
+  "from_date": "1867-01-01",
+  "material_comment": "Blyant, penn, akvarell og gouache p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 418.0,
+      "height_unit": "mm",
+      "width": 528.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03136",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03136",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74218.tif&size=full",
+    "height": 2356,
+    "index": 74218,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "pen",
+    "watercolor",
+    "gouache paint"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "River Valley"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Elvestryk med steiner"
+      ]
+    }
+  },
+  "to_date": "1867-01-01",
+  "uuid": "8D18F551-F7D0-4C69-A5CC-507052895491"
+}

@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1873",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1873)",
+  "digital_item_created_at": "2014-03-25T02:06:35.443912",
+  "digitalt_museum_id": "011043076373",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043076373",
+  "from_date": "1873-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.9070081, 10.736172399999986",
+        "human_name": "Akershus Festning, Oslo, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Oslo",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Akershus Festning",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 139.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06517-017",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06517-017",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=85802.tif&size=full",
+    "height": 1974,
+    "index": 85802,
+    "width": 3000
+  },
+  "subjects": [
+    "building"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Akershus festning sett fra Jernbaneg\u00e5rden"
+      ]
+    }
+  },
+  "to_date": "1873-01-01",
+  "uuid": "5ED530C8-30B1-4AA3-BAFF-FEA4547B0754"
+}

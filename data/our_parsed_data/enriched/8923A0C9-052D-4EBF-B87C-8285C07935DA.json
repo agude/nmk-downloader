@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1877-07",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(Juli 1877)",
+  "digital_item_created_at": "2014-04-04T01:01:42.401686",
+  "digitalt_museum_id": "011043105749",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043105749",
+  "from_date": "1877-07-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "56.4561763, -5.655199700000026",
+        "human_name": "Duart Castle, Scotland, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Scotland",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Duart Castle",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 177.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519-010VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06519-010VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=88535.tif&size=full",
+    "height": 2151,
+    "index": 88535,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Duart Castle"
+      ]
+    }
+  },
+  "to_date": "1877-07-01",
+  "uuid": "8923A0C9-052D-4EBF-B87C-8285C07935DA"
+}

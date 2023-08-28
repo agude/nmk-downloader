@@ -1,0 +1,94 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1871",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1871)",
+  "digital_item_created_at": "2014-02-04T03:59:54.225653",
+  "digitalt_museum_id": "011042513876",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042513876",
+  "from_date": "1871-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.70548640000001, 9.195574999999962",
+        "human_name": "Mainau, Bodensee, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Bodensee",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Mainau",
+            "place_type": "specific_area"
+          }
+        ]
+      },
+      {
+        "coordinates": "47.2494, 9.343330000000037",
+        "human_name": "S\u00e4ntis, Schwende, Switzerland",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Switzerland",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Schwende",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "S\u00e4ntis",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant og akvarell p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 322.0,
+      "height_unit": "mm",
+      "width": 234.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06510-003",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06510-003",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74796.tif&size=full",
+    "height": 3000,
+    "index": 74796,
+    "width": 2185
+  },
+  "subjects": [
+    "maritime"
+  ],
+  "techniques": [
+    "pencil",
+    "watercolor"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Mellom Meersburg og Mainau, Bodensee; garnt\u00f8rk"
+      ]
+    }
+  },
+  "to_date": "1871-01-01",
+  "uuid": "F1C69D85-9E36-460D-8C91-B0E54FBC1DFD"
+}

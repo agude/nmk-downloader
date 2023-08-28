@@ -1,0 +1,85 @@
+{
+  "acquistion_notes": "Kj\u00f8pt 1895",
+  "creation_date": {
+    "created_at_date": "1848",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1848",
+  "digital_item_created_at": "2013-12-14T06:57:14.962907",
+  "digitalt_museum_id": "011042436982",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042436982",
+  "from_date": "1848-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.12235539038782, 6.61376953125",
+        "human_name": "Hardanger, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Hardanger",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "frame": {
+      "depth": 11.5,
+      "depth_unit": "cm",
+      "height": 125.7,
+      "height_unit": "cm",
+      "width": 161.7,
+      "width_unit": "cm"
+    },
+    "main_object": {
+      "depth": 2.9,
+      "depth_unit": "cm",
+      "height": 93.5,
+      "height_unit": "cm",
+      "width": 130.1,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00467",
+  "national_museum_norway_artwork_id": "NG.M.00467",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=113292.tif&size=full",
+    "height": 2866,
+    "index": 113292,
+    "photographer": "H\u00f8stland, B\u00f8rre",
+    "width": 4000
+  },
+  "subjects": [
+    "folklore",
+    "moutain",
+    "fjord"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Bridal Procession on the Hardangerfjord"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Brudeferd i Hardanger"
+      ]
+    }
+  },
+  "to_date": "1848-01-01",
+  "uuid": "3DF10C96-B33B-45C1-92BF-D9211CE574C8"
+}

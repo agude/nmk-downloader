@@ -1,0 +1,71 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1862-07-14",
+    "range_of_dates": false
+  },
+  "descriptive_date": "14. juli (1862)",
+  "digital_item_created_at": "2014-03-22T02:01:34.482193",
+  "digitalt_museum_id": "011043071461",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043071461",
+  "from_date": "1862-07-14",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "58.94822079999999, 9.643096600000035",
+        "human_name": "Toner, Bamble, Norway",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Bamble",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Toner",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 232.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06513-009",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06513-009",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=85362.tif&size=full",
+    "height": 2327,
+    "index": 85362,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Utsikt mot Toner"
+      ]
+    }
+  },
+  "to_date": "1862-07-14",
+  "uuid": "B0EC0AC9-553C-4180-BB06-352A2051F93D"
+}

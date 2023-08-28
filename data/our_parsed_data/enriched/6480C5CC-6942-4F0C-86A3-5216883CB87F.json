@@ -1,0 +1,46 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1880-08-17",
+    "range_of_dates": false
+  },
+  "descriptive_date": "17. august (1880)",
+  "digital_item_created_at": "2014-03-14T02:01:22.745295",
+  "digitalt_museum_id": "011042654898",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042654898",
+  "from_date": "1880-08-17",
+  "material_comment": "Blyant og akvarell p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 301.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06514-008VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06514-008VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=84229.tif&size=full",
+    "height": 3000,
+    "index": 84229,
+    "width": 2085
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "watercolor"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Tyrihjelm, Billerud p\u00e5 Toten"
+      ]
+    }
+  },
+  "to_date": "1880-08-17",
+  "uuid": "6480C5CC-6942-4F0C-86A3-5216883CB87F"
+}

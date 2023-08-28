@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Innkommet p\u00e5 ukjent tidspunkt",
+  "creation_date": {
+    "created_at_date": "1882",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1882",
+  "digital_item_created_at": "2013-12-13T22:30:13.284845",
+  "digitalt_museum_id": "011041108707",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041108707",
+  "from_date": "1882-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "54.3519967, 13.363049100000012",
+        "human_name": "R\u00fcgen, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "R\u00fcgen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 30.5,
+      "height_unit": "cm",
+      "width": 61.0,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.02974",
+  "national_museum_norway_artwork_id": "NG.M.02974",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=52118.tif&size=full",
+    "height": 1507,
+    "index": 52118,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kystlandskap fra R\u00fcgen"
+      ]
+    }
+  },
+  "to_date": "1882-01-01",
+  "uuid": "13B3648B-705F-478E-8015-49F892402DE9"
+}

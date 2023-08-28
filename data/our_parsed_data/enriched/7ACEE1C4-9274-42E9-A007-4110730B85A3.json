@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1845-07-25",
+    "range_of_dates": false
+  },
+  "descriptive_date": "25. juli (1845)",
+  "digital_item_created_at": "2013-12-14T06:18:11.438539",
+  "digitalt_museum_id": "011042351288",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042351288",
+  "from_date": "1845-07-25",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.174894, 6.637667400000055",
+        "human_name": "Vangsnes, Vik, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Vik",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Vangsnes",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant og lavering p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 172.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0277",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0277",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=94955.tif&size=full",
+    "height": 2202,
+    "index": 94955,
+    "photographer": "Bj\u00f8rgli, Annar",
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "ink wash"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Torstein Vikingssons grav, Vangsnes"
+      ]
+    }
+  },
+  "to_date": "1845-07-25",
+  "uuid": "7ACEE1C4-9274-42E9-A007-4110730B85A3"
+}

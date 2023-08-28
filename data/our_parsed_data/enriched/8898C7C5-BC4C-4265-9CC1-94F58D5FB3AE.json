@@ -1,0 +1,45 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1877",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1877)",
+  "digital_item_created_at": "2014-04-04T01:01:02.884067",
+  "digitalt_museum_id": "011043105686",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043105686",
+  "from_date": "1877-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 177.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519-002VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06519-002VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=88527.tif&size=full",
+    "height": 2181,
+    "index": 88527,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Studier av sauer"
+      ]
+    }
+  },
+  "to_date": "1877-01-01",
+  "uuid": "8898C7C5-BC4C-4265-9CC1-94F58D5FB3AE"
+}

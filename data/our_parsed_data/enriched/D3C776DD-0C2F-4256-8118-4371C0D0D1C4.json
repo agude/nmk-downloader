@@ -1,0 +1,73 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1873-08-29",
+    "range_of_dates": false
+  },
+  "descriptive_date": "29. august (1873)",
+  "digital_item_created_at": "2014-06-13T01:03:23.476073",
+  "digitalt_museum_id": "011044110598",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110598",
+  "from_date": "1873-08-29",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "62.34737860651542, 8.053064346313476",
+        "human_name": "Ormem, Rauma, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Rauma",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Ormem",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 140.0,
+      "height_unit": "mm",
+      "width": 213.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06521-017",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06521-017",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93248.tif&size=full",
+    "height": 2008,
+    "index": 93248,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Ormem"
+      ],
+      "original": [
+        "Ormeim"
+      ]
+    }
+  },
+  "to_date": "1873-08-29",
+  "uuid": "D3C776DD-0C2F-4256-8118-4371C0D0D1C4"
+}

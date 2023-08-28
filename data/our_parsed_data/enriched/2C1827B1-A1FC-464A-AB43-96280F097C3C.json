@@ -1,0 +1,51 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "creation_date": {
+    "created_at_date": "1878",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1878)",
+  "digital_item_created_at": "2013-12-14T05:43:56.354858",
+  "digitalt_museum_id": "011042275476",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042275476",
+  "from_date": "1878-01-01",
+  "material_comment": "Penn, lavering og blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 216.0,
+      "height_unit": "mm",
+      "width": 170.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07938",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07938",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74082.tif&size=full",
+    "height": 3000,
+    "index": 74082,
+    "width": 2592
+  },
+  "subjects": [
+    "myths and fairy tales",
+    "illustration"
+  ],
+  "techniques": [
+    "pen",
+    "ink wash",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Da han var kommen midt ut p\u00e5 myra, var det s\u00e5 fullt med folk at han ordentlig m\u00e5tte alboge seg fram",
+        "Illustrasjon til \"Matthias Skytters Historier\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879"
+      ]
+    }
+  },
+  "to_date": "1878-01-01",
+  "uuid": "2C1827B1-A1FC-464A-AB43-96280F097C3C"
+}

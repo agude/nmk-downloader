@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1854-08-15",
+    "range_of_dates": false
+  },
+  "descriptive_date": "15. august (1854)",
+  "digital_item_created_at": "2014-06-27T01:05:27.310961",
+  "digitalt_museum_id": "011044184811",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184811",
+  "from_date": "1854-08-15",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.05153139999999, 8.562067399999932",
+        "human_name": "Nissedal, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Nissedal",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-039",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06525-039",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93548.tif&size=full",
+    "height": 2227,
+    "index": 93548,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Nissedal"
+      ]
+    }
+  },
+  "to_date": "1854-08-15",
+  "uuid": "32FA426E-098F-4932-B082-0E06000DEC39"
+}

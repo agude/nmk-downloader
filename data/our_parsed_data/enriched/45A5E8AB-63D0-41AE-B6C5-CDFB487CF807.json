@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Gave fra Olaf Schou 1909",
+  "creation_date": {
+    "created_at_date": "1866",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1866",
+  "digital_item_created_at": "2013-12-13T22:29:55.264707",
+  "digitalt_museum_id": "011041107729",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107729",
+  "from_date": "1866-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.46927579999999, 10.534376399999928",
+        "human_name": "Oslofjorden, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Oslofjorden",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 24.5,
+      "height_unit": "cm",
+      "width": 40.5,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00898",
+  "national_museum_norway_artwork_id": "NG.M.00898",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=52736.tif&size=full",
+    "height": 1812,
+    "index": 52736,
+    "photographer": "Thorkildsen, Morten",
+    "width": 3000
+  },
+  "subjects": [
+    "coastal landscape",
+    "fjord",
+    "maritime"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Oslofjorden"
+      ]
+    }
+  },
+  "to_date": "1866-01-01",
+  "uuid": "45A5E8AB-63D0-41AE-B6C5-CDFB487CF807"
+}

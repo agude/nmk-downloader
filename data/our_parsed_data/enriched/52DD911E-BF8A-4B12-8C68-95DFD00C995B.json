@@ -1,0 +1,52 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "creation_date": {
+    "created_at_date_end": "1879",
+    "created_at_date_start": "1878",
+    "range_of_dates": true
+  },
+  "descriptive_date": "1878 eller 1879",
+  "digital_item_created_at": "2013-12-14T05:44:58.487253",
+  "digitalt_museum_id": "011042277832",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042277832",
+  "from_date": "1878-01-01",
+  "material_comment": "Penn og lavering over blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 193.0,
+      "height_unit": "mm",
+      "width": 165.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07944",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07944",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74088.tif&size=full",
+    "height": 3000,
+    "index": 74088,
+    "width": 2554
+  },
+  "subjects": [
+    "myths and fairy tales",
+    "illustration"
+  ],
+  "techniques": [
+    "pen",
+    "ink wash",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "\"S\u00e5 tung og sv\u00e6r han er!\" sa Per. \"Je trur inte je juger stort n\u00e5r je sier han veger sine tredve merker\"",
+        "Illustrasjon til \"En Tiurleg i Holleia\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879"
+      ]
+    }
+  },
+  "to_date": "1879-01-01",
+  "uuid": "52DD911E-BF8A-4B12-8C68-95DFD00C995B"
+}

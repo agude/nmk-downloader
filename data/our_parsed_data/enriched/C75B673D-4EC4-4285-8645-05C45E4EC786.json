@@ -1,0 +1,77 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "creation_date": {
+    "created_at_date": "1887",
+    "range_of_dates": false
+  },
+  "descriptive_date": "Antagelig 1887",
+  "digital_item_created_at": "2014-01-07T04:58:41.469656",
+  "digitalt_museum_id": "011042469518",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469518",
+  "from_date": "1887-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "53.960376, 10.868610999999987",
+        "human_name": "Travem\u00fcnde, L\u00fcbeck, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "L\u00fcbeck",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Travem\u00fcnde",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant, penn og akvarell p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 353.0,
+      "height_unit": "mm",
+      "width": 507.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03120",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03120",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74195.tif&size=full",
+    "height": 2079,
+    "index": 74195,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "pen",
+    "watercolor"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Fishing Net drying, Travem\u00fcnde"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Garnt\u00f8rk, Travem\u00fcnde"
+      ]
+    }
+  },
+  "to_date": "1887-01-01",
+  "uuid": "C75B673D-4EC4-4285-8645-05C45E4EC786"
+}

@@ -1,0 +1,48 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date_end": "1885",
+    "created_at_date_start": "1882",
+    "range_of_dates": true
+  },
+  "descriptive_date": "Mellom 1882 og 1885",
+  "digital_item_created_at": "2014-02-11T08:03:39.420332",
+  "digitalt_museum_id": "011042523204",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042523204",
+  "from_date": "1882-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 240.0,
+      "height_unit": "mm",
+      "width": 327.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06512-002",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06512-002",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=75485.tif&size=full",
+    "height": 2168,
+    "index": 75485,
+    "width": 3000
+  },
+  "subjects": [
+    "maritime"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "B\u00e5t med fiskegarn; figurstudier"
+      ]
+    }
+  },
+  "to_date": "1885-01-01",
+  "uuid": "BB4D80B8-076F-4739-A14F-0B3E107159C5"
+}

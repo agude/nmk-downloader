@@ -1,0 +1,73 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1881-09-02",
+    "range_of_dates": false
+  },
+  "descriptive_date": "2. september (1881)",
+  "digital_item_created_at": "2014-06-27T01:01:42.143778",
+  "digitalt_museum_id": "011044184578",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184578",
+  "from_date": "1881-09-02",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "54.3419774, 13.738428999999996",
+        "human_name": "G\u00f6hren, R\u00fcgen, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "R\u00fcgen",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "G\u00f6hren",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 242.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06524-010",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06524-010",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93312.tif&size=full",
+    "height": 1917,
+    "index": 93312,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat",
+    "maritime"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fiskeb\u00e5t p\u00e5 stranden, G\u00f6hren"
+      ]
+    }
+  },
+  "to_date": "1881-09-02",
+  "uuid": "9CD6CA1E-30BA-4D8B-9492-2E83B5ED3121"
+}

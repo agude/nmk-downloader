@@ -1,0 +1,91 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1877-07",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(Juli 1877)",
+  "digital_item_created_at": "2014-04-04T01:01:57.672419",
+  "digitalt_museum_id": "011043105779",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043105779",
+  "from_date": "1877-07-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "56.4355675, -6.341756000000032",
+        "human_name": "Staffa, Scotland, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Scotland",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Staffa",
+            "place_type": "specific_area"
+          }
+        ]
+      },
+      {
+        "coordinates": "56.5540265, -6.310268599999972",
+        "human_name": "Treshnish Point, Isle of Mull, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Isle of Mull",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Treshnish Point",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 177.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519-013VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06519-013VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=88532.tif&size=full",
+    "height": 2156,
+    "index": 88532,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Treshnish Point; Staffa"
+      ]
+    }
+  },
+  "to_date": "1877-07-01",
+  "uuid": "03B79F75-60C4-4DA7-B045-5F1C4A528D4D"
+}

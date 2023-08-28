@@ -1,0 +1,69 @@
+{
+  "acquistion_notes": "Innkommet 1941",
+  "creation_date": {
+    "created_at_date": "1859",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1859",
+  "digital_item_created_at": "2013-12-13T22:30:07.416566",
+  "digitalt_museum_id": "011041108352",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041108352",
+  "from_date": "1859-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "human_name": "Hallingdal, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Hallingdal",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 41.0,
+      "height_unit": "cm",
+      "width": 33.5,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.02024",
+  "national_museum_norway_artwork_id": "NG.M.02024",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=140811.tif&size=full",
+    "height": 4000,
+    "index": 140811,
+    "photographer": "H\u00f8stland, B\u00f8rre",
+    "width": 3233
+  },
+  "subjects": [
+    "waterfall",
+    "moutain",
+    "working life"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Foss i Hallingdal"
+      ]
+    }
+  },
+  "to_date": "1859-01-01",
+  "uuid": "61C3E254-0C01-46F2-8222-412B22858B01"
+}

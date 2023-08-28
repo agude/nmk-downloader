@@ -1,0 +1,69 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for A.C. Houens fond 1904",
+  "creation_date": {
+    "created_at_date": "1858",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1858",
+  "digital_item_created_at": "2013-12-14T06:10:20.113656",
+  "digitalt_museum_id": "011042335792",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042335792",
+  "from_date": "1858-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "58.24897050000001, 8.377625500000022",
+        "human_name": "Lillesand, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Lillesand",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "olje p\u00e5 papplate",
+  "materials": [
+    "cardboard"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 28.0,
+      "height_unit": "cm",
+      "width": 47.5,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-009",
+  "national_museum_norway_artwork_id": "NG.M.00636-009",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=140664.tif&size=full",
+    "height": 2336,
+    "index": 140664,
+    "photographer": "H\u00f8stland, B\u00f8rre",
+    "width": 4000
+  },
+  "subjects": [
+    "building",
+    "coastal landscape"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Et fiskerhus, Lillesand"
+      ]
+    }
+  },
+  "to_date": "1858-01-01",
+  "uuid": "5F42561A-A68D-4DF2-9E0E-F5290141FCCF"
+}

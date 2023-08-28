@@ -1,0 +1,48 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1843",
+    "range_of_dates": false
+  },
+  "descriptive_date": "Antagelig 1843",
+  "digital_item_created_at": "2014-01-07T05:01:52.971421",
+  "digitalt_museum_id": "011042469651",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469651",
+  "from_date": "1843-01-01",
+  "material_comment": "Penn og akvarell p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 217.0,
+      "height_unit": "mm",
+      "width": 268.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03124VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03124VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74069.tif&size=full",
+    "height": 2440,
+    "index": 74069,
+    "width": 3000
+  },
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "pen",
+    "watercolor"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Landskap med skog og fjell"
+      ]
+    }
+  },
+  "to_date": "1843-01-01",
+  "uuid": "1E2D41BC-2C17-4758-A850-6957A5BF3FDE"
+}

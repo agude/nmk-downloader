@@ -1,0 +1,49 @@
+{
+  "acquistion_notes": "Gave fra Kari og Harald Tybring-Gjedde, innkommet 1996",
+  "creation_date": {
+    "created_at_date": "1851",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1851",
+  "digital_item_created_at": "2013-12-13T22:30:23.985220",
+  "digitalt_museum_id": "011041109227",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041109227",
+  "from_date": "1851-01-01",
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 115.0,
+      "height_unit": "cm",
+      "width": 159.0,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.04309",
+  "national_museum_norway_artwork_id": "NG.M.04309",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=123017.tif&size=full",
+    "height": 2875,
+    "index": 123017,
+    "photographer": "H\u00f8stland, B\u00f8rre",
+    "width": 4000
+  },
+  "subjects": [
+    "woodlands",
+    "folklore"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Lystring p\u00e5 Kr\u00f8deren"
+      ]
+    }
+  },
+  "to_date": "1851-01-01",
+  "uuid": "A1319784-A738-4C98-8F40-272E02E1DB52"
+}

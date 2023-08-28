@@ -1,0 +1,54 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Glenny Stabell, innkommet 1907",
+  "creation_date": {
+    "created_at_date": "1872",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1872",
+  "digital_item_created_at": "2013-12-13T22:29:52.174872",
+  "digitalt_museum_id": "011041107601",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107601",
+  "from_date": "1872-01-01",
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 69.5,
+      "height_unit": "cm",
+      "width": 107.0,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00699",
+  "national_museum_norway_artwork_id": "NG.M.00699",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=18393.tif&size=full",
+    "height": 0,
+    "index": 18393,
+    "width": 0
+  },
+  "subjects": [
+    "coastal landscape",
+    "fjord",
+    "maritime"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Coastal Landscape"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Kystlandskap"
+      ]
+    }
+  },
+  "to_date": "1872-01-01",
+  "uuid": "CEF48381-C328-4099-8BD5-FD3376C902F5"
+}

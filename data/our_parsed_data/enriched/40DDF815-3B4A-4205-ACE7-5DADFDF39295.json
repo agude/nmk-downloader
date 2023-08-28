@@ -1,0 +1,47 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude AS ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1843",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1843)",
+  "digital_item_created_at": "2014-11-07T02:06:40.673749",
+  "digitalt_museum_id": "021045510717",
+  "digitalt_museum_link": "https://digitaltmuseum.org/021045510717",
+  "from_date": "1843-01-01",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 125.0,
+      "height_unit": "mm",
+      "width": 170.0,
+      "width_unit": "mm"
+    },
+    "page": {
+      "height": 123.0,
+      "height_unit": "mm",
+      "width": 165.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NMK.GRUPPE.2014.0009",
+  "national_museum_norway_artwork_id": "NMK.GRUPPE.2014.0009",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99206.tif&size=full",
+    "height": 2242,
+    "index": 99206,
+    "width": 3000
+  },
+  "subjects": [],
+  "titles": {
+    "nor": {
+      "current": [
+        "Skissebok nr. 20"
+      ]
+    }
+  },
+  "to_date": "1843-01-01",
+  "uuid": "40DDF815-3B4A-4205-ACE7-5DADFDF39295"
+}

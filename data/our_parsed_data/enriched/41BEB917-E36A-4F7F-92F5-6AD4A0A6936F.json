@@ -1,0 +1,67 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1881-08-26",
+    "range_of_dates": false
+  },
+  "descriptive_date": "26. august (1881)",
+  "digital_item_created_at": "2014-06-27T01:01:37.918490",
+  "digitalt_museum_id": "011044184573",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184573",
+  "from_date": "1881-08-26",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "54.3519967, 13.363049100000012",
+        "human_name": "R\u00fcgen, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "R\u00fcgen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 242.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06524-009",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06524-009",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93310.tif&size=full",
+    "height": 1926,
+    "index": 93310,
+    "width": 3000
+  },
+  "subjects": [
+    "maritime"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Garnt\u00f8rking og b\u00e5ter p\u00e5 stranden, R\u00fcgen"
+      ]
+    }
+  },
+  "to_date": "1881-08-26",
+  "uuid": "41BEB917-E36A-4F7F-92F5-6AD4A0A6936F"
+}

@@ -1,0 +1,69 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "creation_date": {
+    "created_at_date_end": "1903",
+    "created_at_date_start": "1840",
+    "range_of_dates": true
+  },
+  "descriptive_date": "Uten \u00e5r",
+  "digital_item_created_at": "2014-01-07T04:58:41.977892",
+  "digitalt_museum_id": "011042469519",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469519",
+  "from_date": "1840-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.46927579999999, 10.534376399999928",
+        "human_name": "Oslofjorden, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Oslofjorden",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant og akvarell p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 381.0,
+      "height_unit": "mm",
+      "width": 557.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03121",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03121",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74181.tif&size=full",
+    "height": 2043,
+    "index": 74181,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil",
+    "watercolor"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "P\u00e5 fjorden ved Bygd\u00f8y"
+      ]
+    }
+  },
+  "to_date": "1903-01-01",
+  "uuid": "2760D446-A477-4FF9-934D-A990FDB9928D"
+}

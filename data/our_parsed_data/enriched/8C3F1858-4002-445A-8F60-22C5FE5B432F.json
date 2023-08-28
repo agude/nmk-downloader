@@ -1,0 +1,48 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date_end": "1877-07",
+    "created_at_date_start": "1877-06",
+    "range_of_dates": true
+  },
+  "descriptive_date": "Juni eller juli 1877",
+  "digital_item_created_at": "2014-04-04T01:02:40.216090",
+  "digitalt_museum_id": "011043105840",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043105840",
+  "from_date": "1877-06-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 177.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519-026VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06519-026VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=88256.tif&size=full",
+    "height": 3000,
+    "index": 88256,
+    "width": 2135
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fiskeb\u00e5ten \"George\" fra Arran"
+      ]
+    }
+  },
+  "to_date": "1877-07-01",
+  "uuid": "8C3F1858-4002-445A-8F60-22C5FE5B432F"
+}

@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Kj\u00f8pt 1857",
+  "creation_date": {
+    "created_at_date": "1857",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1857",
+  "digital_item_created_at": "2013-12-14T06:38:57.659397",
+  "digitalt_museum_id": "011042394232",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042394232",
+  "from_date": "1857-01-01",
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "frame": {
+      "depth": 12.0,
+      "depth_unit": "cm",
+      "height": 113.4,
+      "height_unit": "cm",
+      "width": 140.5,
+      "width_unit": "cm"
+    },
+    "main_object": {
+      "depth": 2.7,
+      "depth_unit": "cm",
+      "height": 79.5,
+      "height_unit": "cm",
+      "width": 106.1,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00212",
+  "national_museum_norway_artwork_id": "NG.M.00212",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=149081.tif&size=full",
+    "height": 3011,
+    "index": 149081,
+    "photographer": "H\u00f8stland, B\u00f8rre",
+    "width": 4000
+  },
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Norwegian Highlands"
+      ]
+    },
+    "nor": {
+      "current": [
+        "H\u00f8yfjell"
+      ]
+    }
+  },
+  "to_date": "1857-01-01",
+  "uuid": "85A4FD70-680E-430E-B2EB-81A679BB6DC3"
+}

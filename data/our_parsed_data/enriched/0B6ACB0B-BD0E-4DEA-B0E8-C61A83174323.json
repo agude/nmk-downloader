@@ -1,0 +1,71 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1845-08-09",
+    "range_of_dates": false
+  },
+  "descriptive_date": "9. august (1845)",
+  "digital_item_created_at": "2013-12-14T06:18:07.914989",
+  "digitalt_museum_id": "011042351140",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042351140",
+  "from_date": "1845-08-09",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.1695358, 6.541760599999975",
+        "human_name": "Flesje, Balestrand, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Balestrand",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Flesje",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 173.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0261",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0261",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=94971.tif&size=full",
+    "height": 2203,
+    "index": 94971,
+    "photographer": "Bj\u00f8rgli, Annar",
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Flesje g\u00e5rd, Balestrand"
+      ]
+    }
+  },
+  "to_date": "1845-08-09",
+  "uuid": "0B6ACB0B-BD0E-4DEA-B0E8-C61A83174323"
+}

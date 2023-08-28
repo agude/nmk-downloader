@@ -1,0 +1,45 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1867",
+    "range_of_dates": false
+  },
+  "descriptive_date": "Antagelig 1867",
+  "digital_item_created_at": "2014-05-24T01:02:02.446153",
+  "digitalt_museum_id": "011044074562",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044074562",
+  "from_date": "1867-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06527-026",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06527-026",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92646.tif&size=full",
+    "height": 1745,
+    "index": 92646,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Figurstudier"
+      ]
+    }
+  },
+  "to_date": "1867-01-01",
+  "uuid": "532CA523-A189-419E-8D76-0942EBDA1063"
+}

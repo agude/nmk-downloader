@@ -1,0 +1,48 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date_end": "1880",
+    "created_at_date_start": "1878",
+    "range_of_dates": true
+  },
+  "descriptive_date": "Mellom 1878 og 1880",
+  "digital_item_created_at": "2014-03-14T02:01:53.724842",
+  "digitalt_museum_id": "011042654949",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042654949",
+  "from_date": "1878-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 210.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06514-016",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06514-016",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=83369.tif&size=full",
+    "height": 2083,
+    "index": 83369,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Studie av skip"
+      ]
+    }
+  },
+  "to_date": "1880-01-01",
+  "uuid": "2F240E94-DF98-40AB-A97E-444523676AF5"
+}

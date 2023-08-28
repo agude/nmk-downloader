@@ -1,0 +1,63 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude AS ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1839",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1839)",
+  "digital_item_created_at": "2014-11-07T02:03:11.553087",
+  "digitalt_museum_id": "021045510511",
+  "digitalt_museum_link": "https://digitaltmuseum.org/021045510511",
+  "from_date": "1839-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.2733674, 5.722019400000022",
+        "human_name": "Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant og fargestift p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 147.0,
+      "height_unit": "mm",
+      "width": 228.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0228",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0228",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99265.tif&size=full",
+    "height": 1916,
+    "index": 99265,
+    "width": 3000
+  },
+  "subjects": [
+    "travel sketch"
+  ],
+  "techniques": [
+    "pencil",
+    "crayon"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Rast mellom Granvin og Ulvik"
+      ]
+    }
+  },
+  "to_date": "1839-01-01",
+  "uuid": "29AC7E27-1B0E-423A-831C-030FD3F41A95"
+}

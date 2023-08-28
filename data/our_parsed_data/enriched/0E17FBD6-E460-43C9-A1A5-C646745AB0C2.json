@@ -1,0 +1,78 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": null,
+  "descriptive_date": "(1869); 12. juli (1869)",
+  "digital_item_created_at": "2014-05-20T01:02:18.976534",
+  "digitalt_museum_id": "011044059241",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044059241",
+  "from_date": "1869-07-12",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.4587563, 10.637801699999954",
+        "human_name": "Jel\u00f8ya, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Jel\u00f8ya",
+            "place_type": "area"
+          }
+        ]
+      },
+      {
+        "coordinates": "58.09492689999999, 6.805019600000037",
+        "human_name": "Farsund, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Farsund",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 195.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06523-022VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06523-022VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92563.tif&size=full",
+    "height": 1753,
+    "index": 92563,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Jel\u00f8y sett fra Son; kystparti, Farsund"
+      ]
+    }
+  },
+  "to_date": "1869-08-31",
+  "uuid": "0E17FBD6-E460-43C9-A1A5-C646745AB0C2"
+}

@@ -1,0 +1,49 @@
+{
+  "acquistion_notes": "Kj\u00f8pt for A.C. Houens fond 1904",
+  "creation_date": {
+    "created_at_date_end": "1903",
+    "created_at_date_start": "1838",
+    "range_of_dates": true
+  },
+  "descriptive_date": "Uten \u00e5r",
+  "digital_item_created_at": "2013-12-13T22:29:50.425175",
+  "digitalt_museum_id": "011041107564",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107564",
+  "from_date": "1838-01-01",
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 50.0,
+      "height_unit": "cm",
+      "width": 68.0,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-017",
+  "national_museum_norway_artwork_id": "NG.M.00636-017",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=18343.tif&size=full",
+    "height": 0,
+    "index": 18343,
+    "width": 0
+  },
+  "subjects": [
+    "flora",
+    "woodlands"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Skogsinteri\u00f8r"
+      ]
+    }
+  },
+  "to_date": "1903-01-01",
+  "uuid": "83941288-8AE7-4B07-8A7A-30938D24F7E9"
+}

@@ -1,0 +1,50 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "creation_date": {
+    "created_at_date": "1878",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1878",
+  "digital_item_created_at": "2013-12-14T05:44:57.915939",
+  "digitalt_museum_id": "011042277802",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042277802",
+  "from_date": "1878-01-01",
+  "material_comment": "Penn og lavering p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 121.0,
+      "height_unit": "mm",
+      "width": 166.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07939",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07939",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74083.tif&size=full",
+    "height": 2159,
+    "index": 74083,
+    "width": 3000
+  },
+  "subjects": [
+    "myths and fairy tales",
+    "illustration"
+  ],
+  "techniques": [
+    "pen",
+    "ink wash"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "En tiurleik i Holleia",
+        "Illustrasjon til \"En Tiurleg i Holleia\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879"
+      ]
+    }
+  },
+  "to_date": "1878-01-01",
+  "uuid": "FA48EA2A-896C-4B78-8911-8DDCBB34E48D"
+}

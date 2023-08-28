@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1858-07-20",
+    "range_of_dates": false
+  },
+  "descriptive_date": "20. juli (1858)",
+  "digital_item_created_at": "2014-02-04T03:59:26.708710",
+  "digitalt_museum_id": "011042513846",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042513846",
+  "from_date": "1858-07-20",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.50386375108964, 10.171880722045898",
+        "human_name": "Elstad, Ringebu, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Ringebu",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Elstad",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 295.0,
+      "height_unit": "mm",
+      "width": 434.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06511-017",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06511-017",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74698.tif&size=full",
+    "height": 2064,
+    "index": 74698,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Bro i skogslandskap; utsikt over dal; fra Elstad; badstue, Elstad"
+      ]
+    }
+  },
+  "to_date": "1858-07-20",
+  "uuid": "32A87350-4C2F-4265-A479-836A68FD4FB4"
+}

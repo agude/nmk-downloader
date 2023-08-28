@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1862-07-11",
+    "range_of_dates": false
+  },
+  "descriptive_date": "11. juli (1862)",
+  "digital_item_created_at": "2014-02-13T02:01:50.773700",
+  "digitalt_museum_id": "011042525059",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042525059",
+  "from_date": "1862-07-11",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "58.86930289999999, 9.414938699999993",
+        "human_name": "Krager\u00f8, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Krager\u00f8",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 118.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06515-015",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06515-015",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=77632.tif&size=full",
+    "height": 1776,
+    "index": 77632,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Hus ved kysten, Krager\u00f8"
+      ]
+    }
+  },
+  "to_date": "1862-07-11",
+  "uuid": "CD726C3A-CC7E-4DCC-8776-A6D3C98400F2"
+}

@@ -1,0 +1,75 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1873-07-05",
+    "range_of_dates": false
+  },
+  "descriptive_date": "5. juli 1873",
+  "digital_item_created_at": "2014-06-13T01:02:13.525809",
+  "digitalt_museum_id": "011044110541",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110541",
+  "from_date": "1873-07-05",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.8804100518061, 10.602579116821289",
+        "human_name": "Snar\u00f8ya, B\u00e6rum, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "B\u00e6rum",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Snar\u00f8ya",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 140.0,
+      "height_unit": "mm",
+      "width": 213.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06521-001VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06521-001VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93199.tif&size=full",
+    "height": 2031,
+    "index": 93199,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Skonnertbriggen \"Madamen\" ved Snar\u00f8ya"
+      ],
+      "original": [
+        "Skonnertbrig \"Madamen\", Snar\u00f8ens h\u00f8vleri"
+      ]
+    }
+  },
+  "to_date": "1873-07-05",
+  "uuid": "DD43E8B0-C1F2-4E85-9D82-15EC4E660113"
+}

@@ -1,0 +1,48 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1867-05-31",
+    "range_of_dates": false
+  },
+  "descriptive_date": "31. mai 1867",
+  "digital_item_created_at": "2014-01-07T05:01:04.471138",
+  "digitalt_museum_id": "011042469627",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469627",
+  "from_date": "1867-05-31",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 418.0,
+      "height_unit": "mm",
+      "width": 528.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03136VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03136VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74210.tif&size=full",
+    "height": 2289,
+    "index": 74210,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Skystudie, Karlsruhe"
+      ],
+      "original": [
+        "Carlsruhe"
+      ]
+    }
+  },
+  "to_date": "1867-05-31",
+  "uuid": "8DD5287B-3742-4DD6-9771-48E85061F0A6"
+}

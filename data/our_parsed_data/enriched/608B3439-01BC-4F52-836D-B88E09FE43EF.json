@@ -1,0 +1,109 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": null,
+  "descriptive_date": "29. august 1871; 2. september (1871)",
+  "digital_item_created_at": "2014-04-01T01:01:42.968752",
+  "digitalt_museum_id": "011043094058",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043094058",
+  "from_date": "1871-08-29",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.70548640000001, 9.195574999999962",
+        "human_name": "Mainau, Bodensee, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Bodensee",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Mainau",
+            "place_type": "specific_area"
+          }
+        ]
+      },
+      {
+        "coordinates": "47.2494, 9.343330000000037",
+        "human_name": "S\u00e4ntis, Schwende, Switzerland",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Switzerland",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Schwende",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "S\u00e4ntis",
+            "place_type": "specific_area"
+          }
+        ]
+      },
+      {
+        "coordinates": "47.8023906, 9.029151500000011",
+        "human_name": "Bodman, Bodensee, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Bodensee",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Bodman",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 145.0,
+      "height_unit": "mm",
+      "width": 235.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06518-017VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06518-017VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=86401.tif&size=full",
+    "height": 1845,
+    "index": 86401,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Utsikt mot Mainau og S\u00e4ntis; Bodman sett fra \u00dcberlingen"
+      ]
+    }
+  },
+  "to_date": "1871-09-02",
+  "uuid": "608B3439-01BC-4F52-836D-B88E09FE43EF"
+}

@@ -1,0 +1,76 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1864-03-18",
+    "range_of_dates": false
+  },
+  "descriptive_date": "18. mars (1864)",
+  "digital_item_created_at": "2014-04-01T01:01:29.364163",
+  "digitalt_museum_id": "011043094022",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043094022",
+  "from_date": "1864-03-18",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "53.05394099999999, -3.8865769999999884",
+        "human_name": "Dolwyddelan, Wales, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Wales",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Dolwyddelan",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant og akvarell p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 145.0,
+      "height_unit": "mm",
+      "width": 235.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06518-013",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06518-013",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=86050.tif&size=full",
+    "height": 1852,
+    "index": 86050,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "watercolor"
+  ],
+  "titles": {
+    "eng": {
+      "original": [
+        "Dolwydellan Valley"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Klippe, Dolwyddelan Valley"
+      ]
+    }
+  },
+  "to_date": "1864-03-18",
+  "uuid": "421941F8-9886-4A1A-9A21-6F4212FF3F3A"
+}

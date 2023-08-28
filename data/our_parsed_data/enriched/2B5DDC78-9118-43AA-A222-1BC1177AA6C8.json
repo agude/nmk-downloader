@@ -1,0 +1,73 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1854-08-01",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1. august (1854)",
+  "digital_item_created_at": "2014-06-27T01:04:22.590120",
+  "digitalt_museum_id": "011044184750",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184750",
+  "from_date": "1854-08-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.17845700355763, 9.228858947753906",
+        "human_name": "Sanda, Nome, Norway",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Nome",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Sanda",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-025VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06525-025VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93513.tif&size=full",
+    "height": 2233,
+    "index": 93513,
+    "width": 3000
+  },
+  "subjects": [
+    "forest interior"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Sanda (detalj)"
+      ]
+    }
+  },
+  "to_date": "1854-08-01",
+  "uuid": "2B5DDC78-9118-43AA-A222-1BC1177AA6C8"
+}

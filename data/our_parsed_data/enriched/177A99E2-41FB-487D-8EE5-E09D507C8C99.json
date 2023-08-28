@@ -1,0 +1,67 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1866-08-31",
+    "range_of_dates": false
+  },
+  "descriptive_date": "31. august (1866)",
+  "digital_item_created_at": "2014-02-21T02:01:28.552582",
+  "digitalt_museum_id": "011042536345",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042536345",
+  "from_date": "1866-08-31",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.87861110000001, 6.83861109999998",
+        "human_name": "Gudvangen, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Gudvangen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 195.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06516-015",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06516-015",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=79886.tif&size=full",
+    "height": 1751,
+    "index": 79886,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "B\u00e5r og stein p\u00e5 stranden, Gudvangen"
+      ]
+    }
+  },
+  "to_date": "1866-08-31",
+  "uuid": "177A99E2-41FB-487D-8EE5-E09D507C8C99"
+}

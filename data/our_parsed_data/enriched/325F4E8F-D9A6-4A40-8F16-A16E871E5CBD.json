@@ -1,0 +1,68 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1892",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1892",
+  "digital_item_created_at": "2014-01-07T05:01:15.668274",
+  "digitalt_museum_id": "011042469631",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469631",
+  "from_date": "1892-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.417084, 10.483212800000046",
+        "human_name": "Horten, Norway",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Horten",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant, penn og lavering p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 396.0,
+      "height_unit": "mm",
+      "width": 613.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03143",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03143",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74219.tif&size=full",
+    "height": 1919,
+    "index": 74219,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "pen",
+    "ink wash"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Sommerdag ved fjorden, Horten"
+      ]
+    }
+  },
+  "to_date": "1892-01-01",
+  "uuid": "325F4E8F-D9A6-4A40-8F16-A16E871E5CBD"
+}

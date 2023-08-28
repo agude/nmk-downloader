@@ -1,0 +1,45 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1857-08-08",
+    "range_of_dates": false
+  },
+  "descriptive_date": "8. august 1857",
+  "digital_item_created_at": "2014-02-04T03:58:31.829062",
+  "digitalt_museum_id": "011042513732",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042513732",
+  "from_date": "1857-08-08",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 295.0,
+      "height_unit": "mm",
+      "width": 434.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06511-003",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06511-003",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74682.tif&size=full",
+    "height": 2046,
+    "index": 74682,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Tre- og plantestudier ved Laacher See"
+      ]
+    }
+  },
+  "to_date": "1857-08-08",
+  "uuid": "CF19AE0A-0F17-49B5-A715-7F87439252D4"
+}

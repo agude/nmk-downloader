@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1881-08-25",
+    "range_of_dates": false
+  },
+  "descriptive_date": "25. august (1881)",
+  "digital_item_created_at": "2014-06-27T01:01:32.723090",
+  "digitalt_museum_id": "011044184567",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184567",
+  "from_date": "1881-08-25",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "54.3419774, 13.738428999999996",
+        "human_name": "G\u00f6hren, R\u00fcgen, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "R\u00fcgen",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "G\u00f6hren",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 242.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06524-008",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06524-008",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93306.tif&size=full",
+    "height": 1939,
+    "index": 93306,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Garnt\u00f8rk, G\u00f6hren"
+      ]
+    }
+  },
+  "to_date": "1881-08-25",
+  "uuid": "525EB6D0-A3E8-432F-A632-26DF5AEDE85C"
+}

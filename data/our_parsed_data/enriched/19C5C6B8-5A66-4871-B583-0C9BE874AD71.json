@@ -1,0 +1,48 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date_end": "1903",
+    "created_at_date_start": "1840",
+    "range_of_dates": true
+  },
+  "descriptive_date": "Uten \u00e5r",
+  "digital_item_created_at": "2014-01-07T04:58:50.946526",
+  "digitalt_museum_id": "011042469523",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469523",
+  "from_date": "1840-01-01",
+  "material_comment": "Blyant, penn og lavering p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 402.0,
+      "height_unit": "mm",
+      "width": 462.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03122",
+  "national_museum_norway_artwork_id": "NG.K&H.B.03122",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74192.tif&size=full",
+    "height": 2587,
+    "index": 74192,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pen",
+    "ink wash",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Studie av kampestein"
+      ]
+    }
+  },
+  "to_date": "1903-01-01",
+  "uuid": "19C5C6B8-5A66-4871-B583-0C9BE874AD71"
+}

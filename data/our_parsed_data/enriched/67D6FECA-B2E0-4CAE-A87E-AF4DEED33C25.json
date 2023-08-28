@@ -1,0 +1,76 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1882-08-04",
+    "range_of_dates": false
+  },
+  "descriptive_date": "4. august 1882",
+  "digital_item_created_at": "2014-02-11T08:04:34.140213",
+  "digitalt_museum_id": "011042523234",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042523234",
+  "from_date": "1882-08-04",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "54.331226, 13.730933400000026",
+        "human_name": "S\u00fcdstrand, R\u00fcgen, Germany",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "R\u00fcgen",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "S\u00fcdstrand",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 240.0,
+      "height_unit": "mm",
+      "width": 327.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06512-019",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06512-019",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=75469.tif&size=full",
+    "height": 2201,
+    "index": 75469,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "ger": {
+      "original": [
+        "Am S\u00fcdstrande"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Fra S\u00fcdstrand, R\u00fcgen"
+      ]
+    }
+  },
+  "to_date": "1882-08-04",
+  "uuid": "67D6FECA-B2E0-4CAE-A87E-AF4DEED33C25"
+}

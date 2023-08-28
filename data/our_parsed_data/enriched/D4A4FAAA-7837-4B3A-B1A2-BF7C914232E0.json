@@ -1,0 +1,86 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1854-07-10",
+    "range_of_dates": false
+  },
+  "descriptive_date": "16. juli (1854)",
+  "digital_item_created_at": "2014-06-27T01:03:41.483038",
+  "digitalt_museum_id": "011044184710",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184710",
+  "from_date": "1854-07-10",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.8950943, 10.47968579999997",
+        "human_name": "Tanum, B\u00e6rum, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "B\u00e6rum",
+            "place_type": "municipality"
+          },
+          {
+            "level": 5,
+            "name": "Tanum",
+            "place_type": "adress"
+          }
+        ]
+      },
+      {
+        "coordinates": "59.46927579999999, 10.534376399999928",
+        "human_name": "Oslofjorden, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Oslofjorden",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 210.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-017",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06525-017",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93526.tif&size=full",
+    "height": 2234,
+    "index": 93526,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Utsikt over fjorden fra Tanum"
+      ]
+    }
+  },
+  "to_date": "1854-07-10",
+  "uuid": "D4A4FAAA-7837-4B3A-B1A2-BF7C914232E0"
+}

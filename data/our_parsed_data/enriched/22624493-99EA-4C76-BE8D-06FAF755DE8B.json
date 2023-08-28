@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1875-09-22",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(22. september 1875)",
+  "digital_item_created_at": "2014-06-05T01:03:09.744332",
+  "digitalt_museum_id": "011044097221",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044097221",
+  "from_date": "1875-09-22",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "58.9383459, 11.179187100000035",
+        "human_name": "Str\u00f8mstad, V\u00e4stra G\u00f6taland, Sweden",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Sweden",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "V\u00e4stra G\u00f6taland",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Str\u00f8mstad",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 111.0,
+      "height_unit": "mm",
+      "width": 179.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06526-023VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06526-023VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92983.tif&size=full",
+    "height": 1869,
+    "index": 92983,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Str\u00f8mstad"
+      ]
+    }
+  },
+  "to_date": "1875-09-22",
+  "uuid": "22624493-99EA-4C76-BE8D-06FAF755DE8B"
+}

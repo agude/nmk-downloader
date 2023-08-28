@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1879-09-08",
+    "range_of_dates": false
+  },
+  "descriptive_date": "8. september 1879",
+  "digital_item_created_at": "2014-03-14T02:01:16.288146",
+  "digitalt_museum_id": "011042654888",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042654888",
+  "from_date": "1879-09-08",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.69127688626756, 9.058914184570312",
+        "human_name": "Reichenau, Bodensee, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Bodensee",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Reichenau",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 210.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06514-007",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06514-007",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=83360.tif&size=full",
+    "height": 2099,
+    "index": 83360,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Strand med popler, Reichenau"
+      ]
+    }
+  },
+  "to_date": "1879-09-08",
+  "uuid": "7FE6F33D-9172-4E56-A3F2-A3F16E30AE09"
+}

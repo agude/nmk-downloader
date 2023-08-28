@@ -1,0 +1,73 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1881-09-11",
+    "range_of_dates": false
+  },
+  "descriptive_date": "11. september (1881)",
+  "digital_item_created_at": "2014-06-27T01:01:55.635636",
+  "digitalt_museum_id": "011044184594",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184594",
+  "from_date": "1881-09-11",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "53.9411111, 14.188888899999938",
+        "human_name": "Ahlbeck, Ostseebad Heringsdorf, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Ostseebad Heringsdorf",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Ahlbeck",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 242.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06524-013",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06524-013",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93318.tif&size=full",
+    "height": 1945,
+    "index": 93318,
+    "width": 3000
+  },
+  "subjects": [
+    "maritime",
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Seilb\u00e5ter ved stranden, Ahlbeck"
+      ]
+    }
+  },
+  "to_date": "1881-09-11",
+  "uuid": "79D89216-EBA1-4EF7-ACC8-BF9D2FEDD0EB"
+}

@@ -1,0 +1,71 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1845-09-11",
+    "range_of_dates": false
+  },
+  "descriptive_date": "11. september (1845)",
+  "digital_item_created_at": "2013-12-14T06:18:06.884413",
+  "digitalt_museum_id": "011042351103",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042351103",
+  "from_date": "1845-09-11",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.5964764, 7.8382424999999785",
+        "human_name": "Hallingskarvet, Hol B, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Hol B",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Hallingskarvet",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 173.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0274",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0274",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=94964.tif&size=full",
+    "height": 2181,
+    "index": 94964,
+    "photographer": "Bj\u00f8rgli, Annar",
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Hallingskarvet sett fra Heimst\u00f8len"
+      ]
+    }
+  },
+  "to_date": "1845-09-11",
+  "uuid": "1D5731D3-67A0-4C98-800A-18BD63C24A7E"
+}

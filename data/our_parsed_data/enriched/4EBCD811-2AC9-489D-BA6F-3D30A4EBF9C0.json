@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1880-09-03",
+    "range_of_dates": false
+  },
+  "descriptive_date": "3. september 1880",
+  "digital_item_created_at": "2014-03-14T02:01:44.702633",
+  "digitalt_museum_id": "011042654939",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042654939",
+  "from_date": "1880-09-03",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.9099221, 10.725038100000006",
+        "human_name": "Aker Brygge, Oslo, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Oslo",
+            "place_type": "municipality"
+          },
+          {
+            "level": 4,
+            "name": "Aker Brygge",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 210.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06514-013VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06514-013VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=84236.tif&size=full",
+    "height": 2076,
+    "index": 84236,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Christiania sett fra Hoved\u00f8ya"
+      ]
+    }
+  },
+  "to_date": "1880-09-03",
+  "uuid": "4EBCD811-2AC9-489D-BA6F-3D30A4EBF9C0"
+}

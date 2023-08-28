@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1877",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1877)",
+  "digital_item_created_at": "2014-04-04T01:02:18.192550",
+  "digitalt_museum_id": "011043105814",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043105814",
+  "from_date": "1877-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "55.9542249, -3.186012300000016",
+        "human_name": "Calton Hill, Edinburgh, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Edinburgh",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Calton Hill",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 177.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519-018VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06519-018VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=88269.tif&size=full",
+    "height": 2159,
+    "index": 88269,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Calton Hill, Edinburgh"
+      ]
+    }
+  },
+  "to_date": "1877-01-01",
+  "uuid": "739FD1D6-F1A8-4630-8BC8-2974B2F2E5CA"
+}

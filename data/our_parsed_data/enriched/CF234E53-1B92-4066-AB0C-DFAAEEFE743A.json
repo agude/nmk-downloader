@@ -1,0 +1,50 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1875",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1875)",
+  "digital_item_created_at": "2014-06-05T01:03:23.428367",
+  "digitalt_museum_id": "011044097228",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044097228",
+  "from_date": "1875-01-01",
+  "material_comment": "Blyant, penn, lavering og akvarell p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 111.0,
+      "height_unit": "mm",
+      "width": 179.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06526-028",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06526-028",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92990.tif&size=full",
+    "height": 1878,
+    "index": 92990,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil",
+    "pen",
+    "ink wash",
+    "watercolor"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Hurtigseileren \"The Enchantress\""
+      ]
+    }
+  },
+  "to_date": "1875-01-01",
+  "uuid": "CF234E53-1B92-4066-AB0C-DFAAEEFE743A"
+}

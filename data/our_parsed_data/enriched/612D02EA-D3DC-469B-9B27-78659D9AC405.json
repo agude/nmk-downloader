@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1872-08-02",
+    "range_of_dates": false
+  },
+  "descriptive_date": "2. august (1872)",
+  "digital_item_created_at": "2014-06-13T01:01:49.540897",
+  "digitalt_museum_id": "011044110518",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110518",
+  "from_date": "1872-08-02",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.27042840000001, 10.404733599999986",
+        "human_name": "T\u00f8nsberg, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "T\u00f8nsberg",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 120.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06522-016VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06522-016VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93186.tif&size=full",
+    "height": 1931,
+    "index": 93186,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "T\u00f8nsberg"
+      ]
+    }
+  },
+  "to_date": "1872-08-02",
+  "uuid": "612D02EA-D3DC-469B-9B27-78659D9AC405"
+}

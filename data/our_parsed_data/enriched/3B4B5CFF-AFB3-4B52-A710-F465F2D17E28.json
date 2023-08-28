@@ -1,0 +1,77 @@
+{
+  "acquistion_notes": "Gave fra stiftsoverrettsassessor H. Krog 1863",
+  "creation_date": {
+    "created_at_date": "1849",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1849",
+  "digital_item_created_at": "2013-12-13T22:29:41.240880",
+  "digitalt_museum_id": "011041107127",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041107127",
+  "from_date": "1849-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.065868392825706, 10.69793701171875",
+        "human_name": "Nordmarka, Oslo, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Oslo",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Nordmarka",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 39.0,
+      "height_unit": "cm",
+      "width": 54.5,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00229",
+  "national_museum_norway_artwork_id": "NG.M.00229",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=17726.tif&size=full",
+    "height": 0,
+    "index": 17726,
+    "width": 0
+  },
+  "subjects": [
+    "woodlands"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "From Nordmarka"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Fra Nordmarka"
+      ]
+    }
+  },
+  "to_date": "1849-01-01",
+  "uuid": "3B4B5CFF-AFB3-4B52-A710-F465F2D17E28"
+}

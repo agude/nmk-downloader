@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1873-06-30",
+    "range_of_dates": false
+  },
+  "descriptive_date": "30. juni 1873",
+  "digital_item_created_at": "2014-06-13T01:02:19.138458",
+  "digitalt_museum_id": "011044110549",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110549",
+  "from_date": "1873-06-30",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.91363579999999, 10.511922200000071",
+        "human_name": "Kols\u00e5s, B\u00e6rum, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "B\u00e6rum",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Kols\u00e5s",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 140.0,
+      "height_unit": "mm",
+      "width": 213.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06521-002VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06521-002VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93203.tif&size=full",
+    "height": 1983,
+    "index": 93203,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Seilb\u00e5t; Kols\u00e5s sett fra Stor\u00f8ykilen (detalj)"
+      ]
+    }
+  },
+  "to_date": "1873-06-30",
+  "uuid": "18226069-6C3B-49AC-9207-4C3B6C2B0B7D"
+}

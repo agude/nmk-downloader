@@ -1,0 +1,70 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1875-09-23",
+    "range_of_dates": false
+  },
+  "descriptive_date": "23. september (1875)",
+  "digital_item_created_at": "2014-06-05T01:03:15.686518",
+  "digitalt_museum_id": "011044097224",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044097224",
+  "from_date": "1875-09-23",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "58.5993946, 11.28416859999993",
+        "human_name": "Fj\u00e4llbacka, V\u00e4stra G\u00f6taland, Sweden",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Sweden",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "V\u00e4stra G\u00f6taland",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Fj\u00e4llbacka",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 111.0,
+      "height_unit": "mm",
+      "width": 179.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06526-025",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06526-025",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92986.tif&size=full",
+    "height": 1917,
+    "index": 92986,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "original": [
+        "Fj\u00e4llbacka"
+      ]
+    }
+  },
+  "to_date": "1875-09-23",
+  "uuid": "E5150600-B54A-415A-8AC4-57975D5E7C3D"
+}

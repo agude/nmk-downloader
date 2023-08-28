@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1872-08-22",
+    "range_of_dates": false
+  },
+  "descriptive_date": "22. august (1872)",
+  "digital_item_created_at": "2014-06-13T01:01:20.760250",
+  "digitalt_museum_id": "011044110467",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110467",
+  "from_date": "1872-08-22",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "58.09492689999999, 6.805019600000037",
+        "human_name": "Farsund, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Farsund",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 120.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06522-007",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06522-007",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93172.tif&size=full",
+    "height": 1983,
+    "index": 93172,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Kysten ved Farsund"
+      ]
+    }
+  },
+  "to_date": "1872-08-22",
+  "uuid": "9547F597-896A-4563-84AC-2C89D9AD31FB"
+}

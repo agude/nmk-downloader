@@ -1,0 +1,71 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1862-07-14",
+    "range_of_dates": false
+  },
+  "descriptive_date": "14. juli (1862)",
+  "digital_item_created_at": "2014-03-22T02:00:59.721264",
+  "digitalt_museum_id": "011043071404",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043071404",
+  "from_date": "1862-07-14",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.0004978, 9.7447181",
+        "human_name": "Langesund, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Langesund",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 232.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06513-002",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06513-002",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=85354.tif&size=full",
+    "height": 2304,
+    "index": 85354,
+    "width": 3000
+  },
+  "subjects": [
+    "maritime",
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Losb\u00e5t i Langesund"
+      ],
+      "original": [
+        "Lodsbaad i Langesund"
+      ]
+    }
+  },
+  "to_date": "1862-07-14",
+  "uuid": "BF792F27-AA17-49DD-8CF9-4DCA39EEB5C8"
+}

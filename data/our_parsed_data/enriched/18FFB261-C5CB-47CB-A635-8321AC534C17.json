@@ -1,0 +1,65 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1880-08-25",
+    "range_of_dates": false
+  },
+  "descriptive_date": "25. august 1880",
+  "digital_item_created_at": "2014-03-14T02:01:14.467331",
+  "digitalt_museum_id": "011042654886",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042654886",
+  "from_date": "1880-08-25",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "60.7945331, 11.067997699999978",
+        "human_name": "Hamar, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Hamar",
+            "place_type": "municipality"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 210.0,
+      "height_unit": "mm",
+      "width": 301.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06514-006",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06514-006",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=83359.tif&size=full",
+    "height": 2096,
+    "index": 83359,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Hamar domkirke sett fra Sagatun"
+      ]
+    }
+  },
+  "to_date": "1880-08-25",
+  "uuid": "18FFB261-C5CB-47CB-A635-8321AC534C17"
+}

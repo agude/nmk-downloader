@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1883-08",
+    "range_of_dates": false
+  },
+  "descriptive_date": "August 1883",
+  "digital_item_created_at": "2014-02-11T08:03:47.323910",
+  "digitalt_museum_id": "011042523208",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042523208",
+  "from_date": "1883-08-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "51.6183495, 10.490036799999984",
+        "human_name": "Wiesenbeker Teich, Bad Lauterberg im Harz, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Bad Lauterberg im Harz",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Wiesenbeker Teich",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 240.0,
+      "height_unit": "mm",
+      "width": 327.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06512-004",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06512-004",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=75483.tif&size=full",
+    "height": 2206,
+    "index": 75483,
+    "width": 3000
+  },
+  "subjects": [
+    "forest interior"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Skogsinteri\u00f8r ved Wiesenbeker Teich, Harzen"
+      ]
+    }
+  },
+  "to_date": "1883-08-01",
+  "uuid": "3A3D3415-31FF-40D2-A8D6-8F38E8BFA908"
+}

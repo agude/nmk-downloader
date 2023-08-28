@@ -1,0 +1,71 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1867-09-19",
+    "range_of_dates": false
+  },
+  "descriptive_date": "19. september (1867)",
+  "digital_item_created_at": "2014-05-24T01:01:22.866841",
+  "digitalt_museum_id": "011044074495",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044074495",
+  "from_date": "1867-09-19",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.87487866806637, 12.407877445220947",
+        "human_name": "Ganszipfel, Gstadt am Chiemsee, Germany",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Gstadt am Chiemsee",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Ganszipfel",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 113.0,
+      "height_unit": "mm",
+      "width": 194.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06527-011VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06527-011VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92619.tif&size=full",
+    "height": 1747,
+    "index": 92619,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Ganszipfel, Chiemsee"
+      ]
+    }
+  },
+  "to_date": "1867-09-19",
+  "uuid": "57E19104-8257-415D-9FDE-6B13D6E1DF77"
+}

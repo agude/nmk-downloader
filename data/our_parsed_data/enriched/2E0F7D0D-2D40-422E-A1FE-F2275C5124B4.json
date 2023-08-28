@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1858-08-08",
+    "range_of_dates": false
+  },
+  "descriptive_date": "8. august (1858)",
+  "digital_item_created_at": "2014-02-04T03:58:56.977578",
+  "digitalt_museum_id": "011042513803",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042513803",
+  "from_date": "1858-08-08",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.85301, 10.78467999999998",
+        "human_name": "Ljan, Oslo, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Oslo",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Ljan",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Lavering og blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 295.0,
+      "height_unit": "mm",
+      "width": 434.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06511-012VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06511-012VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74677.tif&size=full",
+    "height": 2047,
+    "index": 74677,
+    "photographer": "Veiby, Jeanette",
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil",
+    "ink wash"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Ljan (detalj)"
+      ]
+    }
+  },
+  "to_date": "1858-08-08",
+  "uuid": "2E0F7D0D-2D40-422E-A1FE-F2275C5124B4"
+}

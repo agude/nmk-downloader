@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1885-07",
+    "range_of_dates": false
+  },
+  "descriptive_date": "27. juli 1885; 28. juli (1885)",
+  "digital_item_created_at": "2014-02-11T08:04:11.260680",
+  "digitalt_museum_id": "011042523221",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042523221",
+  "from_date": "1885-07-27",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "53.9582782, 14.155892300000005",
+        "human_name": "Heringsdorf, Mecklenburg-Vorpommern, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Mecklenburg-Vorpommern",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Heringsdorf",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 240.0,
+      "height_unit": "mm",
+      "width": 327.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06512-010VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06512-010VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=75297.tif&size=full",
+    "height": 2203,
+    "index": 75297,
+    "width": 3000
+  },
+  "subjects": [
+    "maritime"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "P\u00e5 stranden, Heringsdorf; b\u00e5ter og figurer, Heringsdorf"
+      ]
+    }
+  },
+  "to_date": "1885-07-28",
+  "uuid": "E33631DC-1902-44DC-8EAD-66B6F0CFC09D"
+}

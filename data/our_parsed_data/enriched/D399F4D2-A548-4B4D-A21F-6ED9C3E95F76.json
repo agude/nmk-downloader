@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1879",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1879)",
+  "digital_item_created_at": "2014-05-10T01:01:06.625199",
+  "digitalt_museum_id": "011044053182",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044053182",
+  "from_date": "1879-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "47.69385519999999, 9.270675100000062",
+        "human_name": "Burg Meersburg, Meersburg, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Meersburg",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Burg Meersburg",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 119.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06520-003",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06520-003",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92207.tif&size=full",
+    "height": 1895,
+    "index": 92207,
+    "width": 3000
+  },
+  "subjects": [
+    "building"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Burg Meersburg"
+      ]
+    }
+  },
+  "to_date": "1879-01-01",
+  "uuid": "D399F4D2-A548-4B4D-A21F-6ED9C3E95F76"
+}

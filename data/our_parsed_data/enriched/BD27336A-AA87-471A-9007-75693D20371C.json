@@ -1,0 +1,47 @@
+{
+  "acquistion_notes": "Gave fra Universitetsbiblioteket i Oslo 1954",
+  "creation_date": {
+    "created_at_date": "1888",
+    "range_of_dates": false
+  },
+  "descriptive_date": "1888",
+  "digital_item_created_at": "2013-12-14T05:44:57.347368",
+  "digitalt_museum_id": "011042277784",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042277784",
+  "from_date": "1888-01-01",
+  "material_comment": "Penn, lavering og blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 119.0,
+      "height_unit": "mm",
+      "width": 94.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1954.0044",
+  "national_museum_norway_artwork_id": "NG.K&H.1954.0044",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74061.tif&size=full",
+    "height": 3000,
+    "index": 74061,
+    "width": 2348
+  },
+  "subjects": [],
+  "techniques": [
+    "ink wash",
+    "pen",
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Landskap med b\u00e5ter og figurer"
+      ]
+    }
+  },
+  "to_date": "1888-01-01",
+  "uuid": "BD27336A-AA87-471A-9007-75693D20371C"
+}

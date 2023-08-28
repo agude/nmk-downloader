@@ -1,0 +1,50 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "creation_date": {
+    "created_at_date_end": "1879",
+    "created_at_date_start": "1878",
+    "range_of_dates": true
+  },
+  "descriptive_date": "1878 eller 1879",
+  "digital_item_created_at": "2014-01-07T05:02:11.863388",
+  "digitalt_museum_id": "011042469665",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042469665",
+  "from_date": "1878-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 100.0,
+      "height_unit": "mm",
+      "width": 70.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07960VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.07960VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=27164.tif&size=full",
+    "height": 2000,
+    "index": 27164,
+    "photographer": "Ivars\u00f8y, Dag Andre",
+    "width": 1350
+  },
+  "subjects": [
+    "myths and fairy tales"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Forarbeid til illustrasjon til \"Matthias Skytters historier\" i P. Chr. Asbj\u00f8rnsen, Norske Folke- og Huldre-Eventyr i Udvalg, Kj\u00f8benhavn 1879",
+        "Nisse i l\u00e5ved\u00f8r"
+      ]
+    }
+  },
+  "to_date": "1879-01-01",
+  "uuid": "26BEE8B4-FFFE-4D94-89B2-1084A20C6F0C"
+}

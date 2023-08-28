@@ -1,0 +1,77 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1864-08-14",
+    "range_of_dates": false
+  },
+  "descriptive_date": "14. august 1864",
+  "digital_item_created_at": "2014-04-01T01:00:56.135481",
+  "digitalt_museum_id": "011043093916",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043093916",
+  "from_date": "1864-08-14",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "48.4921868, 8.185399700000061",
+        "human_name": "Lierbach, Oppenau, Germany",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Germany",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Oppenau",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Lierbach",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 145.0,
+      "height_unit": "mm",
+      "width": 235.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06518-002",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06518-002",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=86039.tif&size=full",
+    "height": 1862,
+    "index": 86039,
+    "width": 3000
+  },
+  "subjects": [
+    "building"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "ger": {
+      "original": [
+        "Lierbacher Thal"
+      ]
+    },
+    "nor": {
+      "current": [
+        "M\u00f8lle, Lierbacher Tal"
+      ]
+    }
+  },
+  "to_date": "1864-08-14",
+  "uuid": "0D8E7DD2-16CC-4E07-BD8F-62AC69A5097E"
+}

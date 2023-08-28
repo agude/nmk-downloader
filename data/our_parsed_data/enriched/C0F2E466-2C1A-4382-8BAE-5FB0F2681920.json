@@ -1,0 +1,71 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date_end": "1877-07",
+    "created_at_date_start": "1877-06",
+    "range_of_dates": true
+  },
+  "descriptive_date": "Juni eller juli 1877",
+  "digital_item_created_at": "2014-04-04T01:02:33.862086",
+  "digitalt_museum_id": "011043105832",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043105832",
+  "from_date": "1877-06-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "55.64367, -5.141426000000024",
+        "human_name": "Corrie, Arran, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Arran",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Corrie",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 177.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519-025",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06519-025",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=88257.tif&size=full",
+    "height": 2141,
+    "index": 88257,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Gudstjeneste i Corrie, Arran"
+      ]
+    }
+  },
+  "to_date": "1877-07-01",
+  "uuid": "C0F2E466-2C1A-4382-8BAE-5FB0F2681920"
+}

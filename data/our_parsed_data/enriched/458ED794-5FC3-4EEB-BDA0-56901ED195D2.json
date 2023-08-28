@@ -1,0 +1,66 @@
+{
+  "acquistion_notes": "Gave fra Galleri Gude ved Claus Gude 1999",
+  "creation_date": {
+    "created_at_date": "1845-07",
+    "range_of_dates": false
+  },
+  "descriptive_date": "Juli (1845)",
+  "digital_item_created_at": "2013-12-14T05:58:23.758616",
+  "digitalt_museum_id": "011042308865",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042308865",
+  "from_date": "1845-07-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "61.1554244, 6.580633700000021",
+        "human_name": "Sognefjorden, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Sognefjorden",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 173.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0283",
+  "national_museum_norway_artwork_id": "NG.K&H.1999.0283",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=94954.tif&size=full",
+    "height": 2191,
+    "index": 94954,
+    "photographer": "Bj\u00f8rgli, Annar",
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Sognefjorden"
+      ]
+    }
+  },
+  "to_date": "1845-07-01",
+  "uuid": "458ED794-5FC3-4EEB-BDA0-56901ED195D2"
+}

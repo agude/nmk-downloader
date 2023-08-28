@@ -1,0 +1,48 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1883-09-30",
+    "range_of_dates": false
+  },
+  "descriptive_date": "30. september (1883)",
+  "digital_item_created_at": "2014-02-11T08:04:00.674480",
+  "digitalt_museum_id": "011042523215",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042523215",
+  "from_date": "1883-09-30",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 327.0,
+      "height_unit": "mm",
+      "width": 240.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06512-007VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06512-007VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=75292.tif&size=full",
+    "height": 3000,
+    "index": 75292,
+    "width": 2162
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Ung l\u00f8nn, Bad Sachsa"
+      ],
+      "original": [
+        "Ung l\u00f8n, Sachsa"
+      ]
+    }
+  },
+  "to_date": "1883-09-30",
+  "uuid": "6E693D0F-D712-422C-92D2-F46A32D07213"
+}

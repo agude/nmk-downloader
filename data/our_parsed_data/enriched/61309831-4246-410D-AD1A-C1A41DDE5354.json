@@ -1,0 +1,72 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1872",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1872)",
+  "digital_item_created_at": "2014-06-13T01:01:58.925667",
+  "digitalt_museum_id": "011044110528",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110528",
+  "from_date": "1872-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "59.8457924, 10.637474800000063",
+        "human_name": "Ildjernet, Nesodden, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Nesodden",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Ildjernet",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 120.0,
+      "height_unit": "mm",
+      "width": 188.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06522-018VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06522-018VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93190.tif&size=full",
+    "height": 1900,
+    "index": 93190,
+    "width": 3000
+  },
+  "subjects": [
+    "ship / boat"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Ildjernet; dampskip"
+      ]
+    }
+  },
+  "to_date": "1872-01-01",
+  "uuid": "61309831-4246-410D-AD1A-C1A41DDE5354"
+}

@@ -1,0 +1,71 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1872-09-02",
+    "range_of_dates": false
+  },
+  "descriptive_date": "2. september (1872)",
+  "digital_item_created_at": "2014-02-04T04:00:13.709698",
+  "digitalt_museum_id": "011042513899",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042513899",
+  "from_date": "1872-09-02",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "58.9822121, 5.745309099999986",
+        "human_name": "Eng\u00f8y, Stavanger, Norway",
+        "place_accuracy": "antatt",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Stavanger",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Eng\u00f8y",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 322.0,
+      "height_unit": "mm",
+      "width": 234.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06510-011",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06510-011",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74804.tif&size=full",
+    "height": 2191,
+    "index": 74804,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Fra Eng\u00f8y"
+      ]
+    }
+  },
+  "to_date": "1872-09-02",
+  "uuid": "BB0B6082-4943-47F7-A089-377346A055F6"
+}

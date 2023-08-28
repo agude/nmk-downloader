@@ -1,0 +1,82 @@
+{
+  "acquistion_notes": "Ervervelsesopplysninger under arbeid",
+  "creation_date": {
+    "created_at_date_end": "1848",
+    "created_at_date_start": "1838",
+    "range_of_dates": true
+  },
+  "descriptive_date": "F\u00f8r 1848",
+  "digital_item_created_at": "2014-09-09T01:04:25.828254",
+  "digitalt_museum_id": "011045058125",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011045058125",
+  "from_date": "1838-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "62.31984490000001, 9.267698900000027",
+        "human_name": "Sn\u00f8hetta, Dovrefjell, Dovre, Norway",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 2,
+            "name": "Dovre",
+            "place_type": "municipality"
+          },
+          {
+            "level": 3,
+            "name": "Dovrefjell",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Sn\u00f8hetta",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant og gouache p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 198.0,
+      "height_unit": "mm",
+      "width": 278.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06319",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06319",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=95900.tif&size=full",
+    "height": 2185,
+    "index": 95900,
+    "width": 3000
+  },
+  "subjects": [
+    "moutain"
+  ],
+  "techniques": [
+    "pencil",
+    "gouache paint"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Sn\u00f8hetta p\u00e5 Dovre. Etter H. Gude"
+      ],
+      "original": [
+        "Sneh\u00e6tten paa Dovre"
+      ]
+    }
+  },
+  "to_date": "1848-01-01",
+  "uuid": "651410E9-4DF7-4CC7-A0F2-7ED2BA44E18C"
+}

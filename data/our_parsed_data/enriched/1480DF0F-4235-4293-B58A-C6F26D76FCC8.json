@@ -1,0 +1,54 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Alfred Larsen, innkommet 1951",
+  "creation_date": {
+    "created_at_date_end": "1903",
+    "created_at_date_start": "1838",
+    "range_of_dates": true
+  },
+  "descriptive_date": "Uten \u00e5r",
+  "digital_item_created_at": "2013-12-13T22:30:08.770646",
+  "digitalt_museum_id": "011041108438",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011041108438",
+  "from_date": "1838-01-01",
+  "material_comment": "Olje p\u00e5 lerret",
+  "materials": [
+    "canvas"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 35.0,
+      "height_unit": "cm",
+      "width": 40.0,
+      "width_unit": "cm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.02234",
+  "national_museum_norway_artwork_id": "NG.M.02234",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=52741.tif&size=full",
+    "height": 2629,
+    "index": 52741,
+    "photographer": "Thorkildsen, Morten",
+    "width": 3000
+  },
+  "subjects": [
+    "maritime"
+  ],
+  "techniques": [
+    "oil"
+  ],
+  "titles": {
+    "eng": {
+      "current": [
+        "Cloud Study over the Sea"
+      ]
+    },
+    "nor": {
+      "current": [
+        "Skystudie over hav"
+      ]
+    }
+  },
+  "to_date": "1903-01-01",
+  "uuid": "1480DF0F-4235-4293-B58A-C6F26D76FCC8"
+}

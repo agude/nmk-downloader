@@ -1,0 +1,45 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1883-09-30",
+    "range_of_dates": false
+  },
+  "descriptive_date": "30. september 1883",
+  "digital_item_created_at": "2014-02-11T08:03:56.471090",
+  "digitalt_museum_id": "011042523213",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011042523213",
+  "from_date": "1883-09-30",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 327.0,
+      "height_unit": "mm",
+      "width": 240.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06512-006VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06512-006VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=75291.tif&size=full",
+    "height": 3000,
+    "index": 75291,
+    "width": 2204
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Trestudie, Bad Sachsa"
+      ]
+    }
+  },
+  "to_date": "1883-09-30",
+  "uuid": "46A19D25-B8DC-4D09-BAF5-847472499F34"
+}

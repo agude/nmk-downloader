@@ -1,0 +1,68 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1873",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(1873)",
+  "digital_item_created_at": "2014-06-13T01:02:40.293256",
+  "digitalt_museum_id": "011044110568",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044110568",
+  "from_date": "1873-01-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "62, 9.233333300000026",
+        "human_name": "Gudbrandsdalen, Norway",
+        "place_accuracy": "antatt sikker",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Norway",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Gudbrandsdalen",
+            "place_type": "area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 140.0,
+      "height_unit": "mm",
+      "width": 213.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06521-007VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06521-007VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93213.tif&size=full",
+    "height": 1981,
+    "index": 93213,
+    "width": 3000
+  },
+  "subjects": [
+    "building"
+  ],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "G\u00e5rd, Gudbrandsdalen"
+      ]
+    }
+  },
+  "to_date": "1873-01-01",
+  "uuid": "B9094DF3-DA1A-481C-830E-F9806CB47FFF"
+}

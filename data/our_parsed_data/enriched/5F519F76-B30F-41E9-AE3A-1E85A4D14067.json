@@ -1,0 +1,46 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date_end": "1882",
+    "created_at_date_start": "1881",
+    "range_of_dates": true
+  },
+  "descriptive_date": "1881 eller 1882",
+  "digital_item_created_at": "2014-06-27T01:01:04.125361",
+  "digitalt_museum_id": "011044184517",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011044184517",
+  "from_date": "1881-01-01",
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 155.0,
+      "height_unit": "mm",
+      "width": 242.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06524-002VERSO",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06524-002VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93291.tif&size=full",
+    "height": 1914,
+    "index": 93291,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Liggende fisker; matros"
+      ]
+    }
+  },
+  "to_date": "1882-01-01",
+  "uuid": "5F519F76-B30F-41E9-AE3A-1E85A4D14067"
+}

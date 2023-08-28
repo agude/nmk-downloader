@@ -1,0 +1,91 @@
+{
+  "acquistion_notes": "Testamentarisk gave fra Hans Gude",
+  "creation_date": {
+    "created_at_date": "1877-07",
+    "range_of_dates": false
+  },
+  "descriptive_date": "(Juli 1877)",
+  "digital_item_created_at": "2014-04-04T01:01:44.341353",
+  "digitalt_museum_id": "011043105754",
+  "digitalt_museum_link": "https://digitaltmuseum.org/011043105754",
+  "from_date": "1877-07-01",
+  "locations": {
+    "depicted_location": [
+      {
+        "coordinates": "56.4561763, -5.655199700000026",
+        "human_name": "Duart Castle, Scotland, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Scotland",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Duart Castle",
+            "place_type": "specific_area"
+          }
+        ]
+      },
+      {
+        "coordinates": "56.56041270000001, -5.740731500000038",
+        "human_name": "Ardtornish Castle, Morvern, Great Britain",
+        "place_names": [
+          {
+            "level": 1,
+            "name": "Great Britain",
+            "place_type": "country"
+          },
+          {
+            "level": 3,
+            "name": "Morvern",
+            "place_type": "area"
+          },
+          {
+            "level": 4,
+            "name": "Ardtornish Castle",
+            "place_type": "specific_area"
+          }
+        ]
+      }
+    ]
+  },
+  "material_comment": "Blyant p\u00e5 papir",
+  "materials": [
+    "paper"
+  ],
+  "measurements": {
+    "main_object": {
+      "height": 126.0,
+      "height_unit": "mm",
+      "width": 177.0,
+      "width_unit": "mm"
+    }
+  },
+  "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519-011",
+  "national_museum_norway_artwork_id": "NG.K&H.B.06519-011",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=88277.tif&size=full",
+    "height": 2137,
+    "index": 88277,
+    "width": 3000
+  },
+  "subjects": [],
+  "techniques": [
+    "pencil"
+  ],
+  "titles": {
+    "nor": {
+      "current": [
+        "Duart Castle; Ardtornish Castle sett fra Sound of Mull"
+      ]
+    }
+  },
+  "to_date": "1877-07-01",
+  "uuid": "46F1AAB0-8B9F-40A4-B573-48CD3D6AA4E9"
+}
