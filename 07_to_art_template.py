@@ -220,7 +220,7 @@ def get_credit_line(acquistion_notes: str) -> str:
 
 
 def get_other_fields(subjects: str) -> str:
-    if subjects is None:
+    if not subjects:
         return ""
 
     subject_str = ""
@@ -323,5 +323,5 @@ for filename in sorted(os.listdir(data_dir)):
             other_fields=other_fields,
             photographer=photographer,
         )
-        if photographer:
-            print(wiki_template)
+        print("-----------------------------------")
+        print(wiki_template)
