@@ -25,7 +25,7 @@ TEMPLATE = """
 
 =={{{{int:license-header}}}}==
 
-{{{{Licensed-PD-Art|PD-old-auto-expired|cc-by-4.0|attribution=Nasjonalmuseet/{photographer}|deathyear=1903}}}}
+{{{{Licensed-PD-Art|PD-old-auto-expired|cc-by-4.0|attribution=Nasjonalmuseet{photographer}|deathyear=1903}}}}
 
 [[Category:Drawings by Hans Gude in the Nasjonalmuseet for kunst, arkitektur og design]]
 [[Category:Images from Digitalt Museum, Norway]]
@@ -303,7 +303,11 @@ for filename in sorted(os.listdir(data_dir)):
         other_fields = get_other_fields(subjects)
 
         # Photographer
-
+        photographer = data["picture"].get("photographer")
+        if photographer is None:
+            photographer = ""
+        else:
+            photographer = " / " + photographer
 
         # Template
         wiki_template = TEMPLATE.format(
@@ -317,6 +321,7 @@ for filename in sorted(os.listdir(data_dir)):
             accession_number=accession_number,
             credit_line=credit_line,
             other_fields=other_fields,
-            photographer="PLACEHOLDER",
+            photographer=photographer,
         )
-        print(wiki_template)
+        if photographer:
+            print(wiki_template)
