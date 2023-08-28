@@ -68,8 +68,6 @@ def get_medium(techniques_json, materials_json) -> str:
 
     if techniques_json:
         final_list += [s + t for s, t in zip(technique_starts, techniques_json)]
-    # if not techniques_json:
-    #    print("AHHHHHHHHHH")
 
     materials_starts = [
         " | on=",
@@ -295,7 +293,6 @@ for filename in sorted(os.listdir(data_dir)):
             digitalt_museum_link,
             uuid,
         )
-        # print(accession_number)
 
         # Credit line
         acquistion_notes = data.get("acquistion_notes")
