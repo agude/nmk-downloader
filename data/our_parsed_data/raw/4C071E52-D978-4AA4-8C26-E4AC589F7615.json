@@ -47,11 +47,15 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 2404,
-  "media_index": 153546,
-  "media_width_pixels": 4000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-013",
   "national_museum_norway_artwork_id": "NG.M.00636-013",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=153546.tif&size=full",
+    "height": 2404,
+    "index": 153546,
+    "photographer": "H\u00f8stland, B\u00f8rre",
+    "width": 4000
+  },
   "subjects": [
     "coastal landscape",
     "maritime",

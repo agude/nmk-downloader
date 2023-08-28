@@ -17,11 +17,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 3000,
-  "media_index": 86051,
-  "media_width_pixels": 1905,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06518-014",
   "national_museum_norway_artwork_id": "NG.K&H.B.06518-014",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=86051.tif&size=full",
+    "height": 3000,
+    "index": 86051,
+    "width": 1905
+  },
   "subjects": [],
   "techniques": [
     "pencil"

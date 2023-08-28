@@ -23,11 +23,15 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 3000,
-  "media_index": 74321,
-  "media_width_pixels": 2570,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1983.0058",
   "national_museum_norway_artwork_id": "NG.K&H.1983.0058",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74321.tif&size=full",
+    "height": 3000,
+    "index": 74321,
+    "photographer": "Bj\u00f8rgli, Annar",
+    "width": 2570
+  },
   "subjects": [],
   "techniques": [
     "pencil"

@@ -17,11 +17,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 1930,
-  "media_index": 74062,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.A.K.1225",
   "national_museum_norway_artwork_id": "NG.K&H.A.K.1225",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74062.tif&size=full",
+    "height": 1930,
+    "index": 74062,
+    "width": 3000
+  },
   "subjects": [
     "moutain"
   ],

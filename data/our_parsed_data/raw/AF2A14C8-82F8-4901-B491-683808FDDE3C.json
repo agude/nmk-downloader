@@ -17,11 +17,14 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 2038,
-  "media_index": 61126,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.03063",
   "national_museum_norway_artwork_id": "NG.M.03063",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=61126.tif&size=full",
+    "height": 2038,
+    "index": 61126,
+    "width": 3000
+  },
   "subjects": [
     "moutain"
   ],

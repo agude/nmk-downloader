@@ -23,11 +23,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 2279,
-  "media_index": 63706,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NMK.2005.0373",
   "national_museum_norway_artwork_id": "NMK.2005.0373",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=63706.tif&size=full",
+    "height": 2279,
+    "index": 63706,
+    "width": 3000
+  },
   "subjects": [],
   "techniques": [
     "lithography"

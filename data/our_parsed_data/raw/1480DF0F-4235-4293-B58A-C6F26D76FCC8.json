@@ -17,11 +17,15 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 2629,
-  "media_index": 52741,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.02234",
   "national_museum_norway_artwork_id": "NG.M.02234",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=52741.tif&size=full",
+    "height": 2629,
+    "index": 52741,
+    "photographer": "Thorkildsen, Morten",
+    "width": 3000
+  },
   "subjects": [
     "maritime"
   ],

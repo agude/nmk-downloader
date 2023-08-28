@@ -88,11 +88,14 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 0,
-  "media_index": 18321,
-  "media_width_pixels": 0,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00635-004",
   "national_museum_norway_artwork_id": "NG.M.00635-004",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=18321.tif&size=full",
+    "height": 0,
+    "index": 18321,
+    "width": 0
+  },
   "subjects": [
     "travel sketch"
   ],

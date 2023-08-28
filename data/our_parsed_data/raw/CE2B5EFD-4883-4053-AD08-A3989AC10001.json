@@ -43,11 +43,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 1881,
-  "media_index": 86392,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06518-004VERSO",
   "national_museum_norway_artwork_id": "NG.K&H.B.06518-004VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=86392.tif&size=full",
+    "height": 1881,
+    "index": 86392,
+    "width": 3000
+  },
   "subjects": [
     "building"
   ],

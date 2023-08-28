@@ -43,11 +43,15 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 1973,
-  "media_index": 52762,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-012",
   "national_museum_norway_artwork_id": "NG.M.00636-012",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=52762.tif&size=full",
+    "height": 1973,
+    "index": 52762,
+    "photographer": "Thorkildsen, Morten",
+    "width": 3000
+  },
   "subjects": [
     "vernacular architecture",
     "working life"

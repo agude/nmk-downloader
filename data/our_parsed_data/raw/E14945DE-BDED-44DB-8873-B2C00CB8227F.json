@@ -37,11 +37,15 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 1338,
-  "media_index": 36075,
-  "media_width_pixels": 2000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.04184",
   "national_museum_norway_artwork_id": "NG.M.04184",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=36075.tif&size=full",
+    "height": 1338,
+    "index": 36075,
+    "photographer": "Ivars\u00f8y, Dag Andre",
+    "width": 2000
+  },
   "subjects": [
     "flora",
     "folklore"

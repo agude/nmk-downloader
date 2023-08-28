@@ -37,11 +37,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 2244,
-  "media_index": 99236,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0247VERSO",
   "national_museum_norway_artwork_id": "NG.K&H.1999.0247VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99236.tif&size=full",
+    "height": 2244,
+    "index": 99236,
+    "width": 3000
+  },
   "subjects": [],
   "techniques": [
     "pencil"

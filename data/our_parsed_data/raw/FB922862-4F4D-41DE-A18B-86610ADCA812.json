@@ -22,11 +22,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 2126,
-  "media_index": 99249,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NMK.GRUPPE.2014.0010",
   "national_museum_norway_artwork_id": "NMK.GRUPPE.2014.0010",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99249.tif&size=full",
+    "height": 2126,
+    "index": 99249,
+    "width": 3000
+  },
   "subjects": [],
   "titles": {
     "nor": {

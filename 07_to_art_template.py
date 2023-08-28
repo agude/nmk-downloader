@@ -184,10 +184,8 @@ def get_title_and_description(titles):
 
 
 def get_sources(
-    nasjonalmuseet_link: str, digitalt_museum_link: str, media_index: str
+    nasjonalmuseet_link: str, digitalt_museum_link: str, direct_image_link: str
 ) -> str:
-    direct_image_link = f"https://ms01.nasjonalmuseet.no/api/objects/download?filename={media_index}.tif&size=full"
-
     output = textwrap.dedent(
         f"""
         * [{direct_image_link} Direct Image Link from the National Museum of Art, Architecture and Design]
@@ -282,9 +280,9 @@ for filename in sorted(os.listdir(data_dir)):
         # Get source
         nasjonalmuseet_link = data["nasjonalmuseet_link"]
         digitalt_museum_link = data["digitalt_museum_link"]
-        media_index = data["media_index"]
+        direct_image_link = data["picture"]["direct_image_link"]
 
-        source = get_sources(nasjonalmuseet_link, digitalt_museum_link, media_index)
+        source = get_sources(nasjonalmuseet_link, digitalt_museum_link, direct_image_link)
 
         # Get accession number
         uuid = data["uuid"]

@@ -37,11 +37,15 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 1065,
-  "media_index": 32544,
-  "media_width_pixels": 2000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03144",
   "national_museum_norway_artwork_id": "NG.K&H.B.03144",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=32544.tif&size=full",
+    "height": 1065,
+    "index": 32544,
+    "photographer": "Anne Hansteen Jarre",
+    "width": 2000
+  },
   "subjects": [],
   "techniques": [
     "watercolor",

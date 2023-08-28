@@ -47,11 +47,15 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 2866,
-  "media_index": 113292,
-  "media_width_pixels": 4000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00467",
   "national_museum_norway_artwork_id": "NG.M.00467",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=113292.tif&size=full",
+    "height": 2866,
+    "index": 113292,
+    "photographer": "H\u00f8stland, B\u00f8rre",
+    "width": 4000
+  },
   "subjects": [
     "folklore",
     "moutain",

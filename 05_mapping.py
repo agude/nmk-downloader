@@ -279,6 +279,23 @@ def parse_location(locations):
     return output
 
 
+def parse_picture(picture_json):
+    """Get the largest image and return its data."""
+    largest_images_json = sorted(picture_json, key=lambda x: x["width"], reverse=True)[0]
+
+    # Clean unused values
+    largest_images_json.pop("licenses", None)  # Always empty
+    largest_images_json.pop("code", None)
+    largest_images_json.pop("identifier", None)
+    largest_images_json.pop("licenses", None)
+
+    # Add direct download url
+    index = largest_images_json["index"]
+    largest_images_json["direct_image_link"] = f"https://ms01.nasjonalmuseet.no/api/objects/download?filename={index}.tif&size=full"
+
+    return largest_images_json
+
+
 def unpack(data, paths):
     """Extract data from a JSON blob by following the whole path.
 
@@ -310,14 +327,13 @@ mapping = {
     ("uuid_json", "eventWrap", "production", "timespan", "toDate",): output_manager("to_date", parse_art_date),
     ("artifact.ingress.subjects",): output_manager("subjects", parse_subjects),
     ("uuid_json", "measures",): output_manager("measurements", parse_measure),
-    ("uuid_json", "media", "pictures", 0, "index"): output_manager("media_index" , parse_int),
-    ("uuid_json", "media", "pictures", 0, "width"): output_manager("media_width_pixels" , parse_int),
-    ("uuid_json", "media", "pictures", 0, "height"): output_manager("media_height_pixels" , parse_int),
     ("uuid_json", "titles",): output_manager("titles", parse_titles),
     ("uuid_json", "technique", "techniques",): output_manager("techniques", parse_techniques),
     ("uuid_json", "material", "comment",): output_manager("material_comment", parse_generic_string),
     ("uuid_json", "material", "materials",): output_manager("materials", parse_materials),
     ("uuid_json", "motif", "depictedPlaces",): output_manager("locations", parse_location),
+    # Get the largest picture instead
+    ("uuid_json", "media", "pictures"): output_manager("picture", parse_picture),
 }
 
 output_dir = "./data/our_parsed_data/raw/"

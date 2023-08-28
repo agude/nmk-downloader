@@ -42,11 +42,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 2105,
-  "media_index": 83356,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06514-003",
   "national_museum_norway_artwork_id": "NG.K&H.B.06514-003",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=83356.tif&size=full",
+    "height": 2105,
+    "index": 83356,
+    "width": 3000
+  },
   "subjects": [
     "building"
   ],

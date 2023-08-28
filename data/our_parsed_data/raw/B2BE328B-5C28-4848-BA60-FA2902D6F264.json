@@ -44,11 +44,15 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 2086,
-  "media_index": 52745,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.02970",
   "national_museum_norway_artwork_id": "NG.M.02970",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=52745.tif&size=full",
+    "height": 2086,
+    "index": 52745,
+    "photographer": "Thorkildsen, Morten",
+    "width": 3000
+  },
   "subjects": [
     "moutain"
   ],

@@ -58,11 +58,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 1752,
-  "media_index": 92560,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06523-021",
   "national_museum_norway_artwork_id": "NG.K&H.B.06523-021",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=92560.tif&size=full",
+    "height": 1752,
+    "index": 92560,
+    "width": 3000
+  },
   "subjects": [
     "ship / boat"
   ],

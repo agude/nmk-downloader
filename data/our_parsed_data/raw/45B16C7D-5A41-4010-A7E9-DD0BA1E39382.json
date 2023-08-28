@@ -38,11 +38,15 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 1821,
-  "media_index": 52735,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00823",
   "national_museum_norway_artwork_id": "NG.M.00823",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=52735.tif&size=full",
+    "height": 1821,
+    "index": 52735,
+    "photographer": "Thorkildsen, Morten",
+    "width": 3000
+  },
   "subjects": [
     "flora"
   ],

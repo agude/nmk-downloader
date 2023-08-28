@@ -17,11 +17,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 1764,
-  "media_index": 26760,
-  "media_width_pixels": 2000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.07937",
   "national_museum_norway_artwork_id": "NG.K&H.B.07937",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74081.tif&size=full",
+    "height": 2623,
+    "index": 74081,
+    "width": 3000
+  },
   "subjects": [
     "myths and fairy tales",
     "illustration"

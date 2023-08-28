@@ -35,11 +35,14 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 2210,
-  "media_index": 117058,
-  "media_width_pixels": 4000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.04483",
   "national_museum_norway_artwork_id": "NG.M.04483",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=117058.tif&size=full",
+    "height": 2210,
+    "index": 117058,
+    "width": 4000
+  },
   "subjects": [],
   "techniques": [
     "oil"

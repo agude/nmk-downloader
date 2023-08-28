@@ -43,11 +43,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 1784,
-  "media_index": 75683,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06515-011",
   "national_museum_norway_artwork_id": "NG.K&H.B.06515-011",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=75683.tif&size=full",
+    "height": 1784,
+    "index": 75683,
+    "width": 3000
+  },
   "subjects": [
     "maritime"
   ],

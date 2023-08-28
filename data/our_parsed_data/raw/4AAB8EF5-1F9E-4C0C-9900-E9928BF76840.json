@@ -38,11 +38,15 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 1494,
-  "media_index": 32547,
-  "media_width_pixels": 2000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1990.0103",
   "national_museum_norway_artwork_id": "NG.K&H.1990.0103",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=32547.tif&size=full",
+    "height": 1494,
+    "index": 32547,
+    "photographer": "Anne Hansteen Jarre",
+    "width": 2000
+  },
   "subjects": [],
   "techniques": [
     "pen",

@@ -16,11 +16,15 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 4000,
-  "media_index": 120001,
-  "media_width_pixels": 3151,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NMK.2015.0252",
   "national_museum_norway_artwork_id": "NMK.2015.0252",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=120001.tif&size=full",
+    "height": 4000,
+    "index": 120001,
+    "photographer": "Thorkildsen, Morten",
+    "width": 3151
+  },
   "subjects": [
     "building",
     "folklore"

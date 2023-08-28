@@ -38,11 +38,15 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 2243,
-  "media_index": 52727,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-003",
   "national_museum_norway_artwork_id": "NG.M.00636-003",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=52727.tif&size=full",
+    "height": 2243,
+    "index": 52727,
+    "photographer": "Thorkildsen, Morten",
+    "width": 3000
+  },
   "subjects": [
     "fjord",
     "moutain"

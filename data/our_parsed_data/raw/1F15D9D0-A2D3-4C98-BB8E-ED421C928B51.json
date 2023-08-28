@@ -38,11 +38,15 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 2204,
-  "media_index": 41662,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00635-005",
   "national_museum_norway_artwork_id": "NG.M.00635-005",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=41662.tif&size=full",
+    "height": 2204,
+    "index": 41662,
+    "photographer": "Ivars\u00f8y, Dag Andre",
+    "width": 3000
+  },
   "subjects": [],
   "techniques": [
     "oil"

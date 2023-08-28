@@ -17,11 +17,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 2135,
-  "media_index": 74189,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03159",
   "national_museum_norway_artwork_id": "NG.K&H.B.03159",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74189.tif&size=full",
+    "height": 2135,
+    "index": 74189,
+    "width": 3000
+  },
   "subjects": [],
   "techniques": [
     "charcoal",

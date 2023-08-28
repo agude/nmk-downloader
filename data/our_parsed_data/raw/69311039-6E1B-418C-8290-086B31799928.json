@@ -42,11 +42,14 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 0,
-  "media_index": 18155,
-  "media_width_pixels": 0,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00468",
   "national_museum_norway_artwork_id": "NG.M.00468",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=72123.tif&size=full",
+    "height": 2078,
+    "index": 72123,
+    "width": 3000
+  },
   "subjects": [
     "animal"
   ],

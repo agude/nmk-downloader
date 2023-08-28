@@ -42,11 +42,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 3000,
-  "media_index": 99270,
-  "media_width_pixels": 1921,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0232",
   "national_museum_norway_artwork_id": "NG.K&H.1999.0232",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99270.tif&size=full",
+    "height": 3000,
+    "index": 99270,
+    "width": 1921
+  },
   "subjects": [
     "waterfall"
   ],

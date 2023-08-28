@@ -17,11 +17,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 2199,
-  "media_index": 75300,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06512-016VERSO",
   "national_museum_norway_artwork_id": "NG.K&H.B.06512-016VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=75300.tif&size=full",
+    "height": 2199,
+    "index": 75300,
+    "width": 3000
+  },
   "subjects": [
     "maritime"
   ],

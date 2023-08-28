@@ -37,11 +37,15 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 1355,
-  "media_index": 36071,
-  "media_width_pixels": 2000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00775",
   "national_museum_norway_artwork_id": "NG.M.00775",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=36071.tif&size=full",
+    "height": 1355,
+    "index": 36071,
+    "photographer": "Ivars\u00f8y, Dag Andre",
+    "width": 2000
+  },
   "subjects": [
     "folklore",
     "outdoor life"

@@ -36,11 +36,15 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 4000,
-  "media_index": 140811,
-  "media_width_pixels": 3233,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.02024",
   "national_museum_norway_artwork_id": "NG.M.02024",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=140811.tif&size=full",
+    "height": 4000,
+    "index": 140811,
+    "photographer": "H\u00f8stland, B\u00f8rre",
+    "width": 3233
+  },
   "subjects": [
     "waterfall",
     "moutain",

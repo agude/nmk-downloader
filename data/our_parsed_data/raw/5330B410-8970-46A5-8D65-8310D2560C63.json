@@ -37,11 +37,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 1212,
-  "media_index": 75688,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06515-013VERSO",
   "national_museum_norway_artwork_id": "NG.K&H.B.06515-013VERSO",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=75688.tif&size=full",
+    "height": 1212,
+    "index": 75688,
+    "width": 3000
+  },
   "subjects": [],
   "techniques": [
     "pencil"

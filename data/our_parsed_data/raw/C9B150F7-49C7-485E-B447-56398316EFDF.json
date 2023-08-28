@@ -43,11 +43,14 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 0,
-  "media_index": 19498,
-  "media_width_pixels": 0,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.01981",
   "national_museum_norway_artwork_id": "NG.M.01981",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=19498.tif&size=full",
+    "height": 0,
+    "index": 19498,
+    "width": 0
+  },
   "subjects": [
     "moutain",
     "fjord"

@@ -26,11 +26,15 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 1953,
-  "media_index": 25859,
-  "media_width_pixels": 2000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00636-001",
   "national_museum_norway_artwork_id": "NG.M.00636-001",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=25859.tif&size=full",
+    "height": 1953,
+    "index": 25859,
+    "photographer": "Ivars\u00f8y, Dag Andre",
+    "width": 2000
+  },
   "subjects": [
     "woodlands",
     "flora"

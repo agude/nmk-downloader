@@ -42,11 +42,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 1964,
-  "media_index": 74067,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.03123",
   "national_museum_norway_artwork_id": "NG.K&H.B.03123",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74067.tif&size=full",
+    "height": 1964,
+    "index": 74067,
+    "width": 3000
+  },
   "subjects": [],
   "techniques": [
     "pen",

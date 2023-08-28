@@ -38,11 +38,14 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 0,
-  "media_index": 18326,
-  "media_width_pixels": 0,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00635-009",
   "national_museum_norway_artwork_id": "NG.M.00635-009",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=18326.tif&size=full",
+    "height": 0,
+    "index": 18326,
+    "width": 0
+  },
   "subjects": [
     "maritime"
   ],

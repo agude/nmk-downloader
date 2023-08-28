@@ -17,11 +17,15 @@
       "width_unit": "cm"
     }
   },
-  "media_height_pixels": 0,
-  "media_index": 20918,
-  "media_width_pixels": 0,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.04309",
   "national_museum_norway_artwork_id": "NG.M.04309",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=123017.tif&size=full",
+    "height": 2875,
+    "index": 123017,
+    "photographer": "H\u00f8stland, B\u00f8rre",
+    "width": 4000
+  },
   "subjects": [
     "woodlands",
     "folklore"

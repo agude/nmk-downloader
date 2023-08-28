@@ -60,11 +60,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 1913,
-  "media_index": 99274,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0236",
   "national_museum_norway_artwork_id": "NG.K&H.1999.0236",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99274.tif&size=full",
+    "height": 1913,
+    "index": 99274,
+    "width": 3000
+  },
   "subjects": [
     "church"
   ],

@@ -53,11 +53,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 2220,
-  "media_index": 99207,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0260",
   "national_museum_norway_artwork_id": "NG.K&H.1999.0260",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99207.tif&size=full",
+    "height": 2220,
+    "index": 99207,
+    "width": 3000
+  },
   "subjects": [
     "moutain",
     "building"

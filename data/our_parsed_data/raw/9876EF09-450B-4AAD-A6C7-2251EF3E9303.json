@@ -17,11 +17,14 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 3000,
-  "media_index": 99211,
-  "media_width_pixels": 2245,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0256",
   "national_museum_norway_artwork_id": "NG.K&H.1999.0256",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99211.tif&size=full",
+    "height": 3000,
+    "index": 99211,
+    "width": 2245
+  },
   "subjects": [],
   "techniques": [
     "pencil"

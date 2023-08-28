@@ -17,11 +17,15 @@
       "width_unit": "mm"
     }
   },
-  "media_height_pixels": 2201,
-  "media_index": 94975,
-  "media_width_pixels": 3000,
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0259",
   "national_museum_norway_artwork_id": "NG.K&H.1999.0259",
+  "picture": {
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=94975.tif&size=full",
+    "height": 2201,
+    "index": 94975,
+    "photographer": "Bj\u00f8rgli, Annar",
+    "width": 3000
+  },
   "subjects": [],
   "techniques": [
     "pencil"
