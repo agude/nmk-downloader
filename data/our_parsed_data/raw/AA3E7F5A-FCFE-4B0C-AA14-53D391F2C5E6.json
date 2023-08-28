@@ -55,5 +55,2241 @@
     }
   },
   "to_date": "1898-01-01",
-  "uuid": "AA3E7F5A-FCFE-4B0C-AA14-53D391F2C5E6"
+  "uuid": "AA3E7F5A-FCFE-4B0C-AA14-53D391F2C5E6",
+  "zzz_raw_data": {
+    "artifact.defaultMediaIdentifier": "022wYWVgoXzx",
+    "artifact.defaultPictureDimension": "4000x2210",
+    "artifact.defaultPictureIndex": 117058,
+    "artifact.hasChildren": false,
+    "artifact.hasPictures": true,
+    "artifact.ingress.classification": [
+      "532"
+    ],
+    "artifact.ingress.producer": "Heyerdahl, Hans",
+    "artifact.ingress.producerRole": "Kunstner",
+    "artifact.ingress.production.fromYear": 1898,
+    "artifact.ingress.production.toYear": 1898,
+    "artifact.ingress.subjects": [],
+    "artifact.ingress.title": "Kunstnerviften [Maleri]",
+    "artifact.pictureCount": 1,
+    "artifact.publishedDate": "2011-10-17T22:00:00Z",
+    "artifact.type": "Fineart",
+    "artifact.uniqueId": "011041109337",
+    "artifact.updatedDate": "2019-02-05T05:16:52.197Z",
+    "artifact.uuid": "AA3E7F5A-FCFE-4B0C-AA14-53D391F2C5E6",
+    "digitaltmuseum_link": "https://digitaltmuseum.org/011041109337",
+    "identifier.id": "NG.M.04483",
+    "identifier.owner": "NMK-B",
+    "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.04483",
+    "uuid_json": {
+      "alternativeIdentifiers": [],
+      "artifactType": "Fineart",
+      "artifact_id": 1109337,
+      "classifications": [
+        {
+          "code": "532",
+          "description": "Bildende kunst",
+          "system": "OU"
+        }
+      ],
+      "commentCount": 0,
+      "coordinates": [],
+      "copies": [],
+      "createdDate": "20131213-223025-760037",
+      "dimuCode": "011041109337",
+      "dimu_code": "011041109337",
+      "eventWrap": {
+        "acquisition": "Kj\u00f8pt 2003",
+        "descriptiveDating": "(1898)",
+        "events": [
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 18123,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 18123,
+                      "name": "Heyerdahl, Hans Olaf Halvor"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "61.0917012, 14.666365300000052",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Sverige"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Dalarna"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "8A103917-F32A-4275-A6F3-2930151A60B2"
+                    },
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 69202602",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/69202602"
+                    }
+                  ]
+                },
+                "name": "Heyerdahl, Hans",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "E923B472-00DE-4A1E-91E3-FFD9EC587EFD"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 896,
+                "info": {
+                  "alternativeNames": [],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "18",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Nordland"
+                        },
+                        {
+                          "code": "1824",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Vefsn"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "4F93D6EE-E57D-4D26-A8FA-4309B3BE7B01"
+                    },
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 96182588",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/96182588"
+                    }
+                  ]
+                },
+                "name": "Holmboe, Thorolf",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "295B52B2-2652-4A85-82B3-5B8C31C2BE7C"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 18219,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 18219,
+                      "name": "Kolst\u00f8, Ole Frederik"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.41358100000001, 5.267986899999983",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "11",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Rogaland"
+                        },
+                        {
+                          "code": "1106",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Haugesund"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "441D5AC3-94ED-4254-BCC5-F787A7CAB91C"
+                    },
+                    {
+                      "coordinate": "63.4305149, 10.39505280000003",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "16",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "S\u00f8r-Tr\u00f8ndelag"
+                        },
+                        {
+                          "code": "1601",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Trondheim"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "CAAAF679-9825-4B37-AF61-167D824F58F3"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "Permalink",
+                      "reference": "ID: 119144898694550291144",
+                      "type": "VIAF",
+                      "url": "//viaf.org/viaf/119144898694550291144"
+                    }
+                  ]
+                },
+                "name": "Kolst\u00f8, Fredrik",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "844A0FDE-5EA6-4309-A28B-8A712003B743"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 18203,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 18203,
+                      "name": "Sinding, Otto Ludvig"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.66887759999999, 9.650189100000034",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "06",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Buskerud"
+                        },
+                        {
+                          "code": "0604",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Kongsberg"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "72ECB237-FCBD-4830-B507-CA4D4A9D33AF"
+                    },
+                    {
+                      "coordinate": "48.1366069, 11.577085099999976",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Tyskland"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "M\u00fcnchen"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "D83A4467-52C4-48BB-B7FA-E5A9E2285C83"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "Permalink",
+                      "reference": "ID: 57391201",
+                      "type": "VIAF",
+                      "url": "//viaf.org/viaf/57391201"
+                    }
+                  ]
+                },
+                "name": "Sinding, Otto",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "AC5C6018-B03C-4F15-AA7B-C380ACAB68DC"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 21340,
+                "info": {
+                  "alternativeNames": [],
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "02",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Akershus"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Fetsund"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "DB6A5E36-0A80-4311-9C19-B650400EAA86"
+                    },
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "Permalink",
+                      "reference": "ID: 226293865",
+                      "type": "VIAF",
+                      "url": "//viaf.org/viaf/226293865"
+                    }
+                  ]
+                },
+                "name": "L\u00e6rum, Gustav",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "ED429A60-A3F7-4A8E-B29A-06CA68D069D6"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 755,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 755,
+                      "name": "Munthe, Gerhard Peter Frantz Wilhelm"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "60.9550859, 11.746683899999993",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "04",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Hedmark"
+                        },
+                        {
+                          "code": "0427",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Elverum"
+                        },
+                        {
+                          "name": "Omr\u00e5depres",
+                          "number": 4,
+                          "sort": 5,
+                          "value": "Skanshagen"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "1B9B29FB-6F44-491B-BBE4-D13FFA3A6435"
+                    },
+                    {
+                      "coordinate": "59.92054499999999, 10.593764999999962",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "02",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Akershus"
+                        },
+                        {
+                          "code": "0219",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "B\u00e6rum"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "7771000B-6983-46F1-AA6E-0B343E92A566"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 9957971",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/9957971"
+                    }
+                  ]
+                },
+                "name": "Munthe, Gerhard",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "616306DF-AB34-480E-920F-BDCF78F20610"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 17720,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 17720,
+                      "name": "Gude, Hans Fredrik"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    },
+                    {
+                      "coordinate": "52.519171, 13.406091199999991",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Tyskland"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Berlin"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 74615628",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/74615628"
+                    }
+                  ]
+                },
+                "name": "Gude, Hans",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 18227,
+                "info": {
+                  "alternativeNames": [],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "60.39126279999999, 5.32205440000007",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "12",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Hordaland"
+                        },
+                        {
+                          "code": "1201",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Bergen"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "71B39547-F589-40D8-AEDF-375D7D7B31A5"
+                    },
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "Permalink",
+                      "reference": "ID: 181144782956576846256",
+                      "type": "VIAF",
+                      "url": "//viaf.org/viaf/181144782956576846256"
+                    }
+                  ]
+                },
+                "name": "Bratland, Jacob",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "69E0610E-DA88-4C9E-937F-90C27F57B495"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 18388,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 18388,
+                      "name": "Ender, Axel Hjalmar"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.8333345, 10.437208899999973",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "02",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Akershus"
+                        },
+                        {
+                          "code": "0220",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Asker"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "50C3D9EA-BFCB-4BFC-B597-A1CFED53098D"
+                    },
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "Permalink",
+                      "reference": "ID: 94001394",
+                      "type": "VIAF",
+                      "url": "//viaf.org/viaf/94001394"
+                    }
+                  ]
+                },
+                "name": "Ender, Axel",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "409D1619-B98C-4ACC-AC6D-C8BFD96FE942"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 18600,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 18600,
+                      "name": "N\u00f8rregaard, Asta Elisa Jakobine"
+                    }
+                  ],
+                  "gender": "Kvinne",
+                  "nationality": "Norge",
+                  "places": [],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 64895723",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/64895723"
+                    }
+                  ]
+                },
+                "name": "N\u00f8rregaard, Asta",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "77E8170E-5CEB-4BCC-9643-D92B8FB985D3"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 17795,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 17795,
+                      "name": "Peterssen, Hjalmar Eilif Emanuel"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    },
+                    {
+                      "coordinate": "59.9131287, 10.640498999999977",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "name": "Omr\u00e5depres",
+                          "number": 4,
+                          "sort": 5,
+                          "value": "Lysaker, B\u00e6rum"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "497D2173-90B4-430C-B0D1-8CD6D04EBEB3"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 64749933",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/64749933"
+                    }
+                  ]
+                },
+                "name": "Peterssen, Eilif",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "44DFEEB2-50E2-4C0D-914A-AF0A4648B166"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 18287,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 18287,
+                      "name": "Sinding, Elisabeth Augustine Charlotte"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "02",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Akershus"
+                        },
+                        {
+                          "code": "0236",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Nes A"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Romerike"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "375A7EC7-5716-495B-AA3F-F7AF39DF5F5B"
+                    },
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "Permalink",
+                      "reference": "ID: 7145970374732252948",
+                      "type": "VIAF",
+                      "url": "//viaf.org/viaf/7145970374732252948"
+                    }
+                  ]
+                },
+                "name": "Sinding, Elisabeth",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "1B3065DF-91B0-489A-A6CC-BE4EE68EEC4F"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 18200,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 18200,
+                      "name": "Uchermann, Karl Kristian"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Lofoten"
+                        },
+                        {
+                          "name": "Omr\u00e5depres",
+                          "number": 4,
+                          "sort": 5,
+                          "value": "Borge"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "F9F547BB-1162-4297-A2EE-97584E70C90F"
+                    },
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "Permalink",
+                      "reference": "ID: 96244379",
+                      "type": "VIAF",
+                      "url": "//viaf.org/viaf/96244379"
+                    }
+                  ]
+                },
+                "name": "Uchermann, Karl",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "9C6BBC42-4366-4A9E-B2DF-E9A5539A4395"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 17769,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 17769,
+                      "name": "Segelcke, Severin Vincent Heiberg"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    },
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "Permalink",
+                      "reference": "ID: 33145971399432331186",
+                      "type": "VIAF",
+                      "url": "//viaf.org/viaf/33145971399432331186"
+                    }
+                  ]
+                },
+                "name": "Segelcke, Severin",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "260679E2-0534-4807-BBE7-D281F774D2C9"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 18207,
+                "info": {
+                  "alternativeNames": [],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.997157, 9.97010309999996",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "06",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Buskerud"
+                        },
+                        {
+                          "code": "0623",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Modum"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "746BDD53-92E9-4D8C-A40C-5E1B63675817"
+                    },
+                    {
+                      "coordinate": "60.238224, 9.36076879999996",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "06",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Buskerud"
+                        },
+                        {
+                          "code": "0621",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Sigdal"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Eggedal"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "453DC75B-8D9E-46B9-8B34-63D3408EEEE5"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "Permalink",
+                      "reference": "ID: 7658509",
+                      "type": "VIAF",
+                      "url": "//viaf.org/viaf/7658509"
+                    }
+                  ]
+                },
+                "name": "Skredsvig, Christian",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "B22F6420-96D5-48B2-94C5-B6C4ABC6F8BA"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 18124,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 18124,
+                      "name": "Nielsen, Amaldus Clarin"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    },
+                    {
+                      "coordinate": "58.0276808, 7.4533303000000615",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "10",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Vest-Agder"
+                        },
+                        {
+                          "code": "1002",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Mandal"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "167DA402-E7CE-493C-8D45-128F2399B39D"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "Permalink",
+                      "reference": "ID: 70004847",
+                      "type": "VIAF",
+                      "url": "//viaf.org/viaf/70004847"
+                    }
+                  ]
+                },
+                "name": "Nielsen, Amaldus",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "6AB2845B-F57D-47D0-89F4-252789B0E291"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 18193,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 18193,
+                      "name": "Hansen, Carl Frederik (til 1889)"
+                    },
+                    {
+                      "description": "Fullt navn",
+                      "id": 18193,
+                      "name": "Sundt-Hansen, Carl Frederik"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "58.9699756, 5.733107300000029",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "11",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Rogaland"
+                        },
+                        {
+                          "code": "1103",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Stavanger"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "F078D436-3DE0-477E-A468-D4E1A91504FF"
+                    },
+                    {
+                      "coordinate": "58.9699756, 5.733107300000029",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "11",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Rogaland"
+                        },
+                        {
+                          "code": "1103",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Stavanger"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "F078D436-3DE0-477E-A468-D4E1A91504FF"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "Permalink",
+                      "reference": "ID: 74085495",
+                      "type": "VIAF",
+                      "url": "//viaf.org/viaf/74085495"
+                    }
+                  ]
+                },
+                "name": "Sundt-Hansen, Carl Fredrik",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "0267F100-2837-4A84-82B7-166C3DEA51A4"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18980101-133000-000",
+              "fromYear": 1898,
+              "toDate": "18980101-133000-000",
+              "toYear": 1898
+            }
+          }
+        ],
+        "placesOfProduction": [],
+        "producers": [
+          {
+            "id": 18123,
+            "info": {
+              "alternativeNames": [
+                {
+                  "description": "Fullt navn",
+                  "id": 18123,
+                  "name": "Heyerdahl, Hans Olaf Halvor"
+                }
+              ],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [
+                {
+                  "coordinate": "61.0917012, 14.666365300000052",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Sverige"
+                    },
+                    {
+                      "name": "Omr\u00e5de",
+                      "number": 3,
+                      "sort": 4,
+                      "value": "Dalarna"
+                    }
+                  ],
+                  "role": {
+                    "name": "F\u00f8dested, "
+                  },
+                  "uuid": "8A103917-F32A-4275-A6F3-2930151A60B2"
+                },
+                {
+                  "coordinate": "59.9138688, 10.752245399999992",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "03",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Oslo (fylke)"
+                    },
+                    {
+                      "code": "0301",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Oslo"
+                    }
+                  ],
+                  "role": {
+                    "name": "D\u00f8dssted, "
+                  },
+                  "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                }
+              ],
+              "professions": [],
+              "references": [
+                {
+                  "description": "permalink",
+                  "reference": "ID: 69202602",
+                  "type": "VIAF",
+                  "url": "http://viaf.org/viaf/69202602"
+                }
+              ]
+            },
+            "name": "Heyerdahl, Hans",
+            "publishLevel": "extended",
+            "role": {
+              "code": "10K",
+              "name": "Kunstner"
+            },
+            "type": "Person",
+            "uuid": "E923B472-00DE-4A1E-91E3-FFD9EC587EFD"
+          }
+        ],
+        "production": {
+          "eventType": "Produksjon",
+          "eventTypeClarification": "Produsert",
+          "relatedPersons": [
+            {
+              "id": 18123,
+              "info": {
+                "alternativeNames": [
+                  {
+                    "description": "Fullt navn",
+                    "id": 18123,
+                    "name": "Heyerdahl, Hans Olaf Halvor"
+                  }
+                ],
+                "gender": "Mann",
+                "nationality": "Norge",
+                "places": [
+                  {
+                    "coordinate": "61.0917012, 14.666365300000052",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Sverige"
+                      },
+                      {
+                        "name": "Omr\u00e5de",
+                        "number": 3,
+                        "sort": 4,
+                        "value": "Dalarna"
+                      }
+                    ],
+                    "role": {
+                      "name": "F\u00f8dested, "
+                    },
+                    "uuid": "8A103917-F32A-4275-A6F3-2930151A60B2"
+                  },
+                  {
+                    "coordinate": "59.9138688, 10.752245399999992",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Norge"
+                      },
+                      {
+                        "code": "03",
+                        "name": "Fylke",
+                        "number": 7,
+                        "sort": 2,
+                        "value": "Oslo (fylke)"
+                      },
+                      {
+                        "code": "0301",
+                        "name": "Kommune",
+                        "number": 2,
+                        "sort": 3,
+                        "value": "Oslo"
+                      }
+                    ],
+                    "role": {
+                      "name": "D\u00f8dssted, "
+                    },
+                    "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                  }
+                ],
+                "professions": [],
+                "references": [
+                  {
+                    "description": "permalink",
+                    "reference": "ID: 69202602",
+                    "type": "VIAF",
+                    "url": "http://viaf.org/viaf/69202602"
+                  }
+                ]
+              },
+              "name": "Heyerdahl, Hans",
+              "publishLevel": "extended",
+              "role": {
+                "code": "10K",
+                "name": "Kunstner"
+              },
+              "type": "Person",
+              "uuid": "E923B472-00DE-4A1E-91E3-FFD9EC587EFD"
+            }
+          ],
+          "relatedPlaces": [],
+          "sort": 6,
+          "timespan": {
+            "fromDate": "18980101-133000-000",
+            "fromYear": 1898,
+            "toDate": "18980101-133000-000",
+            "toYear": 1898
+          }
+        }
+      },
+      "exhibitions": [],
+      "identifier": {
+        "id": "NG.M.04483",
+        "owner": "NMK-B"
+      },
+      "indexLevel": null,
+      "inscriptions": [],
+      "level": {
+        "code": "9",
+        "name": "Enkeltverk"
+      },
+      "links": [],
+      "material": {
+        "comment": "Olje p\u00e5 treplate",
+        "materials": [
+          {
+            "material": "Tre",
+            "sort": 1
+          }
+        ]
+      },
+      "measureDescription": "45,2 x 83,8 x 3 cm",
+      "measures": [
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 45.2,
+          "sort": 1,
+          "spesification": "At highest point",
+          "type": "H\u00f8yde",
+          "unit": "cm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 83.8,
+          "sort": 2,
+          "spesification": "At widest point",
+          "type": "Bredde",
+          "unit": "cm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 3.0,
+          "sort": 3,
+          "spesification": "At deepest point (fan join)",
+          "type": "Dybde",
+          "unit": "cm"
+        },
+        {
+          "category": "Platem\u00e5l",
+          "measure": 48.5,
+          "sort": 4,
+          "spesification": "Hessian-covered board",
+          "type": "Bredde",
+          "unit": "cm"
+        },
+        {
+          "category": "Platem\u00e5l",
+          "measure": 0.5,
+          "sort": 5,
+          "spesification": "Hessian-covered board",
+          "type": "Dybde",
+          "unit": "cm"
+        },
+        {
+          "category": "Platem\u00e5l",
+          "measure": 86.9,
+          "sort": 6,
+          "spesification": "Hessian-covered board",
+          "type": "H\u00f8yde",
+          "unit": "cm"
+        },
+        {
+          "category": "Rammem\u00e5l",
+          "measure": 95.5,
+          "sort": 7,
+          "type": "Bredde",
+          "unit": "cm"
+        },
+        {
+          "category": "Rammem\u00e5l",
+          "measure": 3.7,
+          "sort": 8,
+          "type": "Dybde",
+          "unit": "cm"
+        },
+        {
+          "category": "Rammem\u00e5l",
+          "measure": 57.0,
+          "sort": 9,
+          "type": "H\u00f8yde",
+          "unit": "cm"
+        }
+      ],
+      "media": {
+        "mediaFiles": [],
+        "movies": [],
+        "pictures": [
+          {
+            "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=117058.tif&size=full",
+            "height": 2210,
+            "index": 117058,
+            "width": 4000
+          }
+        ]
+      },
+      "motif": {
+        "classifications": [],
+        "depictedObjects": [],
+        "depictedPersons": [
+          {
+            "id": 22314,
+            "info": {
+              "alternativeNames": [],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [],
+              "professions": []
+            },
+            "name": "Astrup, Eivind",
+            "publishLevel": "extended",
+            "role": {
+              "code": "70",
+              "name": "Avbildet person "
+            },
+            "type": "Person",
+            "uuid": "0A744FF7-3722-4A21-9E62-682CFF5ED8DD"
+          },
+          {
+            "id": 19201,
+            "info": {
+              "alternativeNames": [
+                {
+                  "description": "i protokoll",
+                  "id": 19201,
+                  "name": "A. Heiberg"
+                }
+              ],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [
+                {
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "03",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Oslo (fylke)"
+                    },
+                    {
+                      "code": "0301",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Oslo"
+                    },
+                    {
+                      "name": "Omr\u00e5de",
+                      "number": 3,
+                      "sort": 4,
+                      "value": "Oslo"
+                    }
+                  ],
+                  "role": {
+                    "name": "F\u00f8dested, "
+                  },
+                  "uuid": "71565FB1-3526-42D3-B910-1A97AFE11313"
+                },
+                {
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "03",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Oslo (fylke)"
+                    },
+                    {
+                      "code": "0301",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Oslo"
+                    },
+                    {
+                      "name": "Omr\u00e5de",
+                      "number": 3,
+                      "sort": 4,
+                      "value": "Oslo"
+                    }
+                  ],
+                  "role": {
+                    "name": "D\u00f8dssted, "
+                  },
+                  "uuid": "71565FB1-3526-42D3-B910-1A97AFE11313"
+                }
+              ],
+              "professions": [],
+              "references": []
+            },
+            "name": "Heiberg, Axel",
+            "publishLevel": "extended",
+            "role": {
+              "code": "70",
+              "name": "Avbildet person "
+            },
+            "type": "Person",
+            "uuid": "66A785C0-2402-40AD-A560-DAB77803D73F"
+          },
+          {
+            "id": 22313,
+            "info": {
+              "alternativeNames": [],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [],
+              "professions": []
+            },
+            "name": "Johansen, Hjalmar",
+            "publishLevel": "extended",
+            "role": {
+              "code": "70",
+              "name": "Avbildet person "
+            },
+            "type": "Person",
+            "uuid": "CE86AEF5-90D2-47C0-B14A-CE1BED74CA63"
+          },
+          {
+            "id": 22315,
+            "info": {
+              "alternativeNames": [],
+              "places": [],
+              "professions": []
+            },
+            "name": "Nansen, Fridtjof",
+            "publishLevel": "extended",
+            "role": {
+              "code": "70",
+              "name": "Avbildet person "
+            },
+            "type": "Person",
+            "uuid": "2737D99B-B8CE-4A10-8AE4-29B004A0939F"
+          }
+        ],
+        "motifTypes": [
+          "Landskap",
+          "Portrett"
+        ],
+        "titles": []
+      },
+      "names": [
+        {
+          "name": "Maleri",
+          "nameType": "name",
+          "uuid": "F147B1FA-9CE3-43E7-909B-B24579740047"
+        }
+      ],
+      "ownerIdentifiers": [],
+      "partOfCollection": {
+        "id": 7,
+        "name": "NMK billedkunst [eldre og moderne]",
+        "owner": {
+          "id": 1,
+          "identifier": "NMK",
+          "name": "Nasjonalmuseet for kunst, arkitektur og design"
+        },
+        "ownerId": "NMK",
+        "uuid": "70893D84-C63C-4F5F-A4B1-491DCFC7B386"
+      },
+      "partOfFolderUuids": [],
+      "publishLevel": "limited",
+      "publishStatus": "published",
+      "publishedDate": "20111017-220000-000",
+      "rateCount": 0,
+      "references": [],
+      "sourceId": "101590",
+      "styleWrap": {},
+      "subjects": [
+        {
+          "name": "Bildende kunst",
+          "nameType": "subject",
+          "uuid": "BE0D8624-1B19-45ED-A0EF-71E05220406A"
+        }
+      ],
+      "tags": [],
+      "technique": {
+        "techniques": [
+          {
+            "sort": 1,
+            "technique": "Olje"
+          }
+        ]
+      },
+      "titles": [
+        {
+          "language": "NOR",
+          "status": "anvendt",
+          "title": "Kunstnerviften"
+        }
+      ],
+      "trademarks": [],
+      "uniqueId": "011041109337",
+      "unique_id": "011041109337",
+      "updatedDate": "20190205-051652-197396",
+      "uuid": "AA3E7F5A-FCFE-4B0C-AA14-53D391F2C5E6"
+    },
+    "uuid_link": "https://api.dimu.org/artifact/uuid/AA3E7F5A-FCFE-4B0C-AA14-53D391F2C5E6"
+  }
 }

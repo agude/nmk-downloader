@@ -69,5 +69,996 @@
     }
   },
   "to_date": "1854-01-01",
-  "uuid": "10311F4F-A562-405E-AD0A-30ADA2336E94"
+  "uuid": "10311F4F-A562-405E-AD0A-30ADA2336E94",
+  "zzz_raw_data": {
+    "artifact.defaultMediaIdentifier": "0371Gy9kb",
+    "artifact.defaultPictureDimension": "3000x2279",
+    "artifact.defaultPictureIndex": 63706,
+    "artifact.hasChildren": false,
+    "artifact.hasPictures": true,
+    "artifact.ingress.classification": [
+      "532"
+    ],
+    "artifact.ingress.producer": "Ukjent litograf",
+    "artifact.ingress.producerRole": "Kunstner",
+    "artifact.ingress.production.fromYear": 1853,
+    "artifact.ingress.production.toYear": 1854,
+    "artifact.ingress.subjects": [],
+    "artifact.ingress.title": "En brudeferd til vanns [Opplagstrykk]",
+    "artifact.pictureCount": 1,
+    "artifact.publishedDate": "2013-01-11T06:15:14.583Z",
+    "artifact.type": "Fineart",
+    "artifact.uniqueId": "011041474618",
+    "artifact.updatedDate": "2017-03-07T15:32:30.432Z",
+    "artifact.uuid": "10311F4F-A562-405E-AD0A-30ADA2336E94",
+    "digitaltmuseum_link": "https://digitaltmuseum.org/011041474618",
+    "identifier.id": "NMK.2005.0373",
+    "identifier.owner": "NMK-B",
+    "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NMK.2005.0373",
+    "uuid_json": {
+      "alternativeIdentifiers": [],
+      "artifactType": "Fineart",
+      "artifact_id": 1474618,
+      "classifications": [
+        {
+          "code": "532",
+          "description": "Bildende kunst",
+          "system": "OU"
+        }
+      ],
+      "commentCount": 0,
+      "coordinates": [],
+      "copies": [],
+      "createdDate": "20131214-003516-120272",
+      "dimuCode": "011041474618",
+      "dimu_code": "011041474618",
+      "eventWrap": {
+        "acquisition": "Kj\u00f8pt 2005",
+        "descriptiveDating": "Utgitt 1854",
+        "events": [
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Utgitt",
+            "relatedPersons": [
+              {
+                "id": 20477,
+                "info": {
+                  "alternativeNames": [],
+                  "places": [],
+                  "professions": []
+                },
+                "name": "T\u00f8nsberg, Nils Christian",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "16",
+                  "name": "Utgiver/forlegger"
+                },
+                "type": "Person",
+                "uuid": "D2EB0BC9-8761-4FB1-BC90-328E5664F790"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18540101-133000-000",
+              "fromYear": 1854,
+              "toDate": "18540101-133000-000",
+              "toYear": 1854
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 28439,
+                "name": "Ukjent litograf",
+                "publishLevel": "normal",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner",
+                  "status": "tilskrevet"
+                },
+                "type": "Person",
+                "uuid": "3301C0F8-DB76-4FDA-8CCF-F1EFFF0AB376"
+              },
+              {
+                "id": 22755,
+                "info": {
+                  "alternativeNames": [],
+                  "nationality": "Tyskland",
+                  "places": [
+                    {
+                      "coordinate": "51.2277411, 6.773455600000034",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Tyskland"
+                        },
+                        {
+                          "name": "Omr\u00e5depres",
+                          "number": 4,
+                          "sort": 5,
+                          "value": "D\u00fcsseldorf"
+                        }
+                      ],
+                      "role": {
+                        "name": "Tilholdssted, "
+                      },
+                      "uuid": "6AE755DB-1E6D-460E-A315-0DA558C3A331"
+                    }
+                  ],
+                  "professions": []
+                },
+                "name": "Arnz & Co.",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "15",
+                  "name": "St\u00f8per, trykker e.l. ved mangfoldiggj\u00f8ring"
+                },
+                "type": "Institusjon",
+                "uuid": "C2C2E21B-B158-47DB-81E0-36DE9E0DB5B9"
+              },
+              {
+                "id": 17720,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 17720,
+                      "name": "Gude, Hans Fredrik"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    },
+                    {
+                      "coordinate": "52.519171, 13.406091199999991",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Tyskland"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Berlin"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 74615628",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/74615628"
+                    }
+                  ]
+                },
+                "name": "Gude, Hans",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "14",
+                  "name": "Kunstner for m\u00f8nster/kartong e.l."
+                },
+                "type": "Person",
+                "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+              },
+              {
+                "id": 17592,
+                "info": {
+                  "alternativeNames": [],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "58.0276808, 7.4533303000000615",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "10",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Vest-Agder"
+                        },
+                        {
+                          "code": "1002",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Mandal"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "167DA402-E7CE-493C-8D45-128F2399B39D"
+                    },
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 4986647",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/4986647"
+                    }
+                  ]
+                },
+                "name": "Tidemand, Adolph",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "14",
+                  "name": "Kunstner for m\u00f8nster/kartong e.l."
+                },
+                "type": "Person",
+                "uuid": "2510E079-AB33-49F8-B2F2-3BF2F3F733E8"
+              }
+            ],
+            "relatedPlaces": [
+              {
+                "coordinate": "51.2277411, 6.773455600000034",
+                "fields": [
+                  {
+                    "name": "Land",
+                    "number": 1,
+                    "placeType": "country",
+                    "sort": 1,
+                    "value": "Tyskland"
+                  },
+                  {
+                    "name": "Omr\u00e5depres",
+                    "number": 4,
+                    "sort": 5,
+                    "value": "D\u00fcsseldorf"
+                  }
+                ],
+                "role": {
+                  "code": "10",
+                  "name": "Produksjonssted"
+                },
+                "uuid": "6AE755DB-1E6D-460E-A315-0DA558C3A331"
+              }
+            ],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18530101-133000-000",
+              "fromYear": 1853,
+              "toDate": "18540101-133000-000",
+              "toYear": 1854
+            }
+          }
+        ],
+        "placesOfProduction": [],
+        "producers": [
+          {
+            "id": 28439,
+            "name": "Ukjent litograf",
+            "publishLevel": "normal",
+            "role": {
+              "code": "10K",
+              "name": "Kunstner",
+              "status": "tilskrevet"
+            },
+            "type": "Person",
+            "uuid": "3301C0F8-DB76-4FDA-8CCF-F1EFFF0AB376"
+          },
+          {
+            "id": 22755,
+            "info": {
+              "alternativeNames": [],
+              "nationality": "Tyskland",
+              "places": [
+                {
+                  "coordinate": "51.2277411, 6.773455600000034",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Tyskland"
+                    },
+                    {
+                      "name": "Omr\u00e5depres",
+                      "number": 4,
+                      "sort": 5,
+                      "value": "D\u00fcsseldorf"
+                    }
+                  ],
+                  "role": {
+                    "name": "Tilholdssted, "
+                  },
+                  "uuid": "6AE755DB-1E6D-460E-A315-0DA558C3A331"
+                }
+              ],
+              "professions": []
+            },
+            "name": "Arnz & Co.",
+            "publishLevel": "extended",
+            "role": {
+              "code": "15",
+              "name": "St\u00f8per, trykker e.l. ved mangfoldiggj\u00f8ring"
+            },
+            "type": "Institusjon",
+            "uuid": "C2C2E21B-B158-47DB-81E0-36DE9E0DB5B9"
+          },
+          {
+            "id": 17720,
+            "info": {
+              "alternativeNames": [
+                {
+                  "description": "Fullt navn",
+                  "id": 17720,
+                  "name": "Gude, Hans Fredrik"
+                }
+              ],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [
+                {
+                  "coordinate": "59.9138688, 10.752245399999992",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "03",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Oslo (fylke)"
+                    },
+                    {
+                      "code": "0301",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Oslo"
+                    }
+                  ],
+                  "role": {
+                    "name": "F\u00f8dested, "
+                  },
+                  "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                },
+                {
+                  "coordinate": "52.519171, 13.406091199999991",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Tyskland"
+                    },
+                    {
+                      "name": "Omr\u00e5de",
+                      "number": 3,
+                      "sort": 4,
+                      "value": "Berlin"
+                    }
+                  ],
+                  "role": {
+                    "name": "D\u00f8dssted, "
+                  },
+                  "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                }
+              ],
+              "professions": [],
+              "references": [
+                {
+                  "description": "permalink",
+                  "reference": "ID: 74615628",
+                  "type": "VIAF",
+                  "url": "http://viaf.org/viaf/74615628"
+                }
+              ]
+            },
+            "name": "Gude, Hans",
+            "publishLevel": "extended",
+            "role": {
+              "code": "14",
+              "name": "Kunstner for m\u00f8nster/kartong e.l."
+            },
+            "type": "Person",
+            "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+          },
+          {
+            "id": 17592,
+            "info": {
+              "alternativeNames": [],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [
+                {
+                  "coordinate": "58.0276808, 7.4533303000000615",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "10",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Vest-Agder"
+                    },
+                    {
+                      "code": "1002",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Mandal"
+                    }
+                  ],
+                  "role": {
+                    "name": "F\u00f8dested, "
+                  },
+                  "uuid": "167DA402-E7CE-493C-8D45-128F2399B39D"
+                },
+                {
+                  "coordinate": "59.9138688, 10.752245399999992",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "03",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Oslo (fylke)"
+                    },
+                    {
+                      "code": "0301",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Oslo"
+                    }
+                  ],
+                  "role": {
+                    "name": "D\u00f8dssted, "
+                  },
+                  "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                }
+              ],
+              "professions": [],
+              "references": [
+                {
+                  "description": "permalink",
+                  "reference": "ID: 4986647",
+                  "type": "VIAF",
+                  "url": "http://viaf.org/viaf/4986647"
+                }
+              ]
+            },
+            "name": "Tidemand, Adolph",
+            "publishLevel": "extended",
+            "role": {
+              "code": "14",
+              "name": "Kunstner for m\u00f8nster/kartong e.l."
+            },
+            "type": "Person",
+            "uuid": "2510E079-AB33-49F8-B2F2-3BF2F3F733E8"
+          }
+        ],
+        "production": {
+          "eventType": "Produksjon",
+          "eventTypeClarification": "Produsert",
+          "relatedPersons": [
+            {
+              "id": 28439,
+              "name": "Ukjent litograf",
+              "publishLevel": "normal",
+              "role": {
+                "code": "10K",
+                "name": "Kunstner",
+                "status": "tilskrevet"
+              },
+              "type": "Person",
+              "uuid": "3301C0F8-DB76-4FDA-8CCF-F1EFFF0AB376"
+            },
+            {
+              "id": 22755,
+              "info": {
+                "alternativeNames": [],
+                "nationality": "Tyskland",
+                "places": [
+                  {
+                    "coordinate": "51.2277411, 6.773455600000034",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Tyskland"
+                      },
+                      {
+                        "name": "Omr\u00e5depres",
+                        "number": 4,
+                        "sort": 5,
+                        "value": "D\u00fcsseldorf"
+                      }
+                    ],
+                    "role": {
+                      "name": "Tilholdssted, "
+                    },
+                    "uuid": "6AE755DB-1E6D-460E-A315-0DA558C3A331"
+                  }
+                ],
+                "professions": []
+              },
+              "name": "Arnz & Co.",
+              "publishLevel": "extended",
+              "role": {
+                "code": "15",
+                "name": "St\u00f8per, trykker e.l. ved mangfoldiggj\u00f8ring"
+              },
+              "type": "Institusjon",
+              "uuid": "C2C2E21B-B158-47DB-81E0-36DE9E0DB5B9"
+            },
+            {
+              "id": 17720,
+              "info": {
+                "alternativeNames": [
+                  {
+                    "description": "Fullt navn",
+                    "id": 17720,
+                    "name": "Gude, Hans Fredrik"
+                  }
+                ],
+                "gender": "Mann",
+                "nationality": "Norge",
+                "places": [
+                  {
+                    "coordinate": "59.9138688, 10.752245399999992",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Norge"
+                      },
+                      {
+                        "code": "03",
+                        "name": "Fylke",
+                        "number": 7,
+                        "sort": 2,
+                        "value": "Oslo (fylke)"
+                      },
+                      {
+                        "code": "0301",
+                        "name": "Kommune",
+                        "number": 2,
+                        "sort": 3,
+                        "value": "Oslo"
+                      }
+                    ],
+                    "role": {
+                      "name": "F\u00f8dested, "
+                    },
+                    "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                  },
+                  {
+                    "coordinate": "52.519171, 13.406091199999991",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Tyskland"
+                      },
+                      {
+                        "name": "Omr\u00e5de",
+                        "number": 3,
+                        "sort": 4,
+                        "value": "Berlin"
+                      }
+                    ],
+                    "role": {
+                      "name": "D\u00f8dssted, "
+                    },
+                    "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                  }
+                ],
+                "professions": [],
+                "references": [
+                  {
+                    "description": "permalink",
+                    "reference": "ID: 74615628",
+                    "type": "VIAF",
+                    "url": "http://viaf.org/viaf/74615628"
+                  }
+                ]
+              },
+              "name": "Gude, Hans",
+              "publishLevel": "extended",
+              "role": {
+                "code": "14",
+                "name": "Kunstner for m\u00f8nster/kartong e.l."
+              },
+              "type": "Person",
+              "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+            },
+            {
+              "id": 17592,
+              "info": {
+                "alternativeNames": [],
+                "gender": "Mann",
+                "nationality": "Norge",
+                "places": [
+                  {
+                    "coordinate": "58.0276808, 7.4533303000000615",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Norge"
+                      },
+                      {
+                        "code": "10",
+                        "name": "Fylke",
+                        "number": 7,
+                        "sort": 2,
+                        "value": "Vest-Agder"
+                      },
+                      {
+                        "code": "1002",
+                        "name": "Kommune",
+                        "number": 2,
+                        "sort": 3,
+                        "value": "Mandal"
+                      }
+                    ],
+                    "role": {
+                      "name": "F\u00f8dested, "
+                    },
+                    "uuid": "167DA402-E7CE-493C-8D45-128F2399B39D"
+                  },
+                  {
+                    "coordinate": "59.9138688, 10.752245399999992",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Norge"
+                      },
+                      {
+                        "code": "03",
+                        "name": "Fylke",
+                        "number": 7,
+                        "sort": 2,
+                        "value": "Oslo (fylke)"
+                      },
+                      {
+                        "code": "0301",
+                        "name": "Kommune",
+                        "number": 2,
+                        "sort": 3,
+                        "value": "Oslo"
+                      }
+                    ],
+                    "role": {
+                      "name": "D\u00f8dssted, "
+                    },
+                    "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                  }
+                ],
+                "professions": [],
+                "references": [
+                  {
+                    "description": "permalink",
+                    "reference": "ID: 4986647",
+                    "type": "VIAF",
+                    "url": "http://viaf.org/viaf/4986647"
+                  }
+                ]
+              },
+              "name": "Tidemand, Adolph",
+              "publishLevel": "extended",
+              "role": {
+                "code": "14",
+                "name": "Kunstner for m\u00f8nster/kartong e.l."
+              },
+              "type": "Person",
+              "uuid": "2510E079-AB33-49F8-B2F2-3BF2F3F733E8"
+            }
+          ],
+          "relatedPlaces": [
+            {
+              "coordinate": "51.2277411, 6.773455600000034",
+              "fields": [
+                {
+                  "name": "Land",
+                  "number": 1,
+                  "placeType": "country",
+                  "sort": 1,
+                  "value": "Tyskland"
+                },
+                {
+                  "name": "Omr\u00e5depres",
+                  "number": 4,
+                  "sort": 5,
+                  "value": "D\u00fcsseldorf"
+                }
+              ],
+              "role": {
+                "code": "10",
+                "name": "Produksjonssted"
+              },
+              "uuid": "6AE755DB-1E6D-460E-A315-0DA558C3A331"
+            }
+          ],
+          "sort": 6,
+          "timespan": {
+            "fromDate": "18530101-133000-000",
+            "fromYear": 1853,
+            "toDate": "18540101-133000-000",
+            "toYear": 1854
+          }
+        }
+      },
+      "exhibitions": [],
+      "identifier": {
+        "id": "NMK.2005.0373",
+        "owner": "NMK-B"
+      },
+      "indexLevel": null,
+      "inscriptions": [],
+      "level": {
+        "code": "9",
+        "name": "Enkeltverk"
+      },
+      "links": [],
+      "material": {
+        "comment": "Fargelitografi p\u00e5 papir",
+        "materials": [
+          {
+            "material": "Papir",
+            "sort": 1
+          }
+        ]
+      },
+      "measureDescription": "275 x 403 mm",
+      "measures": [
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 275.0,
+          "sort": 1,
+          "type": "H\u00f8yde",
+          "unit": "mm"
+        },
+        {
+          "category": "Arkets m\u00e5l",
+          "measure": 533.0,
+          "sort": 2,
+          "type": "Bredde",
+          "unit": "mm"
+        },
+        {
+          "category": "Arkets m\u00e5l",
+          "measure": 402.0,
+          "sort": 3,
+          "type": "H\u00f8yde",
+          "unit": "mm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 403.0,
+          "sort": 4,
+          "type": "Bredde",
+          "unit": "mm"
+        }
+      ],
+      "media": {
+        "mediaFiles": [],
+        "movies": [],
+        "pictures": [
+          {
+            "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=63706.tif&size=full",
+            "height": 2279,
+            "index": 63706,
+            "width": 3000
+          }
+        ]
+      },
+      "motif": {
+        "classifications": [],
+        "depictedObjects": [],
+        "titles": []
+      },
+      "names": [
+        {
+          "name": "Grafikk",
+          "nameType": "name",
+          "uuid": "0B5F3E81-510D-4921-A7C7-6A3166823922"
+        },
+        {
+          "name": "Opplagstrykk",
+          "nameType": "preciseName"
+        }
+      ],
+      "ownerIdentifiers": [],
+      "partOfCollection": {
+        "id": 9,
+        "name": "NMK billedkunst [grafikk og tegning]",
+        "owner": {
+          "id": 1,
+          "identifier": "NMK",
+          "name": "Nasjonalmuseet for kunst, arkitektur og design"
+        },
+        "ownerId": "NMK",
+        "uuid": "F9340412-EFB5-451A-AC05-7110D9FF3497"
+      },
+      "partOfFolderUuids": [],
+      "publishLevel": "limited",
+      "publishStatus": "published",
+      "publishedDate": "20130111-061514-583000",
+      "rateCount": 0,
+      "references": [],
+      "relatedObjects": [
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.M.00467",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Fineart",
+          "description": "\"Studien av kirken p\u00e5 Kvams\u00f8y ble benyttet i versjonen av Brudeferden fra 1853.\" Utst.ktlg T &G 2003",
+          "identifier": {
+            "id": "NG.M.00636-002",
+            "owner": "NMK-B"
+          },
+          "relation": "Utf\u00f8rt pa grunnlag av",
+          "relationId": 5
+        }
+      ],
+      "sourceId": "101461",
+      "styleWrap": {},
+      "subjects": [
+        {
+          "name": "Bildende kunst",
+          "nameType": "subject",
+          "uuid": "BE0D8624-1B19-45ED-A0EF-71E05220406A"
+        }
+      ],
+      "tags": [],
+      "technique": {
+        "techniques": [
+          {
+            "sort": 1,
+            "technique": "Fargelitografi"
+          }
+        ]
+      },
+      "titles": [
+        {
+          "language": "NOR",
+          "status": "anvendt",
+          "title": "En brudeferd til vanns"
+        },
+        {
+          "language": "NOR",
+          "status": "original",
+          "title": "En Brudef\u00e6rd til Vands"
+        },
+        {
+          "language": "ENG",
+          "status": "anvendt",
+          "title": "A Bridal Party on the Fjord"
+        },
+        {
+          "language": "ENG",
+          "status": "original",
+          "title": "A Bridal party on the Fjord"
+        },
+        {
+          "language": "DEU",
+          "status": "original",
+          "title": "Ein Hochzeitszug zu Wasser"
+        },
+        {
+          "language": "FRA",
+          "status": "original",
+          "title": "Une noce sur le fiord"
+        }
+      ],
+      "trademarks": [],
+      "uniqueId": "011041474618",
+      "unique_id": "011041474618",
+      "updatedDate": "20170307-153230-432867",
+      "uuid": "10311F4F-A562-405E-AD0A-30ADA2336E94"
+    },
+    "uuid_link": "https://api.dimu.org/artifact/uuid/10311F4F-A562-405E-AD0A-30ADA2336E94"
+  }
 }

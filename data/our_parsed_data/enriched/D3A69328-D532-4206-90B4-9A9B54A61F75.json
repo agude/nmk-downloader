@@ -74,5 +74,501 @@
     }
   },
   "to_date": "1845-08-04",
-  "uuid": "D3A69328-D532-4206-90B4-9A9B54A61F75"
+  "uuid": "D3A69328-D532-4206-90B4-9A9B54A61F75",
+  "zzz_raw_data": {
+    "artifact.defaultMediaIdentifier": "017187a8Y",
+    "artifact.defaultPictureIndex": 16601,
+    "artifact.hasChildren": false,
+    "artifact.hasPictures": true,
+    "artifact.ingress.classification": [
+      "532"
+    ],
+    "artifact.ingress.producer": "Gude, Hans",
+    "artifact.ingress.producerRole": "Kunstner",
+    "artifact.ingress.production.fromYear": 1845,
+    "artifact.ingress.production.toYear": 1845,
+    "artifact.ingress.subjects": [],
+    "artifact.ingress.title": "Fra Lunden ved Balestrand [Tegning]",
+    "artifact.pictureCount": 2,
+    "artifact.publishedDate": "2013-01-22T06:05:35.216Z",
+    "artifact.type": "Fineart",
+    "artifact.uniqueId": "011042351311",
+    "artifact.updatedDate": "2019-01-27T05:29:04.833Z",
+    "artifact.uuid": "D3A69328-D532-4206-90B4-9A9B54A61F75",
+    "digitaltmuseum_link": "https://digitaltmuseum.org/011042351311",
+    "identifier.id": "NG.K&H.1999.0278",
+    "identifier.owner": "NMK-B",
+    "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0278",
+    "uuid_json": {
+      "alternativeIdentifiers": [],
+      "artifactType": "Fineart",
+      "artifact_id": 2351311,
+      "classifications": [
+        {
+          "code": "532",
+          "description": "Bildende kunst",
+          "system": "OU"
+        }
+      ],
+      "commentCount": 0,
+      "coordinates": [],
+      "copies": [],
+      "createdDate": "20131214-061811-806712",
+      "dimuCode": "011042351311",
+      "dimu_code": "011042351311",
+      "eventWrap": {
+        "acquisition": "Gave fra Galleri Gude ved Claus Gude 1999",
+        "descriptiveDating": "4. august (1845)\r\n",
+        "events": [
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 17720,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 17720,
+                      "name": "Gude, Hans Fredrik"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    },
+                    {
+                      "coordinate": "52.519171, 13.406091199999991",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Tyskland"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Berlin"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 74615628",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/74615628"
+                    }
+                  ]
+                },
+                "name": "Gude, Hans",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18450804-153000-000",
+              "fromYear": 1845,
+              "toDate": "18450804-153000-000",
+              "toYear": 1845
+            }
+          }
+        ],
+        "placesOfProduction": [],
+        "producers": [
+          {
+            "id": 17720,
+            "info": {
+              "alternativeNames": [
+                {
+                  "description": "Fullt navn",
+                  "id": 17720,
+                  "name": "Gude, Hans Fredrik"
+                }
+              ],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [
+                {
+                  "coordinate": "59.9138688, 10.752245399999992",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "03",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Oslo (fylke)"
+                    },
+                    {
+                      "code": "0301",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Oslo"
+                    }
+                  ],
+                  "role": {
+                    "name": "F\u00f8dested, "
+                  },
+                  "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                },
+                {
+                  "coordinate": "52.519171, 13.406091199999991",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Tyskland"
+                    },
+                    {
+                      "name": "Omr\u00e5de",
+                      "number": 3,
+                      "sort": 4,
+                      "value": "Berlin"
+                    }
+                  ],
+                  "role": {
+                    "name": "D\u00f8dssted, "
+                  },
+                  "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                }
+              ],
+              "professions": [],
+              "references": [
+                {
+                  "description": "permalink",
+                  "reference": "ID: 74615628",
+                  "type": "VIAF",
+                  "url": "http://viaf.org/viaf/74615628"
+                }
+              ]
+            },
+            "name": "Gude, Hans",
+            "publishLevel": "extended",
+            "role": {
+              "code": "10K",
+              "name": "Kunstner"
+            },
+            "type": "Person",
+            "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+          }
+        ],
+        "production": {
+          "eventType": "Produksjon",
+          "eventTypeClarification": "Produsert",
+          "relatedPersons": [
+            {
+              "id": 17720,
+              "info": {
+                "alternativeNames": [
+                  {
+                    "description": "Fullt navn",
+                    "id": 17720,
+                    "name": "Gude, Hans Fredrik"
+                  }
+                ],
+                "gender": "Mann",
+                "nationality": "Norge",
+                "places": [
+                  {
+                    "coordinate": "59.9138688, 10.752245399999992",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Norge"
+                      },
+                      {
+                        "code": "03",
+                        "name": "Fylke",
+                        "number": 7,
+                        "sort": 2,
+                        "value": "Oslo (fylke)"
+                      },
+                      {
+                        "code": "0301",
+                        "name": "Kommune",
+                        "number": 2,
+                        "sort": 3,
+                        "value": "Oslo"
+                      }
+                    ],
+                    "role": {
+                      "name": "F\u00f8dested, "
+                    },
+                    "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                  },
+                  {
+                    "coordinate": "52.519171, 13.406091199999991",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Tyskland"
+                      },
+                      {
+                        "name": "Omr\u00e5de",
+                        "number": 3,
+                        "sort": 4,
+                        "value": "Berlin"
+                      }
+                    ],
+                    "role": {
+                      "name": "D\u00f8dssted, "
+                    },
+                    "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                  }
+                ],
+                "professions": [],
+                "references": [
+                  {
+                    "description": "permalink",
+                    "reference": "ID: 74615628",
+                    "type": "VIAF",
+                    "url": "http://viaf.org/viaf/74615628"
+                  }
+                ]
+              },
+              "name": "Gude, Hans",
+              "publishLevel": "extended",
+              "role": {
+                "code": "10K",
+                "name": "Kunstner"
+              },
+              "type": "Person",
+              "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+            }
+          ],
+          "relatedPlaces": [],
+          "sort": 6,
+          "timespan": {
+            "fromDate": "18450804-153000-000",
+            "fromYear": 1845,
+            "toDate": "18450804-153000-000",
+            "toYear": 1845
+          }
+        }
+      },
+      "exhibitions": [],
+      "identifier": {
+        "id": "NG.K&H.1999.0278",
+        "owner": "NMK-B"
+      },
+      "indexLevel": null,
+      "inscriptions": [],
+      "level": {
+        "code": "9",
+        "name": "Enkeltverk"
+      },
+      "links": [],
+      "material": {
+        "comment": "Blyant og lavering p\u00e5 papir",
+        "materials": [
+          {
+            "material": "Papir",
+            "sort": 1
+          }
+        ]
+      },
+      "measureDescription": "126 x 173 mm",
+      "measures": [
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 126.0,
+          "sort": 1,
+          "type": "H\u00f8yde",
+          "unit": "mm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 173.0,
+          "sort": 2,
+          "type": "Bredde",
+          "unit": "mm"
+        }
+      ],
+      "media": {
+        "mediaFiles": [],
+        "movies": [],
+        "pictures": [
+          {
+            "code": "0",
+            "height": 0,
+            "identifier": "017187a8Y",
+            "index": 16601,
+            "licenses": [],
+            "width": 0
+          },
+          {
+            "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=94957.tif&size=full",
+            "height": 2204,
+            "index": 94957,
+            "photographer": "Bj\u00f8rgli, Annar",
+            "width": 3000
+          }
+        ]
+      },
+      "motif": {
+        "classifications": [],
+        "depictedObjects": [],
+        "depictedPlaces": [
+          {
+            "coordinate": "61.16464, 6.935661999999979",
+            "fields": [
+              {
+                "name": "Land",
+                "number": 1,
+                "placeType": "country",
+                "sort": 1,
+                "value": "Norge"
+              },
+              {
+                "code": "1420",
+                "name": "Kommune",
+                "number": 2,
+                "placeType": "municipality",
+                "sort": 3,
+                "value": "Sogndal SF"
+              },
+              {
+                "name": "Omr\u00e5de",
+                "number": 3,
+                "sort": 4,
+                "value": "Lunden"
+              },
+              {
+                "name": "Adresse",
+                "number": 5,
+                "sort": 6,
+                "value": "6859 Sogndal"
+              }
+            ],
+            "role": {
+              "code": "70",
+              "name": "Avbildet sted ",
+              "status": "antatt"
+            },
+            "uuid": "3512FAB8-327A-4929-928A-F1E360F1659E"
+          }
+        ],
+        "motifTypes": [
+          "Landskap"
+        ],
+        "titles": []
+      },
+      "names": [
+        {
+          "name": "Tegning",
+          "nameType": "name",
+          "uuid": "47BAE950-F5F8-4B5A-8E54-BD280205EE81"
+        }
+      ],
+      "ownerIdentifiers": [],
+      "partOfCollection": {
+        "id": 9,
+        "name": "NMK billedkunst [grafikk og tegning]",
+        "owner": {
+          "id": 1,
+          "identifier": "NMK",
+          "name": "Nasjonalmuseet for kunst, arkitektur og design"
+        },
+        "ownerId": "NMK",
+        "uuid": "F9340412-EFB5-451A-AC05-7110D9FF3497"
+      },
+      "partOfFolderUuids": [],
+      "publishLevel": "limited",
+      "publishStatus": "published",
+      "publishedDate": "20130122-060535-216000",
+      "rateCount": 0,
+      "references": [],
+      "sourceId": "77757",
+      "styleWrap": {},
+      "subjects": [
+        {
+          "name": "Bildende kunst",
+          "nameType": "subject",
+          "uuid": "BE0D8624-1B19-45ED-A0EF-71E05220406A"
+        }
+      ],
+      "tags": [],
+      "technique": {
+        "techniques": [
+          {
+            "sort": 1,
+            "technique": "Blyant"
+          },
+          {
+            "sort": 2,
+            "technique": "Lavering"
+          }
+        ]
+      },
+      "titles": [
+        {
+          "language": "NOR",
+          "status": "anvendt",
+          "title": "Fra Lunden ved Balestrand"
+        }
+      ],
+      "trademarks": [],
+      "uniqueId": "011042351311",
+      "unique_id": "011042351311",
+      "updatedDate": "20190127-052904-833160",
+      "uuid": "D3A69328-D532-4206-90B4-9A9B54A61F75"
+    },
+    "uuid_link": "https://api.dimu.org/artifact/uuid/D3A69328-D532-4206-90B4-9A9B54A61F75"
+  }
 }

@@ -43,5 +43,990 @@
     }
   },
   "to_date": "1877-01-01",
-  "uuid": "F5E28A5F-E522-43A1-B20C-5514202782AA"
+  "uuid": "F5E28A5F-E522-43A1-B20C-5514202782AA",
+  "zzz_raw_data": {
+    "artifact.childCount": 46,
+    "artifact.defaultMediaIdentifier": "03U16dRUDN",
+    "artifact.defaultPictureDimension": "3000x2219",
+    "artifact.defaultPictureIndex": 88108,
+    "artifact.hasChildren": true,
+    "artifact.hasPictures": true,
+    "artifact.ingress.classification": [
+      "532"
+    ],
+    "artifact.ingress.producer": "Gude, Hans",
+    "artifact.ingress.producerRole": "Kunstner",
+    "artifact.ingress.production.fromYear": 1877,
+    "artifact.ingress.production.toYear": 1877,
+    "artifact.ingress.subjects": [],
+    "artifact.ingress.title": "Skissebok nr. 3 [Skissebok]",
+    "artifact.pictureCount": 3,
+    "artifact.publishedDate": "2014-04-04T03:00:53.916Z",
+    "artifact.type": "Fineart",
+    "artifact.uniqueId": "011043105674",
+    "artifact.updatedDate": "2018-03-01T05:07:49.504Z",
+    "artifact.uuid": "F5E28A5F-E522-43A1-B20C-5514202782AA",
+    "digitaltmuseum_link": "https://digitaltmuseum.org/011043105674",
+    "identifier.id": "NG.K&H.B.06519",
+    "identifier.owner": "NMK-B",
+    "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06519",
+    "uuid_json": {
+      "alternativeIdentifiers": [],
+      "artifactType": "Fineart",
+      "artifact_id": 3105674,
+      "childArtifacts": [
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105693",
+          "identifier": "NG.K&H.B.06519-004",
+          "published": true,
+          "sort": 46,
+          "sourceId": "556589",
+          "uuid": "3219D9D9-A9D3-4450-867F-00BCC0A70507"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105695",
+          "identifier": "NG.K&H.B.06519-004VERSO",
+          "published": true,
+          "sort": 47,
+          "sourceId": "556590",
+          "uuid": "F621A0C5-C92A-4537-B319-4D687F38BFF5"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105675",
+          "identifier": "NG.K&H.B.06519-001",
+          "published": true,
+          "sort": 1,
+          "sourceId": "93299",
+          "uuid": "4355BFB0-244C-4FA4-927D-EB98D06AE556"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105677",
+          "identifier": "NG.K&H.B.06519-001VERSO",
+          "published": true,
+          "sort": 2,
+          "sourceId": "93300",
+          "uuid": "6C7490EC-2BDC-48E3-AD3A-7847B47504DD"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105682",
+          "identifier": "NG.K&H.B.06519-002",
+          "published": true,
+          "sort": 3,
+          "sourceId": "104988",
+          "uuid": "E8758C2C-6726-44F4-80CA-0981735C5DB5"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105686",
+          "identifier": "NG.K&H.B.06519-002VERSO",
+          "published": true,
+          "sort": 4,
+          "sourceId": "88684",
+          "uuid": "8898C7C5-BC4C-4265-9CC1-94F58D5FB3AE"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105689",
+          "identifier": "NG.K&H.B.06519-003",
+          "published": true,
+          "sort": 5,
+          "sourceId": "88686",
+          "uuid": "A35B07F2-DAB1-4866-9C9C-1FEF95B23418"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105690",
+          "identifier": "NG.K&H.B.06519-003VERSO",
+          "published": true,
+          "sort": 6,
+          "sourceId": "88688",
+          "uuid": "F0F3784C-0915-47AE-9938-69B6F901B28F"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105697",
+          "identifier": "NG.K&H.B.06519-005",
+          "published": true,
+          "sort": 7,
+          "sourceId": "88694",
+          "uuid": "A8427759-1EB9-442D-AB3B-0E283FDC4E9A"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105700",
+          "identifier": "NG.K&H.B.06519-005VERSO",
+          "published": true,
+          "sort": 8,
+          "sourceId": "88695",
+          "uuid": "C01F45B7-5754-4091-B1B0-F8F4856C4899"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105703",
+          "identifier": "NG.K&H.B.06519-006",
+          "published": true,
+          "sort": 9,
+          "sourceId": "88697",
+          "uuid": "EDD38958-CE74-468E-BF94-FFF72AC3487B"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105705",
+          "identifier": "NG.K&H.B.06519-006VERSO",
+          "published": true,
+          "sort": 10,
+          "sourceId": "88699",
+          "uuid": "576FA946-E04A-4CAE-B13D-04F3C653615B"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105709",
+          "identifier": "NG.K&H.B.06519-007",
+          "published": true,
+          "sort": 11,
+          "sourceId": "88700",
+          "uuid": "AB21817A-9929-4F48-BA77-C965867F4AE7"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105719",
+          "identifier": "NG.K&H.B.06519-007VERSO",
+          "published": true,
+          "sort": 12,
+          "sourceId": "88702",
+          "uuid": "65F4E4E3-2749-4080-AB65-89CD76470EDE"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105724",
+          "identifier": "NG.K&H.B.06519-008",
+          "published": true,
+          "sort": 13,
+          "sourceId": "103078",
+          "uuid": "31245CFF-32E6-4606-BB3E-7E8B9AD660F9"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105730",
+          "identifier": "NG.K&H.B.06519-008VERSO",
+          "published": true,
+          "sort": 14,
+          "sourceId": "88704",
+          "uuid": "24E393A1-C42B-4E34-8B8C-0CB7C6163D72"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105737",
+          "identifier": "NG.K&H.B.06519-009",
+          "published": true,
+          "sort": 15,
+          "sourceId": "88714",
+          "uuid": "A09617A9-4AF1-4CA6-9782-7DF7BD489EBC"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105743",
+          "identifier": "NG.K&H.B.06519-009VERSO",
+          "published": true,
+          "sort": 16,
+          "sourceId": "88715",
+          "uuid": "AFB3B03B-18CB-4AE4-B59B-AF041B30C0BA"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105746",
+          "identifier": "NG.K&H.B.06519-010",
+          "published": true,
+          "sort": 17,
+          "sourceId": "94965",
+          "uuid": "6826E9D0-4506-4EF1-BC58-023D0A215A8A"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105749",
+          "identifier": "NG.K&H.B.06519-010VERSO",
+          "published": true,
+          "sort": 18,
+          "sourceId": "94966",
+          "uuid": "8923A0C9-052D-4EBF-B87C-8285C07935DA"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105754",
+          "identifier": "NG.K&H.B.06519-011",
+          "published": true,
+          "sort": 19,
+          "sourceId": "94968",
+          "uuid": "46F1AAB0-8B9F-40A4-B573-48CD3D6AA4E9"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105759",
+          "identifier": "NG.K&H.B.06519-011VERSO",
+          "published": true,
+          "sort": 20,
+          "sourceId": "94969",
+          "uuid": "76CF6A6D-9914-4E52-B387-7C3258BB9BF4"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105764",
+          "identifier": "NG.K&H.B.06519-012",
+          "published": true,
+          "sort": 21,
+          "sourceId": "94970",
+          "uuid": "AF5A3931-C528-4A11-9FB1-1C5199F1D119"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105768",
+          "identifier": "NG.K&H.B.06519-012VERSO",
+          "published": true,
+          "sort": 22,
+          "sourceId": "94971",
+          "uuid": "D625EC05-567C-4C25-A57D-A5B043D2886A"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105773",
+          "identifier": "NG.K&H.B.06519-013",
+          "published": true,
+          "sort": 23,
+          "sourceId": "94973",
+          "uuid": "4E20735C-FD1D-40FE-A889-22B3210DC312"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105779",
+          "identifier": "NG.K&H.B.06519-013VERSO",
+          "published": true,
+          "sort": 24,
+          "sourceId": "94978",
+          "uuid": "03B79F75-60C4-4DA7-B045-5F1C4A528D4D"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105781",
+          "identifier": "NG.K&H.B.06519-014",
+          "published": true,
+          "sort": 25,
+          "sourceId": "104927",
+          "uuid": "5B44A1B8-591D-4EFE-BF91-D2E5DCCD7AFD"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105786",
+          "identifier": "NG.K&H.B.06519-014VERSO",
+          "published": true,
+          "sort": 26,
+          "sourceId": "94979",
+          "uuid": "7CDCA417-1BED-48E4-85DE-581C86A0EF47"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105791",
+          "identifier": "NG.K&H.B.06519-015",
+          "published": true,
+          "sort": 27,
+          "sourceId": "94980",
+          "uuid": "7115B4F8-BD26-46F3-B6A3-D9CDF1AECA61"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105795",
+          "identifier": "NG.K&H.B.06519-016",
+          "published": true,
+          "sort": 28,
+          "sourceId": "94981",
+          "uuid": "04C1EAA7-E575-41C4-A70A-B03CDE9BDEEC"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105803",
+          "identifier": "NG.K&H.B.06519-016VERSO",
+          "published": true,
+          "sort": 29,
+          "sourceId": "92978",
+          "uuid": "A493BE1E-9E92-469F-9C5D-13F1E1E1F591"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105806",
+          "identifier": "NG.K&H.B.06519-017",
+          "published": true,
+          "sort": 30,
+          "sourceId": "92979",
+          "uuid": "E19D9079-C8FD-46EC-93C2-A4C6CEBC4481"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105809",
+          "identifier": "NG.K&H.B.06519-017VERSO",
+          "published": true,
+          "sort": 31,
+          "sourceId": "98758",
+          "uuid": "305AD5DA-037E-4E96-A8E9-D4F9F880CE3E"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105812",
+          "identifier": "NG.K&H.B.06519-018",
+          "published": true,
+          "sort": 32,
+          "sourceId": "99150",
+          "uuid": "FB932EA5-C36C-479B-B21E-FA675BC497E5"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105814",
+          "identifier": "NG.K&H.B.06519-018VERSO",
+          "published": true,
+          "sort": 33,
+          "sourceId": "99151",
+          "uuid": "739FD1D6-F1A8-4630-8BC8-2974B2F2E5CA"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105817",
+          "identifier": "NG.K&H.B.06519-019",
+          "published": true,
+          "sort": 34,
+          "sourceId": "99152",
+          "uuid": "0CB06131-040A-49AF-BCD2-6C76A1D197DD"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105819",
+          "identifier": "NG.K&H.B.06519-019VERSO",
+          "published": true,
+          "sort": 35,
+          "sourceId": "99153",
+          "uuid": "3FCEEEC2-07AE-47A0-B261-1E1E1FC3D909"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105820",
+          "identifier": "NG.K&H.B.06519-020",
+          "published": true,
+          "sort": 36,
+          "sourceId": "87152",
+          "uuid": "A419FA2C-3DED-4CD7-ABBE-5EB6C8BC3B82"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105823",
+          "identifier": "NG.K&H.B.06519-022",
+          "published": true,
+          "sort": 37,
+          "sourceId": "87153",
+          "uuid": "DE655637-8D21-45A0-AFEC-599C86BA3C62"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105824",
+          "identifier": "NG.K&H.B.06519-023VERSO",
+          "published": true,
+          "sort": 39,
+          "sourceId": "87155",
+          "uuid": "F12F4BF9-1738-4EBA-BEF2-DB8DA81690A8"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105827",
+          "identifier": "NG.K&H.B.06519-024",
+          "published": true,
+          "sort": 40,
+          "sourceId": "87156",
+          "uuid": "F42D7D6A-25F5-4734-8C24-6160585E7AC2"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105829",
+          "identifier": "NG.K&H.B.06519-024VERSO",
+          "published": true,
+          "sort": 41,
+          "sourceId": "87157",
+          "uuid": "96E7320C-2AA7-4886-968D-DDFB7169BBB3"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105832",
+          "identifier": "NG.K&H.B.06519-025",
+          "published": true,
+          "sort": 42,
+          "sourceId": "87158",
+          "uuid": "C0F2E466-2C1A-4382-8BAE-5FB0F2681920"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105835",
+          "identifier": "NG.K&H.B.06519-025VERSO",
+          "published": true,
+          "sort": 43,
+          "sourceId": "87159",
+          "uuid": "2414C65A-B95D-4191-856A-ABF4C1232F4C"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105837",
+          "identifier": "NG.K&H.B.06519-026",
+          "published": true,
+          "sort": 44,
+          "sourceId": "87160",
+          "uuid": "C0545862-AF25-4B58-9825-88A769792DE8"
+        },
+        {
+          "artifactType": "Fineart",
+          "count": 1,
+          "description": "Tegning",
+          "dimuCode": "011043105840",
+          "identifier": "NG.K&H.B.06519-026VERSO",
+          "published": true,
+          "sort": 45,
+          "sourceId": "87161",
+          "uuid": "8C3F1858-4002-445A-8F60-22C5FE5B432F"
+        }
+      ],
+      "classifications": [
+        {
+          "code": "532",
+          "description": "Bildende kunst",
+          "system": "OU"
+        }
+      ],
+      "commentCount": 0,
+      "coordinates": [],
+      "copies": [],
+      "createdDate": "20140404-010053-918190",
+      "dimuCode": "011043105674",
+      "dimu_code": "011043105674",
+      "eventWrap": {
+        "acquisition": "Testamentarisk gave fra Hans Gude",
+        "descriptiveDating": "(1877)",
+        "events": [
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 17720,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 17720,
+                      "name": "Gude, Hans Fredrik"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    },
+                    {
+                      "coordinate": "52.519171, 13.406091199999991",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Tyskland"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Berlin"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 74615628",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/74615628"
+                    }
+                  ]
+                },
+                "name": "Gude, Hans",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18770101-133000-000",
+              "fromYear": 1877,
+              "toDate": "18770101-133000-000",
+              "toYear": 1877
+            }
+          }
+        ],
+        "placesOfProduction": [],
+        "producers": [
+          {
+            "id": 17720,
+            "info": {
+              "alternativeNames": [
+                {
+                  "description": "Fullt navn",
+                  "id": 17720,
+                  "name": "Gude, Hans Fredrik"
+                }
+              ],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [
+                {
+                  "coordinate": "59.9138688, 10.752245399999992",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "03",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Oslo (fylke)"
+                    },
+                    {
+                      "code": "0301",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Oslo"
+                    }
+                  ],
+                  "role": {
+                    "name": "F\u00f8dested, "
+                  },
+                  "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                },
+                {
+                  "coordinate": "52.519171, 13.406091199999991",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Tyskland"
+                    },
+                    {
+                      "name": "Omr\u00e5de",
+                      "number": 3,
+                      "sort": 4,
+                      "value": "Berlin"
+                    }
+                  ],
+                  "role": {
+                    "name": "D\u00f8dssted, "
+                  },
+                  "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                }
+              ],
+              "professions": [],
+              "references": [
+                {
+                  "description": "permalink",
+                  "reference": "ID: 74615628",
+                  "type": "VIAF",
+                  "url": "http://viaf.org/viaf/74615628"
+                }
+              ]
+            },
+            "name": "Gude, Hans",
+            "publishLevel": "extended",
+            "role": {
+              "code": "10K",
+              "name": "Kunstner"
+            },
+            "type": "Person",
+            "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+          }
+        ],
+        "production": {
+          "eventType": "Produksjon",
+          "eventTypeClarification": "Produsert",
+          "relatedPersons": [
+            {
+              "id": 17720,
+              "info": {
+                "alternativeNames": [
+                  {
+                    "description": "Fullt navn",
+                    "id": 17720,
+                    "name": "Gude, Hans Fredrik"
+                  }
+                ],
+                "gender": "Mann",
+                "nationality": "Norge",
+                "places": [
+                  {
+                    "coordinate": "59.9138688, 10.752245399999992",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Norge"
+                      },
+                      {
+                        "code": "03",
+                        "name": "Fylke",
+                        "number": 7,
+                        "sort": 2,
+                        "value": "Oslo (fylke)"
+                      },
+                      {
+                        "code": "0301",
+                        "name": "Kommune",
+                        "number": 2,
+                        "sort": 3,
+                        "value": "Oslo"
+                      }
+                    ],
+                    "role": {
+                      "name": "F\u00f8dested, "
+                    },
+                    "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                  },
+                  {
+                    "coordinate": "52.519171, 13.406091199999991",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Tyskland"
+                      },
+                      {
+                        "name": "Omr\u00e5de",
+                        "number": 3,
+                        "sort": 4,
+                        "value": "Berlin"
+                      }
+                    ],
+                    "role": {
+                      "name": "D\u00f8dssted, "
+                    },
+                    "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                  }
+                ],
+                "professions": [],
+                "references": [
+                  {
+                    "description": "permalink",
+                    "reference": "ID: 74615628",
+                    "type": "VIAF",
+                    "url": "http://viaf.org/viaf/74615628"
+                  }
+                ]
+              },
+              "name": "Gude, Hans",
+              "publishLevel": "extended",
+              "role": {
+                "code": "10K",
+                "name": "Kunstner"
+              },
+              "type": "Person",
+              "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+            }
+          ],
+          "relatedPlaces": [],
+          "sort": 6,
+          "timespan": {
+            "fromDate": "18770101-133000-000",
+            "fromYear": 1877,
+            "toDate": "18770101-133000-000",
+            "toYear": 1877
+          }
+        }
+      },
+      "exhibitions": [],
+      "identifier": {
+        "id": "NG.K&H.B.06519",
+        "owner": "NMK-B"
+      },
+      "indexLevel": null,
+      "inscriptions": [],
+      "level": {
+        "code": "7",
+        "name": "Gruppering"
+      },
+      "links": [],
+      "material": {
+        "comment": "Blyant p\u00e5 papir",
+        "materials": [
+          {
+            "material": "Papir",
+            "sort": 1
+          }
+        ]
+      },
+      "measureDescription": "135 x 186 mm",
+      "measures": [
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 186.0,
+          "sort": 1,
+          "spesification": "bokens m\u00e5l",
+          "type": "Bredde",
+          "unit": "mm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 135.0,
+          "sort": 2,
+          "spesification": "bokens m\u00e5l",
+          "type": "H\u00f8yde",
+          "unit": "mm"
+        },
+        {
+          "category": "Arkets m\u00e5l",
+          "measure": 126.0,
+          "sort": 3,
+          "type": "H\u00f8yde",
+          "unit": "mm"
+        },
+        {
+          "category": "Arkets m\u00e5l",
+          "measure": 177.0,
+          "sort": 4,
+          "type": "Bredde",
+          "unit": "mm"
+        }
+      ],
+      "media": {
+        "mediaFiles": [],
+        "movies": [],
+        "pictures": [
+          {
+            "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=88108.tif&size=full",
+            "height": 2219,
+            "index": 88108,
+            "width": 3000
+          },
+          {
+            "code": "0",
+            "height": 2160,
+            "identifier": "03U16dRUHe",
+            "index": 88525,
+            "licenses": [],
+            "width": 3000
+          },
+          {
+            "code": "0",
+            "height": 2154,
+            "identifier": "02U16dRUHf",
+            "index": 88254,
+            "licenses": [],
+            "width": 3000
+          }
+        ]
+      },
+      "motif": {
+        "classifications": [],
+        "depictedObjects": [],
+        "titles": []
+      },
+      "names": [
+        {
+          "name": "Skissebok",
+          "nameType": "name",
+          "uuid": "2A69DDC9-2F25-4EBC-8EC1-D701559AE4F5"
+        }
+      ],
+      "ownerIdentifiers": [],
+      "partOfCollection": {
+        "id": 9,
+        "name": "NMK billedkunst [grafikk og tegning]",
+        "owner": {
+          "id": 1,
+          "identifier": "NMK",
+          "name": "Nasjonalmuseet for kunst, arkitektur og design"
+        },
+        "ownerId": "NMK",
+        "uuid": "F9340412-EFB5-451A-AC05-7110D9FF3497"
+      },
+      "partOfExhibitionUuids": [
+        "3B882E62-BDD0-430D-9A49-3888BC8B60CE"
+      ],
+      "partOfFolderUuids": [],
+      "publishLevel": "limited",
+      "publishStatus": "published",
+      "publishedDate": "20140404-030053-916670",
+      "rateCount": 0,
+      "references": [],
+      "sourceId": "93298",
+      "styleWrap": {},
+      "subjects": [
+        {
+          "name": "Bildende kunst",
+          "nameType": "subject",
+          "uuid": "BE0D8624-1B19-45ED-A0EF-71E05220406A"
+        }
+      ],
+      "tags": [],
+      "technique": {
+        "techniques": [
+          {
+            "sort": 1,
+            "technique": "Blyant"
+          }
+        ]
+      },
+      "titles": [
+        {
+          "language": "NOR",
+          "status": "anvendt",
+          "title": "Skissebok nr. 3"
+        }
+      ],
+      "trademarks": [],
+      "uniqueId": "011043105674",
+      "unique_id": "011043105674",
+      "updatedDate": "20180301-050749-504987",
+      "uuid": "F5E28A5F-E522-43A1-B20C-5514202782AA"
+    },
+    "uuid_link": "https://api.dimu.org/artifact/uuid/F5E28A5F-E522-43A1-B20C-5514202782AA"
+  }
 }

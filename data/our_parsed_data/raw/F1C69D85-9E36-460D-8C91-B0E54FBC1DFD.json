@@ -86,5 +86,554 @@
     }
   },
   "to_date": "1871-01-01",
-  "uuid": "F1C69D85-9E36-460D-8C91-B0E54FBC1DFD"
+  "uuid": "F1C69D85-9E36-460D-8C91-B0E54FBC1DFD",
+  "zzz_raw_data": {
+    "artifact.defaultMediaIdentifier": "026n7UsdG",
+    "artifact.defaultPictureDimension": "2185x3000",
+    "artifact.defaultPictureIndex": 74796,
+    "artifact.hasChildren": false,
+    "artifact.hasPictures": true,
+    "artifact.ingress.classification": [
+      "532"
+    ],
+    "artifact.ingress.producer": "Gude, Hans",
+    "artifact.ingress.producerRole": "Kunstner",
+    "artifact.ingress.production.fromYear": 1871,
+    "artifact.ingress.production.toYear": 1871,
+    "artifact.ingress.subjects": [
+      "Maritimt"
+    ],
+    "artifact.ingress.title": "Mellom Meersburg og Mainau, Bodensee; garnt\u00f8rk [Tegning]",
+    "artifact.pictureCount": 2,
+    "artifact.publishedDate": "2014-02-04T04:59:05.450Z",
+    "artifact.type": "Fineart",
+    "artifact.uniqueId": "011042513876",
+    "artifact.updatedDate": "2019-01-27T05:58:43.726Z",
+    "artifact.uuid": "F1C69D85-9E36-460D-8C91-B0E54FBC1DFD",
+    "digitaltmuseum_link": "https://digitaltmuseum.org/011042513876",
+    "identifier.id": "NG.K&H.B.06510-003",
+    "identifier.owner": "NMK-B",
+    "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06510-003",
+    "uuid_json": {
+      "alternativeIdentifiers": [],
+      "artifactType": "Fineart",
+      "artifact_id": 2513876,
+      "classifications": [
+        {
+          "code": "532",
+          "description": "Bildende kunst",
+          "system": "OU"
+        }
+      ],
+      "commentCount": 0,
+      "coordinates": [],
+      "copies": [],
+      "createdDate": "20140204-035954-225653",
+      "dimuCode": "011042513876",
+      "dimu_code": "011042513876",
+      "eventWrap": {
+        "acquisition": "Testamentarisk gave fra Hans Gude",
+        "descriptiveDating": "(1871)",
+        "events": [
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 17720,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 17720,
+                      "name": "Gude, Hans Fredrik"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    },
+                    {
+                      "coordinate": "52.519171, 13.406091199999991",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Tyskland"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Berlin"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 74615628",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/74615628"
+                    }
+                  ]
+                },
+                "name": "Gude, Hans",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18710101-133000-000",
+              "fromYear": 1871,
+              "toDate": "18710101-133000-000",
+              "toYear": 1871
+            }
+          }
+        ],
+        "placesOfProduction": [],
+        "producers": [
+          {
+            "id": 17720,
+            "info": {
+              "alternativeNames": [
+                {
+                  "description": "Fullt navn",
+                  "id": 17720,
+                  "name": "Gude, Hans Fredrik"
+                }
+              ],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [
+                {
+                  "coordinate": "59.9138688, 10.752245399999992",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "03",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Oslo (fylke)"
+                    },
+                    {
+                      "code": "0301",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Oslo"
+                    }
+                  ],
+                  "role": {
+                    "name": "F\u00f8dested, "
+                  },
+                  "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                },
+                {
+                  "coordinate": "52.519171, 13.406091199999991",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Tyskland"
+                    },
+                    {
+                      "name": "Omr\u00e5de",
+                      "number": 3,
+                      "sort": 4,
+                      "value": "Berlin"
+                    }
+                  ],
+                  "role": {
+                    "name": "D\u00f8dssted, "
+                  },
+                  "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                }
+              ],
+              "professions": [],
+              "references": [
+                {
+                  "description": "permalink",
+                  "reference": "ID: 74615628",
+                  "type": "VIAF",
+                  "url": "http://viaf.org/viaf/74615628"
+                }
+              ]
+            },
+            "name": "Gude, Hans",
+            "publishLevel": "extended",
+            "role": {
+              "code": "10K",
+              "name": "Kunstner"
+            },
+            "type": "Person",
+            "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+          }
+        ],
+        "production": {
+          "eventType": "Produksjon",
+          "eventTypeClarification": "Produsert",
+          "relatedPersons": [
+            {
+              "id": 17720,
+              "info": {
+                "alternativeNames": [
+                  {
+                    "description": "Fullt navn",
+                    "id": 17720,
+                    "name": "Gude, Hans Fredrik"
+                  }
+                ],
+                "gender": "Mann",
+                "nationality": "Norge",
+                "places": [
+                  {
+                    "coordinate": "59.9138688, 10.752245399999992",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Norge"
+                      },
+                      {
+                        "code": "03",
+                        "name": "Fylke",
+                        "number": 7,
+                        "sort": 2,
+                        "value": "Oslo (fylke)"
+                      },
+                      {
+                        "code": "0301",
+                        "name": "Kommune",
+                        "number": 2,
+                        "sort": 3,
+                        "value": "Oslo"
+                      }
+                    ],
+                    "role": {
+                      "name": "F\u00f8dested, "
+                    },
+                    "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                  },
+                  {
+                    "coordinate": "52.519171, 13.406091199999991",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Tyskland"
+                      },
+                      {
+                        "name": "Omr\u00e5de",
+                        "number": 3,
+                        "sort": 4,
+                        "value": "Berlin"
+                      }
+                    ],
+                    "role": {
+                      "name": "D\u00f8dssted, "
+                    },
+                    "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                  }
+                ],
+                "professions": [],
+                "references": [
+                  {
+                    "description": "permalink",
+                    "reference": "ID: 74615628",
+                    "type": "VIAF",
+                    "url": "http://viaf.org/viaf/74615628"
+                  }
+                ]
+              },
+              "name": "Gude, Hans",
+              "publishLevel": "extended",
+              "role": {
+                "code": "10K",
+                "name": "Kunstner"
+              },
+              "type": "Person",
+              "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+            }
+          ],
+          "relatedPlaces": [],
+          "sort": 6,
+          "timespan": {
+            "fromDate": "18710101-133000-000",
+            "fromYear": 1871,
+            "toDate": "18710101-133000-000",
+            "toYear": 1871
+          }
+        }
+      },
+      "exhibitions": [],
+      "identifier": {
+        "id": "NG.K&H.B.06510-003",
+        "owner": "NMK-B"
+      },
+      "indexLevel": null,
+      "inscriptions": [],
+      "level": {
+        "code": "9",
+        "name": "Enkeltverk"
+      },
+      "links": [],
+      "material": {
+        "comment": "Blyant og akvarell p\u00e5 papir",
+        "materials": [
+          {
+            "material": "Papir",
+            "sort": 1
+          }
+        ]
+      },
+      "measureDescription": "322 x 234 mm",
+      "measures": [
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 234.0,
+          "sort": 1,
+          "type": "Bredde",
+          "unit": "mm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 322.0,
+          "sort": 2,
+          "type": "H\u00f8yde",
+          "unit": "mm"
+        }
+      ],
+      "media": {
+        "mediaFiles": [],
+        "movies": [],
+        "pictures": [
+          {
+            "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74796.tif&size=full",
+            "height": 3000,
+            "index": 74796,
+            "width": 2185
+          },
+          {
+            "code": "0",
+            "height": 2052,
+            "identifier": "036n7Ushb",
+            "index": 74946,
+            "licenses": [],
+            "width": 3000
+          }
+        ]
+      },
+      "motif": {
+        "classifications": [],
+        "depictedObjects": [],
+        "depictedPlaces": [
+          {
+            "coordinate": "47.70548640000001, 9.195574999999962",
+            "fields": [
+              {
+                "name": "Land",
+                "number": 1,
+                "placeType": "country",
+                "sort": 1,
+                "value": "Tyskland"
+              },
+              {
+                "name": "Omr\u00e5de",
+                "number": 3,
+                "sort": 4,
+                "value": "Bodensee"
+              },
+              {
+                "name": "Omr\u00e5depres",
+                "number": 4,
+                "sort": 5,
+                "value": "Mainau"
+              }
+            ],
+            "role": {
+              "code": "70",
+              "name": "Avbildet sted "
+            },
+            "uuid": "E7988F5C-A4EE-4D47-8C0D-67C34BD45664"
+          },
+          {
+            "coordinate": "47.2494, 9.343330000000037",
+            "fields": [
+              {
+                "name": "Land",
+                "number": 1,
+                "placeType": "country",
+                "sort": 1,
+                "value": "Sveits"
+              },
+              {
+                "name": "Omr\u00e5de",
+                "number": 3,
+                "sort": 4,
+                "value": "Schwende"
+              },
+              {
+                "name": "Omr\u00e5depres",
+                "number": 4,
+                "sort": 5,
+                "value": "S\u00e4ntis"
+              }
+            ],
+            "role": {
+              "code": "70",
+              "name": "Avbildet sted "
+            },
+            "uuid": "227415A7-C905-4366-ABF2-F2A786134A4A"
+          }
+        ],
+        "motifTypes": [
+          "Landskap"
+        ],
+        "subjects": [
+          {
+            "name": "Maritimt",
+            "nameType": "subject"
+          }
+        ],
+        "titles": []
+      },
+      "names": [
+        {
+          "name": "Tegning",
+          "nameType": "name",
+          "uuid": "47BAE950-F5F8-4B5A-8E54-BD280205EE81"
+        }
+      ],
+      "ownerIdentifiers": [],
+      "partOfCollection": {
+        "id": 9,
+        "name": "NMK billedkunst [grafikk og tegning]",
+        "owner": {
+          "id": 1,
+          "identifier": "NMK",
+          "name": "Nasjonalmuseet for kunst, arkitektur og design"
+        },
+        "ownerId": "NMK",
+        "uuid": "F9340412-EFB5-451A-AC05-7110D9FF3497"
+      },
+      "partOfFolderUuids": [],
+      "publishLevel": "limited",
+      "publishStatus": "published",
+      "publishedDate": "20140204-045905-450000",
+      "rateCount": 0,
+      "references": [],
+      "relatedObjects": [
+        {
+          "artifactType": "Fineart",
+          "description": "motivet fortsetter",
+          "identifier": {
+            "id": "NG.K&H.B.06510-002VERSO",
+            "owner": "NMK-B"
+          },
+          "relation": "Annet",
+          "relationId": 30,
+          "uniqueId": "011042513877",
+          "uuid": "56D09272-DE38-47F1-A960-E35891F5E3DA"
+        },
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.K&H.B.06510-003VERSO",
+            "owner": "NMK-B"
+          },
+          "relation": "Recto til",
+          "relationId": 3,
+          "uniqueId": "011042513879",
+          "uuid": "D92B5378-9A6A-47CE-8BBF-7DF9E5A8EBFA"
+        }
+      ],
+      "sourceId": "553249",
+      "styleWrap": {},
+      "subjects": [
+        {
+          "name": "Bildende kunst",
+          "nameType": "subject",
+          "uuid": "BE0D8624-1B19-45ED-A0EF-71E05220406A"
+        }
+      ],
+      "tags": [],
+      "technique": {
+        "techniques": [
+          {
+            "sort": 1,
+            "technique": "Blyant"
+          },
+          {
+            "sort": 2,
+            "technique": "Akvarell"
+          }
+        ]
+      },
+      "titles": [
+        {
+          "language": "NOR",
+          "status": "anvendt",
+          "title": "Mellom Meersburg og Mainau, Bodensee; garnt\u00f8rk"
+        }
+      ],
+      "trademarks": [],
+      "uniqueId": "011042513876",
+      "unique_id": "011042513876",
+      "updatedDate": "20190127-055843-726414",
+      "uuid": "F1C69D85-9E36-460D-8C91-B0E54FBC1DFD"
+    },
+    "uuid_link": "https://api.dimu.org/artifact/uuid/F1C69D85-9E36-460D-8C91-B0E54FBC1DFD"
+  }
 }

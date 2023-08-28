@@ -38,5 +38,540 @@
     }
   },
   "to_date": "1878-01-01",
-  "uuid": "005E6AA3-CFA2-4A30-A2D8-5581B7AB7763"
+  "uuid": "005E6AA3-CFA2-4A30-A2D8-5581B7AB7763",
+  "zzz_raw_data": {
+    "artifact.defaultMediaIdentifier": "016taXj7L",
+    "artifact.defaultPictureDimension": "1394x2000",
+    "artifact.defaultPictureIndex": 35334,
+    "artifact.hasChildren": false,
+    "artifact.hasPictures": true,
+    "artifact.ingress.classification": [
+      "532"
+    ],
+    "artifact.ingress.producer": "Heyerdahl, Hans",
+    "artifact.ingress.producerRole": "Kunstner",
+    "artifact.ingress.production.fromYear": 1878,
+    "artifact.ingress.production.toYear": 1878,
+    "artifact.ingress.subjects": [],
+    "artifact.ingress.title": "Figurstudie; Jente; Magdalena [Tegning]",
+    "artifact.pictureCount": 1,
+    "artifact.publishedDate": "2010-12-08T23:00:00Z",
+    "artifact.type": "Fineart",
+    "artifact.uniqueId": "011041096632",
+    "artifact.updatedDate": "2019-01-27T05:07:09.510Z",
+    "artifact.uuid": "005E6AA3-CFA2-4A30-A2D8-5581B7AB7763",
+    "digitaltmuseum_link": "https://digitaltmuseum.org/011041096632",
+    "identifier.id": "NG.K&H.1972.0031-013",
+    "identifier.owner": "NMK-B",
+    "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1972.0031-013",
+    "uuid_json": {
+      "alternativeIdentifiers": [],
+      "artifactType": "Fineart",
+      "artifact_id": 1096632,
+      "classifications": [
+        {
+          "code": "532",
+          "description": "Bildende kunst",
+          "system": "OU"
+        }
+      ],
+      "commentCount": 0,
+      "coordinates": [],
+      "copies": [],
+      "createdDate": "20131213-222615-11896",
+      "dimuCode": "011041096632",
+      "dimu_code": "011041096632",
+      "eventWrap": {
+        "acquisition": "Gave fra Bernhard Tarschys 1972",
+        "descriptiveDating": "antagelig 1870-tallet",
+        "events": [
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 18123,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 18123,
+                      "name": "Heyerdahl, Hans Olaf Halvor"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "61.0917012, 14.666365300000052",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Sverige"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Dalarna"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "8A103917-F32A-4275-A6F3-2930151A60B2"
+                    },
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 69202602",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/69202602"
+                    }
+                  ]
+                },
+                "name": "Heyerdahl, Hans",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "E923B472-00DE-4A1E-91E3-FFD9EC587EFD"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 1,
+            "timespan": {
+              "fromDate": "18780101-133000-000",
+              "fromYear": 1878,
+              "toDate": "18780101-133000-000",
+              "toYear": 1878
+            }
+          },
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 26687,
+                "info": {
+                  "alternativeNames": [],
+                  "places": [],
+                  "professions": []
+                },
+                "name": "Gude, Agnes",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "A123331F-2F23-4448-9341-F4933B716FBB"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 3,
+            "timespan": {
+              "fromDate": "18720101-133000-000",
+              "fromYear": 1872,
+              "toDate": "18780101-133000-000",
+              "toYear": 1878
+            }
+          }
+        ],
+        "placesOfProduction": [],
+        "producers": [
+          {
+            "id": 18123,
+            "info": {
+              "alternativeNames": [
+                {
+                  "description": "Fullt navn",
+                  "id": 18123,
+                  "name": "Heyerdahl, Hans Olaf Halvor"
+                }
+              ],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [
+                {
+                  "coordinate": "61.0917012, 14.666365300000052",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Sverige"
+                    },
+                    {
+                      "name": "Omr\u00e5de",
+                      "number": 3,
+                      "sort": 4,
+                      "value": "Dalarna"
+                    }
+                  ],
+                  "role": {
+                    "name": "F\u00f8dested, "
+                  },
+                  "uuid": "8A103917-F32A-4275-A6F3-2930151A60B2"
+                },
+                {
+                  "coordinate": "59.9138688, 10.752245399999992",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "03",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Oslo (fylke)"
+                    },
+                    {
+                      "code": "0301",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Oslo"
+                    }
+                  ],
+                  "role": {
+                    "name": "D\u00f8dssted, "
+                  },
+                  "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                }
+              ],
+              "professions": [],
+              "references": [
+                {
+                  "description": "permalink",
+                  "reference": "ID: 69202602",
+                  "type": "VIAF",
+                  "url": "http://viaf.org/viaf/69202602"
+                }
+              ]
+            },
+            "name": "Heyerdahl, Hans",
+            "publishLevel": "extended",
+            "role": {
+              "code": "10K",
+              "name": "Kunstner"
+            },
+            "type": "Person",
+            "uuid": "E923B472-00DE-4A1E-91E3-FFD9EC587EFD"
+          }
+        ],
+        "production": {
+          "eventType": "Produksjon",
+          "eventTypeClarification": "Produsert",
+          "relatedPersons": [
+            {
+              "id": 18123,
+              "info": {
+                "alternativeNames": [
+                  {
+                    "description": "Fullt navn",
+                    "id": 18123,
+                    "name": "Heyerdahl, Hans Olaf Halvor"
+                  }
+                ],
+                "gender": "Mann",
+                "nationality": "Norge",
+                "places": [
+                  {
+                    "coordinate": "61.0917012, 14.666365300000052",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Sverige"
+                      },
+                      {
+                        "name": "Omr\u00e5de",
+                        "number": 3,
+                        "sort": 4,
+                        "value": "Dalarna"
+                      }
+                    ],
+                    "role": {
+                      "name": "F\u00f8dested, "
+                    },
+                    "uuid": "8A103917-F32A-4275-A6F3-2930151A60B2"
+                  },
+                  {
+                    "coordinate": "59.9138688, 10.752245399999992",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Norge"
+                      },
+                      {
+                        "code": "03",
+                        "name": "Fylke",
+                        "number": 7,
+                        "sort": 2,
+                        "value": "Oslo (fylke)"
+                      },
+                      {
+                        "code": "0301",
+                        "name": "Kommune",
+                        "number": 2,
+                        "sort": 3,
+                        "value": "Oslo"
+                      }
+                    ],
+                    "role": {
+                      "name": "D\u00f8dssted, "
+                    },
+                    "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                  }
+                ],
+                "professions": [],
+                "references": [
+                  {
+                    "description": "permalink",
+                    "reference": "ID: 69202602",
+                    "type": "VIAF",
+                    "url": "http://viaf.org/viaf/69202602"
+                  }
+                ]
+              },
+              "name": "Heyerdahl, Hans",
+              "publishLevel": "extended",
+              "role": {
+                "code": "10K",
+                "name": "Kunstner"
+              },
+              "type": "Person",
+              "uuid": "E923B472-00DE-4A1E-91E3-FFD9EC587EFD"
+            }
+          ],
+          "relatedPlaces": [],
+          "sort": 1,
+          "timespan": {
+            "fromDate": "18780101-133000-000",
+            "fromYear": 1878,
+            "toDate": "18780101-133000-000",
+            "toYear": 1878
+          }
+        }
+      },
+      "exhibitions": [],
+      "identifier": {
+        "id": "NG.K&H.1972.0031-013",
+        "owner": "NMK-B"
+      },
+      "indexLevel": null,
+      "inscriptions": [],
+      "level": {
+        "code": "9",
+        "name": "Enkeltverk"
+      },
+      "links": [],
+      "material": {
+        "comment": "Blyant p\u00e5 papir",
+        "materials": [
+          {
+            "material": "Papir",
+            "sort": 1
+          }
+        ]
+      },
+      "measureDescription": "102 x 145 mm, 46 x 82 mm, 22 x 34 mm, 284 x 197 mm",
+      "measures": [
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 145.0,
+          "sort": 1,
+          "spesification": "a) ark klebet inn i album",
+          "type": "H\u00f8yde",
+          "unit": "mm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 102.0,
+          "sort": 2,
+          "spesification": "a) ark klebet inn i album",
+          "type": "H\u00f8yde",
+          "unit": "mm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 284.0,
+          "sort": 4,
+          "type": "H\u00f8yde",
+          "unit": "mm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 197.0,
+          "sort": 5,
+          "type": "Bredde",
+          "unit": "mm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 46.0,
+          "sort": 6,
+          "spesification": "b) ark klebet inn i album",
+          "type": "H\u00f8yde",
+          "unit": "mm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 82.0,
+          "sort": 7,
+          "spesification": "b) ark klebet inn i album",
+          "type": "Bredde",
+          "unit": "mm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 284.0,
+          "sort": 8,
+          "type": "H\u00f8yde",
+          "unit": "mm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 34.0,
+          "sort": 9,
+          "spesification": "c) ark klebet inn i album",
+          "type": "Bredde",
+          "unit": "mm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 22.0,
+          "sort": 10,
+          "spesification": "c) ark klebet inn i album",
+          "type": "H\u00f8yde",
+          "unit": "mm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 145.0,
+          "sort": 11,
+          "spesification": "a) ark klebet inn i album",
+          "type": "Bredde",
+          "unit": "mm"
+        }
+      ],
+      "media": {
+        "mediaFiles": [],
+        "movies": [],
+        "pictures": [
+          {
+            "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=35334.tif&size=full",
+            "height": 2000,
+            "index": 35334,
+            "photographer": "Anne Hansteen Jarre",
+            "width": 1394
+          }
+        ]
+      },
+      "motif": {
+        "classifications": [],
+        "depictedObjects": [],
+        "titles": []
+      },
+      "names": [
+        {
+          "name": "Tegning",
+          "nameType": "name",
+          "uuid": "DCFBEC94-4C86-48A4-A4E9-BAE6602F13C9"
+        }
+      ],
+      "ownerIdentifiers": [],
+      "partOfCollection": {
+        "id": 9,
+        "name": "NMK billedkunst [grafikk og tegning]",
+        "owner": {
+          "id": 1,
+          "identifier": "NMK",
+          "name": "Nasjonalmuseet for kunst, arkitektur og design"
+        },
+        "ownerId": "NMK",
+        "uuid": "F9340412-EFB5-451A-AC05-7110D9FF3497"
+      },
+      "partOfFolderUuids": [],
+      "publishLevel": "limited",
+      "publishStatus": "published",
+      "publishedDate": "20101208-230000-000",
+      "rateCount": 0,
+      "references": [],
+      "sourceId": "331909",
+      "styleWrap": {},
+      "subjects": [
+        {
+          "name": "Bildende kunst",
+          "nameType": "subject",
+          "uuid": "BE0D8624-1B19-45ED-A0EF-71E05220406A"
+        }
+      ],
+      "tags": [],
+      "technique": {
+        "techniques": [
+          {
+            "sort": 1,
+            "technique": "Blyant"
+          }
+        ]
+      },
+      "titles": [
+        {
+          "language": "NOR",
+          "status": "anvendt",
+          "title": "Figurstudie; Jente; Magdalena"
+        }
+      ],
+      "trademarks": [],
+      "uniqueId": "011041096632",
+      "unique_id": "011041096632",
+      "updatedDate": "20190127-050709-510634",
+      "uuid": "005E6AA3-CFA2-4A30-A2D8-5581B7AB7763"
+    },
+    "uuid_link": "https://api.dimu.org/artifact/uuid/005E6AA3-CFA2-4A30-A2D8-5581B7AB7763"
+  }
 }

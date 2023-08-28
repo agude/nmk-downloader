@@ -81,5 +81,820 @@
     }
   },
   "to_date": "1848-01-01",
-  "uuid": "3DF10C96-B33B-45C1-92BF-D9211CE574C8"
+  "uuid": "3DF10C96-B33B-45C1-92BF-D9211CE574C8",
+  "zzz_raw_data": {
+    "artifact.childCount": 1,
+    "artifact.defaultMediaIdentifier": "022wXVwUz7gt",
+    "artifact.defaultPictureDimension": "4000x2866",
+    "artifact.defaultPictureIndex": 113292,
+    "artifact.hasChildren": true,
+    "artifact.hasPictures": true,
+    "artifact.ingress.classification": [
+      "532"
+    ],
+    "artifact.ingress.producer": "Gude, Hans",
+    "artifact.ingress.producerRole": "Kunstner",
+    "artifact.ingress.production.fromYear": 1848,
+    "artifact.ingress.production.toYear": 1848,
+    "artifact.ingress.subjects": [
+      "Folklore",
+      "Fjell",
+      "Fjord"
+    ],
+    "artifact.ingress.title": "Brudeferd i Hardanger [Maleri]",
+    "artifact.pictureCount": 1,
+    "artifact.publishedDate": "2010-12-08T23:00:00Z",
+    "artifact.type": "Fineart",
+    "artifact.uniqueId": "011042436982",
+    "artifact.updatedDate": "2019-02-05T05:12:38.727Z",
+    "artifact.uuid": "3DF10C96-B33B-45C1-92BF-D9211CE574C8",
+    "digitaltmuseum_link": "https://digitaltmuseum.org/011042436982",
+    "identifier.id": "NG.M.00467",
+    "identifier.owner": "NMK-B",
+    "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00467",
+    "uuid_json": {
+      "alternativeIdentifiers": [],
+      "artifactType": "Fineart",
+      "artifact_id": 2436982,
+      "childArtifacts": [
+        {
+          "artifactType": "Artdesign",
+          "count": 0,
+          "description": "Ramme",
+          "dimuCode": "021066019698",
+          "identifier": "NG.M.00467.R",
+          "published": false,
+          "sort": 1,
+          "sourceId": "874515",
+          "uuid": "C4409CBB-D618-411D-9734-1A1CFC0B0DE4"
+        }
+      ],
+      "classifications": [
+        {
+          "code": "532",
+          "description": "Bildende kunst",
+          "system": "OU"
+        }
+      ],
+      "commentCount": 4,
+      "coordinates": [],
+      "copies": [],
+      "createdDate": "20131214-065714-962907",
+      "dimuCode": "011042436982",
+      "dimu_code": "011042436982",
+      "eventWrap": {
+        "acquisition": "Kj\u00f8pt 1895",
+        "descriptiveDating": "1848",
+        "events": [
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 17720,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 17720,
+                      "name": "Gude, Hans Fredrik"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    },
+                    {
+                      "coordinate": "52.519171, 13.406091199999991",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Tyskland"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Berlin"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 74615628",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/74615628"
+                    }
+                  ]
+                },
+                "name": "Gude, Hans",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+              },
+              {
+                "id": 17592,
+                "info": {
+                  "alternativeNames": [],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "58.0276808, 7.4533303000000615",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "10",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Vest-Agder"
+                        },
+                        {
+                          "code": "1002",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Mandal"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "167DA402-E7CE-493C-8D45-128F2399B39D"
+                    },
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 4986647",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/4986647"
+                    }
+                  ]
+                },
+                "name": "Tidemand, Adolph",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "2510E079-AB33-49F8-B2F2-3BF2F3F733E8"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18480101-133000-000",
+              "fromYear": 1848,
+              "toDate": "18480101-133000-000",
+              "toYear": 1848
+            }
+          }
+        ],
+        "placesOfProduction": [],
+        "producers": [
+          {
+            "id": 17720,
+            "info": {
+              "alternativeNames": [
+                {
+                  "description": "Fullt navn",
+                  "id": 17720,
+                  "name": "Gude, Hans Fredrik"
+                }
+              ],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [
+                {
+                  "coordinate": "59.9138688, 10.752245399999992",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "03",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Oslo (fylke)"
+                    },
+                    {
+                      "code": "0301",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Oslo"
+                    }
+                  ],
+                  "role": {
+                    "name": "F\u00f8dested, "
+                  },
+                  "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                },
+                {
+                  "coordinate": "52.519171, 13.406091199999991",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Tyskland"
+                    },
+                    {
+                      "name": "Omr\u00e5de",
+                      "number": 3,
+                      "sort": 4,
+                      "value": "Berlin"
+                    }
+                  ],
+                  "role": {
+                    "name": "D\u00f8dssted, "
+                  },
+                  "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                }
+              ],
+              "professions": [],
+              "references": [
+                {
+                  "description": "permalink",
+                  "reference": "ID: 74615628",
+                  "type": "VIAF",
+                  "url": "http://viaf.org/viaf/74615628"
+                }
+              ]
+            },
+            "name": "Gude, Hans",
+            "publishLevel": "extended",
+            "role": {
+              "code": "10K",
+              "name": "Kunstner"
+            },
+            "type": "Person",
+            "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+          },
+          {
+            "id": 17592,
+            "info": {
+              "alternativeNames": [],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [
+                {
+                  "coordinate": "58.0276808, 7.4533303000000615",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "10",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Vest-Agder"
+                    },
+                    {
+                      "code": "1002",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Mandal"
+                    }
+                  ],
+                  "role": {
+                    "name": "F\u00f8dested, "
+                  },
+                  "uuid": "167DA402-E7CE-493C-8D45-128F2399B39D"
+                },
+                {
+                  "coordinate": "59.9138688, 10.752245399999992",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "03",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Oslo (fylke)"
+                    },
+                    {
+                      "code": "0301",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Oslo"
+                    }
+                  ],
+                  "role": {
+                    "name": "D\u00f8dssted, "
+                  },
+                  "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                }
+              ],
+              "professions": [],
+              "references": [
+                {
+                  "description": "permalink",
+                  "reference": "ID: 4986647",
+                  "type": "VIAF",
+                  "url": "http://viaf.org/viaf/4986647"
+                }
+              ]
+            },
+            "name": "Tidemand, Adolph",
+            "publishLevel": "extended",
+            "role": {
+              "code": "10K",
+              "name": "Kunstner"
+            },
+            "type": "Person",
+            "uuid": "2510E079-AB33-49F8-B2F2-3BF2F3F733E8"
+          }
+        ],
+        "production": {
+          "eventType": "Produksjon",
+          "eventTypeClarification": "Produsert",
+          "relatedPersons": [
+            {
+              "id": 17720,
+              "info": {
+                "alternativeNames": [
+                  {
+                    "description": "Fullt navn",
+                    "id": 17720,
+                    "name": "Gude, Hans Fredrik"
+                  }
+                ],
+                "gender": "Mann",
+                "nationality": "Norge",
+                "places": [
+                  {
+                    "coordinate": "59.9138688, 10.752245399999992",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Norge"
+                      },
+                      {
+                        "code": "03",
+                        "name": "Fylke",
+                        "number": 7,
+                        "sort": 2,
+                        "value": "Oslo (fylke)"
+                      },
+                      {
+                        "code": "0301",
+                        "name": "Kommune",
+                        "number": 2,
+                        "sort": 3,
+                        "value": "Oslo"
+                      }
+                    ],
+                    "role": {
+                      "name": "F\u00f8dested, "
+                    },
+                    "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                  },
+                  {
+                    "coordinate": "52.519171, 13.406091199999991",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Tyskland"
+                      },
+                      {
+                        "name": "Omr\u00e5de",
+                        "number": 3,
+                        "sort": 4,
+                        "value": "Berlin"
+                      }
+                    ],
+                    "role": {
+                      "name": "D\u00f8dssted, "
+                    },
+                    "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                  }
+                ],
+                "professions": [],
+                "references": [
+                  {
+                    "description": "permalink",
+                    "reference": "ID: 74615628",
+                    "type": "VIAF",
+                    "url": "http://viaf.org/viaf/74615628"
+                  }
+                ]
+              },
+              "name": "Gude, Hans",
+              "publishLevel": "extended",
+              "role": {
+                "code": "10K",
+                "name": "Kunstner"
+              },
+              "type": "Person",
+              "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+            },
+            {
+              "id": 17592,
+              "info": {
+                "alternativeNames": [],
+                "gender": "Mann",
+                "nationality": "Norge",
+                "places": [
+                  {
+                    "coordinate": "58.0276808, 7.4533303000000615",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Norge"
+                      },
+                      {
+                        "code": "10",
+                        "name": "Fylke",
+                        "number": 7,
+                        "sort": 2,
+                        "value": "Vest-Agder"
+                      },
+                      {
+                        "code": "1002",
+                        "name": "Kommune",
+                        "number": 2,
+                        "sort": 3,
+                        "value": "Mandal"
+                      }
+                    ],
+                    "role": {
+                      "name": "F\u00f8dested, "
+                    },
+                    "uuid": "167DA402-E7CE-493C-8D45-128F2399B39D"
+                  },
+                  {
+                    "coordinate": "59.9138688, 10.752245399999992",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Norge"
+                      },
+                      {
+                        "code": "03",
+                        "name": "Fylke",
+                        "number": 7,
+                        "sort": 2,
+                        "value": "Oslo (fylke)"
+                      },
+                      {
+                        "code": "0301",
+                        "name": "Kommune",
+                        "number": 2,
+                        "sort": 3,
+                        "value": "Oslo"
+                      }
+                    ],
+                    "role": {
+                      "name": "D\u00f8dssted, "
+                    },
+                    "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                  }
+                ],
+                "professions": [],
+                "references": [
+                  {
+                    "description": "permalink",
+                    "reference": "ID: 4986647",
+                    "type": "VIAF",
+                    "url": "http://viaf.org/viaf/4986647"
+                  }
+                ]
+              },
+              "name": "Tidemand, Adolph",
+              "publishLevel": "extended",
+              "role": {
+                "code": "10K",
+                "name": "Kunstner"
+              },
+              "type": "Person",
+              "uuid": "2510E079-AB33-49F8-B2F2-3BF2F3F733E8"
+            }
+          ],
+          "relatedPlaces": [],
+          "sort": 6,
+          "timespan": {
+            "fromDate": "18480101-133000-000",
+            "fromYear": 1848,
+            "toDate": "18480101-133000-000",
+            "toYear": 1848
+          }
+        }
+      },
+      "exhibitions": [],
+      "identifier": {
+        "id": "NG.M.00467",
+        "owner": "NMK-B"
+      },
+      "indexLevel": null,
+      "inscriptions": [],
+      "level": {
+        "code": "9",
+        "name": "Enkeltverk"
+      },
+      "links": [],
+      "material": {
+        "comment": "Olje p\u00e5 lerret",
+        "materials": [
+          {
+            "material": "Lerret",
+            "sort": 1
+          }
+        ]
+      },
+      "measureDescription": "93,5 x 130,1 x 2,9 cm",
+      "measures": [
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 93.5,
+          "sort": 1,
+          "type": "H\u00f8yde",
+          "unit": "cm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 130.1,
+          "sort": 2,
+          "type": "Bredde",
+          "unit": "cm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 2.9,
+          "sort": 3,
+          "type": "Dybde",
+          "unit": "cm"
+        },
+        {
+          "category": "Rammem\u00e5l",
+          "measure": 11.5,
+          "sort": 4,
+          "type": "Dybde",
+          "unit": "cm"
+        },
+        {
+          "category": "Rammem\u00e5l",
+          "measure": 161.7,
+          "sort": 5,
+          "type": "Bredde",
+          "unit": "cm"
+        },
+        {
+          "category": "Rammem\u00e5l",
+          "measure": 125.7,
+          "sort": 6,
+          "type": "H\u00f8yde",
+          "unit": "cm"
+        }
+      ],
+      "media": {
+        "mediaFiles": [],
+        "movies": [],
+        "pictures": [
+          {
+            "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=113292.tif&size=full",
+            "height": 2866,
+            "index": 113292,
+            "photographer": "H\u00f8stland, B\u00f8rre",
+            "width": 4000
+          }
+        ]
+      },
+      "motif": {
+        "classifications": [],
+        "depictedObjects": [],
+        "depictedPlaces": [
+          {
+            "coordinate": "60.12235539038782, 6.61376953125",
+            "fields": [
+              {
+                "name": "Land",
+                "number": 1,
+                "placeType": "country",
+                "sort": 1,
+                "value": "Norge"
+              },
+              {
+                "name": "Omr\u00e5de",
+                "number": 3,
+                "sort": 4,
+                "value": "Hardanger"
+              }
+            ],
+            "role": {
+              "code": "70",
+              "name": "Avbildet sted "
+            },
+            "uuid": "3F62B18C-64BE-42BD-B25B-709F3D35B93D"
+          }
+        ],
+        "motifTypes": [
+          "Landskap"
+        ],
+        "subjects": [
+          {
+            "name": "Folklore",
+            "nameType": "subject"
+          },
+          {
+            "name": "Fjell",
+            "nameType": "subject"
+          },
+          {
+            "name": "Fjord",
+            "nameType": "subject"
+          }
+        ],
+        "titles": []
+      },
+      "names": [
+        {
+          "name": "Maleri",
+          "nameType": "name",
+          "uuid": "F147B1FA-9CE3-43E7-909B-B24579740047"
+        }
+      ],
+      "ownerIdentifiers": [],
+      "partOfCollection": {
+        "id": 7,
+        "name": "NMK billedkunst [eldre og moderne]",
+        "owner": {
+          "id": 1,
+          "identifier": "NMK",
+          "name": "Nasjonalmuseet for kunst, arkitektur og design"
+        },
+        "ownerId": "NMK",
+        "uuid": "70893D84-C63C-4F5F-A4B1-491DCFC7B386"
+      },
+      "partOfExhibitionUuids": [
+        "4A837DA3-904B-4447-9AF6-155A4D14A679",
+        "C2901D38-57A6-4DD0-B342-25FCE70F2522"
+      ],
+      "partOfFolderUuids": [
+        "7ac78c48-6d3d-11e2-ab71-ebc66a9caa67",
+        "dafbd94f-60b6-11e3-a165-b659863c44bf"
+      ],
+      "publishLevel": "limited",
+      "publishStatus": "published",
+      "publishedDate": "20101208-230000-000",
+      "rateCount": 0,
+      "references": [],
+      "relatedObjects": [
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NMK.2005.0373",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28,
+          "uniqueId": "011041474618",
+          "uuid": "10311F4F-A562-405E-AD0A-30ADA2336E94"
+        }
+      ],
+      "sourceId": "82612",
+      "styleWrap": {},
+      "subjects": [
+        {
+          "name": "Bildende kunst",
+          "nameType": "subject",
+          "uuid": "BE0D8624-1B19-45ED-A0EF-71E05220406A"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Nasjonalromantikk",
+          "source": "DIMU"
+        }
+      ],
+      "technique": {
+        "techniques": [
+          {
+            "sort": 1,
+            "technique": "Olje"
+          }
+        ]
+      },
+      "titles": [
+        {
+          "language": "NOR",
+          "status": "anvendt",
+          "title": "Brudeferd i Hardanger"
+        },
+        {
+          "language": "ENG",
+          "status": "anvendt",
+          "title": "Bridal Procession on the Hardangerfjord"
+        }
+      ],
+      "trademarks": [],
+      "uniqueId": "011042436982",
+      "unique_id": "011042436982",
+      "updatedDate": "20190205-051238-727708",
+      "uuid": "3DF10C96-B33B-45C1-92BF-D9211CE574C8"
+    },
+    "uuid_link": "https://api.dimu.org/artifact/uuid/3DF10C96-B33B-45C1-92BF-D9211CE574C8"
+  }
 }

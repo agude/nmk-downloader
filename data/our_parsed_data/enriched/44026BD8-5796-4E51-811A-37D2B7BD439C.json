@@ -69,5 +69,621 @@
     }
   },
   "to_date": "1862-01-01",
-  "uuid": "44026BD8-5796-4E51-811A-37D2B7BD439C"
+  "uuid": "44026BD8-5796-4E51-811A-37D2B7BD439C",
+  "zzz_raw_data": {
+    "artifact.defaultMediaIdentifier": "01719bZwi",
+    "artifact.defaultPictureIndex": 18318,
+    "artifact.hasChildren": false,
+    "artifact.hasPictures": true,
+    "artifact.ingress.classification": [
+      "532"
+    ],
+    "artifact.ingress.producer": "Gude, Hans",
+    "artifact.ingress.producerRole": "Kunstner",
+    "artifact.ingress.production.fromYear": 1862,
+    "artifact.ingress.production.toYear": 1862,
+    "artifact.ingress.subjects": [
+      "Foss"
+    ],
+    "artifact.ingress.title": "Labrofossen [Maleri]",
+    "artifact.pictureCount": 1,
+    "artifact.publishedDate": "2012-05-09T08:25:08.210Z",
+    "artifact.type": "Fineart",
+    "artifact.uniqueId": "011041107539",
+    "artifact.updatedDate": "2017-03-07T14:36:34.679Z",
+    "artifact.uuid": "44026BD8-5796-4E51-811A-37D2B7BD439C",
+    "digitaltmuseum_link": "https://digitaltmuseum.org/011041107539",
+    "identifier.id": "NG.M.00635-001",
+    "identifier.owner": "NMK-B",
+    "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00635-001",
+    "uuid_json": {
+      "alternativeIdentifiers": [],
+      "artifactType": "Fineart",
+      "artifact_id": 1107539,
+      "classifications": [
+        {
+          "code": "532",
+          "description": "Bildende kunst",
+          "system": "OU"
+        }
+      ],
+      "commentCount": 0,
+      "coordinates": [],
+      "copies": [],
+      "createdDate": "20131213-222950-119428",
+      "dimuCode": "011041107539",
+      "dimu_code": "011041107539",
+      "eventWrap": {
+        "acquisition": "Testamentarisk gave fra kunstneren, innkommet 1904",
+        "descriptiveDating": "1862",
+        "events": [
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 17720,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 17720,
+                      "name": "Gude, Hans Fredrik"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    },
+                    {
+                      "coordinate": "52.519171, 13.406091199999991",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Tyskland"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Berlin"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 74615628",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/74615628"
+                    }
+                  ]
+                },
+                "name": "Gude, Hans",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+              }
+            ],
+            "relatedPlaces": [],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18620101-133000-000",
+              "fromYear": 1862,
+              "toDate": "18620101-133000-000",
+              "toYear": 1862
+            }
+          }
+        ],
+        "placesOfProduction": [],
+        "producers": [
+          {
+            "id": 17720,
+            "info": {
+              "alternativeNames": [
+                {
+                  "description": "Fullt navn",
+                  "id": 17720,
+                  "name": "Gude, Hans Fredrik"
+                }
+              ],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [
+                {
+                  "coordinate": "59.9138688, 10.752245399999992",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "03",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Oslo (fylke)"
+                    },
+                    {
+                      "code": "0301",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Oslo"
+                    }
+                  ],
+                  "role": {
+                    "name": "F\u00f8dested, "
+                  },
+                  "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                },
+                {
+                  "coordinate": "52.519171, 13.406091199999991",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Tyskland"
+                    },
+                    {
+                      "name": "Omr\u00e5de",
+                      "number": 3,
+                      "sort": 4,
+                      "value": "Berlin"
+                    }
+                  ],
+                  "role": {
+                    "name": "D\u00f8dssted, "
+                  },
+                  "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                }
+              ],
+              "professions": [],
+              "references": [
+                {
+                  "description": "permalink",
+                  "reference": "ID: 74615628",
+                  "type": "VIAF",
+                  "url": "http://viaf.org/viaf/74615628"
+                }
+              ]
+            },
+            "name": "Gude, Hans",
+            "publishLevel": "extended",
+            "role": {
+              "code": "10K",
+              "name": "Kunstner"
+            },
+            "type": "Person",
+            "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+          }
+        ],
+        "production": {
+          "eventType": "Produksjon",
+          "eventTypeClarification": "Produsert",
+          "relatedPersons": [
+            {
+              "id": 17720,
+              "info": {
+                "alternativeNames": [
+                  {
+                    "description": "Fullt navn",
+                    "id": 17720,
+                    "name": "Gude, Hans Fredrik"
+                  }
+                ],
+                "gender": "Mann",
+                "nationality": "Norge",
+                "places": [
+                  {
+                    "coordinate": "59.9138688, 10.752245399999992",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Norge"
+                      },
+                      {
+                        "code": "03",
+                        "name": "Fylke",
+                        "number": 7,
+                        "sort": 2,
+                        "value": "Oslo (fylke)"
+                      },
+                      {
+                        "code": "0301",
+                        "name": "Kommune",
+                        "number": 2,
+                        "sort": 3,
+                        "value": "Oslo"
+                      }
+                    ],
+                    "role": {
+                      "name": "F\u00f8dested, "
+                    },
+                    "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                  },
+                  {
+                    "coordinate": "52.519171, 13.406091199999991",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Tyskland"
+                      },
+                      {
+                        "name": "Omr\u00e5de",
+                        "number": 3,
+                        "sort": 4,
+                        "value": "Berlin"
+                      }
+                    ],
+                    "role": {
+                      "name": "D\u00f8dssted, "
+                    },
+                    "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                  }
+                ],
+                "professions": [],
+                "references": [
+                  {
+                    "description": "permalink",
+                    "reference": "ID: 74615628",
+                    "type": "VIAF",
+                    "url": "http://viaf.org/viaf/74615628"
+                  }
+                ]
+              },
+              "name": "Gude, Hans",
+              "publishLevel": "extended",
+              "role": {
+                "code": "10K",
+                "name": "Kunstner"
+              },
+              "type": "Person",
+              "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+            }
+          ],
+          "relatedPlaces": [],
+          "sort": 6,
+          "timespan": {
+            "fromDate": "18620101-133000-000",
+            "fromYear": 1862,
+            "toDate": "18620101-133000-000",
+            "toYear": 1862
+          }
+        }
+      },
+      "exhibitions": [],
+      "identifier": {
+        "id": "NG.M.00635-001",
+        "owner": "NMK-B"
+      },
+      "indexLevel": null,
+      "inscriptions": [],
+      "level": {
+        "code": "9",
+        "name": "Enkeltverk"
+      },
+      "links": [],
+      "material": {
+        "comment": "Olje p\u00e5 lerret oppklebet p\u00e5 papplate",
+        "materials": [
+          {
+            "material": "Lerret",
+            "sort": 1
+          },
+          {
+            "material": "Papplate",
+            "sort": 2
+          }
+        ]
+      },
+      "measureDescription": "45,5 x 67 cm",
+      "measures": [
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 67.0,
+          "sort": 1,
+          "type": "Bredde",
+          "unit": "cm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 45.5,
+          "sort": 2,
+          "type": "H\u00f8yde",
+          "unit": "cm"
+        }
+      ],
+      "media": {
+        "mediaFiles": [],
+        "movies": [],
+        "pictures": [
+          {
+            "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=18318.tif&size=full",
+            "height": 0,
+            "index": 18318,
+            "width": 0
+          }
+        ]
+      },
+      "motif": {
+        "classifications": [],
+        "depictedObjects": [],
+        "depictedPlaces": [
+          {
+            "coordinate": "59.6184909, 9.668137600000022",
+            "fields": [
+              {
+                "name": "Land",
+                "number": 1,
+                "placeType": "country",
+                "sort": 1,
+                "value": "Norge"
+              },
+              {
+                "code": "0604",
+                "name": "Kommune",
+                "number": 2,
+                "placeType": "municipality",
+                "sort": 3,
+                "value": "Kongsberg"
+              },
+              {
+                "name": "Omr\u00e5de",
+                "number": 3,
+                "sort": 4,
+                "value": "Labrofossen"
+              }
+            ],
+            "role": {
+              "code": "70",
+              "name": "Avbildet sted "
+            },
+            "uuid": "6D02776C-F3E4-4B99-9077-3AF729D366BD"
+          }
+        ],
+        "motifTypes": [
+          "Landskap"
+        ],
+        "subjects": [
+          {
+            "name": "Foss",
+            "nameType": "subject"
+          }
+        ],
+        "titles": []
+      },
+      "names": [
+        {
+          "name": "Maleri",
+          "nameType": "name",
+          "uuid": "F147B1FA-9CE3-43E7-909B-B24579740047"
+        }
+      ],
+      "ownerIdentifiers": [],
+      "partOfCollection": {
+        "id": 7,
+        "name": "NMK billedkunst [eldre og moderne]",
+        "owner": {
+          "id": 1,
+          "identifier": "NMK",
+          "name": "Nasjonalmuseet for kunst, arkitektur og design"
+        },
+        "ownerId": "NMK",
+        "uuid": "70893D84-C63C-4F5F-A4B1-491DCFC7B386"
+      },
+      "partOfFolderUuids": [],
+      "publishLevel": "limited",
+      "publishStatus": "published",
+      "publishedDate": "20120509-082508-210000",
+      "rateCount": 0,
+      "references": [],
+      "relatedObjects": [
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.K&H.A.03250",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.K&H.A.03252",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.K&H.B.02179",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.K&H.B.02858",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.K&H.B.06513-012VERSO",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.K&H.B.06513-013",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.K&H.B.06513-013VERSO",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.K&H.B.06513-014",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.M.00039",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.M.01091",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.M.01542",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.M.01632",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Fineart",
+          "identifier": {
+            "id": "NG.M.03576",
+            "owner": "NMK-B"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        },
+        {
+          "artifactType": "Architecture",
+          "identifier": {
+            "id": "NMK.2008.0734.145.084",
+            "owner": "NMK-A"
+          },
+          "relation": "Relatert motiv",
+          "relationId": 28
+        }
+      ],
+      "sourceId": "82308",
+      "styleWrap": {},
+      "subjects": [
+        {
+          "name": "Bildende kunst",
+          "nameType": "subject",
+          "uuid": "BE0D8624-1B19-45ED-A0EF-71E05220406A"
+        }
+      ],
+      "tags": [],
+      "technique": {
+        "techniques": [
+          {
+            "sort": 1,
+            "technique": "Olje"
+          }
+        ]
+      },
+      "titles": [
+        {
+          "language": "NOR",
+          "status": "anvendt",
+          "title": "Labrofossen"
+        }
+      ],
+      "trademarks": [],
+      "uniqueId": "011041107539",
+      "unique_id": "011041107539",
+      "updatedDate": "20170307-143634-679657",
+      "uuid": "44026BD8-5796-4E51-811A-37D2B7BD439C"
+    },
+    "uuid_link": "https://api.dimu.org/artifact/uuid/44026BD8-5796-4E51-811A-37D2B7BD439C"
+  }
 }

@@ -66,5 +66,590 @@
     }
   },
   "to_date": "1866-08-29",
-  "uuid": "78F67CAD-A77B-4A18-BB2C-FC44141BC6D2"
+  "uuid": "78F67CAD-A77B-4A18-BB2C-FC44141BC6D2",
+  "zzz_raw_data": {
+    "artifact.childCount": 1,
+    "artifact.defaultMediaIdentifier": "03719bZwm",
+    "artifact.defaultPictureIndex": 18320,
+    "artifact.hasChildren": true,
+    "artifact.hasPictures": true,
+    "artifact.ingress.classification": [
+      "532"
+    ],
+    "artifact.ingress.producer": "Gude, Hans",
+    "artifact.ingress.producerRole": "Kunstner",
+    "artifact.ingress.production.fromYear": 1866,
+    "artifact.ingress.production.toYear": 1866,
+    "artifact.ingress.subjects": [
+      "Fjord",
+      "Fjell"
+    ],
+    "artifact.ingress.title": "En sognejakt [Maleri]",
+    "artifact.pictureCount": 1,
+    "artifact.publishedDate": "2012-05-09T08:25:09.319Z",
+    "artifact.type": "Fineart",
+    "artifact.uniqueId": "011041107541",
+    "artifact.updatedDate": "2017-09-07T04:04:31.620Z",
+    "artifact.uuid": "78F67CAD-A77B-4A18-BB2C-FC44141BC6D2",
+    "digitaltmuseum_link": "https://digitaltmuseum.org/011041107541",
+    "identifier.id": "NG.M.00635-003",
+    "identifier.owner": "NMK-B",
+    "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00635-003",
+    "uuid_json": {
+      "alternativeIdentifiers": [],
+      "artifactType": "Fineart",
+      "artifact_id": 1107541,
+      "childArtifacts": [
+        {
+          "artifactType": "Artdesign",
+          "count": 0,
+          "description": "Ramme",
+          "identifier": "NG.M.00635-003-R",
+          "published": false,
+          "sort": 1,
+          "sourceId": "893645",
+          "uuid": "06885702-0D10-423C-837A-39D57C393617"
+        }
+      ],
+      "classifications": [
+        {
+          "code": "532",
+          "description": "Bildende kunst",
+          "system": "OU"
+        }
+      ],
+      "commentCount": 0,
+      "coordinates": [],
+      "copies": [],
+      "createdDate": "20131213-222950-129890",
+      "dimuCode": "011041107541",
+      "dimu_code": "011041107541",
+      "eventWrap": {
+        "acquisition": "Testamentarisk gave fra kunstneren, innkommet 1904",
+        "descriptiveDating": "29. august 1866",
+        "events": [
+          {
+            "eventType": "Produksjon",
+            "eventTypeClarification": "Produsert",
+            "relatedPersons": [
+              {
+                "id": 17720,
+                "info": {
+                  "alternativeNames": [
+                    {
+                      "description": "Fullt navn",
+                      "id": 17720,
+                      "name": "Gude, Hans Fredrik"
+                    }
+                  ],
+                  "gender": "Mann",
+                  "nationality": "Norge",
+                  "places": [
+                    {
+                      "coordinate": "59.9138688, 10.752245399999992",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Norge"
+                        },
+                        {
+                          "code": "03",
+                          "name": "Fylke",
+                          "number": 7,
+                          "sort": 2,
+                          "value": "Oslo (fylke)"
+                        },
+                        {
+                          "code": "0301",
+                          "name": "Kommune",
+                          "number": 2,
+                          "sort": 3,
+                          "value": "Oslo"
+                        }
+                      ],
+                      "role": {
+                        "name": "F\u00f8dested, "
+                      },
+                      "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                    },
+                    {
+                      "coordinate": "52.519171, 13.406091199999991",
+                      "fields": [
+                        {
+                          "name": "Land",
+                          "number": 1,
+                          "sort": 1,
+                          "value": "Tyskland"
+                        },
+                        {
+                          "name": "Omr\u00e5de",
+                          "number": 3,
+                          "sort": 4,
+                          "value": "Berlin"
+                        }
+                      ],
+                      "role": {
+                        "name": "D\u00f8dssted, "
+                      },
+                      "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                    }
+                  ],
+                  "professions": [],
+                  "references": [
+                    {
+                      "description": "permalink",
+                      "reference": "ID: 74615628",
+                      "type": "VIAF",
+                      "url": "http://viaf.org/viaf/74615628"
+                    }
+                  ]
+                },
+                "name": "Gude, Hans",
+                "publishLevel": "extended",
+                "role": {
+                  "code": "10K",
+                  "name": "Kunstner"
+                },
+                "type": "Person",
+                "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+              }
+            ],
+            "relatedPlaces": [
+              {
+                "coordinate": "61.072601, 6.934586800000034",
+                "fields": [
+                  {
+                    "name": "Land",
+                    "number": 1,
+                    "placeType": "country",
+                    "sort": 1,
+                    "value": "Norge"
+                  },
+                  {
+                    "code": "1417",
+                    "name": "Kommune",
+                    "number": 2,
+                    "placeType": "municipality",
+                    "sort": 3,
+                    "value": "Vik"
+                  },
+                  {
+                    "name": "Omr\u00e5de",
+                    "number": 3,
+                    "sort": 4,
+                    "value": "Fresvik"
+                  }
+                ],
+                "role": {
+                  "code": "10",
+                  "name": "Produksjonssted",
+                  "status": "antatt"
+                },
+                "uuid": "FB4C69FA-CD5C-4C71-93EA-A094625EDFB9"
+              }
+            ],
+            "sort": 6,
+            "timespan": {
+              "fromDate": "18660829-153000-000",
+              "fromYear": 1866,
+              "toDate": "18660829-153000-000",
+              "toYear": 1866
+            }
+          }
+        ],
+        "placesOfProduction": [],
+        "producers": [
+          {
+            "id": 17720,
+            "info": {
+              "alternativeNames": [
+                {
+                  "description": "Fullt navn",
+                  "id": 17720,
+                  "name": "Gude, Hans Fredrik"
+                }
+              ],
+              "gender": "Mann",
+              "nationality": "Norge",
+              "places": [
+                {
+                  "coordinate": "59.9138688, 10.752245399999992",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Norge"
+                    },
+                    {
+                      "code": "03",
+                      "name": "Fylke",
+                      "number": 7,
+                      "sort": 2,
+                      "value": "Oslo (fylke)"
+                    },
+                    {
+                      "code": "0301",
+                      "name": "Kommune",
+                      "number": 2,
+                      "sort": 3,
+                      "value": "Oslo"
+                    }
+                  ],
+                  "role": {
+                    "name": "F\u00f8dested, "
+                  },
+                  "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                },
+                {
+                  "coordinate": "52.519171, 13.406091199999991",
+                  "fields": [
+                    {
+                      "name": "Land",
+                      "number": 1,
+                      "sort": 1,
+                      "value": "Tyskland"
+                    },
+                    {
+                      "name": "Omr\u00e5de",
+                      "number": 3,
+                      "sort": 4,
+                      "value": "Berlin"
+                    }
+                  ],
+                  "role": {
+                    "name": "D\u00f8dssted, "
+                  },
+                  "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                }
+              ],
+              "professions": [],
+              "references": [
+                {
+                  "description": "permalink",
+                  "reference": "ID: 74615628",
+                  "type": "VIAF",
+                  "url": "http://viaf.org/viaf/74615628"
+                }
+              ]
+            },
+            "name": "Gude, Hans",
+            "publishLevel": "extended",
+            "role": {
+              "code": "10K",
+              "name": "Kunstner"
+            },
+            "type": "Person",
+            "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+          }
+        ],
+        "production": {
+          "eventType": "Produksjon",
+          "eventTypeClarification": "Produsert",
+          "relatedPersons": [
+            {
+              "id": 17720,
+              "info": {
+                "alternativeNames": [
+                  {
+                    "description": "Fullt navn",
+                    "id": 17720,
+                    "name": "Gude, Hans Fredrik"
+                  }
+                ],
+                "gender": "Mann",
+                "nationality": "Norge",
+                "places": [
+                  {
+                    "coordinate": "59.9138688, 10.752245399999992",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Norge"
+                      },
+                      {
+                        "code": "03",
+                        "name": "Fylke",
+                        "number": 7,
+                        "sort": 2,
+                        "value": "Oslo (fylke)"
+                      },
+                      {
+                        "code": "0301",
+                        "name": "Kommune",
+                        "number": 2,
+                        "sort": 3,
+                        "value": "Oslo"
+                      }
+                    ],
+                    "role": {
+                      "name": "F\u00f8dested, "
+                    },
+                    "uuid": "8ABED23D-E315-40FB-9CB5-B6B6BD3A643A"
+                  },
+                  {
+                    "coordinate": "52.519171, 13.406091199999991",
+                    "fields": [
+                      {
+                        "name": "Land",
+                        "number": 1,
+                        "sort": 1,
+                        "value": "Tyskland"
+                      },
+                      {
+                        "name": "Omr\u00e5de",
+                        "number": 3,
+                        "sort": 4,
+                        "value": "Berlin"
+                      }
+                    ],
+                    "role": {
+                      "name": "D\u00f8dssted, "
+                    },
+                    "uuid": "1EE7603E-3C5C-42A4-A639-87371F0C5211"
+                  }
+                ],
+                "professions": [],
+                "references": [
+                  {
+                    "description": "permalink",
+                    "reference": "ID: 74615628",
+                    "type": "VIAF",
+                    "url": "http://viaf.org/viaf/74615628"
+                  }
+                ]
+              },
+              "name": "Gude, Hans",
+              "publishLevel": "extended",
+              "role": {
+                "code": "10K",
+                "name": "Kunstner"
+              },
+              "type": "Person",
+              "uuid": "692ED30C-74B8-4146-935E-94C26DD63ED6"
+            }
+          ],
+          "relatedPlaces": [
+            {
+              "coordinate": "61.072601, 6.934586800000034",
+              "fields": [
+                {
+                  "name": "Land",
+                  "number": 1,
+                  "placeType": "country",
+                  "sort": 1,
+                  "value": "Norge"
+                },
+                {
+                  "code": "1417",
+                  "name": "Kommune",
+                  "number": 2,
+                  "placeType": "municipality",
+                  "sort": 3,
+                  "value": "Vik"
+                },
+                {
+                  "name": "Omr\u00e5de",
+                  "number": 3,
+                  "sort": 4,
+                  "value": "Fresvik"
+                }
+              ],
+              "role": {
+                "code": "10",
+                "name": "Produksjonssted",
+                "status": "antatt"
+              },
+              "uuid": "FB4C69FA-CD5C-4C71-93EA-A094625EDFB9"
+            }
+          ],
+          "sort": 6,
+          "timespan": {
+            "fromDate": "18660829-153000-000",
+            "fromYear": 1866,
+            "toDate": "18660829-153000-000",
+            "toYear": 1866
+          }
+        }
+      },
+      "exhibitions": [],
+      "identifier": {
+        "id": "NG.M.00635-003",
+        "owner": "NMK-B"
+      },
+      "indexLevel": null,
+      "inscriptions": [],
+      "level": {
+        "code": "9",
+        "name": "Enkeltverk"
+      },
+      "links": [],
+      "material": {
+        "comment": "Olje p\u00e5 lerret oppklebet p\u00e5 papplate",
+        "materials": [
+          {
+            "material": "Lerret",
+            "sort": 1
+          },
+          {
+            "material": "Papplate",
+            "sort": 2
+          }
+        ]
+      },
+      "measureDescription": "41 x 62,5 cm",
+      "measures": [
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 41.0,
+          "sort": 1,
+          "type": "H\u00f8yde",
+          "unit": "cm"
+        },
+        {
+          "category": "Hovedm\u00e5l",
+          "measure": 62.5,
+          "sort": 2,
+          "type": "Bredde",
+          "unit": "cm"
+        }
+      ],
+      "media": {
+        "mediaFiles": [],
+        "movies": [],
+        "pictures": [
+          {
+            "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=18320.tif&size=full",
+            "height": 0,
+            "index": 18320,
+            "width": 0
+          }
+        ]
+      },
+      "motif": {
+        "classifications": [],
+        "depictedObjects": [],
+        "depictedPlaces": [
+          {
+            "coordinate": "61.072601, 6.934586800000034",
+            "fields": [
+              {
+                "name": "Land",
+                "number": 1,
+                "placeType": "country",
+                "sort": 1,
+                "value": "Norge"
+              },
+              {
+                "code": "1417",
+                "name": "Kommune",
+                "number": 2,
+                "placeType": "municipality",
+                "sort": 3,
+                "value": "Vik"
+              },
+              {
+                "name": "Omr\u00e5de",
+                "number": 3,
+                "sort": 4,
+                "value": "Fresvik"
+              }
+            ],
+            "role": {
+              "code": "70",
+              "name": "Avbildet sted "
+            },
+            "uuid": "FB4C69FA-CD5C-4C71-93EA-A094625EDFB9"
+          }
+        ],
+        "motifTypes": [
+          "B\u00e5tstudie",
+          "Landskap"
+        ],
+        "subjects": [
+          {
+            "name": "Fjord",
+            "nameType": "subject"
+          },
+          {
+            "name": "Fjell",
+            "nameType": "subject"
+          }
+        ],
+        "titles": []
+      },
+      "names": [
+        {
+          "name": "Maleri",
+          "nameType": "name",
+          "uuid": "F147B1FA-9CE3-43E7-909B-B24579740047"
+        }
+      ],
+      "ownerIdentifiers": [],
+      "partOfCollection": {
+        "id": 7,
+        "name": "NMK billedkunst [eldre og moderne]",
+        "owner": {
+          "id": 1,
+          "identifier": "NMK",
+          "name": "Nasjonalmuseet for kunst, arkitektur og design"
+        },
+        "ownerId": "NMK",
+        "uuid": "70893D84-C63C-4F5F-A4B1-491DCFC7B386"
+      },
+      "partOfExhibitionUuids": [
+        "3B882E62-BDD0-430D-9A49-3888BC8B60CE"
+      ],
+      "partOfFolderUuids": [],
+      "publishLevel": "limited",
+      "publishStatus": "published",
+      "publishedDate": "20120509-082509-319000",
+      "rateCount": 0,
+      "references": [],
+      "sourceId": "85353",
+      "styleWrap": {},
+      "subjects": [
+        {
+          "name": "Bildende kunst",
+          "nameType": "subject",
+          "uuid": "BE0D8624-1B19-45ED-A0EF-71E05220406A"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Hardangerjakt",
+          "source": "DIMU"
+        },
+        {
+          "name": "Hardangerjaktskippere",
+          "source": "DIMU"
+        }
+      ],
+      "technique": {
+        "techniques": [
+          {
+            "sort": 1,
+            "technique": "Olje"
+          }
+        ]
+      },
+      "titles": [
+        {
+          "language": "NOR",
+          "status": "anvendt",
+          "title": "En sognejakt"
+        }
+      ],
+      "trademarks": [],
+      "uniqueId": "011041107541",
+      "unique_id": "011041107541",
+      "updatedDate": "20170907-040431-620199",
+      "uuid": "78F67CAD-A77B-4A18-BB2C-FC44141BC6D2"
+    },
+    "uuid_link": "https://api.dimu.org/artifact/uuid/78F67CAD-A77B-4A18-BB2C-FC44141BC6D2"
+  }
 }

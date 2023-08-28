@@ -346,6 +346,9 @@ for doc in json_data["response"]["docs"]:
             continue
         doc_data[output_tuple.field_name] = output_tuple.parser(data)
 
+    # Add back the raw data, zzz to go to the end of the file
+    doc_data["zzz_raw_data"] = doc
+
     output_file = path.join(output_dir, f"{doc_data['uuid']}.json")
 
     with open(output_file, "w") as f:
