@@ -307,7 +307,7 @@ for filename in sorted(os.listdir(data_dir)):
         if photographer is None:
             photographer = ""
         else:
-            photographer = " / " + photographer
+            photographer = "/" + photographer
 
         # Template
         wiki_template = TEMPLATE.format(
