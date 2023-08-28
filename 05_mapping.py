@@ -309,8 +309,7 @@ mapping = {
     ("uuid_json", "eventWrap", "production", "timespan", "fromDate",): output_manager("from_date", parse_art_date),
     ("uuid_json", "eventWrap", "production", "timespan", "toDate",): output_manager("to_date", parse_art_date),
     ("artifact.ingress.subjects",): output_manager("subjects", parse_subjects),
-    ( "uuid_json", "measures",): output_manager("measurements", parse_measure),
-    # URL of image = f"https://ms01.nasjonalmuseet.no/iip/?iiif=/tif/{index}.tif/full/{width},{height}/0/default.jpg"
+    ("uuid_json", "measures",): output_manager("measurements", parse_measure),
     ("uuid_json", "media", "pictures", 0, "index"): output_manager("media_index" , parse_int),
     ("uuid_json", "media", "pictures", 0, "width"): output_manager("media_width_pixels" , parse_int),
     ("uuid_json", "media", "pictures", 0, "height"): output_manager("media_height_pixels" , parse_int),
@@ -318,6 +317,7 @@ mapping = {
     ("uuid_json", "technique", "techniques",): output_manager("techniques", parse_techniques),
     ("uuid_json", "material", "comment",): output_manager("material_comment", parse_generic_string),
     ("uuid_json", "material", "materials",): output_manager("materials", parse_materials),
+    ("uuid_json", "motif", "depictedPlaces",): output_manager("locations", parse_location),
     ("uuid_json", "motif", "depictedPlaces",): output_manager("locations", parse_location),
 }
 
