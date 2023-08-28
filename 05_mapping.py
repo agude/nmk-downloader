@@ -281,7 +281,7 @@ def parse_location(locations):
 
 def parse_picture(picture_json):
     """Get the largest image and return its data."""
-    largest_images_json = sorted(picture_json, key=lambda x: x["width"], reverse=True)[0]
+    largest_images_json = sorted(picture_json, key=lambda x: x["width"] * x["height"], reverse=True)[0]
 
     # Clean unused values
     largest_images_json.pop("licenses", None)  # Always empty

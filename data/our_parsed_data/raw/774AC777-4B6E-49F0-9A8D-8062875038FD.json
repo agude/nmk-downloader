@@ -45,10 +45,10 @@
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06510-009",
   "national_museum_norway_artwork_id": "NG.K&H.B.06510-009",
   "picture": {
-    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74934.tif&size=full",
-    "height": 2077,
-    "index": 74934,
-    "width": 3000
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74803.tif&size=full",
+    "height": 3000,
+    "index": 74803,
+    "width": 2157
   },
   "subjects": [
     "forest interior"

@@ -61,10 +61,9 @@
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-025",
   "national_museum_norway_artwork_id": "NG.K&H.B.06525-025",
   "picture": {
-    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93419.tif&size=full",
-    "height": 1096,
-    "index": 93419,
-    "photographer": "Veiby, Jeanette",
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93534.tif&size=full",
+    "height": 2258,
+    "index": 93534,
     "width": 3000
   },
   "subjects": [],

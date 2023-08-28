@@ -49,10 +49,9 @@
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00635-007",
   "national_museum_norway_artwork_id": "NG.M.00635-007",
   "picture": {
-    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=146710.tif&size=full",
-    "height": 2436,
-    "index": 146710,
-    "photographer": "H\u00f8stland, B\u00f8rre",
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=146665.tif&size=full",
+    "height": 2509,
+    "index": 146665,
     "width": 4000
   },
   "subjects": [

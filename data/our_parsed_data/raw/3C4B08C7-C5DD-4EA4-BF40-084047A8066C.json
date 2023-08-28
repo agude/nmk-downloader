@@ -41,10 +41,9 @@
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06525-006VERSO",
   "national_museum_norway_artwork_id": "NG.K&H.B.06525-006VERSO",
   "picture": {
-    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93472.tif&size=full",
-    "height": 1100,
-    "index": 93472,
-    "photographer": "Veiby, Jeanette",
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=93505.tif&size=full",
+    "height": 2218,
+    "index": 93505,
     "width": 3000
   },
   "subjects": [

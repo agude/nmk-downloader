@@ -20,10 +20,10 @@
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.1999.0245",
   "national_museum_norway_artwork_id": "NG.K&H.1999.0245",
   "picture": {
-    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99239.tif&size=full",
-    "height": 1538,
-    "index": 99239,
-    "width": 3000
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=99240.tif&size=full",
+    "height": 3000,
+    "index": 99240,
+    "width": 1837
   },
   "subjects": [
     "travel sketch"

@@ -45,10 +45,10 @@
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.K_H.B.06510-007",
   "national_museum_norway_artwork_id": "NG.K&H.B.06510-007",
   "picture": {
-    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74940.tif&size=full",
-    "height": 2078,
-    "index": 74940,
-    "width": 3000
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=74802.tif&size=full",
+    "height": 3000,
+    "index": 74802,
+    "width": 2164
   },
   "subjects": [],
   "techniques": [

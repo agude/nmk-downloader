@@ -70,10 +70,9 @@
   "nasjonalmuseet_link": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00262",
   "national_museum_norway_artwork_id": "NG.M.00262",
   "picture": {
-    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=113600.tif&size=full",
-    "height": 2773,
-    "index": 113600,
-    "photographer": "Lathion, Jacques",
+    "direct_image_link": "https://ms01.nasjonalmuseet.no/api/objects/download?filename=117042.tif&size=full",
+    "height": 2795,
+    "index": 117042,
     "width": 4000
   },
   "subjects": [
