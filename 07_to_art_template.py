@@ -29,6 +29,9 @@ TEMPLATE = """
 
 [[Category:Drawings by Hans Gude in the Nasjonalmuseet for kunst, arkitektur og design]]
 [[Category:Images from Digitalt Museum, Norway]]
+
+<!-- Raw JSON data used to build this page. -->
+{raw_data}
 """
 
 
@@ -241,6 +244,16 @@ def get_other_fields(subjects: str) -> str:
     return output
 
 
+def get_json_blob(raw_data: str) -> str:
+    code_template = textwrap.dedent(
+        f"""
+        <!--{raw_data}-->
+        """
+    ).strip("\n")
+
+    return code_template
+
+
 data_dir = "./data/our_parsed_data/enriched/"
 
 for filename in sorted(os.listdir(data_dir)):
@@ -309,6 +322,9 @@ for filename in sorted(os.listdir(data_dir)):
         else:
             photographer = "/" + photographer
 
+        # raw_data
+        raw_data = get_json_blob(data)
+
         # Template
         wiki_template = TEMPLATE.format(
             depicted_place=depicted_place,
@@ -321,6 +337,7 @@ for filename in sorted(os.listdir(data_dir)):
             accession_number=accession_number,
             credit_line=credit_line,
             other_fields=other_fields,
+            raw_data=raw_data,
             photographer=photographer,
         )
         print("-----------------------------------")
