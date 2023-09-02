@@ -1,7 +1,5 @@
 Handle translations to English in the location code
 
-For titles, make sure you only write unique ones (see FE2A36BC-3321-4B0D-9D3F-7C2A406C5DA9)
-
 For title, what is the primary title? Can we avoid guessing by getting it from the data?
 
 Handle original and current titles
