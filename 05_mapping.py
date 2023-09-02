@@ -328,6 +328,7 @@ mapping = {
     ("artifact.ingress.subjects",): output_manager("subjects", parse_subjects),
     ("uuid_json", "measures",): output_manager("measurements", parse_measure),
     ("uuid_json", "titles",): output_manager("titles", parse_titles),
+    ("artifact.ingress.title",): output_manager("display_title", parse_generic_string),
     ("uuid_json", "technique", "techniques",): output_manager("techniques", parse_techniques),
     ("uuid_json", "material", "comment",): output_manager("material_comment", parse_generic_string),
     ("uuid_json", "material", "materials",): output_manager("materials", parse_materials),
