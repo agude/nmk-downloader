@@ -154,29 +154,53 @@ def get_title_and_description(titles):
 
     output_titles = []
     output_description = ""
-    primary_title = None
+
+    # Try to set the primary title
+    primary_title_unformated = None
+    key_sets = (
+        ("nor", "current"),
+        ("nob", "current"),
+        ("nor", "original"),
+    )
+    primary_language = None
+    primary_type = None
+    for language_key, type_key in key_sets:
+        try:
+            primary_title_unformated = titles[language_key][type_key][0]
+        except KeyError:
+            # Keep looking
+            continue
+        else:
+            # Found it, break
+            primary_language = language_key
+            primary_type = type_key
+            break
+
+    primary_title = f"{{{{{three_to_two_iso_code[primary_language]}|'''''{primary_title_unformated}'''''}}}}"
+
+    # Now get the rest of the titles
     for language, language_titles in titles.items():
         language_code = three_to_two_iso_code[language]
         for type_of_title, specific_titles in language_titles.items():
+            # Skip the primary title
+            if language == primary_language and type_of_title == primary_type:
+                continue
+
             for title in specific_titles:
+                title = title.title()
                 # Illustrations for books have double titles, but one is a
                 # description that contains "illustration"
                 if "illustrasjon" in title.lower():
                     output_description = f"{{{{{language_code}|{title}}}}}"
                     continue
 
-                # Try to set the primary title
-                if not primary_title:
-                    if type_of_title == "current" and language_code == "no":
-                        primary_title = f"{{{{{language_code}|'''''{title}'''''}}}}"
-                        continue
-
                 output_titles.append(
-                    f"{{{{{language_code}|''{specific_titles[0]}''}}}}"
+                    f"{{{{{language_code}|''{specific_titles[0].title()}''}}}}"
                 )
 
-    if primary_title:
-        output_titles = [primary_title] + output_titles
+    # We always have a primary title... But that won't be true if you run this
+    # on different artists!
+    output_titles.insert(0, primary_title)
 
     # Remove exact duplicates, preserving order
     output_titles = list(dict.fromkeys(output_titles))
