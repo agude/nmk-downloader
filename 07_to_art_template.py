@@ -151,20 +151,24 @@ def get_title_and_description(titles):
         "nob": "nb",
         "nor": "no",
     }
+    primary_title_preference_stack = (
+        ("nor", "current"),
+        ("nob", "current"),
+        ("nor", "original"),
+    )
+    type_preference_stack = (
+        "current",
+        "original",
+    )
 
     output_titles = []
     output_description = ""
 
     # Try to set the primary title
     primary_title_unformated = None
-    key_sets = (
-        ("nor", "current"),
-        ("nob", "current"),
-        ("nor", "original"),
-    )
     primary_language = None
     primary_type = None
-    for language_key, type_key in key_sets:
+    for language_key, type_key in primary_title_preference_stack:
         try:
             primary_title_unformated = titles[language_key][type_key][0]
         except KeyError:
@@ -181,22 +185,30 @@ def get_title_and_description(titles):
     # Now get the rest of the titles
     for language, language_titles in titles.items():
         language_code = three_to_two_iso_code[language]
-        for type_of_title, specific_titles in language_titles.items():
-            # Skip the primary title
-            if language == primary_language and type_of_title == primary_type:
+        # We only take one title per language, in preference order
+        for type_of_title in type_preference_stack:
+            try:
+                specific_titles = language_titles[type_of_title]
+            except KeyError:
+                continue
+            else:
+                break
+
+        # Skip the primary title
+        if language == primary_language and type_of_title == primary_type:
+            continue
+
+        for title in specific_titles:
+            title = title.title()
+            # Illustrations for books have double titles, but one is a
+            # description that contains "illustration"
+            if "illustrasjon" in title.lower():
+                output_description = f"{{{{{language_code}|{title}}}}}"
                 continue
 
-            for title in specific_titles:
-                title = title.title()
-                # Illustrations for books have double titles, but one is a
-                # description that contains "illustration"
-                if "illustrasjon" in title.lower():
-                    output_description = f"{{{{{language_code}|{title}}}}}"
-                    continue
-
-                output_titles.append(
-                    f"{{{{{language_code}|''{specific_titles[0].title()}''}}}}"
-                )
+            output_titles.append(
+                f"{{{{{language_code}|''{specific_titles[0].title()}''}}}}"
+            )
 
     # We always have a primary title... But that won't be true if you run this
     # on different artists!
