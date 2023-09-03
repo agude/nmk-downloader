@@ -151,40 +151,38 @@ def get_title_and_description(titles):
         "nob": "nb",
         "nor": "no",
     }
-    primary_title_preference_stack = (
-        ("nor", "current"),
-        ("nob", "current"),
-        ("nor", "original"),
+    # For the primary title, prefer languages in this order
+    language_preference_stack  = (
+        "nor",
+        "nob",
+        "ger",
+        "deu",
+        "eng",
+        "fra",
     )
     type_preference_stack = (
         "current",
         "original",
     )
 
-    output_titles = []
+    primary_title_lanague = None
+
+    title_dict = {}
     output_description = ""
 
-    # Try to set the primary title
-    primary_title_unformated = None
-    primary_language = None
-    primary_type = None
-    for language_key, type_key in primary_title_preference_stack:
-        try:
-            primary_title_unformated = titles[language_key][type_key][0]
-        except KeyError:
-            # Keep looking
-            continue
-        else:
-            # Found it, break
-            primary_language = language_key
-            primary_type = type_key
-            break
-
-    primary_title = f"{{{{{three_to_two_iso_code[primary_language]}|'''''{primary_title_unformated}'''''}}}}"
-
     # Now get the rest of the titles
-    for language, language_titles in titles.items():
+    for language in language_preference_stack:
         language_code = three_to_two_iso_code[language]
+        language_titles = titles.get(language)
+
+        # No lanague
+        if language_titles is None:
+            continue
+
+        # If we've already set a title for this language, move on
+        if language_code in title_dict:
+            continue
+
         # We only take one title per language, in preference order
         for type_of_title in type_preference_stack:
             try:
@@ -194,30 +192,36 @@ def get_title_and_description(titles):
             else:
                 break
 
-        # Skip the primary title
-        if language == primary_language and type_of_title == primary_type:
-            continue
-
+        # Illustrations for books have double titles, but one is a
+        # description that contains "illustration"
         for title in specific_titles:
-            title = title.title()
-            # Illustrations for books have double titles, but one is a
-            # description that contains "illustration"
+            # Set description
             if "illustrasjon" in title.lower():
                 output_description = f"{{{{{language_code}|{title}}}}}"
                 continue
+            # Else it's a title, and we never have more than two items
+            else:
+                title_dict[language_code] = title.title()
 
-            output_titles.append(
-                f"{{{{{language_code}|''{specific_titles[0].title()}''}}}}"
-            )
+                if primary_title_lanague is None:
+                    primary_title_lanague = language_code
 
-    # We always have a primary title... But that won't be true if you run this
-    # on different artists!
-    output_titles.insert(0, primary_title)
+    # Now put together templates into a string
+    primary_title = title_dict.pop(primary_title_lanague)
+    other_languages = "\n".join([f"|{lc}={title}" for lc, title in title_dict.items()])
 
-    # Remove exact duplicates, preserving order
-    output_titles = list(dict.fromkeys(output_titles))
+    output = textwrap.dedent(
+        f"""
+        {{{{Title
+          |1={primary_title}
+          |lang={primary_title_lanague}
+          {other_languages}
+        }}}}
+        """
+    ).strip("\n")
 
-    return " ".join(output_titles), output_description
+
+    return output, output_description
 
 
 def get_sources(
